@@ -47,8 +47,9 @@
 - you will get a link for the blog. copy paste it wherever you want to show it to the world.
 * TODOS
 ** TODO make a seperate folder for the html files
-** TODO check if denote can be used for [[https://onlyvip.github.io/Org-Blog-Forge/][ORG Blog Forge]].
+** TODO check if [[https://github.com/protesilaos/denote][denote]] can be used for [[https://onlyvip.github.io/Org-Blog-Forge/][ORG Blog Forge]].
 ** DONE [[file:sample-readme.org][Sample org file linked here]]
+** TODO add RSS functionality
 ** TODO suggestions
 * references
 Thanks to
@@ -56,4 +57,4 @@ Thanks to
 ** [[https://github.com/fniessen/org-html-themes][Fabrice Niessen]]
 ** [[https://github.com/spudlyo/orgdemo2][spudlyo]]
 ** [[https://github.com/minad/org-modern][minad for example.org file]]
-
+** [[https://github.com/protesilaos][prot :)]]
