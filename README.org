@@ -21,7 +21,6 @@
   #+begin_src emacs-lisp
 #+setupfile: <theme file path>
 #+end_src
-- push the add a bunch of org files.
 - in your init.el or emacs config file put the following 
   #+begin_src emacs-lisp
 (setq org-publish-project-alist
@@ -39,7 +38,7 @@
          :sitemap-style list)))  ;; Style of the sitemap with list, tree, and folder options can be used instead as well.
 #+end_src
 - add a bunch of org files.
-- run <C-c C-e P p>
+- run =<C-c C-e P p>=
 - notice html files, sitemap.org, being created for the repo.
 - push changes.
 - in Github change the repo settings to public and withing settings left pane select pages
@@ -50,7 +49,7 @@
 - you will get a link for the blog. copy paste it wherever you want to show it to the world.
 * TODOS
 ** TODO make a seperate folder for the html files
-** TODO check if denote can be used for this.
+** TODO check if denote can be used for [[https://onlyvip.github.io/Org-Blog-Forge/][ORG Blog Forge]].
 ** DONE [[file:sample-readme.org][Sample org file linked here]]
 ** TODO suggestions
 * Citations
