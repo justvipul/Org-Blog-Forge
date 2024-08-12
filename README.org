@@ -1,0 +1,56 @@
+#+title: ORG Blog Forge
+#+setupfile: ./theme-readtheorg.setup
+#+export_file_name: index
+#+property: :results output :exports both
+#+author: Vipul
+#+date: <2024-08-12 Mon 08:14>
+
+* Easy way to create your blog using
+** [[https://orgmode.org/][ORG mode]]
+** [[https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html][Org export dispatch Publish]]
+** [[https://pages.github.com/][Github pages.]]
+* Steps to start
+- make a blank repo of your choice
+- add README.org file with the following
+  #+begin_src emacs-lisp
+#+export_file_name: index
+#+end_src
+- add a setupfile which is optional
+  to get started i have added [[file:org-html-themes/][some cool themes]] in the repo
+- just link to the file using
+  #+begin_src emacs-lisp
+#+setupfile: <theme file path>
+#+end_src
+- push the add a bunch of org files.
+- in your init.el or emacs config file put the following 
+  #+begin_src emacs-lisp
+(setq org-publish-project-alist
+      '(("my-org-files"
+         ;; Path to the directory containing your Org files
+         :base-directory "~/path/to/where/this/repo/is/cloned"
+         ;; Path to the directory where HTML files will be exported
+         :publishing-directory "~/destination/for/html/files/to/be/exported"
+         :recursive t
+         :publishing-function org-html-publish-to-html
+         :headline-levels 4  ;; Just the default for this project
+         :auto-sitemap t     ;; Generate sitemap.org automatically
+         :sitemap-filename "sitemap.org"  ;; Name of the sitemap file
+         :sitemap-title "My Sitemap"  ;; Title for the sitemap
+         :sitemap-style list)))  ;; Style of the sitemap with list, tree, and folder options can be used instead as well.
+#+end_src
+- add a bunch of org files.
+- run <C-c C-e P p>
+- notice html files, sitemap.org, being created for the repo.
+- push changes.
+- in Github change the repo settings to public and withing settings left pane select pages
+- under pages =Build and deployment= section select Github actions
+- then select the main branch.
+- wait for some time.
+- refresh
+- you will get a link for the blog. copy paste it wherever you want to show it to the world.
+
+* TODO make a seperate folder for the html files
+* TODO check if denote can be used for this.
+* DONE [[file:sample-readme.org][Sample org file linked here]]
+* TODO suggestions
+* Citations

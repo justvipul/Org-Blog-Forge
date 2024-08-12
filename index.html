@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-08-12 Mon 08:17 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ORG Blog Forge</title>
+<meta name="author" content="Vipul" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">ORG Blog Forge</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orge611d43">1. Easy way to create your blog using</a>
+<ul>
+<li><a href="#org7256010">1.1. ORG mode</a></li>
+<li><a href="#org8aa011a">1.2. Org export dispatch Publish</a></li>
+<li><a href="#orga2019f9">1.3. Github pages.</a></li>
+</ul>
+</li>
+<li><a href="#org610be20">2. Steps to start</a></li>
+<li><a href="#org5679f86">3. <span class="todo TODO">TODO</span> make a seperate folder for the html files</a></li>
+<li><a href="#orgdd54865">4. <span class="todo TODO">TODO</span> check if denote can be used for this.</a></li>
+<li><a href="#org3a31453">5. <span class="done DONE">DONE</span> Sample org file linked here</a></li>
+<li><a href="#org67aeb89">6. <span class="todo TODO">TODO</span> suggestions</a></li>
+<li><a href="#org7a3ada8">7. Citations</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge611d43" class="outline-2">
+<h2 id="orge611d43"><span class="section-number-2">1.</span> Easy way to create your blog using</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org7256010" class="outline-3">
+<h3 id="org7256010"><span class="section-number-3">1.1.</span> <a href="https://orgmode.org/">ORG mode</a></h3>
+</div>
+<div id="outline-container-org8aa011a" class="outline-3">
+<h3 id="org8aa011a"><span class="section-number-3">1.2.</span> <a href="https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html">Org export dispatch Publish</a></h3>
+</div>
+<div id="outline-container-orga2019f9" class="outline-3">
+<h3 id="orga2019f9"><span class="section-number-3">1.3.</span> <a href="https://pages.github.com/">Github pages.</a></h3>
+</div>
+</div>
+<div id="outline-container-org610be20" class="outline-2">
+<h2 id="org610be20"><span class="section-number-2">2.</span> Steps to start</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li>make a blank repo of your choice</li>
+<li><p>
+add README.org file with the following
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">#+export_file_name: index
+</pre>
+</div></li>
+<li>add a setupfile which is optional
+to get started i have added <a href="org-html-themes/">some cool themes</a> in the repo</li>
+<li><p>
+just link to the file using
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">#+setupfile: &lt;theme file path&gt;
+</pre>
+</div></li>
+<li>push the add a bunch of org files.</li>
+<li><p>
+in your init.el or emacs config file put the following 
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(<span style="color: #531ab6; font-weight: bold;">setq</span> org-publish-project-alist
+      '((<span style="color: #3548cf;">"my-org-files"</span>
+         <span style="color: #595959; font-style: italic;">;; </span><span style="color: #595959; font-style: italic;">Path to the directory containing your Org files</span>
+         <span style="color: #8f0075; font-weight: bold;">:base-directory</span> <span style="color: #3548cf;">"~/path/to/where/this/repo/is/cloned"</span>
+         <span style="color: #595959; font-style: italic;">;; </span><span style="color: #595959; font-style: italic;">Path to the directory where HTML files will be exported</span>
+         <span style="color: #8f0075; font-weight: bold;">:publishing-directory</span> <span style="color: #3548cf;">"~/destination/for/html/files/to/be/exported"</span>
+         <span style="color: #8f0075; font-weight: bold;">:recursive</span> t
+         <span style="color: #8f0075; font-weight: bold;">:publishing-function</span> org-html-publish-to-html
+         <span style="color: #8f0075; font-weight: bold;">:headline-levels</span> 4  <span style="color: #595959; font-style: italic;">;; </span><span style="color: #595959; font-style: italic;">Just the default for this project</span>
+         <span style="color: #8f0075; font-weight: bold;">:auto-sitemap</span> t     <span style="color: #595959; font-style: italic;">;; </span><span style="color: #595959; font-style: italic;">Generate sitemap.org automatically</span>
+         <span style="color: #8f0075; font-weight: bold;">:sitemap-filename</span> <span style="color: #3548cf;">"sitemap.org"</span>  <span style="color: #595959; font-style: italic;">;; </span><span style="color: #595959; font-style: italic;">Name of the sitemap file</span>
+         <span style="color: #8f0075; font-weight: bold;">:sitemap-title</span> <span style="color: #3548cf;">"My Sitemap"</span>  <span style="color: #595959; font-style: italic;">;; </span><span style="color: #595959; font-style: italic;">Title for the sitemap</span>
+         <span style="color: #8f0075; font-weight: bold;">:sitemap-style</span> list)))  <span style="color: #595959; font-style: italic;">;; </span><span style="color: #595959; font-style: italic;">Style of the sitemap with list, tree, and folder options can be used instead as well.</span>
+</pre>
+</div></li>
+<li>add a bunch of org files.</li>
+<li>run &lt;C-c C-e P p&gt;</li>
+<li>notice html files, sitemap.org, being created for the repo.</li>
+<li>push changes.</li>
+<li>in Github change the repo settings to public and withing settings left pane select pages</li>
+<li>under pages <code>Build and deployment</code> section select Github actions</li>
+<li>then select the main branch.</li>
+<li>wait for some time.</li>
+<li>refresh</li>
+<li>you will get a link for the blog. copy paste it wherever you want to show it to the world.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5679f86" class="outline-2">
+<h2 id="org5679f86"><span class="section-number-2">3.</span> <span class="todo TODO">TODO</span> make a seperate folder for the html files</h2>
+</div>
+<div id="outline-container-orgdd54865" class="outline-2">
+<h2 id="orgdd54865"><span class="section-number-2">4.</span> <span class="todo TODO">TODO</span> check if denote can be used for this.</h2>
+</div>
+<div id="outline-container-org3a31453" class="outline-2">
+<h2 id="org3a31453"><span class="section-number-2">5.</span> <span class="done DONE">DONE</span> <a href="sample-readme.html">Sample org file linked here</a></h2>
+</div>
+<div id="outline-container-org67aeb89" class="outline-2">
+<h2 id="org67aeb89"><span class="section-number-2">6.</span> <span class="todo TODO">TODO</span> suggestions</h2>
+</div>
+<div id="outline-container-org7a3ada8" class="outline-2">
+<h2 id="org7a3ada8"><span class="section-number-2">7.</span> Citations</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2024-08-12 Mon 08:14</p>
+<p class="author">Author: Vipul</p>
+<p class="date">Created: 2024-08-12 Mon 08:17</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
