@@ -41,7 +41,7 @@
 - run =<C-c C-e P p>=
 - notice html files, sitemap.org, being created for the repo.
 - push changes.
-- in Github change the repo settings to public and withing settings left pane select pages
+- in Github change the repo settings to public and within settings left pane select pages
 - under pages =Build and deployment= section select Github actions
 - then select the main branch.
 - wait for some time.
