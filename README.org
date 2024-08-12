@@ -6,23 +6,21 @@
 #+date: <2024-08-12 Mon 08:14>
 
 * Easy way to create your blog using
-** [[https://orgmode.org/][ORG mode]]
-** [[https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html][Org export dispatch Publish]]
-** [[https://pages.github.com/][Github pages.]]
+** [[https://orgmode.org/][ORG mode]] | [[https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html][Org export dispatch Publish]] | [[https://pages.github.com/][Github pages.]]
 * Steps to start
 - make a blank repo of your choice
 - add README.org file with the following
-  #+begin_src emacs-lisp
+								 #+begin_src emacs-lisp
 #+export_file_name: index
-#+end_src
+	  #+end_src
 - add a setupfile which is optional
   to get started i have added [[file:org-html-themes/][some cool themes]] in the repo
 - just link to the file using
-  #+begin_src emacs-lisp
+								 #+begin_src emacs-lisp
 #+setupfile: <theme file path>
-#+end_src
+	  #+end_src
 - in your init.el or emacs config file put the following 
-  #+begin_src emacs-lisp
+								 #+begin_src emacs-lisp
 (setq org-publish-project-alist
       '(("my-org-files"
          ;; Path to the directory containing your Org files
@@ -36,7 +34,7 @@
          :sitemap-filename "sitemap.org"  ;; Name of the sitemap file
          :sitemap-title "My Sitemap"  ;; Title for the sitemap
          :sitemap-style list)))  ;; Style of the sitemap with list, tree, and folder options can be used instead as well.
-#+end_src
+	  #+end_src
 - add a bunch of org files.
 - run =<C-c C-e P p>=
 - notice html files, sitemap.org, being created for the repo.
@@ -52,4 +50,10 @@
 ** TODO check if denote can be used for [[https://onlyvip.github.io/Org-Blog-Forge/][ORG Blog Forge]].
 ** DONE [[file:sample-readme.org][Sample org file linked here]]
 ** TODO suggestions
-* Citations
+* references
+Thanks to
+** [[https://github.com/jethrokuan][Jethro kuan]]
+** [[https://github.com/fniessen/org-html-themes][Fabrice Niessen]]
+** [[https://github.com/spudlyo/orgdemo2][spudlyo]]
+** [[https://github.com/minad/org-modern][minad for example.org file]]
+
