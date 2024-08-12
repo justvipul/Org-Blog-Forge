@@ -1,4 +1,5 @@
 #+TITLE: Markup Cheat sheet for Org-mode
+#+setupfile: ./org-html-themes/gray.theme
 
 * Heading 1
 ** Heading 2
