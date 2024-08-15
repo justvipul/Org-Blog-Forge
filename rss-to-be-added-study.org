@@ -1,0 +1,84 @@
+#+title: RSS can be added?
+#+setupfile: ./theme-readtheorg.setup
+#+property: :results output :exports both
+#+author: Vipul
+#+date: <2024-08-15 Thu 19:34>
+
+* Adding RSS Feed to a Static HTML GitHub Pages Setup
+** *Create an RSS feed file* in your project directory, for example, =rss.xml=. This file will contain the RSS feed content.
+** *Add the necessary RSS feed structure* to the =rss.xml= file. Here's a basic example:
+#+begin_src xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Your Blog Title</title>
+    <link>https://your-github-pages-url.github.io</link>
+    <description>Description of your blog</description>
+    <language>en-US</language>
+    
+    <item>
+      <title>Blog Post 1 Title</title>
+      <link>https://your-github-pages-url.github.io/blog-post-1</link>
+      <description>Description of Blog Post 1</description>
+      <pubDate>Mon, 14 Aug 2024 12:00:00 GMT</pubDate>
+    </item>
+    
+    <!-- Add more <item> elements for each blog post -->
+    
+  </channel>
+</rss>
+#+end_src
+** *Replace the placeholders* with your actual blog title, URL, description, and blog post details.
+** *Add a link to the RSS feed* in your HTML =<head>= section, for example:
+#+begin_src html
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/rss.xml">
+#+end_src
+This will allow users to subscribe to your RSS feed.
+** *Commit and push* the changes to your GitHub repository.
+** *Verify the RSS feed* by visiting https://your-github-pages-url.github.io/rss.xml in your browser. You should see the XML content of your RSS feed.
+That's it! Your static HTML GitHub Pages setup now includes an RSS feed. Users can subscribe to your RSS feed using various feed readers or browsers to stay updated with your blog posts.
+Remember to update the rss.xml file whenever you add new blog posts or make changes to your existing posts[1].
+
+* Steps to Integrate RSS Feed with org-publish
+** *Create an RSS Template*: First, you need to create a template for your RSS feed. This can be done by creating a new Org file (e.g., =rss.org=) in your project directory. The file should contain the necessary structure for an RSS feed.
+** *Define the RSS Feed in Your Org File*:
+  You can include a section in your Org file that will generate the RSS feed. Here’s an example of what that might look like:
+#+begin_example
+   ,#+TITLE: My Blog RSS Feed
+   ,#+EXPORT_FILE_NAME: rss.xml
+   ,#+OPTIONS: html-postamble:nil
+   ,#+BEGIN_SRC emacs-lisp
+   (defun my-generate-rss ()
+     (let ((rss-content "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\">\n<channel>\n"))
+           (posts (org-publish-get-project "my-org-files")))
+       (dolist (post posts)
+         (setq rss-content (concat rss-content
+                                    "<item>\n"
+                                    "<title>" (org-publish-find-title post) "</title>\n"
+                                    "<link>" (org-publish-find-link post) "</link>\n"
+                                    "<description>" (org-publish-find-description post) "</description>\n"
+                                    "<pubDate>" (format-time-string "%a, %d %b %Y %H:%M:%S GMT") "</pubDate>\n"
+                                    "</item>\n")))
+       (setq rss-content (concat rss-content "</channel>\n</rss>"))
+       (with-temp-file (expand-file-name "rss.xml" "~/destination/for/html/files/to/be/exported")
+         (insert rss-content))))
+  ,#+END_SRC
+#+end_example
+** *Update Your Publishing Project*: In your =init.el= or Emacs config file, ensure your org-publish project is set up correctly. You can add a hook to call your RSS generation function after publishing:
+#+begin_src emacs-lisp
+   (setq org-publish-project-alist
+         '(("my-org-files"
+            :base-directory "~/path/to/where/this/repo/is/cloned"
+            :publishing-directory "~/destination/for/html/files/to/be/exported"
+            :recursive t
+            :publishing-function org-html-publish-to-html
+            :after-publish my-generate-rss ;; Call your RSS function here
+            :auto-sitemap t
+            :sitemap-filename "sitemap.org"
+            :sitemap-title "My Sitemap"
+            :sitemap-style list)))
+#+end_src
+** *Run the Publishing Command*: Use the command =<C-c C-e P p>= to publish your Org files. This will generate the HTML files and the RSS feed simultaneously.
+** *Verify the RSS Feed*: After publishing, check the =rss.xml= file in your publishing directory to ensure it has been updated with the latest blog posts.
+By following these steps, your RSS feed will be automatically updated whenever you publish your Org files, ensuring that your readers always have access to the latest content.

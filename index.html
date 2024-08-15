@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-08-15 Thu 19:08 -->
+<!-- 2024-08-15 Thu 19:47 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ORG Blog Forge</title>
@@ -28,15 +28,30 @@
 <li><a href="#orga8abc57">1.1. ORG mode | Org export dispatch Publish | Github pages.</a></li>
 </ul>
 </li>
-<li><a href="#org610be20">2. Steps to start</a></li>
+<li><a href="#org610be20">2. Steps to start</a>
+<ul>
+<li><a href="#orgd64a76f">2.1. make a blank repo of your choice</a></li>
+<li><a href="#org9bca1a2">2.2. add a new README.org file with the following</a></li>
+<li><a href="#orgf9e9e5f">2.3. add a setupfile which is optional</a></li>
+<li><a href="#org71b6d04">2.4. just add/link to the file using</a></li>
+<li><a href="#org7022ade">2.5. In your init.el or emacs config file put the following</a></li>
+<li><a href="#org01ba5a5">2.6. add a bunch of org files.</a></li>
+<li><a href="#orgb19bf50">2.7. run <code>&lt;C-c C-e P p&gt;</code></a></li>
+<li><a href="#orgd3a9433">2.8. then push changes.</a></li>
+<li><a href="#org79fd97f">2.9. In Github change the repo settings to public and within settings left pane select pages</a></li>
+<li><a href="#org6844856">2.10. under pages <code>Build and deployment</code> section select Github actions</a></li>
+<li><a href="#org735796a">2.11. then select the main branch.</a></li>
+<li><a href="#org000ff40">2.12. you will get a link for the blog. copy paste it wherever you want to show it to the world.</a></li>
+</ul>
+</li>
 <li><a href="#org4b379ab">3. TODOS</a>
 <ul>
-<li><a href="#org5679f86">3.1. <span class="todo TODO">TODO</span> make a seperate folder for the html files</a></li>
-<li><a href="#orgf5d9579">3.2. <span class="todo TODO">TODO</span> check if denote can be used for ORG Blog Forge.</a></li>
-<li><a href="#org3a31453">3.3. <span class="done DONE">DONE</span> Sample org file linked here</a></li>
-<li><a href="#orge2f444f">3.4. make README just a landing page for all steps list.</a></li>
-<li><a href="#orgc60bdd2">3.5. <span class="todo TODO">TODO</span> Add RSS Functionality</a></li>
-<li><a href="#org67aeb89">3.6. <span class="todo TODO">TODO</span> Suggestions</a></li>
+<li><a href="#orgc60bdd2">3.1. <span class="todo TODO">TODO</span> Add RSS Functionality</a></li>
+<li><a href="#orge2f444f">3.2. make README just a landing page for all steps list.</a></li>
+<li><a href="#orgf5d9579">3.3. <span class="todo TODO">TODO</span> check if denote can be used for ORG Blog Forge.</a></li>
+<li><a href="#org67aeb89">3.4. <span class="todo TODO">TODO</span> Suggestions</a></li>
+<li><a href="#org3a31453">3.5. <span class="done DONE">DONE</span> Sample org file linked here</a></li>
+<li><a href="#orgc653bc9">3.6. <span class="done DONE">DONE</span> <del>make a seperate folder for the html files:</del></a></li>
 </ul>
 </li>
 <li><a href="#org81a01c1">4. references</a>
@@ -62,27 +77,56 @@
 <div id="outline-container-org610be20" class="outline-2">
 <h2 id="org610be20"><span class="section-number-2">2.</span> Steps to start</h2>
 <div class="outline-text-2" id="text-2">
-<ul class="org-ul">
-<li>make a blank repo of your choice</li>
-<li><p>
-add README.org file with the following
+</div>
+<div id="outline-container-orgd64a76f" class="outline-3">
+<h3 id="orgd64a76f"><span class="section-number-3">2.1.</span> make a blank repo of your choice</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+or Fork this repo to get started.
 </p>
+</div>
+</div>
+<div id="outline-container-org9bca1a2" class="outline-3">
+<h3 id="org9bca1a2"><span class="section-number-3">2.2.</span> add a new README.org file with the following</h3>
+<div class="outline-text-3" id="text-2-2">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">#+export_file_name: index
 </pre>
-</div></li>
-<li>add a setupfile which is optional
-to get started i have added <a href="org-html-themes/">some cool themes</a> in the repo</li>
-<li><p>
-just link to the file using
+</div>
+</div>
+</div>
+<div id="outline-container-orgf9e9e5f" class="outline-3">
+<h3 id="orgf9e9e5f"><span class="section-number-3">2.3.</span> add a setupfile which is optional</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+to get started I have added <a href="org-html-themes/">some cool themes</a> in the repo. they help you make your pages look better than the plain text which is also completely fine tbh
 </p>
+</div>
+</div>
+<div id="outline-container-org71b6d04" class="outline-3">
+<h3 id="org71b6d04"><span class="section-number-3">2.4.</span> just add/link to the file using</h3>
+<div class="outline-text-3" id="text-2-4">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">#+setupfile: &lt;theme file path&gt;
 </pre>
-</div></li>
-<li><p>
-in your init.el or emacs config file put the following 
+</div>
+
+<p>
+the option used in this file actually is as follows
 </p>
+<pre class="example" id="org029a6de">
+setupfile: ./theme-readtheorg.setup
+</pre>
+</div>
+</div>
+<div id="outline-container-org7022ade" class="outline-3">
+<h3 id="org7022ade"><span class="section-number-3">2.5.</span> In your init.el or emacs config file put the following</h3>
+<div class="outline-text-3" id="text-2-5">
+<p>
+As we are going to use static HTML all our org files will be dispatched to html using the following setting.
+just add the source and destination of the <span class="underline">.org</span> file and <span class="underline">.html</span> file that will be created from them respectively..
+</p>
+
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(<span style="color: #531ab6; font-weight: bold;">setq</span> org-publish-project-alist
       '((<span style="color: #3548cf;">"my-org-files"</span>
@@ -98,41 +142,85 @@ in your init.el or emacs config file put the following
          <span style="color: #8f0075; font-weight: bold;">:sitemap-title</span> <span style="color: #3548cf;">"My Sitemap"</span>  <span style="color: #595959; font-style: italic;">;; </span><span style="color: #595959; font-style: italic;">Title for the sitemap</span>
          <span style="color: #8f0075; font-weight: bold;">:sitemap-style</span> list)))  <span style="color: #595959; font-style: italic;">;; </span><span style="color: #595959; font-style: italic;">Style of the sitemap with list, tree, and folder options can be used instead as well.</span>
 </pre>
-</div></li>
-<li>add a bunch of org files.</li>
-<li>run <code>&lt;C-c C-e P p&gt;</code></li>
-<li>notice html files, sitemap.org, being created for the repo.</li>
-<li>push changes.</li>
-<li>in Github change the repo settings to public and within settings left pane select pages</li>
-<li>under pages <code>Build and deployment</code> section select Github actions</li>
-<li>then select the main branch.</li>
+</div>
+</div>
+</div>
+<div id="outline-container-org01ba5a5" class="outline-3">
+<h3 id="org01ba5a5"><span class="section-number-3">2.6.</span> add a bunch of org files.</h3>
+<div class="outline-text-3" id="text-2-6">
+<p>
+these will be the files that will be basically the pages in your github page. it can be anything, literally.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb19bf50" class="outline-3">
+<h3 id="orgb19bf50"><span class="section-number-3">2.7.</span> run <code>&lt;C-c C-e P p&gt;</code></h3>
+<div class="outline-text-3" id="text-2-7">
+<p>
+this will populate the <b>publishing-directory</b> with final html files created from the <b>.org</b> files.
+</p>
+<blockquote>
+<p>
+notice html files, sitemap.org, being created for the repo.
+</p>
+</blockquote>
+</div>
+</div>
+<div id="outline-container-orgd3a9433" class="outline-3">
+<h3 id="orgd3a9433"><span class="section-number-3">2.8.</span> then push changes.</h3>
+</div>
+<div id="outline-container-org79fd97f" class="outline-3">
+<h3 id="org79fd97f"><span class="section-number-3">2.9.</span> In Github change the repo settings to public and within settings left pane select pages</h3>
+</div>
+<div id="outline-container-org6844856" class="outline-3">
+<h3 id="org6844856"><span class="section-number-3">2.10.</span> under pages <code>Build and deployment</code> section select Github actions</h3>
+</div>
+<div id="outline-container-org735796a" class="outline-3">
+<h3 id="org735796a"><span class="section-number-3">2.11.</span> then select the main branch.</h3>
+<div class="outline-text-3" id="text-2-11">
+<ul class="org-ul">
 <li>wait for some time.</li>
 <li>refresh</li>
-<li>you will get a link for the blog. copy paste it wherever you want to show it to the world.</li>
 </ul>
+</div>
+</div>
+<div id="outline-container-org000ff40" class="outline-3">
+<h3 id="org000ff40"><span class="section-number-3">2.12.</span> you will get a link for the blog. copy paste it wherever you want to show it to the world.</h3>
 </div>
 </div>
 <div id="outline-container-org4b379ab" class="outline-2">
 <h2 id="org4b379ab"><span class="section-number-2">3.</span> TODOS</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org5679f86" class="outline-3">
-<h3 id="org5679f86"><span class="section-number-3">3.1.</span> <span class="todo TODO">TODO</span> make a seperate folder for the html files</h3>
+<div id="outline-container-orgc60bdd2" class="outline-3">
+<h3 id="orgc60bdd2"><span class="section-number-3">3.1.</span> <span class="todo TODO">TODO</span> Add RSS Functionality</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+<a href="rss-to-be-added-study.html">rss adding learnings</a>
+</p>
 </div>
-<div id="outline-container-orgf5d9579" class="outline-3">
-<h3 id="orgf5d9579"><span class="section-number-3">3.2.</span> <span class="todo TODO">TODO</span> check if <a href="https://github.com/protesilaos/denote">denote</a> can be used for <a href="https://onlyvip.github.io/Org-Blog-Forge/">ORG Blog Forge</a>.</h3>
-</div>
-<div id="outline-container-org3a31453" class="outline-3">
-<h3 id="org3a31453"><span class="section-number-3">3.3.</span> <span class="done DONE">DONE</span> <a href="sample-readme.html">Sample org file linked here</a></h3>
 </div>
 <div id="outline-container-orge2f444f" class="outline-3">
-<h3 id="orge2f444f"><span class="section-number-3">3.4.</span> make <a href="README.html">README</a> just a landing page for all steps list.</h3>
+<h3 id="orge2f444f"><span class="section-number-3">3.2.</span> make <a href="README.html">README</a> just a landing page for all steps list.</h3>
 </div>
-<div id="outline-container-orgc60bdd2" class="outline-3">
-<h3 id="orgc60bdd2"><span class="section-number-3">3.5.</span> <span class="todo TODO">TODO</span> Add RSS Functionality</h3>
+<div id="outline-container-orgf5d9579" class="outline-3">
+<h3 id="orgf5d9579"><span class="section-number-3">3.3.</span> <span class="todo TODO">TODO</span> check if <a href="https://github.com/protesilaos/denote">denote</a> can be used for <a href="https://onlyvip.github.io/Org-Blog-Forge/">ORG Blog Forge</a>.</h3>
 </div>
 <div id="outline-container-org67aeb89" class="outline-3">
-<h3 id="org67aeb89"><span class="section-number-3">3.6.</span> <span class="todo TODO">TODO</span> Suggestions</h3>
+<h3 id="org67aeb89"><span class="section-number-3">3.4.</span> <span class="todo TODO">TODO</span> Suggestions</h3>
+</div>
+<div id="outline-container-org3a31453" class="outline-3">
+<h3 id="org3a31453"><span class="section-number-3">3.5.</span> <span class="done DONE">DONE</span> <a href="sample-readme.html">Sample org file linked here</a></h3>
+</div>
+<div id="outline-container-orgc653bc9" class="outline-3">
+<h3 id="orgc653bc9"><span class="section-number-3">3.6.</span> <span class="done DONE">DONE</span> <del>make a seperate folder for the html files:</del></h3>
+<div class="outline-text-3" id="text-3-6">
+<blockquote>
+<p>
+this is not possible as github looks for html files in the root and in order to make it look in a seperate folder we need to change the default which would be somehting that i would keep in the scope of the user.
+</p>
+</blockquote>
+</div>
 </div>
 </div>
 <div id="outline-container-org81a01c1" class="outline-2">
@@ -162,7 +250,7 @@ Thanks to
 <div id="postamble" class="status">
 <p class="date">Date: 2024-08-12 Mon 08:14</p>
 <p class="author">Author: Vipul</p>
-<p class="date">Created: 2024-08-15 Thu 19:08</p>
+<p class="date">Created: 2024-08-15 Thu 19:47</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

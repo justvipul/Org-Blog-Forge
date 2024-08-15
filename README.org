@@ -8,19 +8,28 @@
 * Easy way to create your blog using
 ** [[https://orgmode.org/][ORG mode]] | [[https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html][Org export dispatch Publish]] | [[https://pages.github.com/][Github pages.]]
 * Steps to start
-- make a blank repo of your choice
-- add README.org file with the following
-								 #+begin_src emacs-lisp
+** make a blank repo of your choice
+or Fork this repo to get started.
+** add a new README.org file with the following
+																																 #+begin_src emacs-lisp
 #+export_file_name: index
-	  #+end_src
-- add a setupfile which is optional
-  to get started i have added [[file:org-html-themes/][some cool themes]] in the repo
-- just link to the file using
-								 #+begin_src emacs-lisp
+				  #+end_src
+** add a setupfile which is optional
+  to get started I have added [[file:org-html-themes/][some cool themes]] in the repo. they help you make your pages look better than the plain text which is also completely fine tbh
+** just add/link to the file using
+																																 #+begin_src emacs-lisp
 #+setupfile: <theme file path>
-	  #+end_src
-- in your init.el or emacs config file put the following 
-								 #+begin_src emacs-lisp
+				  #+end_src
+
+the option used in this file actually is as follows
+#+begin_example
+setupfile: ./theme-readtheorg.setup
+#+end_example
+** In your init.el or emacs config file put the following
+As we are going to use static HTML all our org files will be dispatched to html using the following setting.
+just add the source and destination of the _.org_ file and _.html_ file that will be created from them respectively..
+
+																																 #+begin_src emacs-lisp
 (setq org-publish-project-alist
       '(("my-org-files"
          ;; Path to the directory containing your Org files
@@ -34,24 +43,32 @@
          :sitemap-filename "sitemap.org"  ;; Name of the sitemap file
          :sitemap-title "My Sitemap"  ;; Title for the sitemap
          :sitemap-style list)))  ;; Style of the sitemap with list, tree, and folder options can be used instead as well.
-	  #+end_src
-- add a bunch of org files.
-- run =<C-c C-e P p>=
-- notice html files, sitemap.org, being created for the repo.
-- push changes.
-- in Github change the repo settings to public and within settings left pane select pages
-- under pages =Build and deployment= section select Github actions
-- then select the main branch.
+				  #+end_src
+** add a bunch of org files.
+these will be the files that will be basically the pages in your github page. it can be anything, literally.
+** run =<C-c C-e P p>=
+this will populate the *publishing-directory* with final html files created from the *.org* files.
+#+begin_quote
+notice html files, sitemap.org, being created for the repo.
+#+end_quote
+** then push changes.
+** In Github change the repo settings to public and within settings left pane select pages
+** under pages =Build and deployment= section select Github actions
+** then select the main branch.
 - wait for some time.
 - refresh
-- you will get a link for the blog. copy paste it wherever you want to show it to the world.
+** you will get a link for the blog. copy paste it wherever you want to show it to the world.
 * TODOS
-** TODO make a seperate folder for the html files
-** TODO check if [[https://github.com/protesilaos/denote][denote]] can be used for [[https://onlyvip.github.io/Org-Blog-Forge/][ORG Blog Forge]].
-** DONE [[file:sample-readme.org][Sample org file linked here]]
-** make [[file:README.org][README]] just a landing page for all steps list.
 ** TODO Add RSS Functionality
+[[file:rss-to-be-added-study.org][rss adding learnings]]
+** make [[file:README.org][README]] just a landing page for all steps list.
+** TODO check if [[https://github.com/protesilaos/denote][denote]] can be used for [[https://onlyvip.github.io/Org-Blog-Forge/][ORG Blog Forge]].
 ** TODO Suggestions
+** DONE [[file:sample-readme.org][Sample org file linked here]]
+** DONE +make a seperate folder for the html files:+
+#+begin_quote
+this is not possible as github looks for html files in the root and in order to make it look in a seperate folder we need to change the default which would be somehting that i would keep in the scope of the user.
+#+end_quote
 * references
 Thanks to
 ** [[https://github.com/jethrokuan][Jethro kuan]]
