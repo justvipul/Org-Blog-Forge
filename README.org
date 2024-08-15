@@ -49,8 +49,9 @@
 ** TODO make a seperate folder for the html files
 ** TODO check if [[https://github.com/protesilaos/denote][denote]] can be used for [[https://onlyvip.github.io/Org-Blog-Forge/][ORG Blog Forge]].
 ** DONE [[file:sample-readme.org][Sample org file linked here]]
-** TODO add RSS functionality
-** TODO suggestions
+** make [[file:README.org][README]] just a landing page for all steps list.
+** TODO Add RSS Functionality
+** TODO Suggestions
 * references
 Thanks to
 ** [[https://github.com/jethrokuan][Jethro kuan]]

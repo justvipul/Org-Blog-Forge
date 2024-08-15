@@ -1,5 +1,5 @@
 #+TITLE: Markup Cheat sheet for Org-mode
-#+setupfile: ./org-html-themes/gray.theme
+#+setupfile: ./org-html-themes/bigblow_inline.theme
 
 * Heading 1
 ** Heading 2
