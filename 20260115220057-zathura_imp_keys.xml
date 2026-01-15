@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>zathura imp keys</title>
+  <atom:link href="./20260115220057-zathura_imp_keys.xml" rel="self" type="application/rss+xml" />
+  <link></link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Thu, 15 Jan 2026 16:54:29 +0000</pubDate>
+  <lastBuildDate>Thu, 15 Jan 2026 16:54:29 +0000</lastBuildDate>
+  <generator>Emacs 29.1 Org-mode 9.6.6</generator>
+  <webMaster>runner@runnervmmtnos (nil)</webMaster>
+  <image>
+    <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>zathura imp keys</title>
+    <link></link>
+  </image>
+
+  <item>
+    <title>after you follow a link and want to get back to the previous position, press</title>
+    <link>./20260115220057-zathura_imp_keys.html#orgc5f4047</link>
+    <author>runner@runnervmmtnos (nil)</author>
+    <guid isPermaLink="false">./20260115220057-zathura_imp_keys.html#orgc5f4047</guid>
+    <pubDate>Thu, 15 Jan 2026 16:54:00 +0000</pubDate>
+
+    <description><![CDATA[<p>
+    <b>Ctrl + o</b>
+    </p>
+    ]]></description>
+  </item>
+</channel>
+</rss>
