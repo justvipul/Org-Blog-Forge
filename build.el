@@ -41,9 +41,6 @@
         (t entry)))
 
 ;; Add this BEFORE your org-publish-project-alist
-(unless (package-installed-p 'ox-rss)
-  (package-install 'ox-rss))
-(require 'ox-rss)
 
 ;; Publishing configuration
 (setq org-publish-project-alist
@@ -86,7 +83,7 @@ function kbSearch() {
          :publishing-function org-publish-attachment)
      
         ;; Update this to include RSS
-        ("website" :components ("org-roam-notes" "rss-feed" "static"))
+        ("website" :components ("org-roam-notes" "static"))
         ))
 	
 (setq org-html-head-include-default-style nil)
