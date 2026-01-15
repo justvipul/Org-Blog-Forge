@@ -28,10 +28,22 @@
 (org-id-update-id-locations 
  (directory-files-recursively "./notes" "\\.org$"))
 
+;; Custom sitemap function to generate proper links
+(defun my/org-publish-sitemap-entry (entry style project)
+  "Custom sitemap entry formatting."
+  (cond ((not (directory-name-p entry))
+         (format "[[file:%s][%s]]"
+                 entry
+                 (org-publish-find-title entry project)))
+        ((eq style 'tree)
+         (file-name-nondirectory (directory-file-name entry)))
+        (t entry)))
+
 ;; Publishing configuration
 (setq org-publish-project-alist
       '(("org-roam-notes"
          :base-directory "./notes"
+         :base-extension "org"
          :publishing-directory "./public"
          :recursive t
          :publishing-function org-html-publish-to-html
@@ -40,27 +52,15 @@
          :sitemap-filename "index.org"
          :sitemap-title "Knowledge Base"
          :sitemap-sort-files anti-chronologically
-         :html-link-home "/"
+         :sitemap-format-entry my/org-publish-sitemap-entry
          :html-link-org-files-as-html t
-         ;; Force proper link conversion
          :section-numbers nil
-         :with-toc nil)
+         :with-toc nil
+         :html-postamble nil)
         ("static"
          :base-directory "./notes"
-         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf"
+         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|svg"
          :publishing-directory "./public"
          :recursive t
          :publishing-function org-publish-attachment)
         ("website" :components ("org-roam-notes" "static"))))
-
-(defun my/org-id-to-html-link (link desc info)
-  (let* ((id (org-element-property :path link))
-         (file (org-id-find-id-file id)))
-    (when file
-      (let ((html-file (concat (file-name-sans-extension 
-                                (file-relative-name file 
-                                 (plist-get info :base-directory))) 
-                               ".html")))
-        (format "<a href=\"%s\">%s</a>" html-file (or desc "link"))))))
-
-(add-to-list 'org-export-filter-link-functions 'my/org-id-to-html-link)
