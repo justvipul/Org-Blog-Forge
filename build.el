@@ -84,13 +84,7 @@ function kbSearch() {
          :publishing-directory "./public"
          :recursive t
          :publishing-function org-publish-attachment)
-
-   ;; NEW RSS PROJECT
-("rss-feed"
- :base-directory "./notes"
- :publishing-directory "./public"
- :publishing-function org-rss-publish-to-rss)
-       
+     
         ;; Update this to include RSS
         ("website" :components ("org-roam-notes" "rss-feed" "static"))
         ))
