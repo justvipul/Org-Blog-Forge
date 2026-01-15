@@ -31,35 +31,22 @@
 ;; Publishing configuration
 (setq org-publish-project-alist
       '(("org-roam-notes"
-         :base-directory "./notes"
-         :base-extension "org"
-         :publishing-directory "./public"
-         :recursive t
-         :publishing-function org-html-publish-to-html
-         :headline-levels 4
-         :auto-sitemap t
-         :sitemap-filename "index.org"
-         :sitemap-title "Knowledge Base"
-         :sitemap-sort-files anti-chronologically
-         :html-head "<script>
-function kbSearch() {
-  const q = document.getElementById('kb-search').value.toLowerCase();
-  const items = document.querySelectorAll('#kb-list li');
-  items.forEach(li => {
-    const text = li.textContent.toLowerCase();
-    li.style.display = text.includes(q) ? '' : 'none';
-  });
-}
-</script>
-<style>
-#kb-search { width: 100%; padding: 8px; margin-bottom: 1em; }
-#kb-list { list-style: none; padding: 0; }
-#kb-list li { margin: 0.5em 0; }
-</style>"
-         :html-link-org-files-as-html t
-         :section-numbers nil
-         :with-toc nil
-         :html-postamble nil)
+	 :base-directory "./notes"
+	 :base-extension "org"
+	 :publishing-directory "./public"
+	 :recursive t
+	 :publishing-function org-html-publish-to-html
+	 :headline-levels 4
+	 :auto-sitemap t
+	 :sitemap-filename "index.org"
+	 :sitemap-title "Knowledge Base"
+	 :sitemap-sort-files anti-chronologically
+	 :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/>"
+	 :html-head-include-default-style nil
+	 :html-link-org-files-as-html t
+	 :section-numbers nil
+	 :with-toc nil
+	 :html-postamble nil)
         ("static"
          :base-directory "./notes"
          :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|svg"

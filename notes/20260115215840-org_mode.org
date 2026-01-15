@@ -2,11 +2,12 @@
 :ID:       e89eef71-5175-46cb-88b5-b50f1ff95c8d
 :END:
 #+title: org mode
-#+setupfile: ../org-html-themes/bigblow_inline.theme
+#+setupfile: ../org-html-themes/gray.theme
 
 * [[id:7a2c6f73-13c2-4abc-a1f0-bac9200c6c8c][basics and learnings]]
 * [[id:9e9868f3-d9c9-487c-b2f6-7aea3509c5a4][org modern test]]
 * [[id:f3fd1cc3-d370-47cc-8d05-f47c1731bfc0][zathura imp keys]]
 - after you follow a link and want to get back to the previous position, press
 *Ctrl + o*
+
 

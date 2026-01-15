@@ -1,4 +1,9 @@
 #+TITLE: Knowledge Base
 
+- [[file:20260115220057-zathura_imp_keys.org][zathura imp keys]]
+- [[file:20260115215958-org_modern_test.org][org modern test]]
+- [[file:20260115215916-basics_and_learnings.org][basics and learnings]]
+- [[file:20260115224949-org_mode_themes.org][org mode themes]]
+- [[file:20260115215840-org_mode.org][org mode]]
 - [[file:20260115192203-linux_tips.org][linux tips]]
 - [[file:20260115192033-first_knowledge_base.org][first knowledge base]]

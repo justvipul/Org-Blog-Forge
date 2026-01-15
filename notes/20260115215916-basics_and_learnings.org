@@ -2,7 +2,7 @@
 :ID:       7a2c6f73-13c2-4abc-a1f0-bac9200c6c8c
 :END:
 #+title: basics and learnings
-#+setupfile: ../org-html-themes/bigblow_inline.theme
+#+setupfile: ../org-html-themes/gray.theme
 
 * C-RET to enter sections or headings.
 ** M-<arrow keys> to change the section/headings level.

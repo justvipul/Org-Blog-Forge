@@ -2,7 +2,8 @@
 :ID:       bfc29a22-c97c-4b56-8bbd-d1af23c89659
 :END:
 #+title: linux tips
-#+setupfile: ../org-html-themes/bigblow_inline.theme
+#+setupfile: ../org-html-themes/gray.theme
+
 
 * Essential Commands
 

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       28de0396-9d3a-4129-893b-5ae73629ecb3
+:END:
+#+title: org mode themes
+#+setupfile: ../org-html-themes/gray.theme
+
+
+* https://olmon.gitlab.io/org-themes/

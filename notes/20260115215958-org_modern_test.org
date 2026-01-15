@@ -2,10 +2,11 @@
 :ID:       9e9868f3-d9c9-487c-b2f6-7aea3509c5a4
 :END:
 #+title: org modern test
-#+setupfile: ../org-html-themes/bigblow_inline.theme
+#+setupfile: ../org-html-themes/gray.theme
 
 This example Org file demonstrates the Org elements,
 which are styled by =org-modern=.
+
 
 * Headlines
 ** Second level
