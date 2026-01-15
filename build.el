@@ -88,9 +88,3 @@ function kbSearch() {
 	
 (setq org-html-head-include-default-style nil)
 (setq org-html-head-include-scripts nil)
-
-
-(defun my/org-html-link-target-blank (link backend info)
-  (when (org-export-derived-backend-p backend 'html)
-    (replace-regexp-in-string "<a " "<a target=\"_blank\" " link)))
-(add-to-list 'org-export-filter-link-functions #'my/org-html-link-target-blank)
