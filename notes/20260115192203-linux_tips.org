@@ -1,0 +1,50 @@
+:PROPERTIES:
+:ID:       bfc29a22-c97c-4b56-8bbd-d1af23c89659
+:END:
+#+title: linux tips
+
+* Essential Commands
+
+** File Operations
+- ~ls -lah~ - List all files with human-readable sizes
+- ~cp -r source/ dest/~ - Copy directories recursively
+- ~find . -name "*.org"~ - Find all org files in current directory
+
+** System Information
+- ~df -h~ - Check disk space
+- ~free -h~ - Check memory usage
+- ~top~ or ~htop~ - Monitor processes
+
+* Package Management
+
+For Debian/Ubuntu based systems:
+#+begin_src bash
+sudo apt update
+sudo apt upgrade
+sudo apt install package-name
+#+end_src
+
+* Useful Bash Aliases
+
+Add these to your ~.bashrc~:
+#+begin_src bash
+alias ll='ls -lah'
+alias ..='cd ..'
+alias gs='git status'
+alias gc='git commit'
+#+end_src
+
+* Working with Git
+
+Basic workflow:
+1. ~git status~ - Check current changes
+2. ~git add .~ - Stage all changes
+3. ~git commit -m "message"~ - Commit with message
+4. ~git push~ - Push to remote
+
+* Related Notes
+
+- Back to [[id:2a30ee8a-355c-408c-bce6-8c575e23d72a][first knowledge base]]
+
+* References
+
