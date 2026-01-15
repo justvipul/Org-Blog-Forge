@@ -28,10 +28,11 @@
 (org-id-update-id-locations 
  (directory-files-recursively "./notes" "\\.org$"))
 
+;; Publishing configuration
 (setq org-publish-project-alist
       '(("org-roam-notes"
          :base-directory "./notes"
-         :publishing-directory "./public"    ; ← Changed from "./public/notes"
+         :publishing-directory "./public"
          :recursive t
          :publishing-function org-html-publish-to-html
          :headline-levels 4
@@ -39,13 +40,15 @@
          :sitemap-filename "index.org"
          :sitemap-title "Knowledge Base"
          :sitemap-sort-files anti-chronologically
-         :html-link-home "/Org-Blog-Forge/"   ; ← Changed from "/Org-Blog-Forge/notes/"
-         :html-link-use-abs-url t
-         :html-link-org-files-as-html t)
+         :html-link-home "/"
+         :html-link-org-files-as-html t
+         ;; Force proper link conversion
+         :section-numbers nil
+         :with-toc nil)
         ("static"
          :base-directory "./notes"
          :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf"
-         :publishing-directory "./public"     ; ← Changed from "./public/notes"
+         :publishing-directory "./public"
          :recursive t
          :publishing-function org-publish-attachment)
         ("website" :components ("org-roam-notes" "static"))))
