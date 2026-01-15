@@ -1,0 +1,4 @@
+#+TITLE: Knowledge Base
+
+- [[file:20260115192203-linux_tips.org][linux tips]]
+- [[file:20260115192033-first_knowledge_base.org][first knowledge base]]

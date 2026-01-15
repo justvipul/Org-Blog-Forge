@@ -28,22 +28,53 @@ setupfile: ./theme-readtheorg.setup
 ** In your init.el or emacs config file put the following
 As we are going to use static HTML all our org files will be dispatched to html using the following setting.
 just add the source and destination of the _.org_ file and _.html_ file that will be created from them respectively..
-
-																																 #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 (setq org-publish-project-alist
-      '(("my-org-files"
-         ;; Path to the directory containing your Org files
-         :base-directory "~/path/to/where/this/repo/is/cloned"
-         ;; Path to the directory where HTML files will be exported
-         :publishing-directory "~/destination/for/html/files/to/be/exported"
+      '(("org-roam-notes"
+         :base-directory "./notes"
+         :publishing-directory "./public/notes"
          :recursive t
          :publishing-function org-html-publish-to-html
-         :headline-levels 4  ;; Just the default for this project
-         :auto-sitemap t     ;; Generate sitemap.org automatically
-         :sitemap-filename "sitemap.org"  ;; Name of the sitemap file
-         :sitemap-title "My Sitemap"  ;; Title for the sitemap
-         :sitemap-style list)))  ;; Style of the sitemap with list, tree, and folder options can be used instead as well.
-				  #+end_src
+         :headline-levels 4
+         :auto-sitemap t
+         :sitemap-filename "index.org"
+         :sitemap-title "Knowledge Base"
+         :sitemap-sort-files anti-chronologically
+         :html-link-home "/Org-Blog-Forge/notes/"
+         :html-link-use-abs-url t
+         ;; Convert org-id links to relative HTML links
+         :html-link-org-files-as-html t)
+        ("static"
+         :base-directory "./notes"
+         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf"
+         :publishing-directory "./public/notes"
+         :recursive t
+         :publishing-function org-publish-attachment)
+        ("website" :components ("org-roam-notes" "static"))))
+#+end_src
+
+Since Org-roam uses id: links that won't work in static HTML:
+
+Use ox-html export hooks to convert id: links to relative HTML paths during publishing
+
+Add custom export filter in build.el:
+
+#+begin_src emacs-lisp
+
+(defun my/org-id-to-html-link (link desc info)
+  (let* ((id (org-element-property :path link))
+         (file (org-id-find-id-file id)))
+    (when file
+      (let ((html-file (concat (file-name-sans-extension 
+                                (file-relative-name file 
+                                 (plist-get info :base-directory))) 
+                               ".html")))
+        (format "<a href=\"%s\">%s</a>" html-file (or desc "link"))))))
+
+(add-to-list 'org-export-filter-link-functions 'my/org-id-to-html-link)
+#+end_src
+
+
 ** add a bunch of org files.
 these will be the files that will be basically the pages in your github page. it can be anything, literally.
 ** run =<C-c C-e P p>=

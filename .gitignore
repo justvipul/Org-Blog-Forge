@@ -1,1 +1,6 @@
+public/
+.packages/
+.org-timestamps/
+.org-id-locations
 *~
+*#
