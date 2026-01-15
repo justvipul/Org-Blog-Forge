@@ -4,6 +4,10 @@ on:
   push:
     branches: [master]
 
+# ADD THIS
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
