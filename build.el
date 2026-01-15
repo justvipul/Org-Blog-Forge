@@ -28,16 +28,22 @@
 (org-id-update-id-locations 
  (directory-files-recursively "./notes" "\\.org$"))
 
-;; Custom sitemap function to generate proper links
+
+;; Enhanced sitemap with search box
 (defun my/org-publish-sitemap-entry (entry style project)
-  "Custom sitemap entry formatting."
+  "Custom sitemap entry with search-friendly structure."
   (cond ((not (directory-name-p entry))
-         (format "[[file:%s][%s]]"
-                 entry
+         (format "<li><a href=\"%s.html\">%s</a></li>"
+                 (file-name-sans-extension (file-name-nondirectory entry))
                  (org-publish-find-title entry project)))
         ((eq style 'tree)
          (file-name-nondirectory (directory-file-name entry)))
         (t entry)))
+
+;; Add this BEFORE your org-publish-project-alist
+(unless (package-installed-p 'ox-rss)
+  (package-install 'ox-rss))
+(require 'ox-rss)
 
 ;; Publishing configuration
 (setq org-publish-project-alist
@@ -53,6 +59,21 @@
          :sitemap-title "Knowledge Base"
          :sitemap-sort-files anti-chronologically
          :sitemap-format-entry my/org-publish-sitemap-entry
+         :html-head "<script>
+function kbSearch() {
+  const q = document.getElementById('kb-search').value.toLowerCase();
+  const items = document.querySelectorAll('#kb-list li');
+  items.forEach(li => {
+    const text = li.textContent.toLowerCase();
+    li.style.display = text.includes(q) ? '' : 'none';
+  });
+}
+</script>
+<style>
+#kb-search { width: 100%; padding: 8px; margin-bottom: 1em; }
+#kb-list { list-style: none; padding: 0; }
+#kb-list li { margin: 0.5em 0; }
+</style>"
          :html-link-org-files-as-html t
          :section-numbers nil
          :with-toc nil
@@ -63,4 +84,31 @@
          :publishing-directory "./public"
          :recursive t
          :publishing-function org-publish-attachment)
-        ("website" :components ("org-roam-notes" "static"))))
+
+   ;; NEW RSS PROJECT
+        ("rss-feed"
+         :base-directory "./notes"
+         :publishing-directory "./public"
+         :publishing-function org-rss-publish-to-rss
+         :auto-sitemap t
+         :sitemap-filename "feed.org"
+         :sitemap-title "Org-Blog-Forge Feed"
+         :sitemap-style 'list
+         :sitemap-sort-files 'anti-chronologically
+         :rss-extension "xml"
+         :html-link-home "https://justvipul.github.io/Org-Blog-Forge/"
+         :html-link-use-abs-url t
+         :exclude "index.org")
+        
+        ;; Update this to include RSS
+        ("website" :components ("org-roam-notes" "rss-feed" "static"))
+        ))
+	
+(setq org-html-head-include-default-style nil)
+(setq org-html-head-include-scripts nil)
+
+
+(defun my/org-html-link-target-blank (link backend info)
+  (when (org-export-derived-backend-p backend 'html)
+    (replace-regexp-in-string "<a " "<a target=\"_blank\" " link)))
+(add-to-list 'org-export-filter-link-functions #'my/org-html-link-target-blank)

@@ -1,0 +1,106 @@
+:PROPERTIES:
+:ID:       7a2c6f73-13c2-4abc-a1f0-bac9200c6c8c
+:END:
+#+title: basics and learnings
+#+setupfile: ../org-html-themes/bigblow_inline.theme
+
+* C-RET to enter sections or headings.
+** M-<arrow keys> to change the section/headings level.
+* Markup
+** ==== for a =verbatim= text
+** =++= for +strikethrough+
+** =**= to *bold* stuff
+** =//= to make /italic/ 
+** use C-c C-x C-f to call /org-emphasize/ and change markup of selected text.
+use hashes to get list items and bullets.
+*** here
+**** isnt
+**** ***** an
+***** ****** 
+****** ******* ******** 
+* Insert links
+*C-c C-l* [[https:orgmode.org][org-mode-link]]
+* Table
+| name  | age   |
+|-------+-------|
+| test1 | test2 |
+| one   | 2     |
+* To export
+_C-c C-e_
+* LIST
+** unordered lists
+lists starting with -, + and *
+*** dash list
+**** uno
+**** dos
+**** tres
+*** plus list
+**** uno
+**** dos
+**** tres
+**** TODO 
+**** TODO 
+** ordered lists
+start with number and a period or ),
+like 1. or 1),
+Press,
+*** test                                    =press  meta + enter=
+*** TODO 
+*** TODO 
+** desctiption these are special unordered lists
+use :: to seperate the title description and the content
+***  this is a description example the example is pretty straightforward init?
+* CHECKLISTS
+** M-S RET to make a new checkbox.
+** C-c C-x C-b toggle the checkbox state
+*** this is a plainlist headline which can be toggled by _C-c *_
+turn a whole list into a subtree by ~C-c C-*~
+* Drawers text hidden until pressed and seen after that, *C-c C-x d*
+:DRAWERNAME:
+This is inside the drawer.
+:END:
+#+begin_src
+another drawer. Drawers look like this:
+** This is a headline
+Still outside the drawer
+:DRAWERNAME:
+This is inside the drawer.
+:END:
+After the drawer.
+#+begin_quote
+You can interactively insert a drawer at poi
+
+:drawer:
+lets see if it workshop
+:END:
+
+Enter a drawer with -
+=C-c C-x d=
+* EXPORT STRUCTURE TEMPLATE,
+command *C-c C-,*
+
+lets
+test this footnote [fn:4]stuff
+* Footnotes
+call ~org-footnote-action~ function. its bound to =C-c C-x f= in my config.
+
+
+[fn:3] whoa a third footnote?
+
+
+[fn:2] test is: only here 
+The Org homepage[fn:1] now looks a lot better than it used to.
+...
+
+
+[fn:1] The link is: https://orgmode.org
+
+test[fn:2]
+
+this is the third footnote[fn:3]
+
+
+[fn:4] stuff works 
+
+
+[fn:1] 

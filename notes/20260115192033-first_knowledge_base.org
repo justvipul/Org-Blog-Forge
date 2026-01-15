@@ -2,4 +2,6 @@
 :ID:       2a30ee8a-355c-408c-bce6-8c575e23d72a
 :END:
 #+title: first knowledge base
+#+setupfile: ../org-html-themes/bigblow_inline.theme
 * [[id:bfc29a22-c97c-4b56-8bbd-d1af23c89659][linux tips]]
+* [[id:e89eef71-5175-46cb-88b5-b50f1ff95c8d][org mode]]

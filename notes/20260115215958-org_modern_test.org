@@ -1,0 +1,96 @@
+:PROPERTIES:
+:ID:       9e9868f3-d9c9-487c-b2f6-7aea3509c5a4
+:END:
+#+title: org modern test
+#+setupfile: ../org-html-themes/bigblow_inline.theme
+
+This example Org file demonstrates the Org elements,
+which are styled by =org-modern=.
+
+* Headlines
+** Second level
+*** Third level
+**** Fourth level
+***** Fifth level
+* Task Lists [1/3]
+** DONE Write =org-modern=
+** TODO Publish =org-modern=
+** TODO Fix all the bugs
+* List Bullets
+** Dash
+** Plus
+** Asterisk
+* Timestamps
+DRANGE:    [2022-03-01 Tue]--[2022-04-01 Fri]
+DRANGE:    <2022-03-01 Tue>--<2022-04-01 Fri>
+TRANGE:    [2022-03-01 Tue 10:42-11:00]
+TIMESTAMP: [2022-02-21 Mon 13:00]
+DREPEATED: <2022-02-26 Sat .+1d>
+TREPEATED: <2022-02-26 Sat 10:00 .+1d>
+* Blocks
+#+begin_src emacs-lisp
+  ;; Taken from the well-structured Emacs config by @oantolin.
+  ;; Take a look at https://github.com/oantolin/emacs-config!
+  (defun command-of-the-day ()
+    "Show the documentation for a random command."
+    (interactive)
+    (let ((commands))
+  	(mapatoms (lambda (s) (when (commandp s) (push s commands))))
+  	(describe-function (nth (random (length commands)) commands))))
+#+end_src
+
+#+begin_src calc
+  taylor(sin(x),x=0,3)
+#+end_src
+
+#+results: 
+: pi x / 180 - 2.85779606768e-8 pi^3 x^3
+
+
+#+begin_src C
+  printf("a|b\nc|d\n");
+#+end_src
+
+#+results: 
+| a | b |
+| c | d |
+* Todo Labels and Tags
+** DONE Write =org-modern=
+** TODO Publish =org-modern=
+** WAIT Fix all the bugs
+* Priorities
+** DONE [#A] Most important
+** TODO [#B] Less important
+** CANCEL [#C] Not that important
+** DONE [100%] [#A] Everything combined
+*** DONE First
+*** DONE Second
+*** DONE Third
+* Tables
+| N | N^2 | N^3 | N^4 | sqrt(n) | sqrt[4](N) |
+|---+-----+-----+-----+---------+------------|
+| 2 |   4 |   8 |  16 |  1.4142 |     1.1892 |
+| 3 |   9 |  27 |  81 |  1.7321 |     1.3161 |
+
+|---+-----+-----+-----+---------+------------|
+| N | N^2 | N^3 | N^4 | sqrt(n) | sqrt[4](N) |
+|---+-----+-----+-----+---------+------------|
+| 2 |   4 |   8 |  16 |  1.4142 |     1.1892 |
+| 3 |   9 |  27 |  81 |  1.7321 |     1.3161 |
+|---+-----+-----+-----+---------+------------|
+* Special Links
+Test numeric footnotes[fn:1] and named footnotes[fn:foo].
+
+<<This is an internal link>>
+
+<<<radio link>>>
+
+[[This is an internal link]]
+
+radio link
+
+[fn:foo] This is the footnote
+
+
+
+[fn:1] This is footnote 1

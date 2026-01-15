@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f3fd1cc3-d370-47cc-8d05-f47c1731bfc0
+:END:
+#+title: zathura imp keys
+#+setupfile: ../org-html-themes/bigblow_inline.theme
+* after you follow a link and want to get back to the previous position, press
+*Ctrl + o*
+
