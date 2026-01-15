@@ -61,9 +61,9 @@ notice html files, sitemap.org, being created for the repo.
 * TODOS
 ** TODO Add RSS Functionality
 [[file:rss-to-be-added-study.org][rss adding learnings]]
-** make [[file:README.org][README]] just a landing page for all steps list.
 ** TODO check if [[https://github.com/protesilaos/denote][denote]] can be used for [[https://onlyvip.github.io/Org-Blog-Forge/][ORG Blog Forge]].
 ** TODO Suggestions
+** DONE make [[file:README.org][README]] just a landing page for all steps list.
 ** DONE [[file:sample-readme.org][Sample org file linked here]]
 ** DONE +make a seperate folder for the html files:+
 #+begin_quote
@@ -76,3 +76,4 @@ Thanks to
 ** [[https://github.com/spudlyo/orgdemo2][spudlyo]]
 ** [[https://github.com/minad/org-modern][minad for example.org file]]
 ** [[https://github.com/protesilaos][prot :)]]
+** [[https://github.com/karthink][karthink]]
