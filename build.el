@@ -28,18 +28,6 @@
 (org-id-update-id-locations 
  (directory-files-recursively "./notes" "\\.org$"))
 
-
-;; Enhanced sitemap with search box
-(defun my/org-publish-sitemap-entry (entry style project)
-  "Custom sitemap entry with search-friendly structure."
-  (cond ((not (directory-name-p entry))
-         (format "<li><a href=\"%s.html\">%s</a></li>"
-                 (file-name-sans-extension (file-name-nondirectory entry))
-                 (org-publish-find-title entry project)))
-        ((eq style 'tree)
-         (file-name-nondirectory (directory-file-name entry)))
-        (t entry)))
-
 ;; Add this BEFORE your org-publish-project-alist
 
 ;; Publishing configuration
