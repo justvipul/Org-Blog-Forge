@@ -86,18 +86,10 @@ function kbSearch() {
          :publishing-function org-publish-attachment)
 
    ;; NEW RSS PROJECT
-	("rss-feed"
-	 :base-directory "./notes"
-	 :publishing-directory "./public"
-	 :publishing-function org-rss-publish-to-rss
-	 :auto-sitemap t
-	 :sitemap-filename "feed.org"
-	 :sitemap-title "Org-Blog-Forge Feed"
-	 :sitemap-style 'list
-	 :rss-extension "xml"
-	 :html-link-home "https://justvipul.github.io/Org-Blog-Forge/"
-	 :html-link-use-abs-url t
-	 :exclude "index.org")
+("rss-feed"
+ :base-directory "./notes"
+ :publishing-directory "./public"
+ :publishing-function org-rss-publish-to-rss)
        
         ;; Update this to include RSS
         ("website" :components ("org-roam-notes" "rss-feed" "static"))
