@@ -3,26 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-01-15 Thu 17:14 -->
+<!-- 2026-01-15 Thu 17:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Knowledge Base</title>
 <meta name="generator" content="Org Mode" />
-<script>
-function kbSearch() {
-  const q = document.getElementById('kb-search').value.toLowerCase();
-  const items = document.querySelectorAll('#kb-list li');
-  items.forEach(li => {
-    const text = li.textContent.toLowerCase();
-    li.style.display = text.includes(q) ? '' : 'none';
-  });
-}
-</script>
-<style>
-#kb-search { width: 100%; padding: 8px; margin-bottom: 1em; }
-#kb-list { list-style: none; padding: 0; }
-#kb-list li { margin: 0.5em 0; }
-</style>
+<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
 <div id="content" class="content">
@@ -34,6 +20,7 @@ function kbSearch() {
 <li><a href="20260115215840-org_mode.html">org mode</a></li>
 <li><a href="20260115215916-basics_and_learnings.html">basics and learnings</a></li>
 <li><a href="20260115220057-zathura_imp_keys.html">zathura imp keys</a></li>
+<li><a href="20260115224949-org_mode_themes.html">org mode themes</a></li>
 </ul>
 </div>
 </body>
