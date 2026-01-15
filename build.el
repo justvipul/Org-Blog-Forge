@@ -28,8 +28,6 @@
 (org-id-update-id-locations 
  (directory-files-recursively "./notes" "\\.org$"))
 
-;; Add this BEFORE your org-publish-project-alist
-
 ;; Publishing configuration
 (setq org-publish-project-alist
       '(("org-roam-notes"
@@ -43,7 +41,6 @@
          :sitemap-filename "index.org"
          :sitemap-title "Knowledge Base"
          :sitemap-sort-files anti-chronologically
-         :sitemap-format-entry my/org-publish-sitemap-entry
          :html-head "<script>
 function kbSearch() {
   const q = document.getElementById('kb-search').value.toLowerCase();
