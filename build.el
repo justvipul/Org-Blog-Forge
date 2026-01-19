@@ -45,7 +45,7 @@
 	 :html-head-include-default-style nil
 	 :html-link-org-files-as-html t
 	 :section-numbers nil
-	 :with-toc nil
+	 :with-toc t
 	 :html-postamble nil)
         ("static"
          :base-directory "./notes"
