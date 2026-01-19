@@ -7,22 +7,16 @@
 
 * Forge your blog using Org-mode, org-roam v2, and GitHub Pages!
 Static site generator for Org-roam knowledge bases with automatic CI/CD deployment.
-** [[https://orgmode.org/][ORG mode]] | [[https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html][Org export dispatch Publish]] | [[https://pages.github.com/][Github pages.]]
+- [[https://orgmode.org/][ORG mode]] | [[https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html][Org export dispatch Publish]] | [[https://pages.github.com/][Github pages.]]
 *  Features
-** DONE Org-roam v2 compatible - ID-based bidirectional links
-
-** DONE Automatic publishing - Git push → live site in 3 minutes
-
-** DONE GitHub Actions CI/CD - Zero server maintenance
-
-** DONE Custom themes - gray-theme + ReadTheOrg support
-
-** DONE Responsive design - Mobile-friendly
-
-** DONE Fast builds - Optimized for knowledge bases
-
+- [X] Org-roam v2 compatible - ID-based bidirectional links
+- [X] Automatic publishing - Git push → live site in 3 minutes
+- [X] GitHub Actions CI/CD - Zero server maintenance
+- [X] Custom themes - gray-theme + ReadTheOrg support
+- [X] Responsive design - Mobile-friendly
+- [X] Fast builds - Optimized for knowledge bases
 * Live Demo
-https://justvipul.github.io/Org-Blog-Forge/
+- https://justvipul.github.io/Org-Blog-Forge/
 
 * Steps to start
 ** Fork this repository
@@ -58,7 +52,6 @@ Your knowledge base content here.
 
 #+end_src
 * GitHub Actions automatically:
-
 + Builds your site
 
 + Publishes to gh-pages branch
