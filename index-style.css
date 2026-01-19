@@ -1,5 +1,7 @@
-/* index-style.css - Modern knowledge base index */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/* index-style.css - Clean, modern index like org-modern */
+
+/* Import modern fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
 * {
     margin: 0;
@@ -8,175 +10,137 @@
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Inter', -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #2d3748;
+    background: #f7fafc;
     min-height: 100vh;
-    padding: 2rem 1rem;
 }
 
 #content {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(20px);
-    border-radius: 24px;
-    box-shadow: 0 25px 50px rgba(0,0,0,0.15);
-    overflow: hidden;
+    padding: 3rem 2rem;
+    background: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-top: 2rem;
 }
 
 .title {
     text-align: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 3rem 2rem;
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #1a202c;
+    margin-bottom: 2.5rem;
     position: relative;
 }
 
 .title::after {
     content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 4px;
-    background: rgba(255,255,255,0.8);
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #4299e1, #63b3ed);
+    margin: 1rem auto 0;
     border-radius: 2px;
 }
 
-#org-div-home-and-up {
-    text-align: center;
+.notes-list {
+    list-style: none;
+}
+
+.notes-list li {
+    margin: 1.5rem 0;
     padding: 1.5rem;
-    background: rgba(0,0,0,0.05);
-    font-size: 0.9rem;
-}
-
-#org-div-home-and-up a {
-    color: #667eea;
-    text-decoration: none;
-    margin: 0 1rem;
-    font-weight: 500;
-}
-
-#org-div-home-and-up a:hover {
-    text-decoration: underline;
-}
-
-.notes-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 1.5rem;
-    padding: 3rem;
-}
-
-.note-card {
-    background: white;
-    border-radius: 16px;
-    padding: 2rem;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-    border: 1px solid rgba(255,255,255,0.2);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    background: #f8fafc;
+    border-left: 4px solid #e2e8f0;
+    border-radius: 8px;
+    transition: all 0.2s ease;
     position: relative;
-    overflow: hidden;
 }
 
-.note-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
-}
-
-.note-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-    border-color: rgba(102, 126, 234, 0.3);
+.notes-list li:hover {
+    background: #edf2f7;
+    border-left-color: #4299e1;
+    transform: translateX(4px);
 }
 
 .note-link {
-    text-decoration: none;
-    color: inherit;
     display: block;
+    text-decoration: none;
+    color: #2d3748;
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.4;
-    margin-bottom: 0.5rem;
 }
 
 .note-link:hover {
-    color: #667eea;
+    color: #4299e1;
 }
 
 .note-meta {
-    font-size: 0.9rem;
-    color: #666;
-    margin-top: 1rem;
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    color: #718096;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .note-date {
-    background: #f8f9fa;
+    background: #ebf8ff;
+    color: #3182ce;
     padding: 0.25rem 0.75rem;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 500;
-}
-
-.note-tags {
-    display: flex;
-    gap: 0.5rem;
-}
-
-.tag {
-    background: #667eea;
-    color: white;
-    padding: 0.25rem 0.75rem;
-    border-radius: 20px;
+    border-radius: 9999px;
     font-size: 0.75rem;
     font-weight: 500;
 }
 
-/* Mobile */
+#org-div-home-and-up {
+    text-align: center;
+    padding: 1.5rem;
+    background: #f1f5f9;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+#org-div-home-and-up a {
+    color: #4299e1;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 1rem;
+}
+
+#org-div-home-and-up a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
+    #content {
+        margin: 1rem;
+        padding: 2rem 1.5rem;
+        border-radius: 16px;
+    }
+    
+    .title {
+        font-size: 2rem;
+    }
+    
+    .notes-list li {
+        padding: 1.25rem;
+    }
+}
+
+/* Print */
+@media print {
     body {
-        padding: 1rem 0.5rem;
+        background: white;
     }
     
-    .notes-grid {
-        grid-template-columns: 1fr;
-        padding: 1.5rem;
-        gap: 1rem;
-    }
-    
-    .note-card {
-        padding: 1.5rem;
+    #content {
+        box-shadow: none;
+        border-radius: 0;
     }
 }
-
-/* Loading animation */
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.note-card {
-    animation: fadeInUp 0.6s ease forwards;
-}
-
-.note-card:nth-child(1) { animation-delay: 0.1s; }
-.note-card:nth-child(2) { animation-delay: 0.2s; }
-.note-card:nth-child(3) { animation-delay: 0.3s; }
-.note-card:nth-child(4) { animation-delay: 0.4s; }
