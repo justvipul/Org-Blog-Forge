@@ -12,7 +12,7 @@ Static site generator for Org-roam knowledge bases with automatic CI/CD deployme
 - [X] Org-roam v2 compatible - ID-based bidirectional links
 - [X] Automatic publishing - Git push → live site in 3 minutes
 - [X] GitHub Actions CI/CD - Zero server maintenance
-- [X] Custom themes - gray-theme + ReadTheOrg support
+- [X] Custom themes - any org theme can be applied.
 - [X] Responsive design - Mobile-friendly
 - [X] Fast builds - Optimized for knowledge bases
 * Live Demo
@@ -70,7 +70,7 @@ Or globally in [[file:build.el][build file]]
 :html-head "<link rel=\"stylesheet\" href=\"gray-theme.css\"/>"
 #+end_src
 * Build Configuration
-** Edit build.el for:
+** Edit [[file:build.el][build.el]] for:
 
 - Custom sitemaps
 
@@ -81,62 +81,54 @@ Or globally in [[file:build.el][build file]]
 Place CSS/JS/images in repo [[file:][root]] or [[file:notes/][notes/]] - automatically copied to [[file:public/][public/]]
 * Project Structure
 
-#+begin_src bash :results output
-  tree .
+#+begin_src bash
+  ├── build.el
+  ├── build.el~
+  ├── LICENSE.txt
+  ├── notes
+  │   ├── 20260115192033-first_knowledge_base.org
+  │   ├── 20260115192033-first_knowledge_base.org~
+  │   ├── 20260115192203-linux_tips.org
+  │   ├── 20260115192203-linux_tips.org~
+  │   ├── 20260115215840-org_mode.org
+  │   ├── 20260115215840-org_mode.org~
+  │   ├── 20260115215916-basics_and_learnings.org
+  │   ├── 20260115215916-basics_and_learnings.org~
+  │   ├── 20260115215958-org_modern_test.html
+  │   ├── 20260115215958-org_modern_test.org
+  │   ├── 20260115215958-org_modern_test.org~
+  │   ├── 20260115220057-zathura_imp_keys.org
+  │   ├── 20260115220057-zathura_imp_keys.org~
+  │   ├── 20260115224949-org_mode_themes.html
+  │   ├── 20260115224949-org_mode_themes.org
+  │   ├── 20260115224949-org_mode_themes.org~
+  │   └── index.org
+  ├── org-html-themes
+  │   ├── bigblow_inline.theme
+  │   ├── comfy_inline.theme
+  │   ├── darksun.theme
+  │   ├── gray.theme
+  │   ├── imagine_light.theme
+  │   ├── latexcss.theme
+  │   ├── readtheorg_inline.theme
+  │   ├── rethink_inline.theme
+  │   ├── retro_dark.theme
+  │   ├── simple_gray.theme
+  │   ├── simple_inline.theme
+  │   ├── simple_whiteblue.theme
+  │   ├── simple_white.theme
+  │   ├── solarized_dark.theme
+  │   ├── solarized_light.theme
+  │   ├── stylish_white.theme
+  │   └── white_clean.theme
+  ├── public
+  │   └── index.html
+  ├── README.org
+  ├── rss-to-be-added-study.org
+  ├── style.css
+  └── theme-readtheorg.setup
+  4 directories, 43 files
 #+end_src
-
-#+RESULTS:
-#+begin_example
-.
-├── build.el
-├── build.el~
-├── #build-error.log#
-├── notes
-│   ├── 20260115192033-first_knowledge_base.org
-│   ├── 20260115192033-first_knowledge_base.org~
-│   ├── 20260115192203-linux_tips.org
-│   ├── 20260115192203-linux_tips.org~
-│   ├── 20260115215840-org_mode.org
-│   ├── 20260115215840-org_mode.org~
-│   ├── 20260115215916-basics_and_learnings.org
-│   ├── 20260115215916-basics_and_learnings.org~
-│   ├── 20260115215958-org_modern_test.html
-│   ├── 20260115215958-org_modern_test.org
-│   ├── 20260115215958-org_modern_test.org~
-│   ├── 20260115220057-zathura_imp_keys.org
-│   ├── 20260115220057-zathura_imp_keys.org~
-│   ├── 20260115224949-org_mode_themes.html
-│   ├── 20260115224949-org_mode_themes.org
-│   ├── 20260115224949-org_mode_themes.org~
-│   └── index.org
-├── org-html-themes
-│   ├── bigblow_inline.theme
-│   ├── comfy_inline.theme
-│   ├── darksun.theme
-│   ├── gray.theme
-│   ├── imagine_light.theme
-│   ├── latexcss.theme
-│   ├── readtheorg_inline.theme
-│   ├── rethink_inline.theme
-│   ├── retro_dark.theme
-│   ├── simple_gray.theme
-│   ├── simple_inline.theme
-│   ├── simple_whiteblue.theme
-│   ├── simple_white.theme
-│   ├── solarized_dark.theme
-│   ├── solarized_light.theme
-│   ├── stylish_white.theme
-│   └── white_clean.theme
-├── public
-│   └── index.html
-├── #README.org#
-├── README.org
-├── rss-to-be-added-study.org
-├── style.css
-└── theme-readtheorg.setup
-
-4 directories, 43 files
-#+end_example
 * local development
 #+begin_src bash
   # Install dependencies and build
@@ -150,57 +142,47 @@ Place CSS/JS/images in repo [[file:][root]] or [[file:notes/][notes/]] - automat
   emacs --batch -l build.el -f org-publish-all
 #+end_src
 * Themes included
-#+begin_src bash :results output
-  tree ./org-html-themes/.
+#+begin_src bash
+  $ tree ./org-html-themes/.
+
+  ./org-html-themes/.
+  ├── bigblow_inline.theme
+  ├── comfy_inline.theme
+  ├── darksun.theme
+  ├── gray.theme
+  ├── imagine_light.theme
+  ├── latexcss.theme
+  ├── readtheorg_inline.theme
+  ├── rethink_inline.theme
+  ├── retro_dark.theme
+  ├── simple_gray.theme
+  ├── simple_inline.theme
+  ├── simple_whiteblue.theme
+  ├── simple_white.theme
+  ├── solarized_dark.theme
+  ├── solarized_light.theme
+  ├── stylish_white.theme
+  └── white_clean.theme
 #+end_src
-
-#+RESULTS:
-#+begin_example
-./org-html-themes/.
-├── bigblow_inline.theme
-├── comfy_inline.theme
-├── darksun.theme
-├── gray.theme
-├── imagine_light.theme
-├── latexcss.theme
-├── readtheorg_inline.theme
-├── rethink_inline.theme
-├── retro_dark.theme
-├── simple_gray.theme
-├── simple_inline.theme
-├── simple_whiteblue.theme
-├── simple_white.theme
-├── solarized_dark.theme
-├── solarized_light.theme
-├── stylish_white.theme
-└── white_clean.theme
-
-1 directory, 17 files
-#+end_example
 * Contributing
 
-** Fork the repo
-
-** Create feature branch: git checkout -b feature/amazing-theme
-
-** Commit changes: git commit -m 'Add amazing theme'
-
-** Push: git push origin feature/amazing-theme
-
-** Open Pull Request
++ Fork the repo
++ Create feature branch: git checkout -b feature/amazing-theme
++ Commit changes: git commit -m 'Add amazing theme'
++ Push: git push origin feature/amazing-theme
++ Open Pull Request
 * License
 
 MIT License - see [[file:LICENSE.txt][LICENSE]] © 2026 Vipul
 
 * TODOS
-** TODO Add RSS Functionality
-[[file:rss-to-be-added-study.org][rss adding learnings]]
-** TODO check if [[https://github.com/protesilaos/denote][denote]] can be used for [[https://onlyvip.github.io/Org-Blog-Forge/][ORG Blog Forge]].
-** TODO Suggestions
-** TODO make [[file:README.org][README]] just a landing page for all steps list.
-** DONE [[file:notes/20260115215958-org_modern_test.org][org test file]]
-** DONE results are populated in the public folder.
-
+- [ ] Add RSS Functionality
+  [[file:rss-to-be-added-study.org][rss adding learnings]]
+- [ ] check if [[https://github.com/protesilaos/denote][denote]] can be used for [[https://onlyvip.github.io/Org-Blog-Forge/][ORG Blog Forge]].
+- [ ] Suggestions
+- [ ] make [[file:README.org][README]] just a landing page for all steps list.
+- [X] [[file:notes/20260115215958-org_modern_test.org][org test file]]
+- [X] results are populated in the public folder.
 * references
 Thanks to
 ** [[https://github.com/jethrokuan][Jethro kuan]]
