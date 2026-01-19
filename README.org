@@ -5,101 +5,209 @@
 #+author: Vipul
 #+date: <2024-08-12 Mon 08:14>
 
-* Easy way to create your blog using
+* Forge your blog using Org-mode, org-roam v2, and GitHub Pages!
+Static site generator for Org-roam knowledge bases with automatic CI/CD deployment.
 ** [[https://orgmode.org/][ORG mode]] | [[https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html][Org export dispatch Publish]] | [[https://pages.github.com/][Github pages.]]
+*  Features
+** DONE Org-roam v2 compatible - ID-based bidirectional links
+
+** DONE Automatic publishing - Git push → live site in 3 minutes
+
+** DONE GitHub Actions CI/CD - Zero server maintenance
+
+** DONE Custom themes - gray-theme + ReadTheOrg support
+
+** DONE Responsive design - Mobile-friendly
+
+** DONE Fast builds - Optimized for knowledge bases
+
+* Live Demo
+https://justvipul.github.io/Org-Blog-Forge/
+
 * Steps to start
-** make a blank repo of your choice
-or Fork this repo to get started.
-** add a new README.org file with the following
-																																 #+begin_src emacs-lisp
-#+export_file_name: index
-				  #+end_src
-** add a setupfile which is optional
-  to get started I have added [[file:org-html-themes/][some cool themes]] in the repo. they help you make your pages look better than the plain text which is also completely fine tbh
-** just add/link to the file using
-																																 #+begin_src emacs-lisp
-#+setupfile: <theme file path>
-				  #+end_src
+** Fork this repository
 
-the option used in this file actually is as follows
+#+begin_src bash
+  git clone https://github.com/justvipul/Org-Blog-Forge.git
+  cd Org-Blog-Forge
+  git remote rename origin upstream
+  git remote add origin https://github.com/YOURUSERNAME/YOURREPONAME.git
+#+end_src
+** add your notes
+
+create .org files in the [[file:notes/][notes/]] directory.
+
+#+begin_src org
+:PROPERTIES:
+:ID:       unique-id-here
+:END:
+,#+title: My First Note
+,#+date: [2026-01-16 Fri]
+
+,* Content
+Your knowledge base content here.
+
+[[id:other-note-id][Link to other note]]
+#+end_src
+** Push and deploy 
+
+#+begin_src bash
+  git add .
+  git commit -m "Add my notes"
+  git push origin master
+
+#+end_src
+* GitHub Actions automatically:
+
++ Builds your site
+
++ Publishes to gh-pages branch
+
++ Deploys to GitHub Pages
+* Customisation
+Add theme to your [[file:notes/][notes]]
+
+#+begin_src org
+#+setupfile: ../gray-theme.setup
+#+end_src
+
+Or globally in [[file:build.el][build file]]
+
+#+begin_src emacs-lisp
+:html-head "<link rel=\"stylesheet\" href=\"gray-theme.css\"/>"
+#+end_src
+* Build Configuration
+** Edit build.el for:
+
+- Custom sitemaps
+
+- Publishing rules
+
+- HTML templates
+* Static Assets
+Place CSS/JS/images in repo [[file:][root]] or [[file:notes/][notes/]] - automatically copied to [[file:public/][public/]]
+* Project Structure
+
+#+begin_src bash :results output
+  tree .
+#+end_src
+
+#+RESULTS:
 #+begin_example
-setupfile: ./theme-readtheorg.setup
+.
+├── build.el
+├── build.el~
+├── #build-error.log#
+├── notes
+│   ├── 20260115192033-first_knowledge_base.org
+│   ├── 20260115192033-first_knowledge_base.org~
+│   ├── 20260115192203-linux_tips.org
+│   ├── 20260115192203-linux_tips.org~
+│   ├── 20260115215840-org_mode.org
+│   ├── 20260115215840-org_mode.org~
+│   ├── 20260115215916-basics_and_learnings.org
+│   ├── 20260115215916-basics_and_learnings.org~
+│   ├── 20260115215958-org_modern_test.html
+│   ├── 20260115215958-org_modern_test.org
+│   ├── 20260115215958-org_modern_test.org~
+│   ├── 20260115220057-zathura_imp_keys.org
+│   ├── 20260115220057-zathura_imp_keys.org~
+│   ├── 20260115224949-org_mode_themes.html
+│   ├── 20260115224949-org_mode_themes.org
+│   ├── 20260115224949-org_mode_themes.org~
+│   └── index.org
+├── org-html-themes
+│   ├── bigblow_inline.theme
+│   ├── comfy_inline.theme
+│   ├── darksun.theme
+│   ├── gray.theme
+│   ├── imagine_light.theme
+│   ├── latexcss.theme
+│   ├── readtheorg_inline.theme
+│   ├── rethink_inline.theme
+│   ├── retro_dark.theme
+│   ├── simple_gray.theme
+│   ├── simple_inline.theme
+│   ├── simple_whiteblue.theme
+│   ├── simple_white.theme
+│   ├── solarized_dark.theme
+│   ├── solarized_light.theme
+│   ├── stylish_white.theme
+│   └── white_clean.theme
+├── public
+│   └── index.html
+├── #README.org#
+├── README.org
+├── rss-to-be-added-study.org
+├── style.css
+└── theme-readtheorg.setup
+
+4 directories, 43 files
 #+end_example
-** In your init.el or emacs config file put the following
-As we are going to use static HTML all our org files will be dispatched to html using the following setting.
-just add the source and destination of the _.org_ file and _.html_ file that will be created from them respectively..
-#+begin_src emacs-lisp
-(setq org-publish-project-alist
-      '(("org-roam-notes"
-         :base-directory "./notes"
-         :publishing-directory "./public/notes"
-         :recursive t
-         :publishing-function org-html-publish-to-html
-         :headline-levels 4
-         :auto-sitemap t
-         :sitemap-filename "index.org"
-         :sitemap-title "Knowledge Base"
-         :sitemap-sort-files anti-chronologically
-         :html-link-home "/Org-Blog-Forge/notes/"
-         :html-link-use-abs-url t
-         ;; Convert org-id links to relative HTML links
-         :html-link-org-files-as-html t)
-        ("static"
-         :base-directory "./notes"
-         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf"
-         :publishing-directory "./public/notes"
-         :recursive t
-         :publishing-function org-publish-attachment)
-        ("website" :components ("org-roam-notes" "static"))))
+* local development
+#+begin_src bash
+  # Install dependencies and build
+  emacs --batch -l build.el -f org-publish-all
+
+  # Preview locally
+  firefox public/index.html
+
+  # Clean rebuild
+  rm -rf public/ .org-timestamps/
+  emacs --batch -l build.el -f org-publish-all
+#+end_src
+* Themes included
+#+begin_src bash :results output
+  tree ./org-html-themes/.
 #+end_src
 
-Since Org-roam uses id: links that won't work in static HTML:
+#+RESULTS:
+#+begin_example
+./org-html-themes/.
+├── bigblow_inline.theme
+├── comfy_inline.theme
+├── darksun.theme
+├── gray.theme
+├── imagine_light.theme
+├── latexcss.theme
+├── readtheorg_inline.theme
+├── rethink_inline.theme
+├── retro_dark.theme
+├── simple_gray.theme
+├── simple_inline.theme
+├── simple_whiteblue.theme
+├── simple_white.theme
+├── solarized_dark.theme
+├── solarized_light.theme
+├── stylish_white.theme
+└── white_clean.theme
 
-Use ox-html export hooks to convert id: links to relative HTML paths during publishing
+1 directory, 17 files
+#+end_example
+* Contributing
 
-Add custom export filter in build.el:
+** Fork the repo
 
-#+begin_src emacs-lisp
+** Create feature branch: git checkout -b feature/amazing-theme
 
-(defun my/org-id-to-html-link (link desc info)
-  (let* ((id (org-element-property :path link))
-         (file (org-id-find-id-file id)))
-    (when file
-      (let ((html-file (concat (file-name-sans-extension 
-                                (file-relative-name file 
-                                 (plist-get info :base-directory))) 
-                               ".html")))
-        (format "<a href=\"%s\">%s</a>" html-file (or desc "link"))))))
+** Commit changes: git commit -m 'Add amazing theme'
 
-(add-to-list 'org-export-filter-link-functions 'my/org-id-to-html-link)
-#+end_src
+** Push: git push origin feature/amazing-theme
 
+** Open Pull Request
+* License
 
-** add a bunch of org files.
-these will be the files that will be basically the pages in your github page. it can be anything, literally.
-** run =<C-c C-e P p>=
-this will populate the *publishing-directory* with final html files created from the *.org* files.
-#+begin_quote
-notice html files, sitemap.org, being created for the repo.
-#+end_quote
-** then push changes.
-** In Github change the repo settings to public and within settings left pane select pages
-** under pages =Build and deployment= section select Github actions
-** then select the main branch.
-- wait for some time.
-- refresh
-** you will get a link for the blog. copy paste it wherever you want to show it to the world.
+MIT License - see [[file:LICENSE.txt][LICENSE]] © 2026 Vipul
+
 * TODOS
 ** TODO Add RSS Functionality
 [[file:rss-to-be-added-study.org][rss adding learnings]]
 ** TODO check if [[https://github.com/protesilaos/denote][denote]] can be used for [[https://onlyvip.github.io/Org-Blog-Forge/][ORG Blog Forge]].
 ** TODO Suggestions
-** DONE make [[file:README.org][README]] just a landing page for all steps list.
-** DONE [[file:sample-readme.org][Sample org file linked here]]
-** DONE +make a seperate folder for the html files:+
-#+begin_quote
-this is not possible as github looks for html files in the root and in order to make it look in a seperate folder we need to change the default which would be somehting that i would keep in the scope of the user.
-#+end_quote
+** TODO make [[file:README.org][README]] just a landing page for all steps list.
+** DONE [[file:notes/20260115215958-org_modern_test.org][org test file]]
+** DONE results are populated in the public folder.
+
 * references
 Thanks to
 ** [[https://github.com/jethrokuan][Jethro kuan]]
@@ -108,3 +216,8 @@ Thanks to
 ** [[https://github.com/minad/org-modern][minad for example.org file]]
 ** [[https://github.com/protesilaos][prot :)]]
 ** [[https://github.com/karthink][karthink]]
+** [[https://orgmode.org/][org mode]]
+** [[https://www.orgroam.com/][org roam]]
+
+
+
