@@ -3,6 +3,7 @@
 :END:
 #+title: org modern test
 #+setupfile: ../org-html-themes/gray.theme
+#+options: toc
 
 This example Org file demonstrates the Org elements,
 which are styled by =org-modern=.
