@@ -1,0 +1,77 @@
+/* index-style.css - Custom sitemap styling */
+body {
+    font-family: 'Roboto Slab', serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+#content {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    padding: 3rem;
+}
+
+.title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1rem 0;
+    padding: 1.2rem;
+    background: #f8f9fa;
+    border-left: 5px solid #3498db;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+ul li:hover {
+    background: #e8f4fd;
+    transform: translateX(8px);
+    box-shadow: 0 5px 15px rgba(52,152,219,0.2);
+}
+
+ul li a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: block;
+}
+
+ul li a:hover {
+    color: #3498db;
+}
+
+#org-div-home-and-up {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+    
+    #content {
+        padding: 1.5rem;
+    }
+    
+    .title {
+        font-size: 2rem;
+    }
+}

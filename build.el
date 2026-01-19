@@ -41,7 +41,8 @@
 	 :sitemap-filename "index.org"
 	 :sitemap-title "Knowledge Base"
 	 :sitemap-sort-files anti-chronologically
-	 :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/>"
+	 :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"index-style.css\"/>
+            <link rel=\"stylesheet\" type=\"text/css\" href=\"gray-theme.css\"/>"
 	 :html-head-include-default-style nil
 	 :html-link-org-files-as-html t
 	 :section-numbers nil
