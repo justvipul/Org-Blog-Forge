@@ -171,10 +171,6 @@ Place CSS/JS/images in repo [[file:][root]] or [[file:notes/][notes/]] - automat
 + Commit changes: git commit -m 'Add amazing theme'
 + Push: git push origin feature/amazing-theme
 + Open Pull Request
-* License
-
-MIT License - see [[file:LICENSE.txt][LICENSE]] © 2026 Vipul
-
 * TODOS
 - [ ] Add RSS Functionality
   [[file:rss-to-be-added-study.org][rss adding learnings]]
@@ -195,4 +191,8 @@ Thanks to
 ** [[https://www.orgroam.com/][org roam]]
 
 
+
+* License
+
+MIT License - see [[file:LICENSE.txt][LICENSE]] © 2026 Vipul
 
