@@ -1,0 +1,314 @@
+:PROPERTIES:
+:ID:       04b832c9-5612-4426-b044-ea3072823d7f
+:END:
+#+title: sales growth meeting 6th
+* Growth Meeting #6: Psychology of Influence (30 mins)
+:PROPERTIES:
+:CREATED:  [2025-12-17 Wed 08:46]
+:MEETING:  6th Growth Meeting - QUICK VERSION
+:THEME:    Reciprocity, Commitment, Scarcity (Cialdini)
+:DURATION: 30 minutes only
+:AUTHOR:   Chief Sales Coordinator
+:END:
+
+** INTRO (2 mins) ⏱️
+
+Three psychological principles that close JHAT PAT deals:
+- Reciprocity: Give first → Buyer reciprocates
+- Commitment: Stack small yeses → Buyer locked in
+- Scarcity: Limited time → Buyer acts NOW
+
+तीनों को combine करो = Deal done!
+
+---
+
+* SECTION 1: RECIPROCITY - The Mints (10 mins)
+:PROPERTIES:
+:TIME: 10 minutes
+:PRINCIPLE: Gift First → Buy Back Later
+:END:
+
+** The Story (1 min) 🍬
+
+Restaurant waiter:
+- First mint with bill → 3% tip increase
+- Second mint personally + "you're nice folks" → 23% tips! 📈
+
+Why? People reciprocate gifts. It's natural human behavior.
+
+---
+
+** HMC Sales Example (9 mins) 💪
+
+*** Situation
+- Product: Used HMC, 2018 model
+- Buyer: "Cash tight, future में देखेंगे"
+- Your goal: Convert "maybe" → "advance today"
+
+*** Step 1: First Mint - FREE Audit (Day 1-2)
+
+You call:
+
+#+BEGIN_QUOTE
+भैया, तुम्हारा current production setup का free audit दे दूँ?
+Spindle hours, changeover time, idle time – सब निकालूँ।
+30 mins, कोई charge नहीं।
+#+END_QUOTE
+
+What happens:
+- You study their 3-4 parts on current VMC
+- You calculate actual cycle times
+- You make rough ROI comparison: Old VMC vs New HMC
+
+*** Step 2: Second Mint - Personal Custom Plan (Day 3)
+
+After audit, you say:
+
+#+BEGIN_QUOTE
+देख, तुम serious काम कर रहे हो।
+तेरे 3 jobs को HMC पर shift करूँ तो:
+- Setup time 40% कम
+- Production capacity 20-25% extra
+- हर महीने ₹2-3L बचत
+
+मैं तेरे drawings के लिए custom calculation किया है।
+सिर्फ तेरे लिए, generic नहीं।
+#+END_QUOTE
+
+What buyer thinks:
+- "इन्होंने free में मेरा audit किया"
+- "मेरे exact parts पर calculation किया"
+- "मैं special हूँ, not just another lead"
+
+*** Step 3: Close (Day 4)
+
+You say:
+
+#+BEGIN_QUOTE
+तो एक छोटा step ले –
+2 लाख का token दे।
+HMC मैं तेरे नाम 15 दिन hold कर दूँ।
+नहीं लिया तो token adjust करके दूसरे machine में दूँगा।
+#+END_QUOTE
+
+Result: Advance ✅
+
+Why it worked:
+- You GAVE first (time, analysis, custom plan)
+- Buyer FELT indebted
+- Small token (2L) feels reasonable return for your investment
+
+---
+
+* SECTION 2: COMMITMENT - The Buttons (10 mins)
+:PROPERTIES:
+:TIME: 10 minutes
+:PRINCIPLE: Small Yes → Identity Shift → Big Yes
+:END:
+
+** The Story (1 min) 🔘
+
+Researchers gave people "I Will Help Cancer" button.
+They wore it casually, thought nothing.
+
+Later: Asked to volunteer.
+Result: 700% more volunteering + donations! 📈
+
+Why? Once they said "Yes" to button, they saw themselves as helpers.
+Future actions aligned with new identity.
+
+---
+
+** HMC Sales Example (9 mins) 💪
+
+*** Situation
+- Product: Used HMC, 400mm pallet
+- Buyer: "Soch ke bataaunga" (delaying forever)
+- Your goal: Convert delay → commitment → deal
+
+*** Button #1: 5-min Problem Quiz (Day 1)
+
+You call:
+
+#+BEGIN_QUOTE
+एक 5-min quiz करूँ?
+Biggest pain right now – delivery delay, rework, या setup time?
+#+END_QUOTE
+
+Buyer says YES (first commitment).
+He answers 4-5 quick questions.
+
+Identity shift: "मैं serious हूँ, अपनी problems solve करना चाहता हूँ"
+
+*** Button #2: 15-min HMC Demo (Day 2)
+
+You send video/WhatsApp:
+
+#+BEGIN_QUOTE
+तुम्हारे answers से लगता है HMC से
+जो 3 shifts में करते हो, वो 2 में कर सकते हो।
+15-min demo देखोगे?
+#+END_QUOTE
+
+Buyer says YES (second commitment).
+He invests time watching.
+
+Identity shift: "मैं HMC seriously evaluate कर रहा हूँ"
+
+*** Button #3: Site Visit (Day 3)
+
+You call:
+
+#+BEGIN_QUOTE
+Demo अच्छा लगा न?
+Friday 3 PM को warehouse में live machine चलाकर दिखाऊँ?
+#+END_QUOTE
+
+Buyer says YES (third commitment).
+He blocks calendar.
+
+Identity shift: "मैं buyer हूँ, not just browser"
+
+*** Button #4: Advance Payment (Day 4)
+
+At warehouse, end of visit:
+
+#+BEGIN_QUOTE
+देख, तूने:
+- अपनी problems share की
+- Demo देखा
+- Machine physically देख लिया
+
+एक छोटा step ले – 2L token दे।
+HMC मैं तेरे नाम 15 दिन hold कर दूँ।
+#+END_QUOTE
+
+Buyer thinks:
+
+#+BEGIN_QUOTE
+मैं यहाँ तक आ गया।
+Backing out का मतलब मैं fake हूँ।
+Advance दे ही दूँ।
+#+END_QUOTE
+
+Result: Advance ✅
+
+Why it worked:
+- Each "Yes" is small (5 mins, 15 mins, 1 hour)
+- Each "Yes" = public commitment (he told you yes)
+- By Button #4, he's psychologically locked as "serious buyer"
+- Can't back out without losing face
+
+---
+
+* SECTION 3: SCARCITY - The Urgency (6 mins)
+:PROPERTIES:
+:TIME: 6 minutes
+:PRINCIPLE: Limited Stock → NOW or NEVER
+:END:
+
+** The Story (1 min) 💎
+
+Jewelry shop: Turquoise not selling.
+Manager accidentally doubles price (125 → 250).
+INSTANT SOLD OUT! 📈
+
+Why? Higher price = perceived quality.
+Limited stock + high price = MUST BUY NOW (FOMO).
+
+---
+
+** HMC Sales Example (5 mins) 💪
+
+*** Situation
+- Product: Only 1 used HMC available, low hours
+- Buyer: Saw machine once, still delaying
+- Your goal: Create urgency → advance today
+
+*** Step 1: Clarify Real Scarcity
+
+You say (Day 1):
+
+#+BEGIN_QUOTE
+सुन, ये HMC जैसी condition में साल में 1-2 बार ही मिलती है।
+Hours कम हैं, condition clean है।
+मेरे पास सिर्फ यही 1 piece है।
+#+END_QUOTE
+
+*** Step 2: Add Competition
+
+You say (Day 2):
+
+#+BEGIN_QUOTE
+देख, दो और लोग हैं जो रोज़ update पूछ रहे हैं।
+मैं अभी तक तेरे लिए hold करके बैठा हूँ।
+#+END_QUOTE
+
+*** Step 3: Add Deadline
+
+You say (Day 3):
+
+#+BEGIN_QUOTE
+आज शाम तक तू confirm कर।
+नहीं तो कल morning से दूसरे को priority दूँगा।
+#+END_QUOTE
+
+*** Step 4: Firm Pricing (No Desperation)
+
+You say (Day 3):
+
+#+BEGIN_QUOTE
+15.5 से कम नहीं करूँगा।
+नए में 19+ जाएगा।
+Condition rare है, deal genuine है।
+Nahi लेना, कोई problem नहीं।
+#+END_QUOTE
+
+Buyer's mind:
+- "सिर्फ 1 ही है" ✅ Scarcity
+- "दूसरे buyers भी हैं" ✅ Competition
+- "आज ही decide करना" ✅ Urgency
+- "He's not desperate" ✅ Confidence = quality signal
+
+Result: "2L advance करता हूँ, HMC hold कर दे!" ✅
+
+Why it worked:
+- Real scarcity (actually 1 machine)
+- Real competition (actually multiple inquiries)
+- Real deadline (actually moving to next buyer)
+- Confident pricing = this is NOT desperate seller
+
+---
+
+* CONCLUSION (2 mins) 🎯
+
+** The Magic Formula
+
+| Principle   | What Buyer Thinks                          |
+|-------------+--------------------------------------------|
+| Reciprocity | "वह invest कर रहे हैं, मुझे भी करना चाहिए" |
+| Commitment  | "मैं यहाँ तक आ गया, backing out awkward है" |
+| Scarcity    | "अब या कभी नहीं"                         |
+
+तीनों को combine करो = JHAT PAT DEAL DONE!
+
+---
+
+** This Week's Action (Pick 1 Machine)
+
+| Day | Action                           | Principle                |
+|-----+----------------------------------+--------------------------|
+| 1-2 | Free audit                       | Reciprocity Mint         |
+| 3   | Custom proposal                  | Reciprocity Trigger      |
+| 4   | Quiz                             | Commitment Button #1     |
+| 5   | Demo                             | Commitment Button #2     |
+| 6   | Site visit                       | Commitment Button #3     |
+| 7   | Scarcity pressure + Advance      | Button #4 + FOMO         |
+
+Result Target: Advance payment locked ✅
+
+---
+
+:JHAT PAT PATAPAT - डील खिशे में!:
+
+

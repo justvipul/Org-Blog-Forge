@@ -1,0 +1,50 @@
+:PROPERTIES:
+:ID:       7f86fd80-c18f-41b9-811f-a3e53bd38b29
+:END:
+#+title: sales growth meeting 3rd
+* Knowing What You Don't Know (KYDK) And Getting The Bare Minimum (GTBM) Best Detail
+Be smart to identify knowledge gaps and fill them optimally
+
+** Introduction
+   - Importance of recognizing "unknown unknowns"
+   - Why attention to detail & product knowledge matter in sales
+   - Quick context: diverse complex used machinery, no technical background still sales can close.
+
+** Understanding Your Knowledge Gaps
+   - What you don't know vs what you think you know
+   - Identifying critical unknowns affecting immediate tasks (sales calls, deal negotiation calls, visits, handovers)
+   - Prioritize knowledge needs by impact on problem solving & closing deals
+
+** How To Get The Bare Minimum Best Detail
+   - Leverage team leader expertise effectively (ask targeted questions, take help only when truly necessary, until then be the authority)
+   - ask the right bare minimum questions to the right stakeholder to GTBM
+
+** Applying Information Smartly To Current Problems
+   - Quick assimilation & summarization of all available details.
+   - Build checklist or cheat sheet for frequent sales points & objections
+   - be attentive listen, watch, learn what others are doing.
+
+** Developing Sales Competence & Soft Skills
+   - Focus on empathy: listening more, asking right questions
+   - Building rapport & trust quickly
+   - Negotiation techniques to close deals (understand needs, offer solutions)
+   - Handling objections calmly with a solutions mindset
+
+** Boosting Technological Competence
+   - Basic shortcuts and tech tools for efficiency (WhatsApp, Google Lens, Evernote)
+   - Using tech to speed up product knowledge acquisition & sharing
+   - Encourage continuous learning culture in team
+   - Use WhatsApp productivity tips:
+     - Typing shortcuts: text replacement, voice in keyboard to type faster, using the control key for easy word manipulations faster.
+
+** Hierarchy Of Problem Solving Based On Details Known
+   - Tier 1: Solving basic customer queries using existing knowledge + cheat sheets
+   - Tier 2: Handling technical objections by quick, accurate detail retrieval, confirmal with owners, noting them
+   - Tier 3: having complete technical knowledge, having the best customer relations, planning way ahead considering all possible and tail events and to safeguard events accordingly. optimal thinking and usage of all available resources.
+   - Importance of escalating intelligently & timely communication
+
+** take fast decisions based on the current set of available set of information. and keep on adapting as the situation unfolds and gives more details to the current problem.
+- be ready to fail in taking such decision.
+- "Wait like a cat, silent and patient; strike like a cheetah, fast and precise."
+
+
