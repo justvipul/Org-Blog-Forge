@@ -5,11 +5,15 @@
 #+setupfile: ../org-html-themes/readtheorg_inline.theme
 * All notes here
 ** [[id:bfc29a22-c97c-4b56-8bbd-d1af23c89659][linux tips]] :linux:
+*** [[id:f3fd1cc3-d370-47cc-8d05-f47c1731bfc0][zathura imp keys]]
 ** [[id:e89eef71-5175-46cb-88b5-b50f1ff95c8d][org mode]] :org:
-** [[id:28de0396-9d3a-4129-893b-5ae73629ecb3][org mode themes]] :themes:
+*** [[id:7a2c6f73-13c2-4abc-a1f0-bac9200c6c8c][basics and learnings]]
+*** [[id:9e9868f3-d9c9-487c-b2f6-7aea3509c5a4][org modern test]]
+*** [[id:28de0396-9d3a-4129-893b-5ae73629ecb3][org mode themes]] :themes:
 * ALL presentations :ppt:
 ** RGM
 *** [[id:7f86fd80-c18f-41b9-811f-a3e53bd38b29][sales growth meeting 3rd]] :sales:rgm:
 *** [[id:7ec2da76-8d8b-4988-96fd-6830785bf804][sales growth meeting 4th]] :sales:rgm:
 *** [[id:04b832c9-5612-4426-b044-ea3072823d7f][sales growth meeting 6th]] :sales:rgm:
 *** [[id:0d16258a-47ab-410b-9a47-2962f839fd84][sales growth meeting 8th]] :sales:rgm:
+* [[id:e12a8af5-311b-4c46-9481-a533fbcbed3c][all expenses lknow]]
