@@ -4,7 +4,6 @@
 #+title: linux tips
 #+setupfile: ../org-html-themes/gray.theme
 
-
 * Essential Commands
 
 ** File Operations
