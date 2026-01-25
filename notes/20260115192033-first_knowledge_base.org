@@ -16,4 +16,4 @@
 *** [[id:7ec2da76-8d8b-4988-96fd-6830785bf804][sales growth meeting 4th]] :sales:rgm:
 *** [[id:04b832c9-5612-4426-b044-ea3072823d7f][sales growth meeting 6th]] :sales:rgm:
 *** [[id:0d16258a-47ab-410b-9a47-2962f839fd84][sales growth meeting 8th]] :sales:rgm:
-* [[id:e12a8af5-311b-4c46-9481-a533fbcbed3c][all expenses lknow]]
+
