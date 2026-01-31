@@ -4,23 +4,23 @@
 #+title: all treks details
 * to be edited 
 ** Kalsubai Peak – 29 Dec 2024
-- Region: Kalsubai–Harishchandragad Wildlife Sanctuary, Ahmednagar district.[web:3]
-- Height: 1646 m / 5400 ft (highest peak of Maharashtra).[web:3]
-- Grade: Moderate; long climb with iron ladders, suitable for fit beginners.[web:1][web:5]
-- Route: Standard Bari village route; fields → gradual slope → multiple iron ladders → summit temple plateau.[web:1][web:3]
-- Trek time: ~3–4 hrs ascent, 2–3 hrs descent; total 6–7 hrs with breaks.[web:3]
-- Access: Drive/bus to Bari from Nashik via Ghoti–Bhandardara side; paid parking in village.[web:3]
-- Best season: Oct–Feb for views; monsoon for clouds (more slippery).[web:5]
-- Water/food: Carry 2–3 L water; stalls with tea/poha often present in season, but don’t depend fully.[web:5]
-- Safety: Start pre-dawn for sunrise; ladders can jam on weekends; rock & metal are very slippery in rain.[web:1]
-- Fact: From the top you can see Harishchandragad, Ratangad and other major Sahyadri peaks on a clear day.[web:3]
+- Region: Kalsubai–Harishchandragad Wildlife Sanctuary, Ahmednagar district.
+- Height: 1646 m / 5400 ft (highest peak of Maharashtra).
+- Grade: Moderate; long climb with iron ladders, suitable for fit beginners.
+- Route: Standard Bari village route; fields → gradual slope → multiple iron ladders → summit temple plateau.
+- Trek time: ~3–4 hrs ascent, 2–3 hrs descent; total 6–7 hrs with breaks.
+- Access: Drive/bus to Bari from Nashik via Ghoti–Bhandardara side; paid parking in village.
+- Best season: Oct–Feb for views; monsoon for clouds (more slippery).
+- Water/food: Carry 2–3 L water; stalls with tea/poha often present in season, but don’t depend fully.
+- Safety: Start pre-dawn for sunrise; ladders can jam on weekends; rock & metal are very slippery in rain.
+- Fact: From the top you can see Harishchandragad, Ratangad and other major Sahyadri peaks on a clear day.
 - Quote: “Climbing Kalsubai doesn’t just raise your altitude, it quietly raises your standards for what you can do.”
 
 ** Dehergad (Bhorgad) Fort – 2025
-- Region: Near Nashik, in the Peth range of the Western Ghats.[web:6][web:15]
-- Height: ~1000 m / ~3297 ft (approx).[web:6]
-- Grade: Easy–Moderate; mostly forested trail with a final rocky section near the fort structures.[web:6]
-- Route: Forest entry → gentle jungle trail → a couple of steeper forested climbs → open ridge with views → ruined fort walls/structure.[web:6][web:10]
+- Region: Near Nashik, in the Peth range of the Western Ghats.[web:15]
+- Height: ~1000 m / ~3297 ft (approx).
+- Grade: Easy–Moderate; mostly forested trail with a final rocky section near the fort structures.
+- Route: Forest entry → gentle jungle trail → a couple of steeper forested climbs → open ridge with views → ruined fort walls/structure.[web:10]
 - Trek time: 2–3 hrs ascent, 1.5–2 hrs descent.
 - Access: From Nashik by road towards Peth region; local guidance is very helpful because of similar-looking forest tracks.[web:15]
 - Best season: Post-monsoon to winter; monsoon makes the forest lush but also more leech-prone and slippery.
@@ -162,4 +162,4 @@
 - History/fact: Ghalna’s multiple carved gateways, Persian inscription, mosque and large tanks reflect its layered history across Sultanate, Mughal and British periods.[web:10][web:14]
 - Personal note: This was part trek, part cultural event with “gadadhari” demonstrations, Shivaji-era martial vibes, and a strong sense of shared history.
 - Quote: “On Ghalna, every gateway feels like a checkpoint between centuries.”
-
+* [[id:8c3e6cad-40c4-49ff-a042-913a715289b0][kavnai trek 31 jan 2026]]
