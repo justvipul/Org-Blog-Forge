@@ -1,0 +1,109 @@
+:PROPERTIES:
+:ID:       d5c52ebd-667f-4226-b116-d3bf22840997
+:END:
+#+title: trek notes template
+#+
+TITLE: Trek Log - <TREK NAME>
+#+DATE:
+#+CATEGORY: Trek
+#+TAGS: :trek:outdoors:sahyadri:<region>:
+#+PROPERTY: LOCATION All Treks
+#+PROPERTY: RANGE <range>
+
+* Trek Overview
+- Trek Name: 
+- Region: 
+- Range: 
+- Base Village: 
+- Height from MSL (ft): 
+- Type:
+  - [ ] hill fort
+  - [ ] forest trail
+  - [ ] plateau
+- Difficulty Level:
+- [ ] easy
+- [ ] moderate
+- [ ] difficult
+- Best Season:
+- [ ] winter
+- [ ] summer
+- [ ] monsoon
+- Time taken to Climb [hrs]: 
+- Water Availability:
+- [ ] yes
+- [ ] no
+- Suitable For:
+- [ ] beginners
+- [ ] regular trekkers
+- [ ] families
+
+* Schedule & Companions
+- Date: 
+- Team Members: 
+- Wake-up Time: 
+- Left Home: 
+- Start Point / Meeting Place: 
+- Route Start Time: 
+- Return Time: 
+- Key Stops / Temples / Checkpoints:
+  - 
+  - 
+
+* Route Information
+- Route from Base City: 
+- Final Village Distance km: 
+- Public Transport Availability: 
+- Parking / Auto / Petrol: 
+
+* Historical / Mythological Background
+- Historical Importance:
+  - 
+- Legends / Myths:
+  - 
+- Nearby Heritage / Religious Sites:
+  - 
+
+* Key Landmarks & Attractions
+- Temples:
+  - 
+- Structures (Bastions, Caves, Gates, etc.):
+  - 
+- Viewpoints (Ranges / Dams visible):
+  - 
+- Not to Miss:
+  - 
+
+* Experience & Observations
+- Weather / Terrain:
+- Notable Sights:
+- Personal Experience:
+- Vibe / Mood of Place:
+- Tips for Future Trekkers:
+
+* Facilities & Amenities
+- Food / Water Availability:
+- Accommodation / Prasadam Timings:
+- Shops / Auto Repair / Petrol Info:
+- Guide Needed:
+- [ ] yes
+- [ ] no
+
+* Local Notes
+- Village Population / Details:
+- Major FoodCrops:
+- Local Culture / People:
+
+* Photos & Media
+- [ ] Add photos
+- [ ] Add route map (GPS screenshot)
+- [ ] Add group photo
+
+* Reflection
+- What I Loved Most:
+- What I’d Improve Next Time:
+- Recommend To:
+- Return Visit:
+- [ ] yes/no
+- [ ] (why?)
+
+
