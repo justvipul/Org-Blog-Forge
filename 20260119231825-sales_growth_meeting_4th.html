@@ -3,12 +3,510 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-01-31 Sat 08:43 -->
+<!-- 2026-01-31 Sat 09:07 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>sales growth meeting 4th</title>
 <meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="style.css"/>
+<style type="text/css">
+body {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.4;
+color: #33333f;
+}
+
+code {
+font-family: "Inconsolata", "monospace";
+font-size: 16px;
+}
+
+p>code, li>code {
+background-color: #eee;
+padding: 0.25em;
+}
+
+h1, h2, h3 {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+border-bottom: 1px solid #f0c;
+padding-bottom: 0.5em;
+font-size: 1.75em;
+}
+
+h3 {
+margin-top: 2em;
+font-size: 1.5em;
+}
+
+h4 {
+font-size: 1.25em;
+}
+
+h5 {
+font-size: 1em;
+}
+
+h2 code, h3 code, h4 code, h5 code, td code {
+font-family: inherit !important;
+font-size: inherit !important;
+}
+
+td code {
+font-weight: bold;
+}
+
+a:link, a:hover, a:visited {
+text-decoration: none;
+color: black;
+}
+
+a:link {
+background: #ff8;
+}
+
+a:visited {
+color: #666;
+background: #ffc;
+}
+
+a:link:hover,
+a:visited:hover {
+background: #ff0;
+}
+
+a[href^="http"] {
+background: #bff;
+}
+
+a[href^="http"]:visited {
+background: #dff;
+}
+
+a[href^="http"]:link:hover,
+a[href^="http"]:visited:hover {
+background: #0ff;
+}
+
+a[href^="http"]:after {
+content: "\21B3";
+background: white;
+padding-left: 0.2em;
+}
+
+#meta {
+margin-top: 2em;
+}
+
+#table-of-contents a:link,
+#table-of-contents a:visited {
+color: black;
+background: transparent;
+}
+
+#table-of-contents {
+line-height: 1.2;
+}
+#table-of-contents h2 {
+border-bottom: 0;
+}
+
+#table-of-contents ul {
+list-style: none;
+padding-left: 0.5em;
+font-weight: normal;
+}
+
+#table-of-contents div>ul>li {
+margin-top: 1em;
+font-weight: bold;
+}
+
+#table-of-contents .tag {
+display: none;
+}
+
+#table-of-contents .todo,
+#table-of-contents .done {
+font-size: 80%;
+}
+
+#table-of-contents ol>li {
+margin-top: 1em;
+}
+
+table {
+width: 100%;
+}
+
+table, th, td {
+border: 1px solid #666;
+}
+
+th, td {
+padding: 0.5em;
+text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+background-color: #eee;
+}
+
+img {
+max-width: 90%;
+}
+
+div.notice {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+}
+
+table + div.notice {
+margin-top: 2em;
+}
+
+div.notice a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.notice a[href^="http"]:after {
+background: transparent !important;
+}
+
+div.notice:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+}
+
+.notice-warning {
+background: #fcc;
+color: #600;
+}
+
+.notice-example {
+background: #def;
+color: #069;
+}
+
+.notice-info {
+background: #efe;
+color: #060;
+}
+
+.notice-warning a {
+color: #600;
+}
+
+.notice-example a {
+color: #069;
+}
+
+.notice-info a {
+color: #060;
+}
+
+div.notice-warning:before {
+content: "WARNING";
+background: #c99;
+color: #fcc;
+}
+
+div.notice-example:before {
+content: "EXAMPLE";
+background: #abc;
+color: #def;
+}
+
+div.notice-info:before {
+content: "INFO";
+background: #9c9;
+color: #efe;
+}
+
+/* things inside the #+BEGIN_NOTE...#+END_NOTE block */
+div.NOTE a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.NOTE {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+margin-top: 2em;
+background: #efe;
+color: #060;
+}
+
+div.NOTE:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+content: "NOTE";
+background: #9c9;
+color: #efe;
+}
+
+blockquote {
+padding: 0px 10px 0px 10px;
+border: 1px solid #ddd;
+background: #eee;
+box-shadow: 5px 5px 5px #eee;
+border-radius: 2px;
+line-height: 1.2em;
+}
+
+pre {
+font-family: "Inconsolata", "monospace";
+font-size: 100%;
+border: 0;
+box-shadow: none;
+overflow: auto;
+}
+
+pre.example:before {
+content: "EXAMPLE";
+display: block;
+border-bottom: 1px dotted;
+margin-bottom: 1em;
+}
+
+pre.example {
+background: #fec;
+color: #666;
+font-size: 0.85em;
+}
+
+pre {
+background-color: #f8f8f8;
+background-size: 8px 8px;
+background-image: linear-gradient(135deg, transparent 25%, rgba(0, 0, 0, 0.02) 25%, rgba(0, 0, 0, 0.02) 50%, transparent 50%, transparent 75%, rgba(0, 0, 0, 0.02) 75%, rgba(0, 0, 0, 0.02));
+}
+
+pre.src {
+padding: 0.5em;
+}
+
+pre.src:before {
+display: block;
+position: absolute;
+background-color: #ccccd0;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em;
+border-bottom-left-radius: 8px;
+border: 0;
+color: white;
+font-size: 80%;
+}
+
+pre.src-plantuml:before {
+content: "UML";
+}
+
+pre.src-javascript:before {
+content: "JS";
+}
+
+pre.src-clojure:before {
+content: "CLJ";
+}
+
+pre.src-c:before {
+content: "C";
+}
+
+pre.src-sh:before {
+content: "Shell";
+}
+
+pre.src-es:before {
+content: "ES";
+}
+
+span.org-string {
+color: #f94;
+}
+
+span.org-keyword {
+color: #c07;
+}
+
+span.org-variable-name {
+color: #f04;
+}
+
+span.org-clojure-keyword {
+color: #09f;
+}
+
+span.org-comment, span.org-comment-delimiter {
+color: #999;
+}
+
+span.org-rainbow-delimiters-depth-1, span.org-rainbow-delimiters-depth-5 {
+color: #666;
+}
+
+span.org-rainbow-delimiters-depth-2, span.org-rainbow-delimiters-depth-6 {
+color: #888;
+}
+
+span.org-rainbow-delimiters-depth-3, span.org-rainbow-delimiters-depth-7 {
+color: #aaa;
+}
+
+span.org-rainbow-delimiters-depth-4, span.org-rainbow-delimiters-depth-8 {
+color: #ccc;
+}
+
+div.figure {
+font-size: 0.85em;
+}
+
+.tag {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: normal;
+float: right;
+margin-top: 1em;
+background: transparent;
+}
+
+.tag span {
+background: #ccc;
+padding: 0 0.5em;
+border-radius: 0.2em;
+color: white;
+}
+
+.todo, .done {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-weight: normal;
+padding: 0 0.25em;
+border-radius: 0.2em;
+}
+
+.todo {
+background: #f04;
+color: white;
+}
+
+.done {
+background: #5f7;
+color: white;
+}
+
+@media screen {
+h1.title {
+text-align: left;
+margin: 0.5em 0 1em 0;
+}
+
+h2 {
+margin-top: 3em;
+}
+
+#table-of-contents {
+position: fixed;
+top: 0;
+left: 0;
+padding: 2em 0 2em 2em;
+width: 290px;
+height: 100vh;
+font-size: 11px;
+background: #eee;
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+#table-of-contents h2 {
+margin-top: 0;
+}
+
+#table-of-contents code {
+font-size: 12px;
+}
+
+div#content {
+margin-left: 320px;
+max-width: 1100px;
+}
+div#postamble {
+margin-left: 320px;
+max-width: 1100px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+html, body {
+font-size: 14px;
+}
+
+#table-of-contents {
+display: none;
+}
+
+h1.title {
+margin-left: 0%;
+}
+
+div#content {
+margin-left: 5%;
+max-width: 90%;
+}
+div#postamble {
+margin-left: 5%;
+max-width: 90%;
+}
+}
+
+@media print {
+
+body {
+color: black;
+}
+
+@page {
+margin: 25mm;
+}
+
+h2, h3 {
+page-break-before: always;
+margin-top: 0;
+}
+
+table {
+page-break-inside: avoid;
+}
+
+a:visited {
+color: black;
+background: #ff8;
+}
+
+a[href^="http"]:visited {
+background: #bff;
+}
+
+div.notice:before {
+display: none;
+}
+}
+</style>
 </head>
 <body>
 <div id="content" class="content">
@@ -17,48 +515,48 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org471221c">Growth Meeting #4: jhat pat pata pata pat | nahitar deal nahi yet parat. [Fast decision-making + strategic information gathering = successful closures]</a>
+<li><a href="#orgb9b002d">Growth Meeting #4: jhat pat pata pata pat | nahitar deal nahi yet parat. [Fast decision-making + strategic information gathering = successful closures]</a>
 <ul>
-<li><a href="#orgea3f935">Richard Turner's Life Story: Succeeding With Your Hand Dealt</a>
+<li><a href="#org6f4edee">Richard Turner's Life Story: Succeeding With Your Hand Dealt</a>
 <ul>
-<li><a href="#org5fe2926">Early Adversity (Age 9)</a></li>
-<li><a href="#orgf9095c7">The Turning Point (Age 13+)</a></li>
-<li><a href="#orgbf82225">The Philosophy: Winning With What You Have</a></li>
-<li><a href="#org90357d6">Turner's Career Achievements</a></li>
-<li><a href="#orgd9be534">Turner's Lesson for Sales Teams</a></li>
+<li><a href="#orgeb16ccd">Early Adversity (Age 9)</a></li>
+<li><a href="#org666b4d9">The Turning Point (Age 13+)</a></li>
+<li><a href="#org4e9947f">The Philosophy: Winning With What You Have</a></li>
+<li><a href="#org092ff32">Turner's Career Achievements</a></li>
+<li><a href="#orgfdd1d88">Turner's Lesson for Sales Teams</a></li>
 </ul>
 </li>
-<li><a href="#orga66ef6e">Application To Sales from richard tuner</a>
+<li><a href="#org7fcd848">Application To Sales from richard tuner</a>
 <ul>
-<li><a href="#org140ab43">For Each Team Member</a></li>
-<li><a href="#org8c9338c">For Closing Deals Faster</a></li>
-<li><a href="#orgf0b0dbb">For Sales Competence Growth</a></li>
+<li><a href="#org480b017">For Each Team Member</a></li>
+<li><a href="#org3eceb49">For Closing Deals Faster</a></li>
+<li><a href="#org9ffa55b">For Sales Competence Growth</a></li>
 </ul>
 </li>
-<li><a href="#org63b4e98">Summary &amp; Action Points for Team</a>
+<li><a href="#orgeeab542">Summary &amp; Action Points for Team</a>
 <ul>
-<li><a href="#org5fffb3c">Mindset Shifts Needed</a></li>
-<li><a href="#org7955026">Daily Actions</a></li>
+<li><a href="#org0d411a3">Mindset Shifts Needed</a></li>
+<li><a href="#org5ce45fc">Daily Actions</a></li>
 </ul>
 </li>
-<li><a href="#org6e1e102">References &amp; Inspiration</a></li>
-<li><a href="#org5298448">Closing Message</a></li>
+<li><a href="#org8708b68">References &amp; Inspiration</a></li>
+<li><a href="#orgbf0767d">Closing Message</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org471221c" class="outline-2">
-<h2 id="org471221c">Growth Meeting #4: jhat pat pata pata pat | nahitar deal nahi yet parat. [Fast decision-making + strategic information gathering = successful closures]</h2>
-<div class="outline-text-2" id="text-org471221c">
+<div id="outline-container-orgb9b002d" class="outline-2">
+<h2 id="orgb9b002d">Growth Meeting #4: jhat pat pata pata pat | nahitar deal nahi yet parat. [Fast decision-making + strategic information gathering = successful closures]</h2>
+<div class="outline-text-2" id="text-orgb9b002d">
 </div>
-<div id="outline-container-orgea3f935" class="outline-3">
-<h3 id="orgea3f935">Richard Turner's Life Story: Succeeding With Your Hand Dealt</h3>
-<div class="outline-text-3" id="text-orgea3f935">
+<div id="outline-container-org6f4edee" class="outline-3">
+<h3 id="org6f4edee">Richard Turner's Life Story: Succeeding With Your Hand Dealt</h3>
+<div class="outline-text-3" id="text-org6f4edee">
 </div>
-<div id="outline-container-org5fe2926" class="outline-4">
-<h4 id="org5fe2926">Early Adversity (Age 9)</h4>
-<div class="outline-text-4" id="text-org5fe2926">
+<div id="outline-container-orgeb16ccd" class="outline-4">
+<h4 id="orgeb16ccd">Early Adversity (Age 9)</h4>
+<div class="outline-text-4" id="text-orgeb16ccd">
 <ul class="org-ul">
 <li>Age 9: Scarlet fever destroyed retinas (macula completely destroyed)</li>
 <li>Vision deteriorated from 20/400 to essentially total blindness by adulthood</li>
@@ -67,9 +565,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgf9095c7" class="outline-4">
-<h4 id="orgf9095c7">The Turning Point (Age 13+)</h4>
-<div class="outline-text-4" id="text-orgf9095c7">
+<div id="outline-container-org666b4d9" class="outline-4">
+<h4 id="org666b4d9">The Turning Point (Age 13+)</h4>
+<div class="outline-text-4" id="text-org666b4d9">
 <ul class="org-ul">
 <li>Refused to learn Braille (rejected victim mentality)</li>
 <li>Took karate lessons alongside brother → earned 6th degree black belt</li>
@@ -81,9 +579,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgbf82225" class="outline-4">
-<h4 id="orgbf82225">The Philosophy: Winning With What You Have</h4>
-<div class="outline-text-4" id="text-orgbf82225">
+<div id="outline-container-org4e9947f" class="outline-4">
+<h4 id="org4e9947f">The Philosophy: Winning With What You Have</h4>
+<div class="outline-text-4" id="text-org4e9947f">
 <ul class="org-ul">
 <li>Turner's core belief: "Succeed with the hand that life dealt you"</li>
 <li>Not making excuses for blindness, but leveraging it as advantage</li>
@@ -94,9 +592,9 @@
 </div>
 </div>
 
-<div id="outline-container-org90357d6" class="outline-4">
-<h4 id="org90357d6">Turner's Career Achievements</h4>
-<div class="outline-text-4" id="text-org90357d6">
+<div id="outline-container-org092ff32" class="outline-4">
+<h4 id="org092ff32">Turner's Career Achievements</h4>
+<div class="outline-text-4" id="text-org092ff32">
 <ul class="org-ul">
 <li>Performed 2,190 consecutive days at Reuben E. Lee Riverboat</li>
 <li>4 years entertaining VIPs at Billy Bob's Fort Worth</li>
@@ -110,9 +608,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgd9be534" class="outline-4">
-<h4 id="orgd9be534">Turner's Lesson for Sales Teams</h4>
-<div class="outline-text-4" id="text-orgd9be534">
+<div id="outline-container-orgfdd1d88" class="outline-4">
+<h4 id="orgfdd1d88">Turner's Lesson for Sales Teams</h4>
+<div class="outline-text-4" id="text-orgfdd1d88">
 <ul class="org-ul">
 <li>"Know what you don't know" → Turner didn't know how to see, but mastered touch</li>
 <li>Asking for feedback → Learned from mentors (karate master, stuntman, theater coach)</li>
@@ -122,13 +620,13 @@
 </div>
 </div>
 
-<div id="outline-container-orga66ef6e" class="outline-3">
-<h3 id="orga66ef6e">Application To Sales from richard tuner</h3>
-<div class="outline-text-3" id="text-orga66ef6e">
+<div id="outline-container-org7fcd848" class="outline-3">
+<h3 id="org7fcd848">Application To Sales from richard tuner</h3>
+<div class="outline-text-3" id="text-org7fcd848">
 </div>
-<div id="outline-container-org140ab43" class="outline-4">
-<h4 id="org140ab43">For Each Team Member</h4>
-<div class="outline-text-4" id="text-org140ab43">
+<div id="outline-container-org480b017" class="outline-4">
+<h4 id="org480b017">For Each Team Member</h4>
+<div class="outline-text-4" id="text-org480b017">
 <ul class="org-ul">
 <li>Don't wait for perfect information; identify what you don't know first</li>
 <li>Ask direct questions to fill critical gaps quickly</li>
@@ -139,9 +637,9 @@
 </div>
 </div>
 
-<div id="outline-container-org8c9338c" class="outline-4">
-<h4 id="org8c9338c">For Closing Deals Faster</h4>
-<div class="outline-text-4" id="text-org8c9338c">
+<div id="outline-container-org3eceb49" class="outline-4">
+<h4 id="org3eceb49">For Closing Deals Faster</h4>
+<div class="outline-text-4" id="text-org3eceb49">
 <ul class="org-ul">
 <li>Question buyer's actual intent early (visit to buy vs visit to inspect)</li>
 <li>Reveal pricing strategy fast (don't drag negotiation)</li>
@@ -153,9 +651,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgf0b0dbb" class="outline-4">
-<h4 id="orgf0b0dbb">For Sales Competence Growth</h4>
-<div class="outline-text-4" id="text-orgf0b0dbb">
+<div id="outline-container-org9ffa55b" class="outline-4">
+<h4 id="org9ffa55b">For Sales Competence Growth</h4>
+<div class="outline-text-4" id="text-org9ffa55b">
 <ul class="org-ul">
 <li>Build cheat sheets for common machine specs (like technician would need)</li>
 <li>Learn 3-5 key selling points per machine model</li>
@@ -167,13 +665,13 @@
 </div>
 </div>
 
-<div id="outline-container-org63b4e98" class="outline-3">
-<h3 id="org63b4e98">Summary &amp; Action Points for Team</h3>
-<div class="outline-text-3" id="text-org63b4e98">
+<div id="outline-container-orgeeab542" class="outline-3">
+<h3 id="orgeeab542">Summary &amp; Action Points for Team</h3>
+<div class="outline-text-3" id="text-orgeeab542">
 </div>
-<div id="outline-container-org5fffb3c" class="outline-4">
-<h4 id="org5fffb3c">Mindset Shifts Needed</h4>
-<div class="outline-text-4" id="text-org5fffb3c">
+<div id="outline-container-org0d411a3" class="outline-4">
+<h4 id="org0d411a3">Mindset Shifts Needed</h4>
+<div class="outline-text-4" id="text-org0d411a3">
 <ul class="org-ul">
 <li>From: "I need to know everything before I act"</li>
 <li>To: "I'll know what I don't know, get bare minimum detail, then decide fast"</li>
@@ -187,9 +685,9 @@
 </div>
 </div>
 
-<div id="outline-container-org7955026" class="outline-4">
-<h4 id="org7955026">Daily Actions</h4>
-<div class="outline-text-4" id="text-org7955026">
+<div id="outline-container-org5ce45fc" class="outline-4">
+<h4 id="org5ce45fc">Daily Actions</h4>
+<div class="outline-text-4" id="text-org5ce45fc">
 <ul class="org-ul">
 <li>Ask: What don't I know about this buyer's real capacity?</li>
 <li>Get: all kind of deal making confirmation, timeline clarity, decision authority</li>
@@ -206,9 +704,9 @@ Study Richard Turner's approach: Test yourself, push boundaries, keep practicing
 </div>
 </div>
 
-<div id="outline-container-org6e1e102" class="outline-3">
-<h3 id="org6e1e102">References &amp; Inspiration</h3>
-<div class="outline-text-3" id="text-org6e1e102">
+<div id="outline-container-org8708b68" class="outline-3">
+<h3 id="org8708b68">References &amp; Inspiration</h3>
+<div class="outline-text-3" id="text-org8708b68">
 <ul class="org-ul">
 <li>Richard Turner (Magician): "Succeed with the hand that life dealt you" - documentary "The Magic Life of Richard Turner" - <a href="https://www.youtube.com/watch?v=F__DQ1ruYck&amp;pp=ygUUcmljaGFyZiB0dXJuZXIgZGVhbHQ%3D">https://www.youtube.com/watch?v=F__DQ1ruYck&amp;pp=ygUUcmljaGFyZiB0dXJuZXIgZGVhbHQ%3D</a></li>
 <li>Case Study: CNC Turning Machine Deal - Rs. 15.75 lakhs, closed successfully</li>
@@ -217,9 +715,9 @@ Study Richard Turner's approach: Test yourself, push boundaries, keep practicing
 </div>
 </div>
 
-<div id="outline-container-org5298448" class="outline-3">
-<h3 id="org5298448">Closing Message</h3>
-<div class="outline-text-3" id="text-org5298448">
+<div id="outline-container-orgbf0767d" class="outline-3">
+<h3 id="orgbf0767d">Closing Message</h3>
+<div class="outline-text-3" id="text-orgbf0767d">
 <ul class="org-ul">
 <li>You are not blind like Richard Turner, but you are often "blind" to buyer's real capacity &amp; intent</li>
 <li>Like Turner, use what you have: Your instinct, your questions, your decisiveness</li>
@@ -232,7 +730,7 @@ Study Richard Turner's approach: Test yourself, push boundaries, keep practicing
 </ul>
 
 
-<div id="org4139a41" class="figure">
+<div id="orgc9ef113" class="figure">
 <p><img src="brain-levels-sales.jpg" alt="brain-levels-sales.jpg" />
 </p>
 </div>

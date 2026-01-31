@@ -3,12 +3,510 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-01-31 Sat 08:42 -->
+<!-- 2026-01-31 Sat 09:06 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>sales growth meeting 8th</title>
 <meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="style.css"/>
+<style type="text/css">
+body {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.4;
+color: #33333f;
+}
+
+code {
+font-family: "Inconsolata", "monospace";
+font-size: 16px;
+}
+
+p>code, li>code {
+background-color: #eee;
+padding: 0.25em;
+}
+
+h1, h2, h3 {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+border-bottom: 1px solid #f0c;
+padding-bottom: 0.5em;
+font-size: 1.75em;
+}
+
+h3 {
+margin-top: 2em;
+font-size: 1.5em;
+}
+
+h4 {
+font-size: 1.25em;
+}
+
+h5 {
+font-size: 1em;
+}
+
+h2 code, h3 code, h4 code, h5 code, td code {
+font-family: inherit !important;
+font-size: inherit !important;
+}
+
+td code {
+font-weight: bold;
+}
+
+a:link, a:hover, a:visited {
+text-decoration: none;
+color: black;
+}
+
+a:link {
+background: #ff8;
+}
+
+a:visited {
+color: #666;
+background: #ffc;
+}
+
+a:link:hover,
+a:visited:hover {
+background: #ff0;
+}
+
+a[href^="http"] {
+background: #bff;
+}
+
+a[href^="http"]:visited {
+background: #dff;
+}
+
+a[href^="http"]:link:hover,
+a[href^="http"]:visited:hover {
+background: #0ff;
+}
+
+a[href^="http"]:after {
+content: "\21B3";
+background: white;
+padding-left: 0.2em;
+}
+
+#meta {
+margin-top: 2em;
+}
+
+#table-of-contents a:link,
+#table-of-contents a:visited {
+color: black;
+background: transparent;
+}
+
+#table-of-contents {
+line-height: 1.2;
+}
+#table-of-contents h2 {
+border-bottom: 0;
+}
+
+#table-of-contents ul {
+list-style: none;
+padding-left: 0.5em;
+font-weight: normal;
+}
+
+#table-of-contents div>ul>li {
+margin-top: 1em;
+font-weight: bold;
+}
+
+#table-of-contents .tag {
+display: none;
+}
+
+#table-of-contents .todo,
+#table-of-contents .done {
+font-size: 80%;
+}
+
+#table-of-contents ol>li {
+margin-top: 1em;
+}
+
+table {
+width: 100%;
+}
+
+table, th, td {
+border: 1px solid #666;
+}
+
+th, td {
+padding: 0.5em;
+text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+background-color: #eee;
+}
+
+img {
+max-width: 90%;
+}
+
+div.notice {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+}
+
+table + div.notice {
+margin-top: 2em;
+}
+
+div.notice a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.notice a[href^="http"]:after {
+background: transparent !important;
+}
+
+div.notice:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+}
+
+.notice-warning {
+background: #fcc;
+color: #600;
+}
+
+.notice-example {
+background: #def;
+color: #069;
+}
+
+.notice-info {
+background: #efe;
+color: #060;
+}
+
+.notice-warning a {
+color: #600;
+}
+
+.notice-example a {
+color: #069;
+}
+
+.notice-info a {
+color: #060;
+}
+
+div.notice-warning:before {
+content: "WARNING";
+background: #c99;
+color: #fcc;
+}
+
+div.notice-example:before {
+content: "EXAMPLE";
+background: #abc;
+color: #def;
+}
+
+div.notice-info:before {
+content: "INFO";
+background: #9c9;
+color: #efe;
+}
+
+/* things inside the #+BEGIN_NOTE...#+END_NOTE block */
+div.NOTE a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.NOTE {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+margin-top: 2em;
+background: #efe;
+color: #060;
+}
+
+div.NOTE:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+content: "NOTE";
+background: #9c9;
+color: #efe;
+}
+
+blockquote {
+padding: 0px 10px 0px 10px;
+border: 1px solid #ddd;
+background: #eee;
+box-shadow: 5px 5px 5px #eee;
+border-radius: 2px;
+line-height: 1.2em;
+}
+
+pre {
+font-family: "Inconsolata", "monospace";
+font-size: 100%;
+border: 0;
+box-shadow: none;
+overflow: auto;
+}
+
+pre.example:before {
+content: "EXAMPLE";
+display: block;
+border-bottom: 1px dotted;
+margin-bottom: 1em;
+}
+
+pre.example {
+background: #fec;
+color: #666;
+font-size: 0.85em;
+}
+
+pre {
+background-color: #f8f8f8;
+background-size: 8px 8px;
+background-image: linear-gradient(135deg, transparent 25%, rgba(0, 0, 0, 0.02) 25%, rgba(0, 0, 0, 0.02) 50%, transparent 50%, transparent 75%, rgba(0, 0, 0, 0.02) 75%, rgba(0, 0, 0, 0.02));
+}
+
+pre.src {
+padding: 0.5em;
+}
+
+pre.src:before {
+display: block;
+position: absolute;
+background-color: #ccccd0;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em;
+border-bottom-left-radius: 8px;
+border: 0;
+color: white;
+font-size: 80%;
+}
+
+pre.src-plantuml:before {
+content: "UML";
+}
+
+pre.src-javascript:before {
+content: "JS";
+}
+
+pre.src-clojure:before {
+content: "CLJ";
+}
+
+pre.src-c:before {
+content: "C";
+}
+
+pre.src-sh:before {
+content: "Shell";
+}
+
+pre.src-es:before {
+content: "ES";
+}
+
+span.org-string {
+color: #f94;
+}
+
+span.org-keyword {
+color: #c07;
+}
+
+span.org-variable-name {
+color: #f04;
+}
+
+span.org-clojure-keyword {
+color: #09f;
+}
+
+span.org-comment, span.org-comment-delimiter {
+color: #999;
+}
+
+span.org-rainbow-delimiters-depth-1, span.org-rainbow-delimiters-depth-5 {
+color: #666;
+}
+
+span.org-rainbow-delimiters-depth-2, span.org-rainbow-delimiters-depth-6 {
+color: #888;
+}
+
+span.org-rainbow-delimiters-depth-3, span.org-rainbow-delimiters-depth-7 {
+color: #aaa;
+}
+
+span.org-rainbow-delimiters-depth-4, span.org-rainbow-delimiters-depth-8 {
+color: #ccc;
+}
+
+div.figure {
+font-size: 0.85em;
+}
+
+.tag {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: normal;
+float: right;
+margin-top: 1em;
+background: transparent;
+}
+
+.tag span {
+background: #ccc;
+padding: 0 0.5em;
+border-radius: 0.2em;
+color: white;
+}
+
+.todo, .done {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-weight: normal;
+padding: 0 0.25em;
+border-radius: 0.2em;
+}
+
+.todo {
+background: #f04;
+color: white;
+}
+
+.done {
+background: #5f7;
+color: white;
+}
+
+@media screen {
+h1.title {
+text-align: left;
+margin: 0.5em 0 1em 0;
+}
+
+h2 {
+margin-top: 3em;
+}
+
+#table-of-contents {
+position: fixed;
+top: 0;
+left: 0;
+padding: 2em 0 2em 2em;
+width: 290px;
+height: 100vh;
+font-size: 11px;
+background: #eee;
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+#table-of-contents h2 {
+margin-top: 0;
+}
+
+#table-of-contents code {
+font-size: 12px;
+}
+
+div#content {
+margin-left: 320px;
+max-width: 1100px;
+}
+div#postamble {
+margin-left: 320px;
+max-width: 1100px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+html, body {
+font-size: 14px;
+}
+
+#table-of-contents {
+display: none;
+}
+
+h1.title {
+margin-left: 0%;
+}
+
+div#content {
+margin-left: 5%;
+max-width: 90%;
+}
+div#postamble {
+margin-left: 5%;
+max-width: 90%;
+}
+}
+
+@media print {
+
+body {
+color: black;
+}
+
+@page {
+margin: 25mm;
+}
+
+h2, h3 {
+page-break-before: always;
+margin-top: 0;
+}
+
+table {
+page-break-inside: avoid;
+}
+
+a:visited {
+color: black;
+background: #ff8;
+}
+
+a[href^="http"]:visited {
+background: #bff;
+}
+
+div.notice:before {
+display: none;
+}
+}
+</style>
 </head>
 <body>
 <div id="content" class="content">
@@ -17,71 +515,71 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org856cbf1">Growth Meeting #8: Pain Tolerance, Failure Acceptance, Good vs Gobar - EXPANDED</a>
+<li><a href="#org6d95203">Growth Meeting #8: Pain Tolerance, Failure Acceptance, Good vs Gobar - EXPANDED</a>
 <ul>
-<li><a href="#org2b88032">INTRO (3 mins) ⏱️</a></li>
+<li><a href="#org11db47a">INTRO (3 mins) ⏱️</a></li>
 </ul>
 </li>
-<li><a href="#orgc5eaf86">SECTION 1: GOBAR IS CIVILIZATION'S FOUNDATION (5 mins)</a>
+<li><a href="#org9c0bac9">SECTION 1: GOBAR IS CIVILIZATION'S FOUNDATION (5 mins)</a>
 <ul>
-<li><a href="#orgfd56894">The Agricultural Story (2 mins)</a></li>
-<li><a href="#org34ad0df">Layer Cake Perspective (3 mins)</a></li>
+<li><a href="#org05d382a">The Agricultural Story (2 mins)</a></li>
+<li><a href="#orgd795986">Layer Cake Perspective (3 mins)</a></li>
 </ul>
 </li>
-<li><a href="#org9f98c1c">SECTION 2: VANVAS - EPIC EXILE FOR REAL LEARNING (6 mins)</a>
+<li><a href="#org26b1479">SECTION 2: VANVAS - EPIC EXILE FOR REAL LEARNING (6 mins)</a>
 <ul>
-<li><a href="#orgeb217d9">Mahabharata Vanvas Stories (3 mins)</a></li>
-<li><a href="#org8dc6ff7">Your Vanvas Reality (3 mins)</a></li>
+<li><a href="#orgfd2b3f5">Mahabharata Vanvas Stories (3 mins)</a></li>
+<li><a href="#org9fb5e60">Your Vanvas Reality (3 mins)</a></li>
 </ul>
 </li>
-<li><a href="#org9d2e0d8">SECTION 3: SURVIVORSHIP BIAS + STOCKDALE PARADOX (6 mins)</a>
+<li><a href="#org7a494eb">SECTION 3: SURVIVORSHIP BIAS + STOCKDALE PARADOX (6 mins)</a>
 <ul>
-<li><a href="#orgc7317cc">Survivorship Bias Trap (2 mins)</a></li>
-<li><a href="#org658bb99">Stockdale Paradox (4 mins)</a></li>
+<li><a href="#orgb44b0e4">Survivorship Bias Trap (2 mins)</a></li>
+<li><a href="#org4f2cb63">Stockdale Paradox (4 mins)</a></li>
 </ul>
 </li>
-<li><a href="#org815c242">SECTION 4: FEAR IS EVOLUTIONARY GIFT (4 mins)</a>
+<li><a href="#org2b57425">SECTION 4: FEAR IS EVOLUTIONARY GIFT (4 mins)</a>
 <ul>
-<li><a href="#orge31f465">Fear as Feature, Not Bug (2 mins)</a></li>
-<li><a href="#org132709f">Managing Fear (2 mins)</a></li>
+<li><a href="#org6307338">Fear as Feature, Not Bug (2 mins)</a></li>
+<li><a href="#orgc0ae604">Managing Fear (2 mins)</a></li>
 </ul>
 </li>
-<li><a href="#org601dd12">SECTION 5: INTERNAL vs EXTERNAL SCORECARD (5 mins)</a>
+<li><a href="#orgfb25704">SECTION 5: INTERNAL vs EXTERNAL SCORECARD (5 mins)</a>
 <ul>
-<li><a href="#orgd7d974a">External Scorecard Trap (2 mins)</a></li>
-<li><a href="#org88c105a">Internal Scorecard Magic (3 mins)</a></li>
+<li><a href="#org6079cc2">External Scorecard Trap (2 mins)</a></li>
+<li><a href="#org6aa8681">Internal Scorecard Magic (3 mins)</a></li>
 </ul>
 </li>
-<li><a href="#org593293a">SECTION 6: BRAHMASTRA - 5 BRAIN PUSHUPS (5 mins)</a>
+<li><a href="#orgfcc9a80">SECTION 6: BRAHMASTRA - 5 BRAIN PUSHUPS (5 mins)</a>
 <ul>
-<li><a href="#orgaae9a32">The Five Tools (3 mins)</a></li>
-<li><a href="#org0a6a770">Last 2 + Bonus (2 mins)</a></li>
+<li><a href="#org47a7a88">The Five Tools (3 mins)</a></li>
+<li><a href="#orgcdc798a">Last 2 + Bonus (2 mins)</a></li>
 </ul>
 </li>
-<li><a href="#orgafb0f56">SECTION 7: NIRVANA + RESILIENCE MYTH (4 mins)</a>
+<li><a href="#orge35c40c">SECTION 7: NIRVANA + RESILIENCE MYTH (4 mins)</a>
 <ul>
-<li><a href="#org9648dc3">Nirvana in Gobar Reflection (2 mins)</a></li>
-<li><a href="#orgbd60e16">Resilience Myth (2 mins)</a></li>
+<li><a href="#org273f0f1">Nirvana in Gobar Reflection (2 mins)</a></li>
+<li><a href="#org0da41d0">Resilience Myth (2 mins)</a></li>
 </ul>
 </li>
-<li><a href="#org8f2cce4">SECTION 8: CLARITY THROUGH GOBAR (3 mins)</a></li>
-<li><a href="#orgab2893c">CONCLUSION (2 mins) 🎯</a>
+<li><a href="#orgd844094">SECTION 8: CLARITY THROUGH GOBAR (3 mins)</a></li>
+<li><a href="#org7b039bc">CONCLUSION (2 mins) 🎯</a>
 <ul>
-<li><a href="#org61534a0">The Framework</a></li>
-<li><a href="#orgf074e81">This Week's Challenge</a></li>
-<li><a href="#org5126eba">Final Truth</a></li>
+<li><a href="#org2abb3ab">The Framework</a></li>
+<li><a href="#org9fdb0e2">This Week's Challenge</a></li>
+<li><a href="#orgce016e2">Final Truth</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org856cbf1" class="outline-2">
-<h2 id="org856cbf1">Growth Meeting #8: Pain Tolerance, Failure Acceptance, Good vs Gobar - EXPANDED</h2>
-<div class="outline-text-2" id="text-org856cbf1">
+<div id="outline-container-org6d95203" class="outline-2">
+<h2 id="org6d95203">Growth Meeting #8: Pain Tolerance, Failure Acceptance, Good vs Gobar - EXPANDED</h2>
+<div class="outline-text-2" id="text-org6d95203">
 </div>
-<div id="outline-container-org2b88032" class="outline-3">
-<h3 id="org2b88032">INTRO (3 mins) ⏱️</h3>
-<div class="outline-text-3" id="text-org2b88032">
+<div id="outline-container-org11db47a" class="outline-3">
+<h3 id="org11db47a">INTRO (3 mins) ⏱️</h3>
+<div class="outline-text-3" id="text-org11db47a">
 <p>
 Gobar is fertilizer for growth, not failure—every epic hero's Vanvas (exile) taught real learning.
 I've spent 3.5 years in Gobar thinking it was "the end," but it's the curve before your next peak.
@@ -95,14 +593,14 @@ Good + Gobar are inseparable like Yin-Yang; without Gobar, no next level, no far
 </div>
 </div>
 
-<div id="outline-container-orgc5eaf86" class="outline-2">
-<h2 id="orgc5eaf86">SECTION 1: GOBAR IS CIVILIZATION'S FOUNDATION (5 mins)</h2>
-<div class="outline-text-2" id="text-orgc5eaf86">
+<div id="outline-container-org9c0bac9" class="outline-2">
+<h2 id="org9c0bac9">SECTION 1: GOBAR IS CIVILIZATION'S FOUNDATION (5 mins)</h2>
+<div class="outline-text-2" id="text-org9c0bac9">
 </div>
 
-<div id="outline-container-orgfd56894" class="outline-3">
-<h3 id="orgfd56894">The Agricultural Story (2 mins)</h3>
-<div class="outline-text-3" id="text-orgfd56894">
+<div id="outline-container-org05d382a" class="outline-3">
+<h3 id="org05d382a">The Agricultural Story (2 mins)</h3>
+<div class="outline-text-3" id="text-org05d382a">
 <p>
 Hunter-gatherers became farmers using Gobar as first fertilizer—created surplus, pottery, accounting.
 Gobar was first animal waste enabling seed growth; civilization began from fertilizer, not flowers.
@@ -115,9 +613,9 @@ Without Gobar, no farming stability, no cities, no surplus—life starts messy, 
 </div>
 </div>
 
-<div id="outline-container-org34ad0df" class="outline-3">
-<h3 id="org34ad0df">Layer Cake Perspective (3 mins)</h3>
-<div class="outline-text-3" id="text-org34ad0df">
+<div id="outline-container-orgd795986" class="outline-3">
+<h3 id="orgd795986">Layer Cake Perspective (3 mins)</h3>
+<div class="outline-text-3" id="text-orgd795986">
 <p>
 Feeling lowest? Go to government hospital/child cancer ward—you're in top layer, others deeper.
 Government hospital shows daldal (marsh) has layers; you're above millions, just need 1 step up.
@@ -131,14 +629,14 @@ Famous temples (Vaishno Devi, Kedarnath) require naked feet pilgrimage—pain te
 </div>
 </div>
 
-<div id="outline-container-org9f98c1c" class="outline-2">
-<h2 id="org9f98c1c">SECTION 2: VANVAS - EPIC EXILE FOR REAL LEARNING (6 mins)</h2>
-<div class="outline-text-2" id="text-org9f98c1c">
+<div id="outline-container-org26b1479" class="outline-2">
+<h2 id="org26b1479">SECTION 2: VANVAS - EPIC EXILE FOR REAL LEARNING (6 mins)</h2>
+<div class="outline-text-2" id="text-org26b1479">
 </div>
 
-<div id="outline-container-orgeb217d9" class="outline-3">
-<h3 id="orgeb217d9">Mahabharata Vanvas Stories (3 mins)</h3>
-<div class="outline-text-3" id="text-orgeb217d9">
+<div id="outline-container-orgfd2b3f5" class="outline-3">
+<h3 id="orgfd2b3f5">Mahabharata Vanvas Stories (3 mins)</h3>
+<div class="outline-text-3" id="text-orgfd2b3f5">
 <p>
 Pandavas: 12+1 year exile—Bheem (strongest) couldn't lift Bandapunch, Draupadi worked as daasi.
 Arjun (women-loved warrior) disguised as eunuch, Yudhishthir (ethical king) begged for food.
@@ -151,9 +649,9 @@ Vanvas necessary: kings become commoners, warriors become servants—Maya (statu
 </div>
 </div>
 
-<div id="outline-container-org8dc6ff7" class="outline-3">
-<h3 id="org8dc6ff7">Your Vanvas Reality (3 mins)</h3>
-<div class="outline-text-3" id="text-org8dc6ff7">
+<div id="outline-container-org9fb5e60" class="outline-3">
+<h3 id="org9fb5e60">Your Vanvas Reality (3 mins)</h3>
+<div class="outline-text-3" id="text-org9fb5e60">
 <p>
 Corporate peak → Gobar (house sold, relatives who envied now mock)—happiest moments born from past Gobar.
 Best friend, girlfriend/boyfriend admissions came from Gobar moments; look back now = Nirvana.
@@ -167,14 +665,14 @@ Peak requires descent; good corporate life envied at reunions becomes "thu thu k
 </div>
 </div>
 
-<div id="outline-container-org9d2e0d8" class="outline-2">
-<h2 id="org9d2e0d8">SECTION 3: SURVIVORSHIP BIAS + STOCKDALE PARADOX (6 mins)</h2>
-<div class="outline-text-2" id="text-org9d2e0d8">
+<div id="outline-container-org7a494eb" class="outline-2">
+<h2 id="org7a494eb">SECTION 3: SURVIVORSHIP BIAS + STOCKDALE PARADOX (6 mins)</h2>
+<div class="outline-text-2" id="text-org7a494eb">
 </div>
 
-<div id="outline-container-orgc7317cc" class="outline-3">
-<h3 id="orgc7317cc">Survivorship Bias Trap (2 mins)</h3>
-<div class="outline-text-3" id="text-orgc7317cc">
+<div id="outline-container-orgb44b0e4" class="outline-3">
+<h3 id="orgb44b0e4">Survivorship Bias Trap (2 mins)</h3>
+<div class="outline-text-3" id="text-orgb44b0e4">
 <p>
 We study only survivors (Varun Mayya's Aeos 500 employees), ignore 99% failed startups.
 Survivorship bias = thinking "anyone can build Aeos," ignoring 99% who failed same way.
@@ -187,9 +685,9 @@ Varun Mayya: scaled opposite—cared when no one cared, built leaders as coordin
 </div>
 </div>
 
-<div id="outline-container-org658bb99" class="outline-3">
-<h3 id="org658bb99">Stockdale Paradox (4 mins)</h3>
-<div class="outline-text-3" id="text-org658bb99">
+<div id="outline-container-org4f2cb63" class="outline-3">
+<h3 id="org4f2cb63">Stockdale Paradox (4 mins)</h3>
+<div class="outline-text-3" id="text-org4f2cb63">
 <p>
 Admiral Stockdale survived Hanoi Hilton 7.5 years: unwavering faith you'll prevail + confront brutal reality.
 Christmas prisoners died (false deadlines); survivors had faith WITHOUT timelines.
@@ -203,14 +701,14 @@ Apply to Gobar: believe you'll win, don't set "by next month" deadline—just ke
 </div>
 </div>
 
-<div id="outline-container-org815c242" class="outline-2">
-<h2 id="org815c242">SECTION 4: FEAR IS EVOLUTIONARY GIFT (4 mins)</h2>
-<div class="outline-text-2" id="text-org815c242">
+<div id="outline-container-org2b57425" class="outline-2">
+<h2 id="org2b57425">SECTION 4: FEAR IS EVOLUTIONARY GIFT (4 mins)</h2>
+<div class="outline-text-2" id="text-org2b57425">
 </div>
 
-<div id="outline-container-orge31f465" class="outline-3">
-<h3 id="orge31f465">Fear as Feature, Not Bug (2 mins)</h3>
-<div class="outline-text-3" id="text-orge31f465">
+<div id="outline-container-org6307338" class="outline-3">
+<h3 id="org6307338">Fear as Feature, Not Bug (2 mins)</h3>
+<div class="outline-text-3" id="text-org6307338">
 <p>
 Fearless tribe died (dinosaur traps); fearful tribe planned, survived—we're fearful ancestors' descendants.
 Fear = early warning radar (canary in mines); instincts kept you alive—don't ignore.
@@ -223,9 +721,9 @@ Hero controls fear 5 minutes longer; it's biological like pain, not weakness to 
 </div>
 </div>
 
-<div id="outline-container-org132709f" class="outline-3">
-<h3 id="org132709f">Managing Fear (2 mins)</h3>
-<div class="outline-text-3" id="text-org132709f">
+<div id="outline-container-orgc0ae604" class="outline-3">
+<h3 id="orgc0ae604">Managing Fear (2 mins)</h3>
+<div class="outline-text-3" id="text-orgc0ae604">
 <p>
 Fear signals "nimittam" (something wrong); don't ignore, don't let overwhelm—assess reality.
 In Ranthambore hotel, rope-like shadow triggered snake fear—gift kept you safe.
@@ -239,14 +737,14 @@ Build strength: 100 brain pushups daily (reading, languages, math, diverse netwo
 </div>
 </div>
 
-<div id="outline-container-org601dd12" class="outline-2">
-<h2 id="org601dd12">SECTION 5: INTERNAL vs EXTERNAL SCORECARD (5 mins)</h2>
-<div class="outline-text-2" id="text-org601dd12">
+<div id="outline-container-orgfb25704" class="outline-2">
+<h2 id="orgfb25704">SECTION 5: INTERNAL vs EXTERNAL SCORECARD (5 mins)</h2>
+<div class="outline-text-2" id="text-orgfb25704">
 </div>
 
-<div id="outline-container-orgd7d974a" class="outline-3">
-<h3 id="orgd7d974a">External Scorecard Trap (2 mins)</h3>
-<div class="outline-text-3" id="text-orgd7d974a">
+<div id="outline-container-org6079cc2" class="outline-3">
+<h3 id="org6079cc2">External Scorecard Trap (2 mins)</h3>
+<div class="outline-text-3" id="text-org6079cc2">
 <p>
 Early life: External (IIT Delhi vs Kanpur, neighbors' approval)—31 flavors = FOMO, decision fatigue.
 Monk sells Ferrari, Ratan Tata cycles, peon in Rolls-Royce—status is Maya.
@@ -259,9 +757,9 @@ Dhyanam (deep work): remove noise (black/white phone, same clothes daily, deep f
 </div>
 </div>
 
-<div id="outline-container-org88c105a" class="outline-3">
-<h3 id="org88c105a">Internal Scorecard Magic (3 mins)</h3>
-<div class="outline-text-3" id="text-org88c105a">
+<div id="outline-container-org6aa8681" class="outline-3">
+<h3 id="org6aa8681">Internal Scorecard Magic (3 mins)</h3>
+<div class="outline-text-3" id="text-org6aa8681">
 <p>
 Liftman smiles 20 years (no validation needed); superficial beauty (4 hours) vs real (sleep/diet, years).
 Real motivation: genuine people don't need Instagram validation—they care about craft.
@@ -275,14 +773,14 @@ Varun Mayya scaled Aeos via leaders dropping coordination cost through inspirati
 </div>
 </div>
 
-<div id="outline-container-org593293a" class="outline-2">
-<h2 id="org593293a">SECTION 6: BRAHMASTRA - 5 BRAIN PUSHUPS (5 mins)</h2>
-<div class="outline-text-2" id="text-org593293a">
+<div id="outline-container-orgfcc9a80" class="outline-2">
+<h2 id="orgfcc9a80">SECTION 6: BRAHMASTRA - 5 BRAIN PUSHUPS (5 mins)</h2>
+<div class="outline-text-2" id="text-orgfcc9a80">
 </div>
 
-<div id="outline-container-orgaae9a32" class="outline-3">
-<h3 id="orgaae9a32">The Five Tools (3 mins)</h3>
-<div class="outline-text-3" id="text-orgaae9a32">
+<div id="outline-container-org47a7a88" class="outline-3">
+<h3 id="org47a7a88">The Five Tools (3 mins)</h3>
+<div class="outline-text-3" id="text-org47a7a88">
 <p>
 <b>Reading</b>: network effect (60 colors vs 2), cross-pollination of ideas.
 <b>Languages</b>: Marathi/Gujarati/Tamil = new brain angles, synapses increase.
@@ -295,9 +793,9 @@ Varun Mayya scaled Aeos via leaders dropping coordination cost through inspirati
 </div>
 </div>
 
-<div id="outline-container-org0a6a770" class="outline-3">
-<h3 id="org0a6a770">Last 2 + Bonus (2 mins)</h3>
-<div class="outline-text-3" id="text-org0a6a770">
+<div id="outline-container-orgcdc798a" class="outline-3">
+<h3 id="orgcdc798a">Last 2 + Bonus (2 mins)</h3>
+<div class="outline-text-3" id="text-orgcdc798a">
 <p>
 <b>Diverse Network</b>: socially/culturally/financially different people keep you grounded.
 <b>Service</b>: help without agenda = oxytocin (happiness hormone released).
@@ -311,14 +809,14 @@ Varun Mayya scaled Aeos via leaders dropping coordination cost through inspirati
 </div>
 </div>
 
-<div id="outline-container-orgafb0f56" class="outline-2">
-<h2 id="orgafb0f56">SECTION 7: NIRVANA + RESILIENCE MYTH (4 mins)</h2>
-<div class="outline-text-2" id="text-orgafb0f56">
+<div id="outline-container-orge35c40c" class="outline-2">
+<h2 id="orge35c40c">SECTION 7: NIRVANA + RESILIENCE MYTH (4 mins)</h2>
+<div class="outline-text-2" id="text-orge35c40c">
 </div>
 
-<div id="outline-container-org9648dc3" class="outline-3">
-<h3 id="org9648dc3">Nirvana in Gobar Reflection (2 mins)</h3>
-<div class="outline-text-3" id="text-org9648dc3">
+<div id="outline-container-org273f0f1" class="outline-3">
+<h3 id="org273f0f1">Nirvana in Gobar Reflection (2 mins)</h3>
+<div class="outline-text-3" id="text-org273f0f1">
 <p>
 Sanskrit has no "sadness"—Dukha = distortion; look back at past Gobar, all turned fine eventually.
 Happiest moments (admissions, love, best friend) trace back to Gobar—Nirvana = seeing this pattern.
@@ -331,9 +829,9 @@ When IN Gobar, use others' stories (Pandavas, Stockdale, Varun Mayya) as evidenc
 </div>
 </div>
 
-<div id="outline-container-orgbd60e16" class="outline-3">
-<h3 id="orgbd60e16">Resilience Myth (2 mins)</h3>
-<div class="outline-text-3" id="text-orgbd60e16">
+<div id="outline-container-org0da41d0" class="outline-3">
+<h3 id="org0da41d0">Resilience Myth (2 mins)</h3>
+<div class="outline-text-3" id="text-org0da41d0">
 <p>
 3,000 years: every generation called "nikamma"; Egyptian parchment says same about next generation.
 Bandra vs Gaza child—environment shapes resilience, not genes; we built fragile environment.
@@ -347,9 +845,9 @@ Your Gobar isn't weakness; it's the environment you'll navigate and overcome.
 </div>
 </div>
 
-<div id="outline-container-org8f2cce4" class="outline-2">
-<h2 id="org8f2cce4">SECTION 8: CLARITY THROUGH GOBAR (3 mins)</h2>
-<div class="outline-text-2" id="text-org8f2cce4">
+<div id="outline-container-orgd844094" class="outline-2">
+<h2 id="orgd844094">SECTION 8: CLARITY THROUGH GOBAR (3 mins)</h2>
+<div class="outline-text-2" id="text-orgd844094">
 <p>
 Gobar = meditative: alone, see real friends (no one touches Gobar); mortality (diagnosis) collapses vagueness.
 Mother loves 20% max; everything else Maya—when in deepest daldal, stories of survivors give hope.
@@ -362,13 +860,13 @@ Use every Gobar spark: daughter's waveboard persistence teaches—irritation bec
 </div>
 </div>
 
-<div id="outline-container-orgab2893c" class="outline-2">
-<h2 id="orgab2893c">CONCLUSION (2 mins) 🎯</h2>
-<div class="outline-text-2" id="text-orgab2893c">
+<div id="outline-container-org7b039bc" class="outline-2">
+<h2 id="org7b039bc">CONCLUSION (2 mins) 🎯</h2>
+<div class="outline-text-2" id="text-org7b039bc">
 </div>
-<div id="outline-container-org61534a0" class="outline-3">
-<h3 id="org61534a0">The Framework</h3>
-<div class="outline-text-3" id="text-org61534a0">
+<div id="outline-container-org2abb3ab" class="outline-3">
+<h3 id="org2abb3ab">The Framework</h3>
+<div class="outline-text-3" id="text-org2abb3ab">
 <p>
 <b>Good</b> = face reality, own Vanvas, build internal scorecard, develop leaders, take hard shots (50% fail chance).
 <b>Gobar</b> = fertilizer enabling everything above—necessary, temporary, purposeful, meditative.
@@ -381,9 +879,9 @@ Use every Gobar spark: daughter's waveboard persistence teaches—irritation bec
 </div>
 </div>
 
-<div id="outline-container-orgf074e81" class="outline-3">
-<h3 id="orgf074e81">This Week's Challenge</h3>
-<div class="outline-text-3" id="text-orgf074e81">
+<div id="outline-container-org9fdb0e2" class="outline-3">
+<h3 id="org9fdb0e2">This Week's Challenge</h3>
+<div class="outline-text-3" id="text-org9fdb0e2">
 <p>
 Pick ONE Gobar denial (in job, relationship, health, deal). Face it brutally this week.
 Report back next meeting—who faced their denial, what happened?
@@ -396,9 +894,9 @@ Whoever shares their story + outcome gets ₹500 bonus + team respect.
 </div>
 </div>
 
-<div id="outline-container-org5126eba" class="outline-3">
-<h3 id="org5126eba">Final Truth</h3>
-<div class="outline-text-3" id="text-org5126eba">
+<div id="outline-container-orgce016e2" class="outline-3">
+<h3 id="orgce016e2">Final Truth</h3>
+<div class="outline-text-3" id="text-orgce016e2">
 <p>
 "Tough times don't last. Tough people do—because they embrace Gobar, not deny it."
 "I'm no master. Today I'm good, but if you asked me in my Gobar, I'd be discarded."
