@@ -2,6 +2,7 @@
 :ID:       7f86fd80-c18f-41b9-811f-a3e53bd38b29
 :END:
 #+title: sales growth meeting 3rd
+#+setupfile: ../org-html-themes/gray.theme
 
 * Knowing What You Don't Know (KYDK) And Getting The Bare Minimum (GTBM) Best Detail
 Be smart to identify knowledge gaps and fill them optimally

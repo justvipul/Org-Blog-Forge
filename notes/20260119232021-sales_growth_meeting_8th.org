@@ -2,6 +2,7 @@
 :ID:       0d16258a-47ab-410b-9a47-2962f839fd84
 :END:
 #+title: sales growth meeting 8th
+#+setupfile: ../org-html-themes/gray.theme
 * Growth Meeting #8: Pain Tolerance, Failure Acceptance, Good vs Gobar - EXPANDED
 ** INTRO (3 mins) ⏱️
 

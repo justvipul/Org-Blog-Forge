@@ -2,6 +2,7 @@
 :ID:       7ec2da76-8d8b-4988-96fd-6830785bf804
 :END:
 #+title: sales growth meeting 4th
+#+setupfile: ../org-html-themes/gray.theme
 * Growth Meeting #4: jhat pat pata pata pat | nahitar deal nahi yet parat. [Fast decision-making + strategic information gathering = successful closures]
 
 

@@ -2,6 +2,7 @@
 :ID:       cf90113c-7c6f-4073-9a12-3cb43c469c96
 :END:
 #+title: all treks details
+#+setupfile: ../org-html-themes/gray.theme
 * to be edited 
 ** Kalsubai Peak – 29 Dec 2024
 - Region: Kalsubai–Harishchandragad Wildlife Sanctuary, Ahmednagar district.

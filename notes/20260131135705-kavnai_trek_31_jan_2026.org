@@ -4,7 +4,7 @@
 #+title: kavnai trek 31 jan 2026
 #+Author: Vipul
 #+DATE: <2026-01-31 Sat>
-
+#+setupfile: ../org-html-themes/gray.theme
 ** Schedule
 *** went with 4 people today - anil pethkar, bapu sonje, nandkumar kashelani
 *** woke at 5
