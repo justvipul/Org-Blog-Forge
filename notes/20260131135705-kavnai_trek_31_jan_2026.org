@@ -5,78 +5,105 @@
 #+Author: Vipul
 #+DATE: <2026-01-31 Sat>
 #+setupfile: ../org-html-themes/gray.theme
-** Schedule
-*** went with 4 people today - anil pethkar, bapu sonje, nandkumar kashelani
-*** woke at 5
-*** bath done at 5.35
-*** left home by 6.05
-*** left hdfc bank chandak Circle by 6.25 with bapu sonje
-*** reached and left decathlon by 6.42 am
-*** Datta Mandir 
-*** kamakshi mandir
-*** started at 7.23
-** kamakshi devi mandir
-** on da patta
-** vishramgadh
-** information 
-राज्याभिषेक सोहळ्यानंतर (स्वराज्य) स्थापन झाले. अशी एक श्रद्धा आहे की शिवाजी महाराजांनी गुप्तपणे या किल्ल्याला भेट दिली होती.
 
-जवळचे धार्मिक स्थळ, कपिलधार तीर्थ, महान संत ज्ञानेश्वर आणि गजानन महाराज यांच्या पदस्पर्शाने पवित्र झाले.
+#+TITLE: Trek Log - Kavnai Fort
+#+DATE: 2026-01-24
+#+CATEGORY: Trek
+#+TAGS: :trek:outdoors:sahyadri:igatpuri:
+#+PROPERTY: LOCATION Igatpuri Range
+#+PROPERTY: RANGE Sahyadri Sub-range
 
-रामायणाच्या काळात, भगवान हनुमान द्रोणागिरी पर्वत घेऊन जात असताना 'कालनेमी' नावाच्या राक्षसाने त्यांचे लक्ष विचलित केले होते. भगवान हनुमानांनी याच पर्वतावर त्या राक्षसाचा वध केला. म्हणूनच या पर्वताला हे नाव पडले.
+* Trek Overview
+1. Trek Name: Kavnai Fort
+2. Region: Igatpuri
+3. Range: Igatpuri range, Sahyadri Sub-range
+4. Base Village: Kavnai (250 houses near Ghoti)
+5. Height (ft): 2998 ft. from M.S.L
+6. Type: Hill fort
+7. Difficulty Level: Easy
+8. Best Season: Winter, Summer, Rainy
+9. Time to Climb: 2 hours / half day trek
+10. Water Availability: Not suitable for drinking
+11. Suitable For: Beginners
 
-कवनई हे ऐतिहासिक आणि वारसा स्मृतींना उजाळा देते.
-** facts
-type of fort? - hill fort
-best season - winter summer rainy
+* Schedule & Companions
+1. Date: 2026-01-24
+2. Team Members: Anil Pethkar, Bapu Sonje, Nandkumar Kashelani (4 total)
+3. Wake-up Time: 5:00 AM
+4. Left Home: 6:05 AM
+5. Start Point / Meeting Place: HDFC Bank Chandak Circle (6:25 AM with Bapu), Decathlon (6:42 AM)
+6. Route Start Time: 7:23 AM
+7. Return Time: 
+8. Key Stops / Temples / Checkpoints:
+   - Datta Mandir
+   - Kamakshi Devi Mandir  
+   - Kapildhara Gajanan Maharaj Mandir (post-trek)
+   - *Special:* Accompanied by 3 dogs from start to summit
 
-Way to the fort: Climbing from a pathway at the South of Kavnai village
+* Route Information
+1. Route from Base City: Nashik → Ghoti Road → turn right to Vaitarnadam Road → from Waaki village 1.5km turn right → Kavnai Gaon (4.5km after) [Total: 40 km from Nashik]
+2. Final Village Distance: 40 km from Nashik
+3. Public Transport Availability: Auto repair at Ghoti, Petrol at Ghoti & Igatpuri
+4. Parking / Auto / Petrol: Available at Ghoti and Igatpuri
 
-Time to climb: 2 hours / half day trek
+* Historical / Mythological Background
+1. Historical Importance: राज्याभिषेक सोहळ्यानंतर (स्वराज्य) स्थापन झाले. श्रद्धा आहे की शिवाजी महाराजांनी गुप्तपणे भेट दिली.
+2. Legends / Myths: रामायण काळात हनुमानाने कालनेमी राक्षसाचा वध केला म्हणून पर्वताला हे नाव
+3. Nearby Heritage / Religious Sites:
+   - Kapiladhar Tirth (ज्ञानेश्वर व गजानन महाराज पदस्पर्श)
+   - Kapildhara Gajanan Maharaj Mandir
 
-Difficulty level: Easy
+* Key Landmarks & Attractions
+1. Temples (ALL ON TOP):
+   - *Kamakshi Devi Mandir* (main temple by lake)
+   - *Chamunda Ma Temple* (met priest)
+   - *Shiva Temple with Nandi* (by lake) 
+   - Kapildhara Gajanan Maharaj Mandir (base)
+2. Structures (Bastions, Caves, Gates, etc.):
+   - North entrance door
+   - Small caves (right side at top)
+   - Bastion on west side
+   - Buruj and historical remains (south side)
+   - Water tank
+   - Iron ladder at entrance for convenient climbing
+3. Viewpoints (Ranges / Dams visible):
+   - Kalsubai range
+   - Trimbak range  
+   - Tringalwadi and other forts
+   - Vaitarnadam / Mukne Dam (rays reflecting in clear water)
+4. Not to Miss:
+   - *Lake on top* - Temple & cloud reflections + school of pet fishes
+   - Chamunda Ma Temple (met priest)
+   - Shiva temple by lake
 
-Spread: Medium
+* Experience & Observations
+1. Weather / Terrain: Cool breeze over massive fort
+2. Notable Sights: Chamunda Mandir, Shiva temple, Kamakshi Mandir, lake ALL on top. Lake has school of pet fish (rohu/catla varieties).
+3. Personal Experience: 3 dogs accompanied entire trek. Small picnic with roti + potato sabji at top. Prasad at Kapildhara: 2 roti, rice, pithla, gilka sabji
+4. Vibe / Mood of Place: Peaceful, spiritual, mesmerizing reflections
+5. Tips for Future Trekkers: Carry own water, visit Kapildhara for prasadam (10 AM-6:30 PM)
 
-Water availability: Not suitable for drinking
+* Facilities & Amenities
+1. Food / Water Availability: No facilities at fort. Kapildhara Gajanan Maharaj: prasadam 10 AM-6:30 PM (2 roti, rice, pithla, gilka sabji)
+2. Accommodation / Prasadam Timings: Kapildhara prasadam daily 10 AM-6:30 PM
+3. Shops / Auto Repair / Petrol Info: Auto repair & petrol at Ghoti
+4. Guide Needed: No
 
-Carry along: No special equipments
+* Local Notes
+1. Village Population / Details: Kavnai village - 250 houses
+2. Major Crops: Rice and barley
+3. Local Culture / People: 
 
-Guide: Not necessary
-Details
+* Photos & Media
+1. [ ] Lake with school of rohu/catla pet fish
+2. [ ] Chamunda Ma Temple with priest
+3. [ ] 3 dogs that accompanied us
+4. [ ] Group picnic at summit
+5. [ ] Route map Nashik → Kavnai
+6. [ ] Vaitarna Dam view
 
-Region: Igatpuri
-
-Base Village: Kavnai
-
-Distance from Nashik: 40 km
-
-Range: Igatpuri range, Sahyadri Sub-range
-
-Height: 2998 ft. from M.S.L
-** route to take from nashik - 
-from nashik - ghoti road - turn right to vaitarnadam road - from waaki village 1.5km turn right - kavnaigaon will be reached after 4.5km.
-** experience -
-cool breeze over the massive fort makes you relish every moment spent here. it is a small fort with a temple and the clear waters of the lake dotting the  ladscape. the temple of the goddess kamakshi reflects in the clear waters and so do the clouds in the sky aobve. a shivling with a nandi in front is a temple beside the lake.
-
-there is one cave which is at the right side on the top of the fort. there is one bastion on west side of the fort. one can see the kalsubai range, trimbak range, tringalwadi and otehr forts from the top of this fort. the rays reflected in the clear water of upper vaitarna dam leaves one awestruck.
-
-iron adder now for vonvenient climbing to reach the entrance door. 
-** an easy trek for beginners.
-** not to miss
-*** door at the entrance north side.
-*** small caves
-*** kavnai devi temple
-*** buruj and historical remains on south side 
-*** water tank
-*** temple of shiva with nandi in fron.
-*** bastion on west side. 
-*** view of vaitarnadam / mukne dam.
-** kavnai village near ghoti - 250 houses.
-** kapildhara gajanan maharaj mandir.
-*** food facility at kapildhara gajana maharaj mandir as prasadam from 10 am to 6.30 pm daily.
-** no facilty at for
-** major foodcrops here are rice and barley.
-** auto repair at ghoti
-** petrol at ghoti and igatpuri.
-
+* Reflection
+1. What I Loved Most: Dogs accompanying entire trek, school of pet fish in lake, all temples clustered at top, cool breeze
+2. What I'd Improve Next Time: Carry more food for longer stay at summit
+3. Recommend To: Beginners, families, temple lovers
+4. Return Visit: Yes - perfect easy trek with spiritual + scenic rewards

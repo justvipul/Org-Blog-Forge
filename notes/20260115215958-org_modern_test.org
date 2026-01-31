@@ -9,7 +9,7 @@ This example Org file demonstrates the Org elements,
 which are styled by =org-modern=.
 
 
-* Headlines
+* Headlines[fn:3]
 ** Second level
 *** Third level
 **** Fourth level
@@ -69,7 +69,7 @@ TREPEATED: <2022-02-26 Sat 10:00 .+1d>
 ** DONE [100%] [#A] Everything combined
 *** DONE First
 *** DONE Second
-*** DONE Third
+*** DONE [fn:2]Third
 
 * Tables
 | N | N^2 | N^3 | N^4 | sqrt(n) | sqrt[4](N) |
@@ -88,7 +88,11 @@ Test numeric footnotes[fn:1] and named footnotes[fn:foo].
 
 <<This is an internal link>>
 
+
+
 <<<radio link>>>
+
+
 
 [[This is an internal link]]
 
@@ -96,6 +100,11 @@ radio link
 
 [fn:foo] This is the footnote
 
-
+[[Blocks]]
 
 [fn:1] This is footnote 1
+
+* Footnotes
+[fn:3] new 
+
+[fn:2] third footnote 

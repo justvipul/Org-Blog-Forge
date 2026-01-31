@@ -5,7 +5,6 @@
 #+setupfile: ../org-html-themes/gray.theme
 
 * Essential Commands
-
 ** File Operations
 - ~ls -lah~ - List all files with human-readable sizes
 - ~cp -r source/ dest/~ - Copy directories recursively
