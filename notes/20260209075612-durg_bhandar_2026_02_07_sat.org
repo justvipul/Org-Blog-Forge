@@ -1,0 +1,108 @@
+:PROPERTIES:
+:ID:       3e0a44ea-c31a-4b3d-afc1-c73f7c18b99f
+:END:
+#+title: Durg bhandar <2026-02-07 Sat>
+
+* Trek Overview
+1. Trek Name: Durg Bhandar
+2. Region: Trimbakeshwar
+3. Range: Trimbakeshwar range
+4. Base Village: Trimbak 
+5. Height from MSL (ft): 4050 ft
+6. Type:
+   - [X] hill fort
+   - [ ] forest trail
+   - [ ] plateau
+7. Difficulty Level:
+   - [ ] easy
+   - [X] moderate
+   - [ ] difficult
+8. Best Season:
+   - [X] winter
+   - [ ] summer
+   - [ ] monsoon
+9. Time taken to Climb [hrs]:  2.5
+10. Water Availability: availability at bramhgiri
+    - [X] yes
+    - [ ] no
+11. Suitable For:
+    - [ ] beginners
+    - [X] regular trekkers
+    - [ ] families
+
+* Schedule & Companions
+1. Date: <2026-02-07 Sat>
+2. Team Members: 15 members.
+3. Wake-up Time:  <2026-02-07 Sat 05:00>
+4. Left Home: <2026-02-07 Sat 06:10>
+5. Start Point / Meeting Place: ABB circle
+6. Route Start Time:  <2026-02-07 Sat 07:12>
+7. Return Time: <2026-02-07 Sat 02:00>
+8. Key Stops / Temples / Checkpoints: 
+   - Jata mandir
+   - bramhgiri mandir
+   - ganga dwar
+   - shankar mandir
+   - view of talegaon dam
+   - view of harihar fort.
+   - Dharmshala
+   - vihir at the backside of the Dharmshala.
+
+* Route Information
+1. Route from Nashik City: ABB circle -> pegalwadi -> swami samarth kaman -> base of the trek
+2. Final Village Distance km: 24
+3. Public Transport Availability: bus
+4. Parking / Auto / Petrol: trimbakeshwar.
+
+* Historical / Mythological Background
+1. Historical Importance:
+   - 
+2. Legends / Myths:
+   - 
+3. Nearby Heritage / Religious Sites:
+   - 
+
+* Key Landmarks & Attractions
+1. Temples:
+   - 
+2. Structures (Bastions, Caves, Gates, etc.):
+   - 
+3. Viewpoints (Ranges / Dams visible):
+   - 
+4. Not to Miss:
+   - 
+
+* Experience & Observations
+1. Weather / Terrain:
+2. Notable Sights:
+3. Personal Experience:
+4. Vibe / Mood of Place:
+5. Tips for Future Trekkers:
+
+* Facilities & Amenities
+1. Food / Water Availability:
+2. Accommodation / Prasadam Timings:
+3. Shops / Auto Repair / Petrol Info:
+4. Guide Needed:
+5. [ ] yes
+6. [ ] no
+
+* Local Notes
+1. Village Population / Details:
+2. Major FoodCrops:
+3. Local Culture / People:
+
+* Photos & Media
+1. [ ] Add photos
+2. [ ] Add route map (GPS screenshot)
+3. [ ] Add group photo
+
+* Reflection
+1. What I Loved Most:
+2. What I’d Improve Next Time:
+3. Recommend To:
+4. Return Visit:
+5. [ ] yes/no
+6. [ ] (why?)
+
+

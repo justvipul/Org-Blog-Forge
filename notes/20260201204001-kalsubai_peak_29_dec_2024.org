@@ -1,79 +1,81 @@
 :PROPERTIES:
-:ID:       d5c52ebd-667f-4226-b116-d3bf22840997
+:ID:       b01408ac-c20b-433d-87ee-fc47112a9ae9
 :END:
-#+title: trek notes template
-#+DATE:
+#+title: Kalsubai Peak – 29 Dec 2024
+
 #+CATEGORY: Trek
-#+TAGS: :trek:outdoors:sahyadri:<region>:
+#+TAGS: :trek:outdoors:sahyadri:Kalsubai:
 #+PROPERTY: LOCATION All Treks
-#+PROPERTY: RANGE <range>
+#+PROPERTY: RANGE Sahyadri
 #+setupfile: ../org-html-themes/gray.theme
 
+
 * Trek Overview
-1. Trek Name: 
-2. Region: 
-3. Range: 
-4. Base Village: 
-5. Height from MSL (ft): 
+1. Trek Name: Kalsubai
+2. Region: igatpuri
+3. Range: sahyadri
+4. Base Village: bari
+5. Height from MSL (ft): 5400ft
 6. Type:
-   - [ ] hill fort
+   - [X] hill fort
    - [ ] forest trail
    - [ ] plateau
 7. Difficulty Level:
 8. [ ] easy
-9. [ ] moderate
+9. [X] moderate
 10. [ ] difficult
 11. Best Season:
-12. [ ] winter
+12. [X] winter
 13. [ ] summer
 14. [ ] monsoon
-15. Time taken to Climb [hrs]: 
+15. Time taken to Climb [hrs]: 3
 16. Water Availability:
-17. [ ] yes
+17. [X] yes
 18. [ ] no
 19. Suitable For:
-20. [ ] beginners
-21. [ ] regular trekkers
-22. [ ] families
+20. [X] beginners
+21. [X] regular trekkers
+22. [X] families
 
 * Schedule & Companions
-1. Date: 
-2. Team Members: 
-3. Wake-up Time: 
-4. Left Home: 
-5. Start Point / Meeting Place: 
-6. Route Start Time: 
-7. Return Time: 
+1. Date:  <2024-12-29 Sun>
+2. Team Members: more than 45 folks.
+3. Wake-up Time: started at morning 1 am.
+4. Left Home: at 10pm
+5. Start Point / Meeting Place: RD circle
+6. Route Start Time: 11 pm
+7. Return Time: <2024-12-30 Mon>
 8. Key Stops / Temples / Checkpoints:
-   - 
-   - 
+   - kalsubai mandir
+   - top view of bhandardara dam.
 
 * Route Information
 1. Route from Base City: 
 2. Final Village Distance km: 
-3. Public Transport Availability: 
-4. Parking / Auto / Petrol: 
+3. Public Transport Availability: yes 
+4. Parking / Auto / Petrol:  at ghoti
 
 * Historical / Mythological Background
-1. Historical Importance:
+1. Historical Importance:  
    - 
-2. Legends / Myths:
+2. Legends / Myths: story of kalsu.
    - 
-3. Nearby Heritage / Religious Sites:
+3. Nearby Heritage / Religious Sites: temple at top 
    - 
 
 * Key Landmarks & Attractions
-1. Temples:
+1. Temples: top temple
    - 
 2. Structures (Bastions, Caves, Gates, etc.):
-   - 
+   - none
 3. Viewpoints (Ranges / Dams visible):
-   - 
+   - lot from the top.
 4. Not to Miss:
-   - 
+   - amk view from top.
+   - sunrise.
 
 * Experience & Observations
-1. Weather / Terrain:
+1. Weather / Terrain: 
 2. Notable Sights:
 3. Personal Experience:
 4. Vibe / Mood of Place:
@@ -84,7 +86,7 @@
 2. Accommodation / Prasadam Timings:
 3. Shops / Auto Repair / Petrol Info:
 4. Guide Needed:
-5. [ ] yes
+5. [X] yes
 6. [ ] no
 
 * Local Notes
@@ -104,4 +106,6 @@
 4. Return Visit:
 5. [ ] yes/no
 6. [ ] (why?)
+
+
 

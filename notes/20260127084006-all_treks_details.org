@@ -3,8 +3,9 @@
 :END:
 #+title: all treks details
 #+setupfile: ../org-html-themes/gray.theme
+
 * to be edited 
-** Kalsubai Peak – 29 Dec 2024
+** [[id:b01408ac-c20b-433d-87ee-fc47112a9ae9][Kalsubai Peak – 29 Dec 2024]]
 - Region: Kalsubai–Harishchandragad Wildlife Sanctuary, Ahmednagar district.
 - Height: 1646 m / 5400 ft (highest peak of Maharashtra).
 - Grade: Moderate; long climb with iron ladders, suitable for fit beginners.
@@ -165,3 +166,4 @@
 - Quote: “On Ghalna, every gateway feels like a checkpoint between centuries.”
 * [[id:8c3e6cad-40c4-49ff-a042-913a715289b0][kavnai trek 31 jan 2026]]
 * [[id:d5c52ebd-667f-4226-b116-d3bf22840997][trek notes template]]
+* [[id:3e0a44ea-c31a-4b3d-afc1-c73f7c18b99f][Durg bhandar <2026-02-07 Sat>]]
