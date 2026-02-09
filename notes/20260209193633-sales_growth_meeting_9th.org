@@ -5,7 +5,6 @@
 #+setupfile: ../org-html-themes/gray.theme
 #+DATE: <2026-02-10 Tue>
 #+AUTHOR: Vipul
-#+OPTIONS: toc:nil num:t
 
 * Slide 1: Title
 ** Daily Sales Growth via Human Psychology & Better Thinking
