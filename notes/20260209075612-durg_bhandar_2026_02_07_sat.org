@@ -2,6 +2,7 @@
 :ID:       3e0a44ea-c31a-4b3d-afc1-c73f7c18b99f
 :END:
 #+title: Durg bhandar <2026-02-07 Sat>
+#+setupfile: ../org-html-themes/gray.theme
 
 * Trek Overview
 1. Trek Name: Durg Bhandar
