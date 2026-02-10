@@ -6,23 +6,22 @@
 #+DATE: <2026-02-10 Tue>
 #+AUTHOR: Vipul
 
-* Slide 1: Title
+* Slide 1: Title (2 min)
 ** Daily Sales Growth via Human Psychology & Better Thinking
-- The Purchase House – Used Machine e-Marketplace
-- Speaker: Chief Sales Coordinator
-- Goal: How to sell more, think better, and stay mentally tough – even without technical background
+- Goal: How to sell more, think better, and stay mentally tough – even without technical background.
+- This is a practical 30‑minute session: psychology, WhatsApp, AI, numbers, mindset.
 
-* Slide 2: Context – Why This Session?
+* Slide 2: Context – Why This Session? (4 min)
 ** Our Reality at The Purchase House
-- Huge variety of CNC / laser / press brake machines
-- Team is non‑technical; even engineers need time to understand specs
-- Result: 
+- Huge variety of machines and huge buying requirements.
+- Sales team is a mix of tech and non‑tech; even engineers need time to understand our specs.
+- Result:
   - Confusion → hesitation → lost deals
   - Focus on “features” instead of *customer problems*
 - Today’s focus:
-  - Use human psychology + simple analysis instead of deep technical knowledge
+  - Use human psychology + simple analysis instead of deep technical knowledge.
 
-* Slide 3: From Features to Human Psychology
+* Slide 3: From Features to Human Psychology (4 min)
 ** People Decide Emotionally, Justify Rationally
 - Customers don’t buy “machines”; they buy:
   - Fewer breakdowns
@@ -30,201 +29,98 @@
   - Risk reduction
   - Respect / status in their factory
 - Key idea (from *Seeking Wisdom*):
-  - Understand *how people misjudge* and *how to avoid our own misjudgments*
+  - Understand *how people misjudge* and *how to avoid our own misjudgments*.
+- Frame: we think more about *how* we think and sell.
 
-* Slide 4: 4 Psychological Levers in Sales & Negotiation
-1. /Reciprocity/ – people return favours
-2. /Social proof/ – people follow others in similar situations
-3. /Commitment & consistency/ – once they say “yes” to small things, they like to stay consistent
-4. /Loss aversion/ – people fear losses more than they value gains
-
-(We will connect each to used‑machine sales.)
-
-* Slide 5: Reciprocity – Give First, Then Ask
-** How to Use in Our Sales
-- Before pushing for PO, create value:
-  - Share a simple comparison:
-    - “Here are 2–3 options by budget and job type”
-  - Send a quick video explaining key difference (rpm, bed size, power) in *simple language*
-  - Share one practical tip:
-    - e.g. “How to inspect a used machine in 10 minutes”
-- WhatsApp examples:
-  - “Sir, I made a small 1‑page summary for you: [PDF / image]”
-  - “Here is a machine inspection checklist – free, use with any dealer”
-
-* Slide 6: Social Proof – “People Like You Buy This”
-** Remove Risk by Showing Others
-- Buyers ask internally: “Have similar companies bought this?”
-- Use:
-  - Stories: “Last month a Pune job‑shop with 6 VMCs chose this machine because…”
-  - Numbers: “We have placed 12 similar machines in Maharashtra in last 6 months”
-- On WhatsApp:
-  - Before/after photos
-  - Short testimonial audio/text from happy client (with permission)
-
-* Slide 7: Consistency – Get Small “Yes” First
-** Step‑by‑Step Commitment
-- Don’t jump to PO. Move client through small commitments:
-  1. “Can I WhatsApp you 2–3 options with pros/cons?” → Yes
-  2. “Can we do a 10‑minute video call to see the machine live?” → Yes
-  3. “If this fits, can we plan an inspection on Friday?” → Yes
-- Once they say “yes” repeatedly, saying “no” to order becomes psychologically harder
-
-* Slide 8: Loss Aversion – Sell by Highlighting Avoided Pain
-** Customers Hate Losses More Than They Love Gains
-- Examples of pains:
-  - Machine breakdown during urgent order
-  - Scrap and rework
-  - Unplanned maintenance cost
-- Talk in “loss avoided” language:
-  - “This model reduces downtime risk because parts are easily available”
-  - “This dealer gives proper service history – saves you surprise repair bills”
-
-* Slide 9: Negotiation – Human Psychology, Not Drama
+* Slide 4: Negotiation – Human Psychology, Not Drama (4 min)
 ** Simple Negotiation Concepts
 - BATNA (Best Alternative To a Negotiated Agreement):
-  - Know our walk‑away point: price, credit terms, delivery time
+  - Know our walk‑away point: price, credit terms, delivery time.
 - Win‑win frame:
-  - “Let’s see how we can fit your budget and still protect your production risk”
+  - “Let’s see how we can fit your budget and still protect your production risk.”
 - Psychological tactics to *avoid*:
   - Bluffing about non‑existent buyers
   - Last‑minute emotional pressure
-- We want *long‑term repeat* customers, not one‑time wins
+- Aim: *long‑term repeat* customers, not one‑time wins.
 
-* Slide 10: WhatsApp as Our Main Weapon
+* Slide 5: WhatsApp as Our Main Weapon (4 min)
 ** Best Practices for Non‑Technical Team
-- Clean profile:
-  - DP = logo / professional photo
-  - Status = short line: “Used CNC / Laser / Press Brake – The Purchase House”
 - Message structure:
-  1. /Context/: “Sir, as discussed – machine options for mild steel cutting”
-  2. /Options/: 2–3 short bullets per machine, no jargon
-  3. /CTA/: “Shall we inspect Option 2 on Thursday 3 PM?”
-- Use:
-  - Broadcast lists for updates (not random spam)
-  - Quick voice notes when text is too long
+  1. Mention context:
+     - “Sir, as discussed – machine options for mild steel cutting…”
+  2. Make important points **bold**.
+  3. Use bullet points instead of long paragraphs.
+  4. Highlight 2–3 key deciding points.
+  5. For negative replies, use the sandwich method:
+     - Start with something positive
+     - Mention the negative answer
+     - Close with a positive or neutral point.
 
-* Slide 11: Using AI to Save Time (Non‑Technical Friendly)
-** Practical AI Use‑Cases for Us
-- 1) Drafting messages & proposals:
-  - Input: “Client wants 2m x 4m laser, 6–8mm mild steel, budget 30–35L, write a short proposal”
-- 2) Clarifying technical terms:
-  - “Explain difference between CO2 laser and fiber laser to a non‑technical buyer in 5 points”
-- 3) Preparing comparison sheets:
-  - “Compare Machine A vs Machine B for SME job shop – focus: maintenance, space, power, accuracy”
-- 4) Translating:
-  - English ↔ Hindi/Marathi for local comfort
-- Golden rule:
-  - AI drafts, *you* verify & customise
+* Slide 6: AI and the “Genie” Problem (5 min)
+** Writing and Thinking for Clarity
+- Mimicry vs. thinking:
+  - AI can mimic style, but not your unique way of thinking and extrapolating situations.
+- The “genie” problem:
+  - AI and employees are like literal genies: without specific context, they fill gaps with *their* context.
+- Bottleneck identification:
+  - Most business bottlenecks are “missing spec” (unclear instructions), not missing skill.
 
-* Slide 12: Simple Analysis – Think Like Munger
-** Before Pushing a Machine, Ask:
-- “What could go wrong for the buyer?”
-  - Parts availability?
-  - Service support?
-  - Operator skill?
-- “Am I overtrusting my own idea?”
-  - Overconfidence & confirmation bias are common
-- “If this deal fails later, what will client blame us for?”
-  - Keep that risk on your radar and address upfront
+** Leveraging AI for Business Operations
+- Deep research:
+  - Use AI to list edge cases: equipment, staffing, process checklists.
+  - Always verify for hallucinations or outdated info.
+- Designing incentives:
+  - Ask AI for examples of global sales incentive structures, then adapt to your team.
+- Mood‑boarding and referencing:
+  - Use AI to generate many references (visuals, scripts, angles) so the team aligns on a vision before execution.
 
-* Slide 13: GST & % – Fast Mental Math for Sales
-** Quick Tricks for Indian GST (18% / 28%)
-- 18% GST trick:
-  - 10% = move decimal one place left
-  - 5% = half of 10%
-  - 3% ≈ one‑third of 10%
-- Example: Basic price = ₹10,00,000; GST 18%
-  - 10% = 1,00,000
-  - 5% = 50,000
-  - 3% ≈ 30,000
-  - Total GST ≈ 1,80,000 → Invoice ≈ 11,80,000
-- 28% GST (if needed):
-  - 30% of 10,00,000 = 3,00,000
-  - minus 2% (20,000) = 2,80,000
+* Slide 7: Mental Arithmetics That Help in Sales (3 min)
+** “Meri Aatma Tumhe Hamesha Satayegi”
+- While in negotiation stage, you should be able to quickly estimate:
+  - Buyer’s charges
+  - Seller’s charges
+  - Transport cost
+  - Lifting / rigging cost
+- In addition, you should be aware of:
+  - Approximate reserve value of buyer
+  - Approximate reserve value of seller
+- Goal: rough order of magnitude so you don’t agree to stupid deals.
 
-** Discount + GST Quick Check
-- If client asks 5% discount on 10,00,000:
-  - 5% = 50,000 → new basic = 9,50,000
-  - GST 18% ≈ 1,71,000 (18% of 9.5L)
-  - Approx invoice ≈ 11,21,000
-- Train team to do ballpark mental math so they look confident on calls
-
-* Slide 14: “Seeking Wisdom” – Avoiding Sales Misjudgments
-** 4 Common Thinking Errors from Peter Bevelin / Munger
-1. Overconfidence:
-   - “Ye deal toh pakka hai” after one positive call
-2. Incentive‑caused bias:
-   - Pushing wrong machine because commission is higher
-3. Commitment & consistency:
-   - Sticking to a bad quote because “we already sent it”
-4. Social proof:
-   - Copying other salespeople’s bad habits because “everyone does it”
-** Antidote:
-- Slow down, ask “And then what?” before promising anything
-
-* Slide 15: Stoic Mindset from Trekking
-** Sahyadri Treks → Sales Resilience
-- On a tough trek:
-  - You face fear of height, fatigue, weather, sometimes real fear of death
-- After that:
-  - A client saying “No” or “Your price is high” is nothing
-- Stoic idea:
-  - Focus only on what you can control:
-    - Number of quality calls
-    - Quality of follow‑ups
-    - Clarity of communication
-    - Honesty and effort
-  - Accept what you cannot control:
-    - Market mood
-    - Client’s internal politics
-    - Competitor’s random discount
-
-* Slide 16: Turning Rejection into Data, Not Drama
+* Slide 8: Turning Rejection into Data, Not Drama (3 min)
 ** From Emotional Reaction → Analysis
-- After lost deal, ask 3 questions:
-  1. Was it price, trust, timing or product‑fit?
+- After a lost deal, ask 3 questions:
+  1. Was it price, trust, timing, or product‑fit?
   2. Did the customer clearly understand our value vs alternative?
   3. What can I change in my next 10 calls based on this?
 - Treat each “No” like a failed trek route:
-  - Learn, adjust, and attempt next route smarter
+  - Learn, adjust, and attempt the next deal smarter.
 
-* Slide 17: Simple Daily Routine for the Team
-** 60–90 Minutes of “High Quality Sales Work”
-- 20–30 min:
-  - Plan – top 10 prospects, WhatsApp follow‑ups, AI‑drafted proposals
-- 30–40 min:
-  - Focused calling + WhatsApp with:
-    - Reciprocity
-    - Social proof
-    - Clear next step
-- 10–15 min:
-  - Post‑mortem of the day:
-    - 1 thing worked, 1 mistake, 1 experiment for tomorrow
+* Slide 9: Simple Daily Routine for the Team (2 min)
+** 10–15 Minutes of “High‑Quality Improvement”
+- At the end of the day:
+  - Write down:
+    - 1 thing that worked
+    - 1 mistake
+    - 1 experiment for tomorrow
+- Small daily improvement in thinking and behavior → compounding over months.
 
-* Slide 18: Key Takeaways
+* Slide 10: Key Takeaways (2 min)
 ** What I Want You to Remember
 - You don’t need deep technical knowledge to sell:
-  - You need to understand *people* and *simple numbers*
+  - You need to understand *people* and *simple numbers*.
 - Use:
-  - Reciprocity, social proof, consistency, loss aversion in ethical ways
-  - WhatsApp + AI to save time and look professional
-  - Simple GST / % mental math for confidence
-  - Stoic trekking mindset to digest rejection and keep going
+  - Reciprocity, social proof, consistency, loss aversion – in ethical ways.
+  - Simple mental math + clarity in WhatsApp.
 - Quote from Munger:
   - “It is remarkable how much long‑term advantage people like us have gotten
     by trying to be consistently not stupid, instead of trying to be very intelligent.”
 
-* Slide 19: Next Steps for Our Team
-- I will share:
-  - WhatsApp templates
-  - AI prompt examples
-  - 1‑page GST/percentage cheat sheet
+* Slide 11: Next Steps & Q&A (2 min)
+** Next Steps for Our Team
 - From you, I expect:
-  - 1 new psychological tactic tested in your calls this week
-  - 1 written reflection on a deal you lost and what you learned
+  - 1 new psychological tactic tested in your calls this week.
+  - 1 written reflection on a deal you lost and what you learned.
 
-* Slide 20: Q&A
-- Questions, objections, and ideas from you
-- Let’s discuss 1–2 real deals you are handling now and apply these concepts live
-
+** Q&A
+- Questions, objections, and ideas from you.
+- Let’s discuss 1–2 real deals you are handling now and apply these concepts live.
