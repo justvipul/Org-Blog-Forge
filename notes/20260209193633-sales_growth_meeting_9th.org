@@ -9,12 +9,12 @@
 * Slide 1: Title (2 min)
 ** Daily Sales Growth via Human Psychology & Better Thinking
 - Goal: How to sell more, think better, and stay mentally tough – even without technical background.
-- This is a practical 30‑minute session: psychology, WhatsApp, AI, numbers, mindset.
+- This is a practical 30‑minute session: psychology, AI, numbers, mindset.
 
 * Slide 2: Context – Why This Session? (4 min)
 ** Our Reality at The Purchase House
 - Huge variety of machines and huge buying requirements.
-- Sales team is a mix of tech and non‑tech; even engineers need time to understand our specs.
+- Our Sales team is a mix of tech and non‑tech; even engineers need time to understand our specs.
 - Result:
   - Confusion → hesitation → lost deals
   - Focus on “features” instead of *customer problems*
@@ -28,16 +28,13 @@
   - Faster delivery
   - Risk reduction
   - Respect / status in their factory
-- Key idea (from *Seeking Wisdom*):
-  - Understand *how people misjudge* and *how to avoid our own misjudgments*.
-- Frame: we think more about *how* we think and sell.
 
 * Slide 4: Negotiation – Human Psychology, Not Drama (4 min)
 ** Simple Negotiation Concepts
 - BATNA (Best Alternative To a Negotiated Agreement):
-  - Know our walk‑away point: price, credit terms, delivery time.
+  - Know our walk‑away point: price, special terms, delivery time, accessories, 
 - Win‑win frame:
-  - “Let’s see how we can fit your budget and still protect your production risk.”
+  - “Let’s see how we can keep the deal value same but try to add more value from the machine seller.”
 - Psychological tactics to *avoid*:
   - Bluffing about non‑existent buyers
   - Last‑minute emotional pressure

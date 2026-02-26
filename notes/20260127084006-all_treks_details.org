@@ -165,5 +165,6 @@
 - Personal note: This was part trek, part cultural event with “gadadhari” demonstrations, Shivaji-era martial vibes, and a strong sense of shared history.
 - Quote: “On Ghalna, every gateway feels like a checkpoint between centuries.”
 * TODO [[id:8c3e6cad-40c4-49ff-a042-913a715289b0][kavnai trek 31 jan 2026]]
-* [[id:d5c52ebd-667f-4226-b116-d3bf22840997][trek notes template]]
 * TODO [[id:3e0a44ea-c31a-4b3d-afc1-c73f7c18b99f][Durg bhandar <2026-02-07 Sat>]]
+* [[id:d5c52ebd-667f-4226-b116-d3bf22840997][trek notes template]]
+* [[id:66a424c0-9741-41a8-97b6-5e9648bcc00e][trek routine,]]
