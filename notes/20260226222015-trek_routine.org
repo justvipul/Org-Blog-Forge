@@ -2,16 +2,17 @@
 :ID:       66a424c0-9741-41a8-97b6-5e9648bcc00e
 :END:
 #+title: trek routine, 
+#+setupfile: ../org-html-themes/bigblow_inline.theme
+
 * prep 1 day before for everyone in the group
 ** check who is coming how. what type of vehicle
-** have sports shoes with good grip.
+** have treking shoes with good grip.
 ** get a रूंद कडांची टोपी 
-** full sleeve and full length pants.
-** water bottle
+** full sleeve and full length pants. - to avoid thorns, sun, 
+** water bottle 1L
 ** fully charged phone.
-** be at the meeting at the given time. any late comers will have to reach destination directly on their.
+** be at the given meeting point at the given time. any late comers will have to reach destination directly on their.
 * prep 1 day before personally myself
-** get raincoat,
 ** all meds, 
 ** first aid kit
 ** ORS packet
@@ -30,7 +31,7 @@
 ** sleep by 10.30 max. ideally 10,
 * prep in the morning before leaving
 ** wake at 5.
-** all morning routing to be cleared by 5.30
+** all morning routine to be cleared by 5.30
 ** shower by 5.35.
 ** ready by 5.40 to 5.45 pm.
 ** 5.50 - check the checklist for any missing point.

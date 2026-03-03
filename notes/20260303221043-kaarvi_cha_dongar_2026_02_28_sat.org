@@ -1,0 +1,122 @@
+:PROPERTIES:
+:ID:       59f6a116-f24f-4419-a5db-e37ee48ab195
+:END:
+#+title: kaarvi cha dongar <2026-02-28 Sat>
+
+#+PROPERTY: LOCATION All Treks
+#+PROPERTY: RANGE Sahyadri
+#+setupfile: ../org-html-themes/gray.theme
+
+* Trek Overview
+1. Trek Name: Kaarvi cha dongar
+2. Region: Anjaneri
+3. Range: Trimbakeshwar 
+4. Base Village: Anjaneri
+5. Height from MSL (ft): 3000
+6. Type:
+   - [X] hill fort
+   - [ ] forest trail
+   - [ ] plateau
+7. Difficulty Level:
+8. [ ] easy
+9. [ ] moderate
+10. [X] difficult
+11. Best Season:
+12. [X] winter
+13. [ ] summer
+14. [ ] monsoon
+15. Time taken to Climb [hrs]: 2.5 hours
+16. Water Availability:
+17. [ ] yes
+18. [X] no
+19. Suitable For:
+20. [ ] beginners
+21. [X] regular trekkers
+22. [ ] families
+
+* Schedule & Companions
+1. Date: <2026-02-28 Sat>
+2. Team Members: total 13.
+3. Wake-up Time: 5 am
+4. Left Home: 6.12 am
+5. Start Point / Meeting Place: ABB circle
+6. Route Start Time: 7.33 am
+7. Return Time: 10.30 am
+8. Key Stops / Temples / Checkpoints:
+   - Mini kedarnath mandir
+
+* Route Information
+1. Route from Base City: ABB circle ->trimabk road -> pegalwadi -> anjaneri phata -> anjaneri gaon -> mini kedarnathi -> reach hill bottom 
+2. Final Village Distance km: 26 
+3. Public Transport Availability: car, train and bus available
+4. Parking / Auto / Petrol: at trimbakeshwar
+
+* Historical / Mythological Background
+1. Historical Importance:
+   - no reference of kaarvi hill/fort in history. 
+2. Legends / Myths:
+   - no battles fought no events written in history here.
+3. Nearby Heritage / Religious Sites:
+   - mini kedarnath temple.
+
+* Key Landmarks & Attractions
+1. Temples: 1
+   - mini kedarnath
+2. Structures (Bastions, Caves, Gates, etc.):
+   - fort tanks and rock cut steps.
+3. Viewpoints (Ranges / Dams visible):
+   - east side view of talai hill
+
+4. Not to Miss:
+   - view of brahmagiri range
+   - view of trimbakeshwar village on north side
+   - view of anjaneri.
+
+* Experience & Observations
+1. Weather / Terrain: weather was clear sky no clouds clear mountain view.
+2. Notable Sights: very far away all range view.
+3. Personal Experience: morning was a car rally and we took a first left turn which caused us to be in the middle of the rally which was a problem. took a u turn then went ahead from the highway and took it ahead.
+4. Vibe / Mood of Place: vibe is calm, in the morning instead of sun started from the shadow side.
+5. Tips for Future Trekkers: check grip of shoes of fellow members. anyone with no grip should be asked to stay at the temple - reason being the trek has some loose soil pathways which would drain such trekkers and cause them to panic later on. causing overall problem for the whole group. take a rope with you for emergency purpose. stay atleast 5 men distance while climbing the valley part. 
+
+* Facilities & Amenities
+1. Food / Water Availability: none
+2. Accommodation / Prasadam Timings: not available.
+3. Shops / Auto Repair / Petrol Info: at trimbakeshkwar.
+4. Guide Needed:
+5. [X] yes
+6. [ ] no
+
+* Local Notes
+1. Village Population / Details: pegalwadi 30-40 houses.
+2. Major FoodCrops: none
+3. Local Culture / People: 
+
+* Photos & Media
+1. [ ] Add photos
+2. [ ] Add route map (GPS screenshot)
+3. [ ] Add group photo
+
+* Reflection
+1. What I Loved Most: even after being a hard trek managed everyone in the group to reach the top in secure manner.
+2. What I’d Improve Next Time: check for shoes grip of everyone before starting.
+3. Recommend To: regular trekkers looking for something to challenge themselves.
+4. Return Visit:
+5. [X] yes [x] / no [ ]
+6. [ ] (why?) the experience was good.
+   - special note - in todays trek i came with 13 people, among which there was kailas sir, who had done lot of treks before durg bhandar, kalsubai, and many more to name a few. but this was a year ago. being a 64 year old guy, he was excited and confident to clear the trek easily.
+   - however due to poor shoes grip,
+   - the trek starts through a jungle then comes the gavat and loose soil path then a valley of loose rocks.
+   - kailas sir got exhuasted while going through the loose soild region.
+   - this happened due to poor shoe grip, so he relied on his arm strength in order climb various rock and heighted patches.
+   - which casued to be  exhausted to such an extent that he was unable to move or walk. at last we decided that he would stay back. rest at a point before the rock patch starts.
+   - we went to the top, then in our return, took him back with us.
+   - he experienced life and death in this situation.
+   - everything was safe but the mind gave him second thoughts and made him loose confidence.
+   - moral - trekking teaches you to experience true fear. that is death. while trekking such difficult mountains you feel fear in every step. as even 1 wrong step would be last step.
+   - you become scared so many time over and over and eventually its not that scary anymore.
+   - the fear builds up.
+   - this help you manage the daily stress that you might experience very much differently.
+   - due to a near death experience being seen on every trek done on saturday, all the daily life superficial fears of people, public, talking, job, money, become insignificant. and easy for you to go against than someone who has not experienced such above trek related fears.
+
+
