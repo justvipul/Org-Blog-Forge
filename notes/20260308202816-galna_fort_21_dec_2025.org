@@ -1,0 +1,112 @@
+:PROPERTIES:
+:ID:       20d6afa2-0d86-4935-b0a3-e24cc39b9db7
+:END:
+#+title: Galna Fort – 21 Dec 2025
+* Trek Overview
+1. Trek Name: 
+2. Region: 
+3. Range: 
+4. Base Village: 
+5. Height from MSL (ft): 
+6. Type:
+   - [ ] hill fort
+   - [ ] forest trail
+   - [ ] plateau
+7. Difficulty Level:
+8. [ ] easy
+9. [ ] moderate
+10. [ ] difficult
+11. Best Season:
+12. [ ] winter
+13. [ ] summer
+14. [ ] monsoon
+15. Time taken to Climb [hrs]: 
+16. Water Availability:
+17. [ ] yes
+18. [ ] no
+19. Suitable For:
+20. [ ] beginners
+21. [ ] regular trekkers
+22. [ ] families
+
+* Schedule & Companions
+1. Date: 
+2. Team Members: 
+3. Wake-up Time: 
+4. Left Home: 
+5. Start Point / Meeting Place: 
+6. Route Start Time: 
+7. Return Time: 
+8. Key Stops / Temples / Checkpoints:
+   - 
+   - 
+
+* Route Information
+1. Route from Base City: 
+2. Final Village Distance km: 
+3. Public Transport Availability: 
+4. Parking / Auto / Petrol: 
+
+* Historical / Mythological Background
+1. Historical Importance:
+   - 
+2. Legends / Myths:
+   - 
+3. Nearby Heritage / Religious Sites:
+   - 
+
+* Key Landmarks & Attractions
+1. Temples:
+   - 
+2. Structures (Bastions, Caves, Gates, etc.):
+   - 
+3. Viewpoints (Ranges / Dams visible):
+   - 
+4. Not to Miss:
+   - 
+
+* Experience & Observations
+1. Weather / Terrain:
+2. Notable Sights:
+3. Personal Experience:
+4. Vibe / Mood of Place:
+5. Tips for Future Trekkers:
+
+* Facilities & Amenities
+1. Food / Water Availability:
+2. Accommodation / Prasadam Timings:
+3. Shops / Auto Repair / Petrol Info:
+4. Guide Needed:
+5. [ ] yes
+6. [ ] no
+
+* Local Notes
+1. Village Population / Details:
+2. Major FoodCrops:
+3. Local Culture / People:
+
+* Photos & Media
+1. [ ] Add photos
+2. [ ] Add route map (GPS screenshot)
+3. [ ] Add group photo
+
+* Reflection
+1. What I Loved Most:
+2. What I’d Improve Next Time:
+3. Recommend To:
+4. Return Visit:
+5. [ ] yes/no
+6. [ ] (why?)
+
+- Region: Near Malegaon, north-east of Nashik, in the Satmala / adjoining range.[web:14]
+- Height: ~1000+ m class fort (similar to many mid-sized Sahyadri forts).[web:14]
+- Grade: Moderate; good path but sustained climb, with historic gateways and structures en route.
+- Route: Ghalna village → trail from Gorakshanath/Shivpanchayatan temple at base → climb to first stone gateway (parkoat) with carvings → further gateways including iron gate and later “Lakhya Darwaza” style entrance → top plateau with mosque, hause (water tanks), ruined structures and remains of Ambarkhana and offices.[web:10][web:14]
+- Trek time: ~1.5–2 hrs ascent depending on crowd; similar for descent; your event day included long exploration and demonstrations.
+- Access: From Nashik via Malegaon road, then internal rural road to Ghalna village; your trek was a big organised event with 6 buses and ~300 trekkers.
+- Best season: Post-monsoon to winter; summer heats the rock heavily.
+- Water/food: Carry full day’s water (4–5 L as advised by organisers) and tiffin; no dependable facilities on top.
+- Safety: Big groups must be disciplined at gateways and narrow sections; crowd control and sticking to marked path is important.
+- History/fact: Ghalna’s multiple carved gateways, Persian inscription, mosque and large tanks reflect its layered history across Sultanate, Mughal and British periods.[web:10][web:14]
+- Personal note: This was part trek, part cultural event with “gadadhari” demonstrations, Shivaji-era martial vibes, and a strong sense of shared history.
+- Quote: “On Ghalna, every gateway feels like a checkpoint between centuries.”

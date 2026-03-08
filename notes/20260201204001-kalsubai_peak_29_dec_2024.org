@@ -2,110 +2,144 @@
 :ID:       b01408ac-c20b-433d-87ee-fc47112a9ae9
 :END:
 #+title: Kalsubai Peak – 29 Dec 2024
-
 #+CATEGORY: Trek
-#+TAGS: :trek:outdoors:sahyadri:Kalsubai:
+#+DATE: <2024-12-29 Sun>
+#+TAGS: :trek:outdoors:sahyadri:igatpuri:
 #+PROPERTY: LOCATION All Treks
-#+PROPERTY: RANGE Sahyadri
+#+PROPERTY: RANGE Kalsubai range – Sahyadri sub‑range
 #+setupfile: ../org-html-themes/gray.theme
 
-
-* Trek Overview
+7* Trek Overview
 1. Trek Name: Kalsubai
-2. Region: igatpuri
-3. Range: sahyadri
-4. Base Village: bari
-5. Height from MSL (ft): 5400ft
+2. Region: Igatpuri / Kalsubai–Harishchandragad Wildlife Sanctuary
+3. Range: Sahyadri – Kalsubai range
+4. Base Village: Bari
+5. Height from MSL (ft): 5400 ft / 1646 m (highest peak of Maharashtra)
 6. Type:
    - [X] hill fort
    - [ ] forest trail
    - [ ] plateau
 7. Difficulty Level:
-8. [ ] easy
-9. [X] moderate
-10. [ ] difficult
-11. Best Season:
-12. [X] winter
-13. [ ] summer
-14. [ ] monsoon
-15. Time taken to Climb [hrs]: 3
-16. Water Availability:
-17. [X] yes
-18. [ ] no
-19. Suitable For:
-20. [X] beginners
-21. [X] regular trekkers
-22. [X] families
+   1. [ ] easy
+   2. [X] moderate
+   3. [ ] difficult
+8. Best Season:
+   1. [X] winter
+   2. [ ] summer
+   3. [X] monsoon (beautiful but slippery)
+9. Time taken to Climb [hrs]: 3 hours ascent (one‑day trek)
+10. Water Availability:
+    1. [X] yes – stalls + well near top
+    2. [ ] no
+11. Suitable For:
+    1. [X] beginners (fit, with guide/group)
+    2. [X] regular trekkers
+    3. [X] families
 
 * Schedule & Companions
-1. Date:  <2024-12-29 Sun>
-2. Team Members: more than 45 folks.
-3. Wake-up Time: started at morning 1 am.
-4. Left Home: at 10pm
-5. Start Point / Meeting Place: RD circle
-6. Route Start Time: 11 pm
-7. Return Time: <2024-12-30 Mon>
+1. Date:  <2024-12-29 Sun> to <2024-12-30 Mon>
+2. Team Members: 47 people in the group.
+3. Wake-up Time: Started trek around 1:00 AM on <2024-12-30 Mon>.
+4. Left Home: 10:00 PM (previous night) <2024-12-29 Sun>.
+5. Start Point / Meeting Place: RD Circle, Nashik.
+6. Route Start Time: 11:00 PM (travel towards Bari, night drive by bus).
+7. Return Time: <2024-12-30 Mon> (afternoon 1 pm.).
 8. Key Stops / Temples / Checkpoints:
-   - kalsubai mandir
-   - top view of bhandardara dam.
+   - Bari village trail start.
+   - Iron ladder sections.
+   - Kalsubai temple and Bhandardara dam viewpoint at top.
 
 * Route Information
-1. Route from Base City: 
-2. Final Village Distance km: 
-3. Public Transport Availability: yes 
-4. Parking / Auto / Petrol:  at ghoti
+1. Route from Base City: Nashik → Ghoti → towards Bhandardara → Bari junction → Bari village (standard Kalsubai route).
+2. Final Village Distance km: ~62 km from Nashik (via Ghoti).
+3. Public Transport Availability: ST buses / jeeps from Ghoti–Kasara–Igatpuri side towards Bhandardara; get down at Bari junction.
+4. Parking / Auto / Petrol: Paid parking in Bari; petrol pumps and auto repair mainly at Ghoti.
 
 * Historical / Mythological Background
-1. Historical Importance:  
-   - 
-2. Legends / Myths: story of kalsu.
-   - 
-3. Nearby Heritage / Religious Sites: temple at top 
-   - 
+1. Historical Importance:
+   - Not a fort; important as the highest peak of Maharashtra, often called the “Everest of Maharashtra”.
+2. Legends / Myths:
+   - Story of Kalsu: poor girl who worked in a village at the foothills, loved roaming the forest, left after being forced to clean litter, climbed to the peak and stayed there; villagers later worshipped her as a goddess and built the Kalsubai temple on top.
+3. Nearby Heritage / Religious Sites:
+   - Summit Kalsubai temple.
+   - Other historic forts in the visible belt: Harishchandragad, Ratangad, Alang–Madan–Kulang etc.
 
 * Key Landmarks & Attractions
-1. Temples: top temple
-   - 
+1. Temples:
+   - Kalsubai temple on the summit plateau.
 2. Structures (Bastions, Caves, Gates, etc.):
-   - none
+   - Three main iron ladders on steep rocky sections.
+   - Well near the last iron ladder, just below the top.
 3. Viewpoints (Ranges / Dams visible):
-   - lot from the top.
+   - Vast Bhandardara dam backwaters.
+   - East: Bitangad, Patta (Pattya), Aundha.
+   - West: Alang, Madan, Kulang (AMK).
+   - South: Ratangad, Prabalgad and other Sahyadri peaks.
 4. Not to Miss:
-   - amk view from top.
-   - sunrise.
+   - AMK view and full Bhandardara backwaters from the summit.
+   - Sunrise from top after night climb.
+   - 360° panoramic view of Kalsubai–Harishchandragad range.
 
 * Experience & Observations
-1. Weather / Terrain: 
+1. Weather / Terrain:
+   - Cool winter night; windy and colder near top.
+   - Mix of fields, meadows, rocky patches and iron ladders; long but straightforward trail.
 2. Notable Sights:
+   - Meadows around Bari in shades from tender green to golden.
+   - Headlamps of 45‑person group forming a line on the trail.
+   - First light spreading over Bhandardara waters and surrounding peaks.
 3. Personal Experience:
+   - Continuous journey from late night to next morning; strong group energy.
+   - Reaching highest point of Maharashtra felt like a milestone compared to previous treks.
+   - Temple darshan and sunrise together made it feel like both trek and yatra.
 4. Vibe / Mood of Place:
+   - Spiritual, pilgrimage‑like due to legend of Kalsu and temple.
+   - Busy but positive crowd; sense of achievement at the summit.
 5. Tips for Future Trekkers:
+   - Start early night to comfortably catch sunrise and avoid ladder bottlenecks on weekends.
+   - Carry 2–3 L water, light snacks; don’t depend fully on stalls.
+   - Ladders and rocks get very slippery in monsoon; hold railings and move one person at a time.
+   - For first time or big groups, take a local guide from Bari.
+   - at the top lot of stalls. make sure you pay extra but get the maggi. its worth it.
+   - carry a jacket in the morning there are heavy winds which accentuate the coldness.
 
 * Facilities & Amenities
 1. Food / Water Availability:
+   - Tea/poha and snacks available at Bari and a few seasonal stalls on route; water near top well (treat if drinking).
 2. Accommodation / Prasadam Timings:
+   - Simple homestays and lodges available in Bari / Bhandardara area. even at top some provide tents.
 3. Shops / Auto Repair / Petrol Info:
+   - Small provision shops in Bari; better shops, garages and petrol at Ghoti. even at top
 4. Guide Needed:
-5. [X] yes
+5. [X] yes – recommended for night trek / first‑timers.
 6. [ ] no
 
 * Local Notes
 1. Village Population / Details:
+   - Bari is a farming village serving as main base for Kalsubai treks; many families host trekkers.
 2. Major FoodCrops:
+   - Paddy and other monsoon‑fed crops typical of Kalsubai–Harishchandragad belt.
 3. Local Culture / People:
+   - Friendly villagers; many work as guides, run stalls and homestays during trekking season.
 
 * Photos & Media
-1. [ ] Add photos
-2. [ ] Add route map (GPS screenshot)
-3. [ ] Add group photo
+1. [X] Add photos – night ascent, ladders, sunrise, summit temple.
+   1. https://i.postimg.cc/zDWkPnTJ/Peat.jpg
+   2. https://i.postimg.cc/pV8B1DKP/Peav.jpg
+   3. https://i.postimg.cc/dtY9ML9P/Peaw.jpg
+   4. https://i.postimg.cc/pXHBNpBM/Peax.jpg
+   5. https://i.postimg.cc/3NgC4T3y/Peay.jpg
+2. [ ] Add route map (GPS screenshot – Nashik → Ghoti → Bari → summit).
+3. [ ] Add group photo with full team at top.
+   1. https://i.postimg.cc/vHsvRcv4/Pea3.jpg
 
 * Reflection
 1. What I Loved Most:
+   - Night trek atmosphere, sunrise at the highest point, massive views over Bhandardara and surrounding forts.
 2. What I’d Improve Next Time:
+   - Sleep more before the trek, start slightly earlier from Nashik, carry lighter pack.
 3. Recommend To:
+   - Fit beginners, regular trekkers, families okay with ladders and long climb.
 4. Return Visit:
-5. [ ] yes/no
-6. [ ] (why?)
-
-
-
+5. [X] yes/no
+6. [ ] (why?) – Worth revisiting in different seasons (winter clarity vs monsoon clouds), good benchmark for Sahyadri fitness.
