@@ -3,111 +3,154 @@
 :END:
 #+title:  Dehergad (Bhorgad) Fort – 2025
 
+#+DATE: <2025-08-09 Sat>
+#+CATEGORY: Trek
+#+TAGS: :trek:outdoors:sahyadri:dindori:
+#+PROPERTY: LOCATION All Treks
+#+PROPERTY: RANGE Nashik range
+#+setupfile: ../org-html-themes/gray.theme
+
 * Trek Overview
-1. Trek Name: 
-2. Region: 
-3. Range: 
-4. Base Village: 
-5. Height from MSL (ft): 
+1. Trek Name: Dehergad (Bhorgad)
+2. Region: Dindori, Nashik district
+3. Range: Nashik range / Peth–Nashik range
+4. Base Village: Deherwadi, Rasegaon
+5. Height from MSL (ft): ~3320–3580 ft (ancient hill fort)
 6. Type:
-   - [ ] hill fort
+   - [X] hill fort
    - [ ] forest trail
    - [ ] plateau
 7. Difficulty Level:
-8. [ ] easy
-9. [ ] moderate
-10. [ ] difficult
-11. Best Season:
-12. [ ] winter
-13. [ ] summer
-14. [ ] monsoon
-15. Time taken to Climb [hrs]: 
-16. Water Availability:
-17. [ ] yes
-18. [ ] no
-19. Suitable For:
-20. [ ] beginners
-21. [ ] regular trekkers
-22. [ ] families
+   1. [X] easy
+   2. [ ] moderate
+   3. [ ] difficult
+8. Best Season:
+   1. [X] winter
+   2. [ ] summer
+   3. [X] monsoon (green, but more slippery)
+9. Time taken to Climb [hrs]: 5 hr 30 min (half‑day trek)
+10. Water Availability:
+    1. [X] yes – water in rock tanks till about February
+    2. [ ] no
+11. Suitable For:
+    1. [X] beginners
+    2. [X] regular trekkers
+    3. [ ] families (okay if used to basic climbs)
 
 * Schedule & Companions
-1. Date: 
-2. Team Members: 
-3. Wake-up Time: 
-4. Left Home: 
-5. Start Point / Meeting Place: 
-6. Route Start Time: 
-7. Return Time: 
+1. Date: <2026-03-08 Sun>
+2. Team Members: 18
+3. Wake-up Time: 5:30 AM
+4. Left Home: 6.25 am
+5. Start Point / Meeting Place: muktidham.
+6. Route Start Time: 7.32
+7. Return Time: Trek finished by 12:21 PM; reached home by 2:00 PM.
 8. Key Stops / Temples / Checkpoints:
-   - 
-   - 
+   - Base at Deherwadi / Rasegaon side.
+   - Rock‑cut steps zone with tanks and Shivalinga.
+   - Open‑to‑sky Mahadev temple on south edge.
 
 * Route Information
-1. Route from Base City: 
-2. Final Village Distance km: 
-3. Public Transport Availability: 
-4. Parking / Auto / Petrol: 
+1. Route from Base City: Nashik → Nashik–Peth highway → towards Ramshej side → turn for Deherwadi / Rasegaon (east of Ramshej).
+2. Final Village Distance km: ~19 km from Nashik (via Peth highway).
+3. Public Transport Availability: Buses available from Nashik up to Rasewadi / Deherwadi junction on Nashik–Peth highway.
+4. Parking / Auto / Petrol: Facilities, garages and petrol pumps along Nashik–Peth highway and in Nashik city.
 
 * Historical / Mythological Background
 1. Historical Importance:
-   - 
+   - Dehergad lies in Dindori taluka on east side of famous Ramshej fort and is also known as “Bhorgad”.
+   - It, along with Bhorgad and Rajdeher, helped watch and protect the old trade route Peth–Sawalghat–Dindori.
+   - The fort was under Swarajya during Shivaji Maharaj’s time; exact Mughal capture details are unclear.
 2. Legends / Myths:
-   - 
+   - No specific mythological stories; mainly strategic watch‑tower role.
 3. Nearby Heritage / Religious Sites:
-   - 
+   - Ramshej fort to the west.
+   - Bhorgad hill with radar installation nearby (restricted).
 
 * Key Landmarks & Attractions
 1. Temples:
-   - 
+   - Open‑to‑sky Mahadev (Lord Shankar) temple on the south edge (roofless, only remnants).
 2. Structures (Bastions, Caves, Gates, etc.):
-   - 
+   - Rock‑cut steps in last section leading to ruined entrance.
+   - Three main rock‑cut water tanks and a Shivalinga near them.
+   - Additional paired tanks on south and west sides; scattered ruined structures on top.
 3. Viewpoints (Ranges / Dams visible):
-   - 
+   - West side view of Bhorgad fort / hill.
+   - East side view of Ramshej fort.
+   - South side view of Maynaa hill.
+   - North side views of Satmala range and Rashegaon village.
 4. Not to Miss:
-   - 
+   - Open‑to‑sky Mahadev temple on south edge.
+   - Water tank on west side next to temple.
+   - All four‑direction views: Bhorgad, Ramshej, Manyee hill, Satmala and Rasegaon.
 
 * Experience & Observations
 1. Weather / Terrain:
+   - started with a jungle safari.
+   - Medium, short climb; mostly open hill with dense karvi patches covering the plateau.
+   - Rock‑cut steps in upper section; large spread but very gentle terrain overall.
 2. Notable Sights:
+   - Ancient rock tanks and Shivalinga hinting at past settlement.
+   - Continuous belt of karvi bushes across the top.
+   - Clear line‑of‑sight to Ramshej, Bhorgad and Satmala.
 3. Personal Experience:
+   - Perfect half‑day trek starting early from Nashik, finishing by noon and back home by 2 PM.
+   - Fort has very few remaining structures, so focus is more on views and terrain than big fortification.
 4. Vibe / Mood of Place:
+   - Quiet, lesser‑known fort close to city; feels like a hidden practice ground for beginners.
+   - Slightly wild due to karvi cover, but peaceful.
 5. Tips for Future Trekkers:
+   - Start early to avoid heat; carry enough water as tanks may dry after February.
+   - Follow south‑side route and faint paths carefully; a local from Rasegaon / guide is helpful.
+   - Combine with Ramshej or Bhorgad views for a fuller day.
 
 * Facilities & Amenities
 1. Food / Water Availability:
+   - No food or shops on fort; basic groceries in Rasegaon / nearby villages.
+   - Water available in tanks up to around February; treat before drinking.
 2. Accommodation / Prasadam Timings:
+   - Stay options mainly in Nashik city; none on fort.
 3. Shops / Auto Repair / Petrol Info:
+   - Hospitals and major facilities at Makhmalabad and Nashik.
+   - Petrol, garages and shops along Nashik–Peth highway and in Nashik.
 4. Guide Needed:
-5. [ ] yes
-6. [ ] no
+5. [X] yes – available at Rasegaon, useful as paths are faint.
 
 * Local Notes
 1. Village Population / Details:
+   - Rasegaon village ~30–40 houses; Deherwadi is small base settlement for fort.
 2. Major FoodCrops:
+   - Typical Dindori belt crops; grape and vegetable farming around highway belt.
 3. Local Culture / People:
+   - Farming communities; some locals guide trekkers and know Dehergad / Bhorgad–Ramshej history.
 
 * Photos & Media
-1. [ ] Add photos
-2. [ ] Add route map (GPS screenshot)
-3. [ ] Add group photo
+1. [ ] Add photos – rock steps, tanks, Mahadev temple.
+   
+2. [ ] Add route map (GPS screenshot from Nashik → Deherwadi).
+3. [ ] Add group photo on plateau with Ramshej / Bhorgad in background.
 
 * Reflection
 1. What I Loved Most:
+   - Close‑to‑Nashik location, beginner‑friendly climb, quiet plateau covered with karvi and wide views to all major nearby forts.
 2. What I’d Improve Next Time:
+   - Explore connecting ridges towards Bhorgad / Ramshej, document more precise paths and GPS.
 3. Recommend To:
+   - Beginners from Nashik, quick half‑day outing seekers, people training for longer Sahyadri treks.
 4. Return Visit:
-5. [ ] yes/no
-6. [ ] (why?)
+5. [X] yes/no
+6. [ ] (why?) – Great as a warm‑up / practice trek and for introducing new trekkers near the city.
 
 
-- Region: Near Nashik, in the Peth range of the Western Ghats.[web:15]
+- Region: Near Nashik, in the Peth range of the Western Ghats.
 - Height: ~1000 m / ~3297 ft (approx).
 - Grade: Easy–Moderate; mostly forested trail with a final rocky section near the fort structures.
-- Route: Forest entry → gentle jungle trail → a couple of steeper forested climbs → open ridge with views → ruined fort walls/structure.[web:10]
+- Route: Forest entry → gentle jungle trail → a couple of steeper forested climbs → open ridge with views → ruined fort walls/structure.
 - Trek time: 2–3 hrs ascent, 1.5–2 hrs descent.
-- Access: From Nashik by road towards Peth region; local guidance is very helpful because of similar-looking forest tracks.[web:15]
+- Access: From Nashik by road towards Peth region; local guidance is very helpful because of similar-looking forest tracks.
 - Best season: Post-monsoon to winter; monsoon makes the forest lush but also more leech-prone and slippery.
 - Water/food: No reliable water on trail; carry full requirement from base (2–3 L); food only in nearby villages, so tiffin is best.
 - Safety: Forest sections can be confusing; stay with group and avoid venturing off-track; watch for loose soil and leaf-covered stones.
-- Fact: Dehergad/Bhorgad area is part of a reforestation and biodiversity recovery story where local efforts helped bring back green cover and wildlife.[web:7][web:11]
+- Fact: Dehergad/Bhorgad area is part of a reforestation and biodiversity recovery story where local efforts helped bring back green cover and wildlife.
 - Quote: “Some forts roar with crowds, others like Dehergad whisper through trees and broken stones.”
+  

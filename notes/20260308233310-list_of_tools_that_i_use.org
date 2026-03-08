@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       d619f748-faa6-43eb-b693-e8fefdfca724
+:END:
+#+title: list of tools that i use.
+#+setupfile: ../org-html-themes/white_clean.theme
+* softwares
+** linux
+*** MX linux
+*** urxvt
+*** emacs
+*** zathura
+*** calibre
+*** lot more cant recall right now
+** android
+*** fossify stuff.
+** windows
+*** sumatra pdf
+*** powertoys
+*** chrome canary
+*** nomacs
+* links
+** postimage.org
+** vidplay.io
+** 

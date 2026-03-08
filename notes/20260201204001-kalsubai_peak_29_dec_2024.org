@@ -9,7 +9,7 @@
 #+PROPERTY: RANGE Kalsubai range – Sahyadri sub‑range
 #+setupfile: ../org-html-themes/gray.theme
 
-7* Trek Overview
+* Trek Overview
 1. Trek Name: Kalsubai
 2. Region: Igatpuri / Kalsubai–Harishchandragad Wildlife Sanctuary
 3. Range: Sahyadri – Kalsubai range
@@ -137,7 +137,7 @@
 1. What I Loved Most:
    - Night trek atmosphere, sunrise at the highest point, massive views over Bhandardara and surrounding forts.
 2. What I’d Improve Next Time:
-   - Sleep more before the trek, start slightly earlier from Nashik, carry lighter pack.
+   - Sleep more before the trek, start slightly earlier from Nashik, carry lighter pack, check the weather and if its cloudy then avoid. top view was blocked due to clouds. sunrise missed.
 3. Recommend To:
    - Fit beginners, regular trekkers, families okay with ladders and long climb.
 4. Return Visit:

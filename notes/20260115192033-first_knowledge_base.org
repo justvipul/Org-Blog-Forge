@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       2a30ee8a-355c-408c-bce6-8c575e23d72a
 :END:
-#+title: first knowledge base
+#+title: FIRST KNOWLEDGE BASE - qpl
 #+setupfile: ../org-html-themes/readtheorg_inline.theme
 
 * All notes here
@@ -22,3 +22,4 @@
 * [[id:118829c9-2dbc-441b-a0de-4293251f23a8][shiv tandav stotram]]
 * [[id:337dfe0c-b449-45f3-b405-f45f7232260c][alex honnold podcast notes]]
 * [[id:da6a504b-8072-4422-9a47-31c0e2877ddb][blogs read and felt too good]]
+* [[id:d619f748-faa6-43eb-b693-e8fefdfca724][list of tools that i use.]]
