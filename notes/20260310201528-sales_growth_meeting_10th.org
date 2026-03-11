@@ -4,6 +4,7 @@
 #+title: sales growth meeting 10th
 #+TITLE: Sales Growth Huddle – Small Tools, Smart Thinking
 #+OPTIONS: toc:nil num:t
+#+setupfile: ../org-html-themes/readtheorg_inline.theme
 * small but powerfull tools that help me save time.
 ** Power toys.
 *** i use the power rename function.
@@ -61,15 +62,7 @@ Give the reason for the task before actually giving the task. this increases the
 #+end_quote
 * How my habit of trekking affects my professional life.
 ** alex honnold short vid.
-#+BEGIN_EXPORT html
-<iframe width="560" height="315"
-        src="https://www.youtube.com/watch?v=KkVZm5UuXIs"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-#+END_EXPORT
+https://www.youtube.com/watch?v=KkVZm5UuXIs
 ** Trekking & Alex Honnold Mindset – Applied to Sales (4 min)
 *** Key Ideas from Honnold / Trekking
 - Not fearlessness, but *preparation + exposure*:
@@ -83,19 +76,17 @@ Give the reason for the task before actually giving the task. this increases the
 - Difficult deals = big wall:
   - Break them into steps:
     - Today: get requirements clearly.
-    - Tomorrow: share 2–3 options.
+    - Next: share 2–3 options.
     - Next: do one deep CDM search and one follow‑up call.
 - Exposure therapy to rejection:
   - Many calls → many “No’s” → gradually you become calmer.
   - Treat each “No” like one more move on the wall; you keep going.
 
 - Intrinsic motivation:
-  - Focus on *craft of selling*:
+  - Focus on *Art of selling*:
     - Better questions,
     - Better matching of machines,
-    - Cleaner WhatsApp communication.
-  - Not just on commission.
-    
+    - Cleaner WhatsApp communication.    
 
 * Close – One Ask from Today (1 min)
 - Pick *one* of these to implement today:
@@ -104,7 +95,7 @@ Give the reason for the task before actually giving the task. this increases the
   3. One improvement in your daily TODO / delegation, or
   4. One trekking/Honnold mindset shift about rejection.
 
-* Question asked to alex honnold - whats your hack to overcome fear?
+* Quote from the answer given by Alex Honnold - whats your hack to overcome fear?
 #+begin_quote
-you become scared so many times over and over and eventually its not that scary anymore
+You become scared so many times over and over and eventually its not that scary anymore.a
 #+end_quote
