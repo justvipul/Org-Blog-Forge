@@ -1,0 +1,110 @@
+:PROPERTIES:
+:ID:       96c05ba6-fe72-4d47-b15c-d0db4518238f
+:END:
+#+title: sales growth meeting 10th
+#+TITLE: Sales Growth Huddle – Small Tools, Smart Thinking
+#+OPTIONS: toc:nil num:t
+* small but powerfull tools that help me save time.
+** Power toys.
+*** i use the power rename function.
+https://learn.microsoft.com/en-us/windows/images/powerrename-demo.gif
+*** peek function to preview file in the file explorer.
+https://learn.microsoft.com/en-us/windows/images/powerrename-demo.gif
+*** powertoys Run which includes
+https://learn.microsoft.com/en-us/windows/images/pt-powerrun-demo.gif
+1. Search for applications, folders or files
+2. Do a simple calculation using calculator
+3. Get time and date information
+4. Convert units
+5. Open web pages or start a web search
+*** Windows key shortcut guide
+https://learn.microsoft.com/en-us/windows/images/pt-shortcut-guide-large.png
+** windows + V.
+https://www.cu.edu/sites/default/files/2025-11-17%20image%203.png
+** Vimium keybinding
+** Windows shortcuts.
+*** open pinned applications
+- Win + [1,2,3,4,5,6,7,8,9,0]
+- Win + e
+  Open new file explorer tab from any state you are in.
+- while using chrome
+  - Ctrl + [1,2,3,4,5,6,7,8,9,0] = open that given numbered tab that is opened.
+** Whatsapp saving customer name
+this hack helps me save time. as i copy paste the names. instead of typing in phone.
+** Android talk to text keyboard feature.
+* CDM hacks
+** current matching feature is not reliable. so how do i still use CDM effectively to find the right matching machine?
+** lets see some practical examples that i have been using daily
+#+begin_quote
+buying requirement is = VMC required
+table size is 1000, but 800 is also fine for her.
+the controller suitable is fanuc and mitsubishi both.
+with ATC prefered but if without then also fine.
+near to his city
+budget under what value?
+
+#+end_quote
+*** open the matched list
+**** add the state in the state column because all the above boxes dont work.
+**** write just 1 in the x table, this finds all numbers having 1 anywhere in them YYYY, where any one of the Y is 1 here.
+**** manually go through each machine in the result by clicking on the sort option for either price or year depending on the customer requirement of year, accuracy, budget.
+*** This does apply if they want pallet changer or have special requiremetn in the spindle nose taper or spindle power. in that case manual search is the way to go.
+** after sharing suggest them to open the link ask if they have any queries. if i find out they havent checked it. then instead of asking them to check them again i ask them to stay on the second call and describe each machine.
+* Daily Todo list of what needs to be done, where i set the priority bsaed on the concept given by Bhavin sir urgent-important matrix.
+
+** this todo list is a recurring one.
+- until it goes to yes/no.
+- it stays in my list and it expands or contracts accordingly.
+** while delegating any task in the team internally follow this rule
+#+begin_quote
+Give the reason for the task before actually giving the task. this increases the chance of the task being taken up and completed more efficiently.
+#+end_quote
+* How my habit of trekking affects my professional life.
+** alex honnold short vid.
+#+BEGIN_EXPORT html
+<iframe width="560" height="315"
+        src="https://www.youtube.com/watch?v=KkVZm5UuXIs"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe>
+#+END_EXPORT
+** Trekking & Alex Honnold Mindset – Applied to Sales (4 min)
+*** Key Ideas from Honnold / Trekking
+- Not fearlessness, but *preparation + exposure*:
+  - Big climbs become “low‑risk” in his mind because of practice and rehearsal.
+- Incremental goals:
+  - Huge achievements = many small, daily goals written in a journal.
+- Intentional risk:
+  - “Everyone is going to die; better to take calculated risks you choose than random risks of inaction.”
+
+*** How This Applies to Our Sales Work
+- Difficult deals = big wall:
+  - Break them into steps:
+    - Today: get requirements clearly.
+    - Tomorrow: share 2–3 options.
+    - Next: do one deep CDM search and one follow‑up call.
+- Exposure therapy to rejection:
+  - Many calls → many “No’s” → gradually you become calmer.
+  - Treat each “No” like one more move on the wall; you keep going.
+
+- Intrinsic motivation:
+  - Focus on *craft of selling*:
+    - Better questions,
+    - Better matching of machines,
+    - Cleaner WhatsApp communication.
+  - Not just on commission.
+    
+
+* Close – One Ask from Today (1 min)
+- Pick *one* of these to implement today:
+  1. One time‑saving tool (PowerToys Run, Win+V, Chrome shortcuts), or
+  2. One CDM search hack, or
+  3. One improvement in your daily TODO / delegation, or
+  4. One trekking/Honnold mindset shift about rejection.
+
+* Question asked to alex honnold - whats your hack to overcome fear?
+#+begin_quote
+you become scared so many times over and over and eventually its not that scary anymore
+#+end_quote

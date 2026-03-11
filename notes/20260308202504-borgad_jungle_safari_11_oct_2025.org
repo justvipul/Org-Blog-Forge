@@ -2,110 +2,12 @@
 :ID:       bdbdde94-b9bd-47a3-8b23-d68d9525f881
 :END:
 #+title: Borgad Jungle Safari – 11 Oct 2025
-* Trek Overview
-1. Trek Name: 
-2. Region: 
-3. Range: 
-4. Base Village: 
-5. Height from MSL (ft): 
-6. Type:
-   - [ ] hill fort
-   - [ ] forest trail
-   - [ ] plateau
-7. Difficulty Level:
-8. [ ] easy
-9. [ ] moderate
-10. [ ] difficult
-11. Best Season:
-12. [ ] winter
-13. [ ] summer
-14. [ ] monsoon
-15. Time taken to Climb [hrs]: 
-16. Water Availability:
-17. [ ] yes
-18. [ ] no
-19. Suitable For:
-20. [ ] beginners
-21. [ ] regular trekkers
-22. [ ] families
 
-* Schedule & Companions
-1. Date: 
-2. Team Members: 
-3. Wake-up Time: 
-4. Left Home: 
-5. Start Point / Meeting Place: 
-6. Route Start Time: 
-7. Return Time: 
-8. Key Stops / Temples / Checkpoints:
-   - 
-   - 
+title: trek notes template
+#+DATE: <2026-03-08 Sun>
+#+CATEGORY: Trek
+#+TAGS: :trek:outdoors:sahyadri:dindori:
+#+PROPERTY: LOCATION All Treks
+#+PROPERTY: RANGE Nashik range
+#+setupfile: ../org-html-themes/gray.theme
 
-* Route Information
-1. Route from Base City: 
-2. Final Village Distance km: 
-3. Public Transport Availability: 
-4. Parking / Auto / Petrol: 
-
-* Historical / Mythological Background
-1. Historical Importance:
-   - 
-2. Legends / Myths:
-   - 
-3. Nearby Heritage / Religious Sites:
-   - 
-
-* Key Landmarks & Attractions
-1. Temples:
-   - 
-2. Structures (Bastions, Caves, Gates, etc.):
-   - 
-3. Viewpoints (Ranges / Dams visible):
-   - 
-4. Not to Miss:
-   - 
-
-* Experience & Observations
-1. Weather / Terrain:
-2. Notable Sights:
-3. Personal Experience:
-4. Vibe / Mood of Place:
-5. Tips for Future Trekkers:
-
-* Facilities & Amenities
-1. Food / Water Availability:
-2. Accommodation / Prasadam Timings:
-3. Shops / Auto Repair / Petrol Info:
-4. Guide Needed:
-5. [ ] yes
-6. [ ] no
-
-* Local Notes
-1. Village Population / Details:
-2. Major FoodCrops:
-3. Local Culture / People:
-
-* Photos & Media
-1. [ ] Add photos
-2. [ ] Add route map (GPS screenshot)
-3. [ ] Add group photo
-
-* Reflection
-1. What I Loved Most:
-2. What I’d Improve Next Time:
-3. Recommend To:
-4. Return Visit:
-5. [ ] yes/no
-6. [ ] (why?)
-
-
-- Region: Near Nashik, reforested hill and forest area.[web:7][web:11]
-- Height: ~3480 ft (approx summit ridge).
-- Grade: Easy; usually done as a jungle walk/safari rather than a summit push.
-- Route: Entry point → forest track → viewpoints over reforested slopes and small water bodies; specific paths vary by guide and permission.
-- Access: Close to Nashik city; access only through organised groups and with special permission due to proximity to restricted areas.
-- Best season: Post-monsoon for full green cover.
-- Water/food: Treat as a half-day walk but still carry water and light snacks.
-- Safety: Area touches sensitive/IAF-linked zones; always respect boundaries, follow guides, and avoid off-trail wandering.
-- Fact: Around 1.5–2.5 lakh trees have been planted here over years as part of major afforestation drives, transforming the hill’s biodiversity.[web:7][web:11]
-- Quote: “Borgad is a reminder that forests can be destroyed by people—and also rebuilt by people.”
