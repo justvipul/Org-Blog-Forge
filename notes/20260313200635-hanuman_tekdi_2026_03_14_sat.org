@@ -2,6 +2,7 @@
 :ID:       e0806e96-09e9-4b62-a2f9-22464c372660
 :END:
 #+title: hanuman tekdi <2026-03-14 Sat>
+#+setupfile: ../org-html-themes/gray.theme
 
 * Trek Overview
 1. Trek Name:  Hanuman tekdi
