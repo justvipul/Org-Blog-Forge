@@ -9,8 +9,6 @@
 *** TODO can make a new post of kalsubai. lot of images missed.
 ** DONE [[id:e14b07cc-1981-4d1a-8196-20c2767d38db][Dehergad (Bhorgad) Fort – 2025]]
 ** DONE [[id:bdbdde94-b9bd-47a3-8b23-d68d9525f881][Borgad Jungle Safari – 11 Oct 2025]]
-
-
 *** TODO can make a new post showcasing the story.
 ** DONE [[id:a234de47-3801-4184-883a-38002d7255f1][Raygadnagar Tekdi – 6 Dec 2025]]
 ** DONE [[id:8d6acdd2-5a11-4352-8d39-16bd1d8d9a37][Daryai Mata Mandir Trek – 4 Oct 2025]]
@@ -26,5 +24,27 @@
 ** TODO [[id:3e0a44ea-c31a-4b3d-afc1-c73f7c18b99f][Durg bhandar <2026-02-07 Sat>]]
 ** TODO [[id:59f6a116-f24f-4419-a5db-e37ee48ab195][kaarvi cha dongar <2026-02-28 Sat>]]
 ** TODO [[id:b1824f0a-70ff-4f5f-8425-cfd2d1d38719][Pandavleni practice - <2026-03-08 Sun>]]
+** TODO [[id:e0806e96-09e9-4b62-a2f9-22464c372660][hanuman tekdi <2026-03-14 Sat>]]
 * [[id:d5c52ebd-667f-4226-b116-d3bf22840997][trek notes template]]
 * [[id:66a424c0-9741-41a8-97b6-5e9648bcc00e][trek routine,]]
+* [[id:176bea91-d8f4-4879-8a73-cba48548e425][post making notes ideas quotes]]
+* online survey maps terms
+1. I/we have read provisions of "Guidelines for acquiring and producing Geospatial Data and Geospatial data services", published vide DST notification no SM/25/02/2020 (Part-I) dated 15" February 2021 and I fulfill the criteria of 'Indian Entity defined in the said guidelines.
+2. I/We, certify that for any part of the activities mentioned in the guidelines, we are not subject to, and not controlled by any entity or individual that is subject to a temporary suspension or ban or blacklisting or debarred by any Government/Semi-Government entity of India.
+3. I/We, certify that all our sub-contractors, suppliers, consultants or service providers for any part of the activities, are not subject to a temporary suspension or ban or blacklisting or debarred by any Government/Semi-Government entity of India and have signed this Self-Declaration Form of in this respect.
+4. I/We, undertake that negative list of attributes as published by the Government have not been acquired and shall not be marked on any Map and location on a Map with prohibited attributes.
+5. We, undertake that ground truthing/verification data obtained on the basis of SOI data shall not be provided / shared with any foreign entity.
+6. We, undertake that the Survey of India digital boundary data shall be used as standard for publishing Maps of India of any scale including national, state and other boundaries.
+7. We, undertake that Digital Maps/Geospatial Data of spatial accuracy/value finer than the threshold value will only be stored and/or processed in computers/servers/storage media/ cloud, physically located with territory of India and shall not be shared/exported/sent to any foreign country through any medium electronically (email/ pen drive/CD etc.) or physically and neither it will be handed over to shared with any Indian/foreign entity located outside territory of India.
+8. I solemnly affirm and declare that neither I will sublet data given to me, nor I will re-sell data provided by Survey of India in its original form.
+9. I/We undertake to retrain from disclosing, reproducing, summarizing, and/or distributing the downloaded material of Survey of India.
+10. I/We undertake to protect the confidentiality of SOI’s data in the same manner as I/We would protect the confidentiality of our own proprietary and confidential information of similar nature.
+11. I/We understand that the data belongs to SOI and on every citation, reproduction and display of downloaded data proper credit will be provided to Survey Of India.
+12. I hereby declare that to the best of my knowledge and belief, the documents given in registration and the declaration made above are true. I agree that, if any information/undertaking furnished by me is found to be incorrect/false, I shall be liable for the legal prosecution.
+13. I hereby confirm that I have read and agree to abide by the “Indian Entity Terms and Conditions” as specified on the National Geo-Spatial Portal (https://geospatial.dst.gov.in). I understand that in case of any non-compliance or violation of the applicable terms, I shall be responsible for the consequences as per relevant laws, and the decision of the competent authority shall be final and binding in this regard.
+
+It is certified that -
+1. I have read the terms & conditions mentioned above and agree to abide by them.
+2. The information submitted in this application is verified and true to the best of my knowledge.
+3. I/We agree for not sharing the user ID and password allotted to us by Survey of India to avoid any unauthorized use by any individual.
+4. I/We agree that the downloaded product will not be shared with any foreign entity or individual.

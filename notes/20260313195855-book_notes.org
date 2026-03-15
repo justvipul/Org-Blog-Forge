@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       229cd79c-1096-4c4d-943e-9e68bcebe642
+:END:
+#+title: book notes
+* [[id:69018975-07ea-435f-a0ca-f06b81c2ad31][Survival in the Wilderness - The Survival Guide_ A -- Weiss, Friedhelm -- 2023 -- Expertengruppe Verlag]]

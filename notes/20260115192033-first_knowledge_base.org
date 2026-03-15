@@ -6,7 +6,7 @@
 
 * All notes here
 ** [[id:bfc29a22-c97c-4b56-8bbd-d1af23c89659][linux tips]] :linux:
-*** [[id:f3fd1cc3-d370-47cc-8d05-f47c1731bfc0][zathura imp keys]]
+*** [[id:f3fd1cc3-d370-47cc-8d05-f47c1731bfc0][zathura imp keys]] :linux:zathura:
 ** [[id:e89eef71-5175-46cb-88b5-b50f1ff95c8d][org mode]] :org:
 *** [[id:7a2c6f73-13c2-4abc-a1f0-bac9200c6c8c][basics and learnings]]
 *** [[id:9e9868f3-d9c9-487c-b2f6-7aea3509c5a4][org modern test]]
@@ -19,8 +19,9 @@
 *** [[id:0d16258a-47ab-410b-9a47-2962f839fd84][sales growth meeting 8th]] :sales:rgm:
 *** [[id:70c860db-0a66-49b0-8cce-d2da98bc09f7][Sales growth meeting 9th]] :sales:rgm:
 *** [[id:96c05ba6-fe72-4d47-b15c-d0db4518238f][sales growth meeting 10th]]
-* [[id:cf90113c-7c6f-4073-9a12-3cb43c469c96][all treks details]]
-* [[id:118829c9-2dbc-441b-a0de-4293251f23a8][shiv tandav stotram]]
-* [[id:337dfe0c-b449-45f3-b405-f45f7232260c][alex honnold podcast notes]]
-* [[id:da6a504b-8072-4422-9a47-31c0e2877ddb][blogs read and felt too good]]
-* [[id:d619f748-faa6-43eb-b693-e8fefdfca724][list of tools that i use.]]
+* [[id:cf90113c-7c6f-4073-9a12-3cb43c469c96][all treks details]] :trek:
+* [[id:118829c9-2dbc-441b-a0de-4293251f23a8][shiv tandav stotram]] :sanskrit:
+* [[id:337dfe0c-b449-45f3-b405-f45f7232260c][alex honnold podcast notes]] :podcast:notes:
+* [[id:da6a504b-8072-4422-9a47-31c0e2877ddb][blogs read and felt too good]] :blogs:read:
+* [[id:d619f748-faa6-43eb-b693-e8fefdfca724][list of tools that i use.]] :tools:
+* [[id:229cd79c-1096-4c4d-943e-9e68bcebe642][book notes]] :book:notes:

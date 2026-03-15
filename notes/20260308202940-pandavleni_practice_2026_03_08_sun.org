@@ -3,8 +3,8 @@
 :END:
 #+title: Pandavleni practice - <2026-03-08 Sun>
 * Trek Overview
-1. Trek Name: 
-2. Region: 
+1. Trek Name:  Pandavleni practice trek.
+2. Region: nashik 
 3. Range: 
 4. Base Village: 
 5. Height from MSL (ft): 
