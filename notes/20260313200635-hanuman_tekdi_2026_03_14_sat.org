@@ -14,7 +14,7 @@
    - [ ] hill fort
    - [ ] forest trail
    - [ ] plateau
-   - [ ] Tekdi
+   - [X] Tekdi
 7. Difficulty Level:
 8. [X] easy
 9. [ ] moderate
@@ -108,41 +108,39 @@
 
 * Photos & Media
 1. [ ] Add photos
-   https://i.postimg.cc/zfwtt74Z/IMG-20260314-070629.jpg
-https://i.postimg.cc/K8MsLxNM/IMG-20260314-073614.jpg
-https://i.postimg.cc/R01ssdy8/IMG-20260314-073616.jpg
-https://i.postimg.cc/13qY6sHp/IMG-20260314-075700.jpg
-https://i.postimg.cc/5t577gDt/IMG-20260314-081537.jpg
-https://i.postimg.cc/8CgXm9Xg/IMG-20260314-081612.jpg
-https://i.postimg.cc/rp2ZN3nr/IMG-20260314-081847.jpg
-https://i.postimg.cc/tgdSSk8y/IMG-20260314-081955.jpg
-https://i.postimg.cc/bNd5yQS4/IMG-20260314-085959.jpg
-https://i.postimg.cc/zGgPW8jT/IMG-20260314-090433.jpg
-https://i.postimg.cc/jjY34mgQ/IMG-20260314-093412.jpg
-https://i.postimg.cc/gJYMfRPy/IMG-20260314-WA0004.jpg
-https://i.postimg.cc/HxpSf5C5/IMG-20260314-WA0006.jpg
-https://i.postimg.cc/nLKRR2Nj/IMG-20260314-WA0012.jpg
-https://i.postimg.cc/sXVntSR2/IMG-20260314-WA0023.jpg
-https://i.postimg.cc/q7cbbwWq/IMG-20260314-WA0025.jpg
-https://i.postimg.cc/pT20g8tn/IMG-20260314-WA0027.jpg
-https://i.postimg.cc/SsyZw8pS/IMG-20260314-WA0029.jpg
-https://i.postimg.cc/HL0ZZzFj/IMG-20260314-WA0032.jpg
-https://i.postimg.cc/cHsDVYNn/IMG-20260314-WA0034.jpg
-https://i.postimg.cc/C1FvWDV5/IMG-20260314-WA0035.jpg
-https://i.postimg.cc/KzZ9dLyT/IMG-20260314-WA0037.jpg
-https://i.postimg.cc/hjSCHxqb/IMG-20260314-WA0092.jpg
-https://i.postimg.cc/3J6cdd29/IMG-20260314-WA0094.jpg
-https://i.postimg.cc/B6qhdDGL/IMG-20260314-WA0099.jpg
-https://i.postimg.cc/hjSCHxqS/IMG-20260314-WA0111.jpg
-https://i.postimg.cc/xdGxx5B1/IMG-20260314-WA0115.jpg
-https://i.postimg.cc/W329QrPD/IMG-20260314-WA0124.jpg
-https://i.postimg.cc/XJV2TF0w/IMG-20260314-WA0130.jpg
-https://i.postimg.cc/XJV2TF0p/IMG-20260314-WA0132.jpg
-2. [ ] Add route map (GPS screenshot)
- https://i.postimg.cc/qRxZDwhx/photo-2026-03-15-20-23-20.jpg
-https://i.postimg.cc/B6Bw7pLw/photo-2026-03-15-20-23-22.jpg
+   1. https://i.postimg.cc/zfwtt74Z/IMG-20260314-070629.jpg
+   2. https://i.postimg.cc/K8MsLxNM/IMG-20260314-073614.jpg
+   3. https://i.postimg.cc/R01ssdy8/IMG-20260314-073616.jpg
+   4. https://i.postimg.cc/13qY6sHp/IMG-20260314-075700.jpg
+   5. https://i.postimg.cc/5t577gDt/IMG-20260314-081537.jpg
+   6. https://i.postimg.cc/8CgXm9Xg/IMG-20260314-081612.jpg
+   7. https://i.postimg.cc/rp2ZN3nr/IMG-20260314-081847.jpg
+   8. https://i.postimg.cc/bNd5yQS4/IMG-20260314-085959.jpg
+   9. https://i.postimg.cc/zGgPW8jT/IMG-20260314-090433.jpg
+   10. https://i.postimg.cc/jjY34mgQ/IMG-20260314-093412.jpg
+   11. https://i.postimg.cc/HxpSf5C5/IMG-20260314-WA0006.jpg
+   12. https://i.postimg.cc/nLKRR2Nj/IMG-20260314-WA0012.jpg
+   13. https://i.postimg.cc/sXVntSR2/IMG-20260314-WA0023.jpg
+   14. https://i.postimg.cc/q7cbbwWq/IMG-20260314-WA0025.jpg
+   15. https://i.postimg.cc/pT20g8tn/IMG-20260314-WA0027.jpg
+   16. https://i.postimg.cc/HL0ZZzFj/IMG-20260314-WA0032.jpg
+   17. https://i.postimg.cc/cHsDVYNn/IMG-20260314-WA0034.jpg
+   18. https://i.postimg.cc/C1FvWDV5/IMG-20260314-WA0035.jpg
+   19. https://i.postimg.cc/3J6cdd29/IMG-20260314-WA0094.jpg
+   20. https://i.postimg.cc/B6qhdDGL/IMG-20260314-WA0099.jpg
+   21. https://i.postimg.cc/hjSCHxqS/IMG-20260314-WA0111.jpg
+   22. https://i.postimg.cc/xdGxx5B1/IMG-20260314-WA0115.jpg
+   23. https://i.postimg.cc/W329QrPD/IMG-20260314-WA0124.jpg
+   24. https://i.postimg.cc/XJV2TF0p/IMG-20260314-WA0132.jpg
 
-3. [ ] Add group photo
+2. [ ] Add route map (GPS screenshot)
+   - https://i.postimg.cc/qRxZDwhx/photo-2026-03-15-20-23-20.jpg
+   - https://i.postimg.cc/B6Bw7pLw/photo-2026-03-15-20-23-22.jpg
+
+3. videos
+   - https://vidplay.io/watch/XOdrhD
+
+4. [ ] Add group photo
 
 * Reflection
 1. What I Loved Most: short fun trek ideal for family 
@@ -153,3 +151,67 @@ https://i.postimg.cc/B6Bw7pLw/photo-2026-03-15-20-23-22.jpg
 6. [ ] (why?)
 
 
+* gram stuff
+** english
+Hidden in the Trimbak range, This is the trek most people walk past without ever knowing it exists. 🙏🏔️
+
+Fun facts of this trek - 2,602 ft from MSL. In Pegalwadi. A Shivling at the summit. Views of Gautami Godavari dam, Beje Dam, Anjaneri, Brahmagiri, and Ranjangiri fort — all from a trail barely anyone knows.
+
+We started at 7 AM with a group of 15 — beginners, families, kids — and were back by 10. Three hours of climb, a lifetime of calm.
+
+Peaceful. Spiritual. Untouched.
+
+According to local belief, Shri Hanuman himself lived here after his birth — and you can feel that energy the moment you step onto the ridge.
+
+At the summit, we met a local resident from Anjaneri village Vishal — he climbs up whenever possible just to give offerings at the Shivling. No gear, noone to showcase, just devotion.
+
+At the trailstart, another local had just finished a casual 15K run through the hills before most of us had even started walking.
+
+Living in the city, we chase weekends like this. For them, this is the everyday. 🙏
+
+If you're tired of crowded trails near Trimbak, this is your answer.
+
+Base: Pegalwadi | Start from Shiv Mandir, follow the orange trail markers.
+Climb: ~1 hr [it took us more 3 hours due to varied group] | Difficulty: Easy | Ideal for families & beginners
+
+#Nashik #HanumanTekdi #HiddenTrek #Trimbak #TrimbakRange #Pegalwadi
+#MaharashtraTrekking #NasikTreks #UnexploredMaharashtra #TrekkingIndia
+#BeginnerTrek #FamilyTrek #WeekendTrek #EasyTrek #TrekkingCommunity
+#AnjaneriRange #Brahmagiri #NatureWalk #MountainVibes #HikingIndia
+#SpiritualTrek #OffBeatMaharashtra #TrekWithFamily #MorningTrek
+#HiddenGems #ExploreMaharashtra #ट्रेकिंग #महाराष्ट्रट्रेकिंग 
+** hooks
+"We called it a trek. He called it his morning pooja route."
+
+
+For the first slide or opening frame:
+
+"A trek 15 people did. A trail almost nobody knows about."
+
+"Trimbak's best kept secret — Hanuman Tekdi 🙏"
+
+"1 hour. 2,602 ft. Zero crowd. Pure peace."
+
+"हनुमान टेकडी — अंजनेरीच्या सावलीत लपलेला खजिना."
+
+** structure
+*** first
+| Slide | Content                                                 |
+| ----- | ------------------------------------------------------- |
+| 1     | Strong hook text + best summit/view photo               |
+| 2     | Group photo at Shivling                                 |
+| 3     | Dam + fort view panorama                                |
+| 4     | Trail photos (orange markers, ascent)                   |
+| 5     | Mythological note — Hanuman's birthplace connection     |
+| 6     | Info card: Height, difficulty, base village, season     |
+| 7     | Call to action — "Save this for your next weekend trek" |
+*** second
+| Slide | Content                                                       |
+|     1 | Hook text + best summit/Shivling photo                        |
+|     2 | Dam + fort panorama view                                      |
+|     3 | Trail photos with orange markers                              |
+|     4 | Group photo at top                                            |
+|     5 | Local pooja moment or spiritual vibe shot                     |
+|     6 | Info card — height, difficulty, base, season                  |
+|     7 | CTA — "Save this for your next weekend trek 🏕️ |
+** 

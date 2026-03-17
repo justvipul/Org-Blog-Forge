@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       954a6d1b-03c7-4533-b541-95240bc569f3
+:END:
+#+title: hisab
+#+setupfile: ../org-html-themes/darksun.theme
+
+#+NAME: gifts
+| boys    | name of gift | amount |
+|---------+--------------+--------|
+| Vipul   | bag          |    200 |
+| Vipul   | perfume      |    660 |
+| Vipul   | Roses        |    100 |
+| Vipul   | Jhumka       |    480 |
+| Bhushan | Chocolate    |    314 |
+|---------+--------------+--------|
+| sum     |              |   1754 |
+#+TBLFM: @>$3=vsum(@2$3..@-1$3)
+
+| name      | contri |
+|-----------+--------|
+| Vipul     | 219.25 |
+| Harshal   | 219.25 |
+| Omkar     | 219.25 |
+| Bhavin    | 219.25 |
+| Dinesh    | 219.25 |
+| Mahesh    | 219.25 |
+| Rohit     | 219.25 |
+| Rushikesh | 219.25 |
+| bhushan   | 219.25 |
+#+TBLFM: $2=remote(gifts,@>$3)/8
+
