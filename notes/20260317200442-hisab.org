@@ -2,7 +2,9 @@
 :ID:       954a6d1b-03c7-4533-b541-95240bc569f3
 :END:
 #+title: hisab
-#+setupfile: ../org-html-themes/darksun.theme
+#+setupfile: ../org-html-themes/comfy_inline.theme
+
+** 
 
 #+NAME: gifts
 | boys    | name of gift | amount |
@@ -16,16 +18,24 @@
 | sum     |              |   1754 |
 #+TBLFM: @>$3=vsum(@2$3..@-1$3)
 
-| name      | contri |
-|-----------+--------|
-| Vipul     | 219.25 |
-| Harshal   | 219.25 |
-| Omkar     | 219.25 |
-| Bhavin    | 219.25 |
-| Dinesh    | 219.25 |
-| Mahesh    | 219.25 |
-| Rohit     | 219.25 |
-| Rushikesh | 219.25 |
-| bhushan   | 219.25 |
-#+TBLFM: $2=remote(gifts,@>$3)/8
+|                 |    A | to be returned to vipul and bhushan and paid by other to them=(A-SUM) |
+|-----------------+------+-----------------------------------------------------------------------|
+| paid by Vipul   | 1440 |                                                                  1220 |
+| paid by bhushan |  314 |                                                                    94 |
+| sum             |      |                                                                  1314 |
+#+TBLFM: @>$3=vsum(@2$3..@3$3)
+
+| name      | contri =(A-Sum)/7, 7 is remaining people who are yet to do payment |
+|-----------+--------------------------------------------------------------------|
+| Vipul     |                      to be returned amount divided among 7 people. |
+| Harshal   |                                                                220 |
+| Omkar     |                                                                220 |
+| Bhavin    |                                                                220 |
+| Dinesh    |                                                                220 |
+| Mahesh    |                                                                220 |
+| Rohit     |                                                                220 |
+| Rushikesh |                                                                220 |
+| bhushan   |                          to be returned amount is 94, someone pays |
+|           |                                                                    |
+#+TBLFM: @2$3..@-1$2=220
 
