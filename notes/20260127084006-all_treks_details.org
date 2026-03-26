@@ -25,6 +25,8 @@
 ** TODO [[id:59f6a116-f24f-4419-a5db-e37ee48ab195][kaarvi cha dongar <2026-02-28 Sat>]]
 ** TODO [[id:b1824f0a-70ff-4f5f-8425-cfd2d1d38719][Pandavleni practice - <2026-03-08 Sun>]]
 ** TODO [[id:e0806e96-09e9-4b62-a2f9-22464c372660][hanuman tekdi <2026-03-14 Sat>]]
+** TODO [[id:a64c02a8-8ae4-456b-a6a8-a62a38a7d808][supacha and paachya tekdi <2026-03-21 Sat>]]
+
 * [[id:d5c52ebd-667f-4226-b116-d3bf22840997][trek notes template]]
 * [[id:66a424c0-9741-41a8-97b6-5e9648bcc00e][trek routine,]]
 * [[id:176bea91-d8f4-4879-8a73-cba48548e425][post making notes ideas quotes]]

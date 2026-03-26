@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       954a6d1b-03c7-4533-b541-95240bc569f3
-:END:
-#+title: hisab
-#+setupfile: ../org-html-themes/comfy_inline.theme
-

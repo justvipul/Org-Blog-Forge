@@ -1,0 +1,157 @@
+:PROPERTIES:
+:ID:       a64c02a8-8ae4-456b-a6a8-a62a38a7d808
+:END:
+#+title: supacha and paachya tekdi <2026-03-21 Sat>
+#+setupfile:  ../org-html-themes/gray.theme
+
+* Trek Overview
+1. Trek Name:  supacha / paachya
+2. Region: jategaon 
+3. Range: Trimbak (Trimbakeshwar Range, Western Ghats)
+4. Base Village: jategaon (23 km from Nashik, Gram Panchayat)
+5. Height from MSL (ft): 3600 
+6. Type:
+   - [ ] hill fort
+   - [ ] forest trail
+   - [ ] plateau
+   - [X] tekdi
+7. Difficulty Level:
+   1. [ ] easy
+   2. [ ] moderate
+   3. [X] difficult
+8. Best Season:
+   1. [X] winter
+   2. [ ] summer
+   3. [ ] monsoon
+9. Time taken to Climb [hrs]: 1.5 hours
+10. Water Availability:
+    1. [ ] yes
+    2. [X] no
+11. Suitable For:
+    1. [ ] beginners
+    2. [X] regular trekkers
+    3. [ ] families
+
+* Schedule & Companions
+1. Date: <2026-03-21 Sat>
+2. Team Members:
+   1) विपुल चव्हाण 
+   2) नंदकुमार काशेलानी 
+   3) विनायक रत्नपारखी +1 
+   4) बापू सोनजे 
+   5) प्रशांत कपोते 
+   6) Adv सुधीर सावंत 
+   7) शुभांगी भोसले 
+   8) अंजनी भोसले (शुभांगी भोसले बरोबर)
+   9) लीना डोळस 
+   10) शाम काश्मिरे 
+   11) भास्कर धाकराव 
+   12) विधी कार्लो 
+   13) ध्रुव कार्लो (विधी कार्लो बरोबर)
+   14) सुजाता संगपाल 
+   15) मालती भावसार 
+   16) shekhar jagtap 
+   
+3. Wake-up Time: 5 am
+4. Left Home: 6.15 am
+5. Start Point / Meeting Place: ABB circle
+6. Route Start Time: 7.15 am
+7. Return Time: 1 pm. [one member phone lost so additional 3 hours]
+8. Key Stops / Temples / Checkpoints:
+   - small temple at the bottom.
+
+* Route Information
+1. Route from Base City: abb circle ->  talegaon phata -> pachegaon.
+2. Final Village Distance km:  0
+3. Public Transport Availability: bus stop at trimbak
+4. Parking / Auto / Petrol: at anjaneri
+
+* Historical / Mythological Background
+1. Historical Importance:
+   - Minor local hill; no major forts or battles recorded (part of Trimbak range with ancient trap rock geology)
+2. Legends / Myths:
+   - none
+3. Nearby Heritage / Religious Sites:
+   - Anjaneri Fort/Temple (20 km)
+
+* Key Landmarks & Attractions
+1. Temples:
+   - NA
+2. Structures (Bastions, Caves, Gates, etc.):
+   - na
+3. Viewpoints (Ranges / Dams visible):
+   - trimbak anjaneri range
+4. Not to Miss:
+   - 
+
+* Experience & Observations
+1. Weather / Terrain: thorns, lot loose soil
+2. Notable Sights: long good view
+3. Personal Experience: quite good
+4. Vibe / Mood of Place: calm serene 
+5. Tips for Future Trekkers: get a good grip shoes, use full sleeves, lot of kusal [Heteropogon contortus
+] so wear a thick pant, pant bottom sohuld be broad and enclose your shoes opening.
+
+* Facilities & Amenities
+1. Food / Water Availability: none
+2. Accommodation / Prasadam Timings: none
+3. Shops / Auto Repair / Petrol Info: none
+4. Guide Needed: required
+5. [X] yes
+6. [ ] no
+
+* Local Notes
+1. Village Population / Details: 50 houses
+2. Major FoodCrops: onions, grapes, local grains
+3. Local Culture / People: friendly rural Maharashtra; trekking locals from Anjaneri
+
+* Photos & Media
+1. [ ] Add photos
+   1. https://i.postimg.cc/RFS88N26/IMG-20260314-WA0158.jpg
+   2. https://i.postimg.cc/XJsh0nb6/IMG-20260321-072411.jpg
+   3. https://i.postimg.cc/9MLSjchX/IMG-20260321-072412.jpg
+   4. https://i.postimg.cc/PxSckdk6/IMG-20260321-072416.jpg
+   5. https://i.postimg.cc/XJsh0nbX/IMG-20260321-072431.jpg
+   6. https://i.postimg.cc/rmfbLqkL/IMG-20260321-073223.jpg
+   7. https://i.postimg.cc/WbCB3pJz/IMG-20260321-073248.jpg
+   8. https://i.postimg.cc/t46LV0hC/IMG-20260321-074744.jpg
+   9. https://i.postimg.cc/zDtmsFzC/IMG-20260321-075235.jpg
+   10. https://i.postimg.cc/FsYtNk1Q/IMG-20260321-075247.jpg
+   11. https://i.postimg.cc/ZnD16470/IMG-20260321-080809.jpg
+   12. https://i.postimg.cc/MHGCcvDX/IMG-20260321-080811.jpg
+   13. https://i.postimg.cc/tTD0ChF2/IMG-20260321-081519.jpg
+   14. https://i.postimg.cc/gJGFWMLH/IMG-20260321-081532.jpg
+   15. https://i.postimg.cc/1zGhbxX3/IMG-20260321-081543.jpg
+   16. https://i.postimg.cc/HLwDFGnD/IMG-20260321-081556.jpg
+   17. https://i.postimg.cc/ZqtzfYT7/IMG-20260321-082721.jpg
+   18. https://i.postimg.cc/JhVCT71J/IMG-20260321-082735.jpg
+   19. https://i.postimg.cc/Mpj8bf86/IMG-20260321-082738.jpg
+   20. https://i.postimg.cc/9Fkh7ts2/IMG-20260321-082741.jpg
+   21. https://i.postimg.cc/7Yh4hQss/IMG-20260321-082754.jpg
+   22. https://i.postimg.cc/15XSXYC2/IMG-20260321-083439.jpg
+   23. https://i.postimg.cc/65qKq1jd/IMG-20260321-083441.jpg
+   24. https://i.postimg.cc/qBj0kdLV/IMG-20260321-083444.jpg
+   25. https://i.postimg.cc/prXHD02P/IMG-20260321-083447.jpg
+   26. https://i.postimg.cc/B6C3PWfh/IMG-20260321-083818.jpg
+   27. https://i.postimg.cc/PxMHvGkG/IMG-20260321-083822.jpg
+   28. https://i.postimg.cc/LsL2RYCp/IMG-20260321-083825.jpg
+   29. https://i.postimg.cc/ZRmZqb2S/IMG-20260321-095327.jpg
+   30. https://i.postimg.cc/gJpd0zQk/IMG-20260321-095714.jpg
+   31. https://i.postimg.cc/764DLHdw/IMG-20260321-095718.jpg
+   32. https://i.postimg.cc/nhsnRwqJ/IMG-20260321-102535.jpg
+
+   
+2. [ ] Add route map (GPS screenshot)
+3. [ ] Add group photo
+
+* Reflection
+1. What I Loved Most: best view, very good trek with different terrains throughout
+2. What I’d Improve Next Time: make sure everyone has a good grip, whoever does not have should be asked to stay back.
+3. Recommend To: regular trekking looking for a challenge.
+4. Return Visit:
+5. [X] yes/no
+6. [ ] (why?)
+
+
+* trial
+o

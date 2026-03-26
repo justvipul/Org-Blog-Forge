@@ -1,0 +1,76 @@
+:PROPERTIES:
+:ID:       8faed37c-19e1-4a37-b278-0e12712fc130
+:END:
+#+title: sales growth meeting 2nd
+* Key Psychological Principles for Effective Selling
+
+** Reciprocity: People Tend to Return Favors
+- Original Example from Book:
+  A restaurant study found that when waiters gave diners one mint with the bill, tips increased by 3.3%. When they gave two mints, tips increased by 14%. But the most powerful result came when the waiter gave one mint, started to walk away, then turned back and said "You've been such great guests tonight, please take another mint" - tips increased by 23%. 
+- TPH relevant Example
+  Offer a free, detailed inspection report or maintenance history without the customer asking. If they thank you, respond: "That's what partners do - we're here to help you succeed. I know you'd do the same if our roles were reversed." This creates obligation and partnership feeling.
+
+** Commitment and Consistency: Getting Small Agreements
+- Original Example from Book:
+  When marketers make people close popups by clicking "No thanks, I prefer not making money" instead of just "Close," people feel uncomfortable committing to preferring less money, so they're more likely to sign up. 
+- TPH relevant Example:
+  Instead of asking "Will you buy this machine?", start with: "Do you agree that buying quality used equipment is smart for controlling costs?" Get them saying "yes" to small things first. Later say: "You're already committed to upgrading your business - you're nearly at your goal!"
+
+** Social Proof: People Do What Others Like Them Are Doing
+- Original Example from Book:
+  In experiments, when one person looked up at the sky, others copied them. When multiple people looked up, so many bystanders joined in that it actually stopped traffic. 
+- TPH relevant Example:
+  Say: "This model is really popular among companies like yours - we recently helped five similar clients find success with it." Show testimonials and mention: "There are already two more inquiries on this exact machine."
+
+** Liking: People Say Yes to Those They Like
+- Original Example from Book:
+  Studies show people are more likely to return a lost wallet if the owner's name suggests they're from the same background or group. People also cooperate more with those who give genuine compliments about their achievements. 
+- TPH relevant Example:
+  Research the client beforehand and say: "I noticed your company also started locally - we have a similar journey" or "Your company's recent expansion shows incredible foresight. Tell me about your biggest project."
+
+** Authority: People Listen to Experts
+- Original Example from Book:
+  In famous psychology experiments, people were willing to give electric shocks to others simply because someone in a lab coat (appearing to be an authority figure) told them to do so. 
+- TPH relevant Example:
+  Start conversations with: "Our team have closed deals over 2100 of machines/plants/surplus with 8+ years of experience" 
+
+** Scarcity: People Fear Missing Out on Limited Opportunities
+- Original Example from Book:
+  Cialdini's friend owned a jewelry store and couldn't sell turquoise pieces. She left a note saying "Everything × ½ price" to get rid of them. Her employee misread it as "× 2" and doubled the prices instead. Everything sold immediately at twice the original price because customers thought "expensive = good quality". 
+- TPH relevant Example:
+  Say: "This is the only machine of this type we have, and it's rare to find one in this condition." For time-limited offers: "We're including free lifting and laoding and some more accessories with 1 year AMC for deals closed by Friday - that's not something we usually offer."
+
+** Unity: Using a Shared Sense of "We"
+- Original Example from Book:
+  Studies show people are more likely to cooperate and make concessions when they feel part of the same group or community, even if that connection is minimal. 
+- TPH relevant Example:
+  Use language like: "As fellow professionals in this industry, we understand that reliability matters" or "What advice would you give us to help serve businesses like yours better?" Point out shared connections: "Both our companies support local manufacturing - let's strengthen the sector together."
+
+** Storytelling: People Buy Through Stories, Not Sales Pitches
+- Original Example from Book:
+  Stanford's Graduate School of Business found that stories are up to 22 times more memorable than facts alone. When people hear stories, their brains release oxytocin (the trust hormone) and mirror neurons activate, making them feel like they're experiencing the story themselves.
+- TPH relevant Example:
+  Instead of saying "This machine will increase your productivity by 30%," tell a story: "Last month, a textile company in Pune was struggling with their old equipment breaking down every few days. After they got this same model from us, their owner called me and said, 'We haven't had a single breakdown in 3 weeks, and our workers are actually smiling again!' That's when I knew we'd found them the right solution."
+- Another Story Example:
+  "Six months ago, a food processing unit owner told me he was worried about his son taking over the business because the margins were too tight. After installing this refurbished packaging machine we sourced for him, his costs dropped so much that last week he proudly called to say his son is excited about the family business future."
+
+* Key Takeaway 
+  Each principle works because it triggers automatic psychological responses. The original examples show the raw power of these principles in controlled studies. our customized examples show how to apply them ethically in our sales process - from initial inquiry through negotiation to closing deals.
+  Remember: People don't buy products - they buy better versions of themselves and solutions to their problems. Stories help them visualize that transformation.
+  Practice these with role-plays in your meeting, and watch how much more persuasive and successful your sales conversations become!
+* Mind map for all the above points
+
+https://i.postimg.cc/LscdftPT/photo-2026-03-19-20-24-03.jpg
+
+
+* References
+  1. [[https://www.influenceatwork.com/7-principles-of-persuasion/](https://www.influenceatwork.com/7-principles-of-persuasion/)]
+  2. [[https://conceptually.org/concepts/6-principles-of-influence](https://conceptually.org/concepts/6-principles-of-influence)]
+  3. [[https://fs.blog/influence-psychology-persuasion/](https://fs.blog/influence-psychology-persuasion/)]
+  4. [[https://www.goodreads.com/book/show/56419468-influence-new-and-expanded](https://www.goodreads.com/book/show/56419468-influence-new-and-expanded)]
+  5. [[https://ia800203.us.archive.org/33/items/ThePsychologyOfPersuasion/The%20Psychology%20of%20Persuasion.pdf](https://ia800203.us.archive.org/33/items/ThePsychologyOfPersuasion/The%20Psychology%20of%20Persuasion.pdf)]
+  6. [[https://www.gameifications.com/wp-content/uploads/2016/03/reciprocity-tip-restaurant-studio.pdf](https://www.gameifications.com/wp-content/uploads/2016/03/reciprocity-tip-restaurant-studio.pdf)]
+  7. [[https://strategicdiscipline.positioningsystems.com/bid/46318/growth-summit-dr-robert-b-cialdini-persuasion-principles](https://strategicdiscipline.positioningsystems.com/bid/46318/growth-summit-dr-robert-b-cialdini-persuasion-principles)]
+  8. [[https://news.ycombinator.com/item?id=25960756](https://news.ycombinator.com/item?id=25960756)]
+  9. [[https://www.businessofarchitecture.com/architect-proposal-perception-defines-value/](https://www.businessofarchitecture.com/architect-proposal-perception-defines-value/)]
+
