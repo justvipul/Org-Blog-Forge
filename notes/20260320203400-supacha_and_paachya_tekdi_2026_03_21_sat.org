@@ -1,11 +1,11 @@
 :PROPERTIES:
 :ID:       a64c02a8-8ae4-456b-a6a8-a62a38a7d808
 :END:
-#+title: supacha and paachya tekdi <2026-03-21 Sat>
+#+title: Supacha <2026-03-21 Sat>
 #+setupfile:  ../org-html-themes/gray.theme
 
 * Trek Overview
-1. Trek Name:  supacha / paachya
+1. Trek Name:   Supacha
 2. Region: jategaon 
 3. Range: Trimbak (Trimbakeshwar Range, Western Ghats)
 4. Base Village: jategaon (23 km from Nashik, Gram Panchayat)
@@ -107,38 +107,34 @@
 
 * Photos & Media
 1. [ ] Add photos
-   1. https://i.postimg.cc/RFS88N26/IMG-20260314-WA0158.jpg
-   2. https://i.postimg.cc/XJsh0nb6/IMG-20260321-072411.jpg
-   3. https://i.postimg.cc/9MLSjchX/IMG-20260321-072412.jpg
-   4. https://i.postimg.cc/PxSckdk6/IMG-20260321-072416.jpg
-   5. https://i.postimg.cc/XJsh0nbX/IMG-20260321-072431.jpg
-   6. https://i.postimg.cc/rmfbLqkL/IMG-20260321-073223.jpg
-   7. https://i.postimg.cc/WbCB3pJz/IMG-20260321-073248.jpg
-   8. https://i.postimg.cc/t46LV0hC/IMG-20260321-074744.jpg
-   9. https://i.postimg.cc/zDtmsFzC/IMG-20260321-075235.jpg
-   10. https://i.postimg.cc/FsYtNk1Q/IMG-20260321-075247.jpg
-   11. https://i.postimg.cc/ZnD16470/IMG-20260321-080809.jpg
-   12. https://i.postimg.cc/MHGCcvDX/IMG-20260321-080811.jpg
-   13. https://i.postimg.cc/tTD0ChF2/IMG-20260321-081519.jpg
-   14. https://i.postimg.cc/gJGFWMLH/IMG-20260321-081532.jpg
-   15. https://i.postimg.cc/1zGhbxX3/IMG-20260321-081543.jpg
-   16. https://i.postimg.cc/HLwDFGnD/IMG-20260321-081556.jpg
-   17. https://i.postimg.cc/ZqtzfYT7/IMG-20260321-082721.jpg
-   18. https://i.postimg.cc/JhVCT71J/IMG-20260321-082735.jpg
-   19. https://i.postimg.cc/Mpj8bf86/IMG-20260321-082738.jpg
-   20. https://i.postimg.cc/9Fkh7ts2/IMG-20260321-082741.jpg
-   21. https://i.postimg.cc/7Yh4hQss/IMG-20260321-082754.jpg
-   22. https://i.postimg.cc/15XSXYC2/IMG-20260321-083439.jpg
-   23. https://i.postimg.cc/65qKq1jd/IMG-20260321-083441.jpg
-   24. https://i.postimg.cc/qBj0kdLV/IMG-20260321-083444.jpg
-   25. https://i.postimg.cc/prXHD02P/IMG-20260321-083447.jpg
-   26. https://i.postimg.cc/B6C3PWfh/IMG-20260321-083818.jpg
-   27. https://i.postimg.cc/PxMHvGkG/IMG-20260321-083822.jpg
-   28. https://i.postimg.cc/LsL2RYCp/IMG-20260321-083825.jpg
-   29. https://i.postimg.cc/ZRmZqb2S/IMG-20260321-095327.jpg
-   30. https://i.postimg.cc/gJpd0zQk/IMG-20260321-095714.jpg
-   31. https://i.postimg.cc/764DLHdw/IMG-20260321-095718.jpg
-   32. https://i.postimg.cc/nhsnRwqJ/IMG-20260321-102535.jpg
+   1. https://i.postimg.cc/XJsh0nb6/IMG-20260321-072411.jpg
+   2. https://i.postimg.cc/9MLSjchX/IMG-20260321-072412.jpg
+   3. https://i.postimg.cc/rmfbLqkL/IMG-20260321-073223.jpg
+   4. https://i.postimg.cc/WbCB3pJz/IMG-20260321-073248.jpg
+   5. https://i.postimg.cc/t46LV0hC/IMG-20260321-074744.jpg
+   6. https://i.postimg.cc/zDtmsFzC/IMG-20260321-075235.jpg
+   7. https://i.postimg.cc/FsYtNk1Q/IMG-20260321-075247.jpg
+   8. https://i.postimg.cc/ZnD16470/IMG-20260321-080809.jpg
+   10. https://i.postimg.cc/tTD0ChF2/IMG-20260321-081519.jpg
+   11. https://i.postimg.cc/gJGFWMLH/IMG-20260321-081532.jpg
+   12. https://i.postimg.cc/1zGhbxX3/IMG-20260321-081543.jpg
+   13. https://i.postimg.cc/HLwDFGnD/IMG-20260321-081556.jpg
+   14. https://i.postimg.cc/ZqtzfYT7/IMG-20260321-082721.jpg
+   15. https://i.postimg.cc/JhVCT71J/IMG-20260321-082735.jpg
+   16. https://i.postimg.cc/Mpj8bf86/IMG-20260321-082738.jpg
+   17. https://i.postimg.cc/9Fkh7ts2/IMG-20260321-082741.jpg
+   18. https://i.postimg.cc/7Yh4hQss/IMG-20260321-082754.jpg
+   19. https://i.postimg.cc/15XSXYC2/IMG-20260321-083439.jpg
+   20. https://i.postimg.cc/65qKq1jd/IMG-20260321-083441.jpg
+   21. https://i.postimg.cc/qBj0kdLV/IMG-20260321-083444.jpg
+   22. https://i.postimg.cc/prXHD02P/IMG-20260321-083447.jpg
+   23. https://i.postimg.cc/B6C3PWfh/IMG-20260321-083818.jpg
+   24. https://i.postimg.cc/PxMHvGkG/IMG-20260321-083822.jpg
+   25. https://i.postimg.cc/LsL2RYCp/IMG-20260321-083825.jpg
+   26. https://i.postimg.cc/ZRmZqb2S/IMG-20260321-095327.jpg
+   27. https://i.postimg.cc/gJpd0zQk/IMG-20260321-095714.jpg
+   28. https://i.postimg.cc/764DLHdw/IMG-20260321-095718.jpg
+   29. https://i.postimg.cc/nhsnRwqJ/IMG-20260321-102535.jpg
 
    
 2. [ ] Add route map (GPS screenshot)
@@ -147,11 +143,7 @@
 * Reflection
 1. What I Loved Most: best view, very good trek with different terrains throughout
 2. What I’d Improve Next Time: make sure everyone has a good grip, whoever does not have should be asked to stay back.
-3. Recommend To: regular trekking looking for a challenge.
+3. Recommend To: regular trekkers looking for a challenge.
 4. Return Visit:
 5. [X] yes/no
 6. [ ] (why?)
-
-
-* trial
-o
