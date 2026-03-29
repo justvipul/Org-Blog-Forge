@@ -41,20 +41,7 @@
 	 :sitemap-filename "index.org"
 	 :sitemap-title "Knowledge Base"
 	 :sitemap-sort-files anti-chronologically
-	 ;; :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/>"
-	 :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"index-style.css\"/>
-<script>
-(function(){const r=document.documentElement;
-r.setAttribute('data-theme',matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');
-document.addEventListener('DOMContentLoaded',function(){
-const t=document.createElement('button');
-t.id='theme-toggle';t.setAttribute('aria-label','Toggle theme');
-t.innerHTML='☀';document.body.appendChild(t);
-t.addEventListener('click',function(){
-const d=r.getAttribute('data-theme')==='dark'?'light':'dark';
-r.setAttribute('data-theme',d);t.innerHTML=d==='dark'?'☀':'🌙';
-});});})();
-</script>"
+	 :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/>"
 	 :html-head-include-default-style nil
 	 :html-link-org-files-as-html t
 	 :section-numbers nil

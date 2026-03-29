@@ -1,0 +1,6 @@
+[submodule "notes/themes/org-themes"]
+	path = notes/themes/org-themes
+	url = https://gitlab.com/olmon/org-themes.git
+[submodule "themes/org-themes"]
+	path = themes/org-themes
+	url = https://gitlab.com/olmon/org-themes.git
