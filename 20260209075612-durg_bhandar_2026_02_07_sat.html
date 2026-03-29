@@ -3,510 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-03-29 Sun 12:41 -->
+<!-- 2026-03-29 Sun 12:53 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Durg bhandar &lt;2026-02-07 Sat&gt;</title>
 <meta name="generator" content="Org Mode" />
-<style type="text/css">
-body {
-font-family: Helvetica, Arial, sans-serif;
-font-size: 16px;
-line-height: 1.4;
-color: #33333f;
-}
-
-code {
-font-family: "Inconsolata", "monospace";
-font-size: 16px;
-}
-
-p>code, li>code {
-background-color: #eee;
-padding: 0.25em;
-}
-
-h1, h2, h3 {
-font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
-}
-
-h2 {
-border-bottom: 1px solid #f0c;
-padding-bottom: 0.5em;
-font-size: 1.75em;
-}
-
-h3 {
-margin-top: 2em;
-font-size: 1.5em;
-}
-
-h4 {
-font-size: 1.25em;
-}
-
-h5 {
-font-size: 1em;
-}
-
-h2 code, h3 code, h4 code, h5 code, td code {
-font-family: inherit !important;
-font-size: inherit !important;
-}
-
-td code {
-font-weight: bold;
-}
-
-a:link, a:hover, a:visited {
-text-decoration: none;
-color: black;
-}
-
-a:link {
-background: #ff8;
-}
-
-a:visited {
-color: #666;
-background: #ffc;
-}
-
-a:link:hover,
-a:visited:hover {
-background: #ff0;
-}
-
-a[href^="http"] {
-background: #bff;
-}
-
-a[href^="http"]:visited {
-background: #dff;
-}
-
-a[href^="http"]:link:hover,
-a[href^="http"]:visited:hover {
-background: #0ff;
-}
-
-a[href^="http"]:after {
-content: "\21B3";
-background: white;
-padding-left: 0.2em;
-}
-
-#meta {
-margin-top: 2em;
-}
-
-#table-of-contents a:link,
-#table-of-contents a:visited {
-color: black;
-background: transparent;
-}
-
-#table-of-contents {
-line-height: 1.2;
-}
-#table-of-contents h2 {
-border-bottom: 0;
-}
-
-#table-of-contents ul {
-list-style: none;
-padding-left: 0.5em;
-font-weight: normal;
-}
-
-#table-of-contents div>ul>li {
-margin-top: 1em;
-font-weight: bold;
-}
-
-#table-of-contents .tag {
-display: none;
-}
-
-#table-of-contents .todo,
-#table-of-contents .done {
-font-size: 80%;
-}
-
-#table-of-contents ol>li {
-margin-top: 1em;
-}
-
-table {
-width: 100%;
-}
-
-table, th, td {
-border: 1px solid #666;
-}
-
-th, td {
-padding: 0.5em;
-text-align: left;
-}
-
-tbody tr:nth-child(odd) {
-background-color: #eee;
-}
-
-img {
-max-width: 90%;
-}
-
-div.notice {
-position: relative;
-margin: 0 1.2em;
-padding: 0.25em 1em;
-border-left: 4px solid;
-}
-
-table + div.notice {
-margin-top: 2em;
-}
-
-div.notice a {
-background: transparent !important;
-border-bottom: 1px dotted;
-}
-
-div.notice a[href^="http"]:after {
-background: transparent !important;
-}
-
-div.notice:before {
-position: absolute;
-top: 0;
-right: 0;
-padding: 0.25em 0.5em 0;
-font-size: 60%;
-border-bottom-left-radius: 0.5em;
-}
-
-.notice-warning {
-background: #fcc;
-color: #600;
-}
-
-.notice-example {
-background: #def;
-color: #069;
-}
-
-.notice-info {
-background: #efe;
-color: #060;
-}
-
-.notice-warning a {
-color: #600;
-}
-
-.notice-example a {
-color: #069;
-}
-
-.notice-info a {
-color: #060;
-}
-
-div.notice-warning:before {
-content: "WARNING";
-background: #c99;
-color: #fcc;
-}
-
-div.notice-example:before {
-content: "EXAMPLE";
-background: #abc;
-color: #def;
-}
-
-div.notice-info:before {
-content: "INFO";
-background: #9c9;
-color: #efe;
-}
-
-/* things inside the #+BEGIN_NOTE...#+END_NOTE block */
-div.NOTE a {
-background: transparent !important;
-border-bottom: 1px dotted;
-}
-
-div.NOTE {
-position: relative;
-margin: 0 1.2em;
-padding: 0.25em 1em;
-border-left: 4px solid;
-margin-top: 2em;
-background: #efe;
-color: #060;
-}
-
-div.NOTE:before {
-position: absolute;
-top: 0;
-right: 0;
-padding: 0.25em 0.5em 0;
-font-size: 60%;
-border-bottom-left-radius: 0.5em;
-content: "NOTE";
-background: #9c9;
-color: #efe;
-}
-
-blockquote {
-padding: 0px 10px 0px 10px;
-border: 1px solid #ddd;
-background: #eee;
-box-shadow: 5px 5px 5px #eee;
-border-radius: 2px;
-line-height: 1.2em;
-}
-
-pre {
-font-family: "Inconsolata", "monospace";
-font-size: 100%;
-border: 0;
-box-shadow: none;
-overflow: auto;
-}
-
-pre.example:before {
-content: "EXAMPLE";
-display: block;
-border-bottom: 1px dotted;
-margin-bottom: 1em;
-}
-
-pre.example {
-background: #fec;
-color: #666;
-font-size: 0.85em;
-}
-
-pre {
-background-color: #f8f8f8;
-background-size: 8px 8px;
-background-image: linear-gradient(135deg, transparent 25%, rgba(0, 0, 0, 0.02) 25%, rgba(0, 0, 0, 0.02) 50%, transparent 50%, transparent 75%, rgba(0, 0, 0, 0.02) 75%, rgba(0, 0, 0, 0.02));
-}
-
-pre.src {
-padding: 0.5em;
-}
-
-pre.src:before {
-display: block;
-position: absolute;
-background-color: #ccccd0;
-top: 0;
-right: 0;
-padding: 0.25em 0.5em;
-border-bottom-left-radius: 8px;
-border: 0;
-color: white;
-font-size: 80%;
-}
-
-pre.src-plantuml:before {
-content: "UML";
-}
-
-pre.src-javascript:before {
-content: "JS";
-}
-
-pre.src-clojure:before {
-content: "CLJ";
-}
-
-pre.src-c:before {
-content: "C";
-}
-
-pre.src-sh:before {
-content: "Shell";
-}
-
-pre.src-es:before {
-content: "ES";
-}
-
-span.org-string {
-color: #f94;
-}
-
-span.org-keyword {
-color: #c07;
-}
-
-span.org-variable-name {
-color: #f04;
-}
-
-span.org-clojure-keyword {
-color: #09f;
-}
-
-span.org-comment, span.org-comment-delimiter {
-color: #999;
-}
-
-span.org-rainbow-delimiters-depth-1, span.org-rainbow-delimiters-depth-5 {
-color: #666;
-}
-
-span.org-rainbow-delimiters-depth-2, span.org-rainbow-delimiters-depth-6 {
-color: #888;
-}
-
-span.org-rainbow-delimiters-depth-3, span.org-rainbow-delimiters-depth-7 {
-color: #aaa;
-}
-
-span.org-rainbow-delimiters-depth-4, span.org-rainbow-delimiters-depth-8 {
-color: #ccc;
-}
-
-div.figure {
-font-size: 0.85em;
-}
-
-.tag {
-font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
-font-size: 11px;
-font-weight: normal;
-float: right;
-margin-top: 1em;
-background: transparent;
-}
-
-.tag span {
-background: #ccc;
-padding: 0 0.5em;
-border-radius: 0.2em;
-color: white;
-}
-
-.todo, .done {
-font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
-font-weight: normal;
-padding: 0 0.25em;
-border-radius: 0.2em;
-}
-
-.todo {
-background: #f04;
-color: white;
-}
-
-.done {
-background: #5f7;
-color: white;
-}
-
-@media screen {
-h1.title {
-text-align: left;
-margin: 0.5em 0 1em 0;
-}
-
-h2 {
-margin-top: 3em;
-}
-
-#table-of-contents {
-position: fixed;
-top: 0;
-left: 0;
-padding: 2em 0 2em 2em;
-width: 290px;
-height: 100vh;
-font-size: 11px;
-background: #eee;
-overflow-x: hidden;
-overflow-y: auto;
-}
-
-#table-of-contents h2 {
-margin-top: 0;
-}
-
-#table-of-contents code {
-font-size: 12px;
-}
-
-div#content {
-margin-left: 320px;
-max-width: 1100px;
-}
-div#postamble {
-margin-left: 320px;
-max-width: 1100px;
-}
-}
-
-@media screen and (max-width: 1024px) {
-html, body {
-font-size: 14px;
-}
-
-#table-of-contents {
-display: none;
-}
-
-h1.title {
-margin-left: 0%;
-}
-
-div#content {
-margin-left: 5%;
-max-width: 90%;
-}
-div#postamble {
-margin-left: 5%;
-max-width: 90%;
-}
-}
-
-@media print {
-
-body {
-color: black;
-}
-
-@page {
-margin: 25mm;
-}
-
-h2, h3 {
-page-break-before: always;
-margin-top: 0;
-}
-
-table {
-page-break-inside: avoid;
-}
-
-a:visited {
-color: black;
-background: #ff8;
-}
-
-a[href^="http"]:visited {
-background: #bff;
-}
-
-div.notice:before {
-display: none;
-}
-}
-</style>
+<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
 <div id="content" class="content">
@@ -515,23 +17,23 @@ display: none;
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org7c504c1">Trek Overview</a></li>
-<li><a href="#org81ad679">Schedule &amp; Companions</a></li>
-<li><a href="#orgfb4df25">Route Information</a></li>
-<li><a href="#org079482d">Historical / Mythological Background</a></li>
-<li><a href="#org29e1d10">Key Landmarks &amp; Attractions</a></li>
-<li><a href="#org9a4ca7e">Experience &amp; Observations</a></li>
-<li><a href="#orgd7354c4">Facilities &amp; Amenities</a></li>
-<li><a href="#org5e5cc51">Local Notes</a></li>
-<li><a href="#org9c454cf">Photos &amp; Media</a></li>
-<li><a href="#orga16a3c3">Reflection</a></li>
+<li><a href="#orgb139e8f">Trek Overview</a></li>
+<li><a href="#org61dcd18">Schedule &amp; Companions</a></li>
+<li><a href="#org94ba7f6">Route Information</a></li>
+<li><a href="#org7fd3385">Historical / Mythological Background</a></li>
+<li><a href="#orgd8fef6e">Key Landmarks &amp; Attractions</a></li>
+<li><a href="#orgeabda37">Experience &amp; Observations</a></li>
+<li><a href="#orgeac74e9">Facilities &amp; Amenities</a></li>
+<li><a href="#org6158a93">Local Notes</a></li>
+<li><a href="#org979129f">Photos &amp; Media</a></li>
+<li><a href="#org1da00bf">Reflection</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org7c504c1" class="outline-2">
-<h2 id="org7c504c1">Trek Overview</h2>
-<div class="outline-text-2" id="text-org7c504c1">
+<div id="outline-container-orgb139e8f" class="outline-2">
+<h2 id="orgb139e8f">Trek Overview</h2>
+<div class="outline-text-2" id="text-orgb139e8f">
 <ol class="org-ol">
 <li>Trek Name: Durg Bhandar</li>
 <li>Region: Trimbakeshwar</li>
@@ -572,9 +74,9 @@ display: none;
 </div>
 </div>
 
-<div id="outline-container-org81ad679" class="outline-2">
-<h2 id="org81ad679">Schedule &amp; Companions</h2>
-<div class="outline-text-2" id="text-org81ad679">
+<div id="outline-container-org61dcd18" class="outline-2">
+<h2 id="org61dcd18">Schedule &amp; Companions</h2>
+<div class="outline-text-2" id="text-org61dcd18">
 <ol class="org-ol">
 <li>Date: <span class="timestamp-wrapper"><span class="timestamp">&lt;2026-02-07 Sat&gt;</span></span></li>
 <li>Team Members: 15 members.</li>
@@ -598,9 +100,9 @@ display: none;
 </div>
 </div>
 
-<div id="outline-container-orgfb4df25" class="outline-2">
-<h2 id="orgfb4df25">Route Information</h2>
-<div class="outline-text-2" id="text-orgfb4df25">
+<div id="outline-container-org94ba7f6" class="outline-2">
+<h2 id="org94ba7f6">Route Information</h2>
+<div class="outline-text-2" id="text-org94ba7f6">
 <ol class="org-ol">
 <li>Route from Nashik City: ABB circle -&gt; pegalwadi -&gt; swami samarth kaman -&gt; base of the trek</li>
 <li>Final Village Distance km: 24</li>
@@ -610,9 +112,9 @@ display: none;
 </div>
 </div>
 
-<div id="outline-container-org079482d" class="outline-2">
-<h2 id="org079482d">Historical / Mythological Background</h2>
-<div class="outline-text-2" id="text-org079482d">
+<div id="outline-container-org7fd3385" class="outline-2">
+<h2 id="org7fd3385">Historical / Mythological Background</h2>
+<div class="outline-text-2" id="text-org7fd3385">
 <ol class="org-ol">
 <li>Historical Importance:
 <ul class="org-ul">
@@ -630,9 +132,9 @@ display: none;
 </div>
 </div>
 
-<div id="outline-container-org29e1d10" class="outline-2">
-<h2 id="org29e1d10">Key Landmarks &amp; Attractions</h2>
-<div class="outline-text-2" id="text-org29e1d10">
+<div id="outline-container-orgd8fef6e" class="outline-2">
+<h2 id="orgd8fef6e">Key Landmarks &amp; Attractions</h2>
+<div class="outline-text-2" id="text-orgd8fef6e">
 <ol class="org-ol">
 <li>Temples:
 <ul class="org-ul">
@@ -654,9 +156,9 @@ display: none;
 </div>
 </div>
 
-<div id="outline-container-org9a4ca7e" class="outline-2">
-<h2 id="org9a4ca7e">Experience &amp; Observations</h2>
-<div class="outline-text-2" id="text-org9a4ca7e">
+<div id="outline-container-orgeabda37" class="outline-2">
+<h2 id="orgeabda37">Experience &amp; Observations</h2>
+<div class="outline-text-2" id="text-orgeabda37">
 <ol class="org-ol">
 <li>Weather / Terrain:</li>
 <li>Notable Sights:</li>
@@ -667,9 +169,9 @@ display: none;
 </div>
 </div>
 
-<div id="outline-container-orgd7354c4" class="outline-2">
-<h2 id="orgd7354c4">Facilities &amp; Amenities</h2>
-<div class="outline-text-2" id="text-orgd7354c4">
+<div id="outline-container-orgeac74e9" class="outline-2">
+<h2 id="orgeac74e9">Facilities &amp; Amenities</h2>
+<div class="outline-text-2" id="text-orgeac74e9">
 <ol class="org-ol">
 <li>Food / Water Availability:</li>
 <li>Accommodation / Prasadam Timings:</li>
@@ -681,9 +183,9 @@ display: none;
 </div>
 </div>
 
-<div id="outline-container-org5e5cc51" class="outline-2">
-<h2 id="org5e5cc51">Local Notes</h2>
-<div class="outline-text-2" id="text-org5e5cc51">
+<div id="outline-container-org6158a93" class="outline-2">
+<h2 id="org6158a93">Local Notes</h2>
+<div class="outline-text-2" id="text-org6158a93">
 <ol class="org-ol">
 <li>Village Population / Details:</li>
 <li>Major FoodCrops:</li>
@@ -692,9 +194,9 @@ display: none;
 </div>
 </div>
 
-<div id="outline-container-org9c454cf" class="outline-2">
-<h2 id="org9c454cf">Photos &amp; Media</h2>
-<div class="outline-text-2" id="text-org9c454cf">
+<div id="outline-container-org979129f" class="outline-2">
+<h2 id="org979129f">Photos &amp; Media</h2>
+<div class="outline-text-2" id="text-org979129f">
 <ol class="org-ol">
 <li class="off"><code>[&#xa0;]</code> Add photos</li>
 <li class="off"><code>[&#xa0;]</code> Add route map (GPS screenshot)</li>
@@ -703,9 +205,9 @@ display: none;
 </div>
 </div>
 
-<div id="outline-container-orga16a3c3" class="outline-2">
-<h2 id="orga16a3c3">Reflection</h2>
-<div class="outline-text-2" id="text-orga16a3c3">
+<div id="outline-container-org1da00bf" class="outline-2">
+<h2 id="org1da00bf">Reflection</h2>
+<div class="outline-text-2" id="text-org1da00bf">
 <ol class="org-ol">
 <li>What I Loved Most:</li>
 <li>What I’d Improve Next Time:</li>

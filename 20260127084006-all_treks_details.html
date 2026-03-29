@@ -3,510 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-03-29 Sun 12:41 -->
+<!-- 2026-03-29 Sun 12:54 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>all treks details</title>
 <meta name="generator" content="Org Mode" />
-<style type="text/css">
-body {
-font-family: Helvetica, Arial, sans-serif;
-font-size: 16px;
-line-height: 1.4;
-color: #33333f;
-}
-
-code {
-font-family: "Inconsolata", "monospace";
-font-size: 16px;
-}
-
-p>code, li>code {
-background-color: #eee;
-padding: 0.25em;
-}
-
-h1, h2, h3 {
-font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
-}
-
-h2 {
-border-bottom: 1px solid #f0c;
-padding-bottom: 0.5em;
-font-size: 1.75em;
-}
-
-h3 {
-margin-top: 2em;
-font-size: 1.5em;
-}
-
-h4 {
-font-size: 1.25em;
-}
-
-h5 {
-font-size: 1em;
-}
-
-h2 code, h3 code, h4 code, h5 code, td code {
-font-family: inherit !important;
-font-size: inherit !important;
-}
-
-td code {
-font-weight: bold;
-}
-
-a:link, a:hover, a:visited {
-text-decoration: none;
-color: black;
-}
-
-a:link {
-background: #ff8;
-}
-
-a:visited {
-color: #666;
-background: #ffc;
-}
-
-a:link:hover,
-a:visited:hover {
-background: #ff0;
-}
-
-a[href^="http"] {
-background: #bff;
-}
-
-a[href^="http"]:visited {
-background: #dff;
-}
-
-a[href^="http"]:link:hover,
-a[href^="http"]:visited:hover {
-background: #0ff;
-}
-
-a[href^="http"]:after {
-content: "\21B3";
-background: white;
-padding-left: 0.2em;
-}
-
-#meta {
-margin-top: 2em;
-}
-
-#table-of-contents a:link,
-#table-of-contents a:visited {
-color: black;
-background: transparent;
-}
-
-#table-of-contents {
-line-height: 1.2;
-}
-#table-of-contents h2 {
-border-bottom: 0;
-}
-
-#table-of-contents ul {
-list-style: none;
-padding-left: 0.5em;
-font-weight: normal;
-}
-
-#table-of-contents div>ul>li {
-margin-top: 1em;
-font-weight: bold;
-}
-
-#table-of-contents .tag {
-display: none;
-}
-
-#table-of-contents .todo,
-#table-of-contents .done {
-font-size: 80%;
-}
-
-#table-of-contents ol>li {
-margin-top: 1em;
-}
-
-table {
-width: 100%;
-}
-
-table, th, td {
-border: 1px solid #666;
-}
-
-th, td {
-padding: 0.5em;
-text-align: left;
-}
-
-tbody tr:nth-child(odd) {
-background-color: #eee;
-}
-
-img {
-max-width: 90%;
-}
-
-div.notice {
-position: relative;
-margin: 0 1.2em;
-padding: 0.25em 1em;
-border-left: 4px solid;
-}
-
-table + div.notice {
-margin-top: 2em;
-}
-
-div.notice a {
-background: transparent !important;
-border-bottom: 1px dotted;
-}
-
-div.notice a[href^="http"]:after {
-background: transparent !important;
-}
-
-div.notice:before {
-position: absolute;
-top: 0;
-right: 0;
-padding: 0.25em 0.5em 0;
-font-size: 60%;
-border-bottom-left-radius: 0.5em;
-}
-
-.notice-warning {
-background: #fcc;
-color: #600;
-}
-
-.notice-example {
-background: #def;
-color: #069;
-}
-
-.notice-info {
-background: #efe;
-color: #060;
-}
-
-.notice-warning a {
-color: #600;
-}
-
-.notice-example a {
-color: #069;
-}
-
-.notice-info a {
-color: #060;
-}
-
-div.notice-warning:before {
-content: "WARNING";
-background: #c99;
-color: #fcc;
-}
-
-div.notice-example:before {
-content: "EXAMPLE";
-background: #abc;
-color: #def;
-}
-
-div.notice-info:before {
-content: "INFO";
-background: #9c9;
-color: #efe;
-}
-
-/* things inside the #+BEGIN_NOTE...#+END_NOTE block */
-div.NOTE a {
-background: transparent !important;
-border-bottom: 1px dotted;
-}
-
-div.NOTE {
-position: relative;
-margin: 0 1.2em;
-padding: 0.25em 1em;
-border-left: 4px solid;
-margin-top: 2em;
-background: #efe;
-color: #060;
-}
-
-div.NOTE:before {
-position: absolute;
-top: 0;
-right: 0;
-padding: 0.25em 0.5em 0;
-font-size: 60%;
-border-bottom-left-radius: 0.5em;
-content: "NOTE";
-background: #9c9;
-color: #efe;
-}
-
-blockquote {
-padding: 0px 10px 0px 10px;
-border: 1px solid #ddd;
-background: #eee;
-box-shadow: 5px 5px 5px #eee;
-border-radius: 2px;
-line-height: 1.2em;
-}
-
-pre {
-font-family: "Inconsolata", "monospace";
-font-size: 100%;
-border: 0;
-box-shadow: none;
-overflow: auto;
-}
-
-pre.example:before {
-content: "EXAMPLE";
-display: block;
-border-bottom: 1px dotted;
-margin-bottom: 1em;
-}
-
-pre.example {
-background: #fec;
-color: #666;
-font-size: 0.85em;
-}
-
-pre {
-background-color: #f8f8f8;
-background-size: 8px 8px;
-background-image: linear-gradient(135deg, transparent 25%, rgba(0, 0, 0, 0.02) 25%, rgba(0, 0, 0, 0.02) 50%, transparent 50%, transparent 75%, rgba(0, 0, 0, 0.02) 75%, rgba(0, 0, 0, 0.02));
-}
-
-pre.src {
-padding: 0.5em;
-}
-
-pre.src:before {
-display: block;
-position: absolute;
-background-color: #ccccd0;
-top: 0;
-right: 0;
-padding: 0.25em 0.5em;
-border-bottom-left-radius: 8px;
-border: 0;
-color: white;
-font-size: 80%;
-}
-
-pre.src-plantuml:before {
-content: "UML";
-}
-
-pre.src-javascript:before {
-content: "JS";
-}
-
-pre.src-clojure:before {
-content: "CLJ";
-}
-
-pre.src-c:before {
-content: "C";
-}
-
-pre.src-sh:before {
-content: "Shell";
-}
-
-pre.src-es:before {
-content: "ES";
-}
-
-span.org-string {
-color: #f94;
-}
-
-span.org-keyword {
-color: #c07;
-}
-
-span.org-variable-name {
-color: #f04;
-}
-
-span.org-clojure-keyword {
-color: #09f;
-}
-
-span.org-comment, span.org-comment-delimiter {
-color: #999;
-}
-
-span.org-rainbow-delimiters-depth-1, span.org-rainbow-delimiters-depth-5 {
-color: #666;
-}
-
-span.org-rainbow-delimiters-depth-2, span.org-rainbow-delimiters-depth-6 {
-color: #888;
-}
-
-span.org-rainbow-delimiters-depth-3, span.org-rainbow-delimiters-depth-7 {
-color: #aaa;
-}
-
-span.org-rainbow-delimiters-depth-4, span.org-rainbow-delimiters-depth-8 {
-color: #ccc;
-}
-
-div.figure {
-font-size: 0.85em;
-}
-
-.tag {
-font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
-font-size: 11px;
-font-weight: normal;
-float: right;
-margin-top: 1em;
-background: transparent;
-}
-
-.tag span {
-background: #ccc;
-padding: 0 0.5em;
-border-radius: 0.2em;
-color: white;
-}
-
-.todo, .done {
-font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
-font-weight: normal;
-padding: 0 0.25em;
-border-radius: 0.2em;
-}
-
-.todo {
-background: #f04;
-color: white;
-}
-
-.done {
-background: #5f7;
-color: white;
-}
-
-@media screen {
-h1.title {
-text-align: left;
-margin: 0.5em 0 1em 0;
-}
-
-h2 {
-margin-top: 3em;
-}
-
-#table-of-contents {
-position: fixed;
-top: 0;
-left: 0;
-padding: 2em 0 2em 2em;
-width: 290px;
-height: 100vh;
-font-size: 11px;
-background: #eee;
-overflow-x: hidden;
-overflow-y: auto;
-}
-
-#table-of-contents h2 {
-margin-top: 0;
-}
-
-#table-of-contents code {
-font-size: 12px;
-}
-
-div#content {
-margin-left: 320px;
-max-width: 1100px;
-}
-div#postamble {
-margin-left: 320px;
-max-width: 1100px;
-}
-}
-
-@media screen and (max-width: 1024px) {
-html, body {
-font-size: 14px;
-}
-
-#table-of-contents {
-display: none;
-}
-
-h1.title {
-margin-left: 0%;
-}
-
-div#content {
-margin-left: 5%;
-max-width: 90%;
-}
-div#postamble {
-margin-left: 5%;
-max-width: 90%;
-}
-}
-
-@media print {
-
-body {
-color: black;
-}
-
-@page {
-margin: 25mm;
-}
-
-h2, h3 {
-page-break-before: always;
-margin-top: 0;
-}
-
-table {
-page-break-inside: avoid;
-}
-
-a:visited {
-color: black;
-background: #ff8;
-}
-
-a[href^="http"]:visited {
-background: #bff;
-}
-
-div.notice:before {
-display: none;
-}
-}
-</style>
+<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
 <div id="content" class="content">
@@ -515,133 +17,133 @@ display: none;
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org1ea5fe3">to be edited</a>
+<li><a href="#orga19ed18">to be edited</a>
 <ul>
-<li><a href="#orgfa1666c"><span class="done DONE">DONE</span> Kalsubai Peak – 29 Dec 2024</a>
+<li><a href="#org162aaf3"><span class="done DONE">DONE</span> Kalsubai Peak – 29 Dec 2024</a>
 <ul>
-<li><a href="#org7d0b541"><span class="todo TODO">TODO</span> can make a new post of kalsubai. lot of images missed.</a></li>
+<li><a href="#org076c81d"><span class="todo TODO">TODO</span> can make a new post of kalsubai. lot of images missed.</a></li>
 </ul>
 </li>
-<li><a href="#orge88506a"><span class="done DONE">DONE</span> Dehergad (Bhorgad) Fort – 2025</a></li>
-<li><a href="#org79a092e"><span class="done DONE">DONE</span> Borgad Jungle Safari – 11 Oct 2025</a>
+<li><a href="#org2ba2c9b"><span class="done DONE">DONE</span> Dehergad (Bhorgad) Fort – 2025</a></li>
+<li><a href="#org3cd43b8"><span class="done DONE">DONE</span> Borgad Jungle Safari – 11 Oct 2025</a>
 <ul>
-<li><a href="#org699b051"><span class="todo TODO">TODO</span> can make a new post showcasing the story.</a></li>
+<li><a href="#org9851328"><span class="todo TODO">TODO</span> can make a new post showcasing the story.</a></li>
 </ul>
 </li>
-<li><a href="#orga7a6f59"><span class="done DONE">DONE</span> Raygadnagar Tekdi – 6 Dec 2025</a></li>
-<li><a href="#org15f5ef1"><span class="done DONE">DONE</span> Daryai Mata Mandir Trek – 4 Oct 2025</a></li>
-<li><a href="#orgdb65e4e"><span class="done DONE">DONE</span> Mayna Parvat (Gavlawadi, Makhmalabad) – 18 Oct 2025</a></li>
-<li><a href="#orge6d2cb6"><span class="done DONE">DONE</span> Pandav Leni – 15 Nov 2025</a></li>
-<li><a href="#org0968175"><span class="todo TODO">TODO</span> Sula Dongar – 25 Oct 2025</a></li>
-<li><a href="#org6aaf3f3"><span class="todo TODO">TODO</span> Panjrapole Chunchele Farm Jungle Safari – 20 Sep 2025</a></li>
-<li><a href="#orgb5ecfef"><span class="todo TODO">TODO</span> Chamar Leni – 1 Nov 2025</a></li>
-<li><a href="#orgcdfd0a3"><span class="todo TODO">TODO</span> Ramshej Fort – 8 Nov 2025</a></li>
-<li><a href="#orgf700f12"><span class="todo TODO">TODO</span> Gadgad Sangvi – 22 Nov 2025</a></li>
-<li><a href="#org3fbab1d"><span class="todo TODO">TODO</span> Galna Fort – 21 Dec 2025</a></li>
-<li><a href="#orgb333410"><span class="todo TODO">TODO</span> kavnai trek 31 jan 2026</a></li>
-<li><a href="#org46bbb2f"><span class="todo TODO">TODO</span> Durg bhandar &lt;2026-02-07 Sat&gt;</a></li>
-<li><a href="#orgf7f52f7"><span class="todo TODO">TODO</span> kaarvi cha dongar &lt;2026-02-28 Sat&gt;</a></li>
-<li><a href="#org0aee57e"><span class="todo TODO">TODO</span> Pandavleni practice - &lt;2026-03-08 Sun&gt;</a></li>
-<li><a href="#orge2775bb"><span class="todo TODO">TODO</span> hanuman tekdi &lt;2026-03-14 Sat&gt;</a></li>
-<li><a href="#orgb3fec4d"><span class="todo TODO">TODO</span> Supacha&lt;2026-03-21 Sat&gt;</a></li>
-<li><a href="#org338660f"><span class="todo TODO">TODO</span> Paachya &lt;2026-03-29 Sun&gt;</a></li>
+<li><a href="#org5e2c0bf"><span class="done DONE">DONE</span> Raygadnagar Tekdi – 6 Dec 2025</a></li>
+<li><a href="#org1ce6dd4"><span class="done DONE">DONE</span> Daryai Mata Mandir Trek – 4 Oct 2025</a></li>
+<li><a href="#orgba0e6ed"><span class="done DONE">DONE</span> Mayna Parvat (Gavlawadi, Makhmalabad) – 18 Oct 2025</a></li>
+<li><a href="#org45feb33"><span class="done DONE">DONE</span> Pandav Leni – 15 Nov 2025</a></li>
+<li><a href="#org0253775"><span class="todo TODO">TODO</span> Sula Dongar – 25 Oct 2025</a></li>
+<li><a href="#orgacf04ee"><span class="todo TODO">TODO</span> Panjrapole Chunchele Farm Jungle Safari – 20 Sep 2025</a></li>
+<li><a href="#org2d6e55a"><span class="todo TODO">TODO</span> Chamar Leni – 1 Nov 2025</a></li>
+<li><a href="#orgb0ba392"><span class="todo TODO">TODO</span> Ramshej Fort – 8 Nov 2025</a></li>
+<li><a href="#org51b054a"><span class="todo TODO">TODO</span> Gadgad Sangvi – 22 Nov 2025</a></li>
+<li><a href="#org270df1f"><span class="todo TODO">TODO</span> Galna Fort – 21 Dec 2025</a></li>
+<li><a href="#orgef981c4"><span class="todo TODO">TODO</span> kavnai trek 31 jan 2026</a></li>
+<li><a href="#org064b515"><span class="todo TODO">TODO</span> Durg bhandar &lt;2026-02-07 Sat&gt;</a></li>
+<li><a href="#org913c6d8"><span class="todo TODO">TODO</span> kaarvi cha dongar &lt;2026-02-28 Sat&gt;</a></li>
+<li><a href="#org9eee8d7"><span class="todo TODO">TODO</span> Pandavleni practice - &lt;2026-03-08 Sun&gt;</a></li>
+<li><a href="#org07d808e"><span class="todo TODO">TODO</span> hanuman tekdi &lt;2026-03-14 Sat&gt;</a></li>
+<li><a href="#org94905b0"><span class="todo TODO">TODO</span> Supacha&lt;2026-03-21 Sat&gt;</a></li>
+<li><a href="#org846844e"><span class="todo TODO">TODO</span> Paachya &lt;2026-03-29 Sun&gt;</a></li>
 </ul>
 </li>
-<li><a href="#orgec4a62d">trek notes template</a></li>
-<li><a href="#org3e94ae6">trek routine,</a></li>
-<li><a href="#orge44d1c7">post making notes ideas quotes</a></li>
-<li><a href="#org681599a">online survey maps terms</a></li>
+<li><a href="#orgf795506">trek notes template</a></li>
+<li><a href="#orgeaa03ad">trek routine,</a></li>
+<li><a href="#org28f7763">post making notes ideas quotes</a></li>
+<li><a href="#org569ed8a">online survey maps terms</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org1ea5fe3" class="outline-2">
-<h2 id="org1ea5fe3">to be edited</h2>
-<div class="outline-text-2" id="text-org1ea5fe3">
+<div id="outline-container-orga19ed18" class="outline-2">
+<h2 id="orga19ed18">to be edited</h2>
+<div class="outline-text-2" id="text-orga19ed18">
 </div>
-<div id="outline-container-orgfa1666c" class="outline-3">
-<h3 id="orgfa1666c"><span class="done DONE">DONE</span> <a href="20260201204001-kalsubai_peak_29_dec_2024.html#ID-b01408ac-c20b-433d-87ee-fc47112a9ae9">Kalsubai Peak – 29 Dec 2024</a></h3>
-<div class="outline-text-3" id="text-orgfa1666c">
+<div id="outline-container-org162aaf3" class="outline-3">
+<h3 id="org162aaf3"><span class="done DONE">DONE</span> <a href="20260201204001-kalsubai_peak_29_dec_2024.html#ID-b01408ac-c20b-433d-87ee-fc47112a9ae9">Kalsubai Peak – 29 Dec 2024</a></h3>
+<div class="outline-text-3" id="text-org162aaf3">
 </div>
-<div id="outline-container-org7d0b541" class="outline-4">
-<h4 id="org7d0b541"><span class="todo TODO">TODO</span> can make a new post of kalsubai. lot of images missed.</h4>
-</div>
-</div>
-<div id="outline-container-orge88506a" class="outline-3">
-<h3 id="orge88506a"><span class="done DONE">DONE</span> <a href="20260308202418-dehergad_bhorgad_fort_2025.html#ID-e14b07cc-1981-4d1a-8196-20c2767d38db">Dehergad (Bhorgad) Fort – 2025</a></h3>
-</div>
-<div id="outline-container-org79a092e" class="outline-3">
-<h3 id="org79a092e"><span class="done DONE">DONE</span> <a href="20260308202504-borgad_jungle_safari_11_oct_2025.html#ID-bdbdde94-b9bd-47a3-8b23-d68d9525f881">Borgad Jungle Safari – 11 Oct 2025</a></h3>
-<div class="outline-text-3" id="text-org79a092e">
-</div>
-<div id="outline-container-org699b051" class="outline-4">
-<h4 id="org699b051"><span class="todo TODO">TODO</span> can make a new post showcasing the story.</h4>
+<div id="outline-container-org076c81d" class="outline-4">
+<h4 id="org076c81d"><span class="todo TODO">TODO</span> can make a new post of kalsubai. lot of images missed.</h4>
 </div>
 </div>
-<div id="outline-container-orga7a6f59" class="outline-3">
-<h3 id="orga7a6f59"><span class="done DONE">DONE</span> <a href="20260308202531-raygadnagar_tekdi_6_dec_2025.html#ID-a234de47-3801-4184-883a-38002d7255f1">Raygadnagar Tekdi – 6 Dec 2025</a></h3>
+<div id="outline-container-org2ba2c9b" class="outline-3">
+<h3 id="org2ba2c9b"><span class="done DONE">DONE</span> <a href="20260308202418-dehergad_bhorgad_fort_2025.html#ID-e14b07cc-1981-4d1a-8196-20c2767d38db">Dehergad (Bhorgad) Fort – 2025</a></h3>
 </div>
-<div id="outline-container-org15f5ef1" class="outline-3">
-<h3 id="org15f5ef1"><span class="done DONE">DONE</span> <a href="20260308202549-daryai_mata_mandir_trek_4_oct_2025.html#ID-8d6acdd2-5a11-4352-8d39-16bd1d8d9a37">Daryai Mata Mandir Trek – 4 Oct 2025</a></h3>
+<div id="outline-container-org3cd43b8" class="outline-3">
+<h3 id="org3cd43b8"><span class="done DONE">DONE</span> <a href="20260308202504-borgad_jungle_safari_11_oct_2025.html#ID-bdbdde94-b9bd-47a3-8b23-d68d9525f881">Borgad Jungle Safari – 11 Oct 2025</a></h3>
+<div class="outline-text-3" id="text-org3cd43b8">
 </div>
-<div id="outline-container-orgdb65e4e" class="outline-3">
-<h3 id="orgdb65e4e"><span class="done DONE">DONE</span> <a href="20260308202608-mayna_parvat_gavlawadi_makhmalabad_18_oct_2025.html#ID-ae84635d-7397-4eeb-a92c-cc2056751b63">Mayna Parvat (Gavlawadi, Makhmalabad) – 18 Oct 2025</a></h3>
-</div>
-<div id="outline-container-orge6d2cb6" class="outline-3">
-<h3 id="orge6d2cb6"><span class="done DONE">DONE</span> <a href="20260308202630-pandav_leni_15_nov_2025.html#ID-1c8cc106-017b-4a04-9ab3-796d741c34ab">Pandav Leni – 15 Nov 2025</a></h3>
-</div>
-<div id="outline-container-org0968175" class="outline-3">
-<h3 id="org0968175"><span class="todo TODO">TODO</span> <a href="20260308202702-sula_dongar_25_oct_2025.html#ID-15ff9299-02a5-4aa1-9d0b-ee39f5fabeb8">Sula Dongar – 25 Oct 2025</a></h3>
-</div>
-<div id="outline-container-org6aaf3f3" class="outline-3">
-<h3 id="org6aaf3f3"><span class="todo TODO">TODO</span> <a href="20260308202718-panjrapole_chunchele_farm_jungle_safari_20_sep_2025.html#ID-d78ac193-f653-4365-bb74-150332d52de1">Panjrapole Chunchele Farm Jungle Safari – 20 Sep 2025</a></h3>
-</div>
-<div id="outline-container-orgb5ecfef" class="outline-3">
-<h3 id="orgb5ecfef"><span class="todo TODO">TODO</span> <a href="20260308202732-chamar_leni_1_nov_2025.html#ID-532ee59d-8770-4926-9333-624c396464ca">Chamar Leni – 1 Nov 2025</a></h3>
-</div>
-<div id="outline-container-orgcdfd0a3" class="outline-3">
-<h3 id="orgcdfd0a3"><span class="todo TODO">TODO</span> <a href="20260308202743-ramshej_fort_8_nov_2025.html#ID-dd1282a9-bb1c-44f2-99a7-7bd83156ff3d">Ramshej Fort – 8 Nov 2025</a></h3>
-</div>
-<div id="outline-container-orgf700f12" class="outline-3">
-<h3 id="orgf700f12"><span class="todo TODO">TODO</span> <a href="20260308202757-gadgad_sangvi_22_nov_2025.html#ID-05f62c33-ae61-48ea-bb5e-0fd91218421b">Gadgad Sangvi – 22 Nov 2025</a></h3>
-</div>
-<div id="outline-container-org3fbab1d" class="outline-3">
-<h3 id="org3fbab1d"><span class="todo TODO">TODO</span> <a href="20260308202816-galna_fort_21_dec_2025.html#ID-20d6afa2-0d86-4935-b0a3-e24cc39b9db7">Galna Fort – 21 Dec 2025</a></h3>
-</div>
-<div id="outline-container-orgb333410" class="outline-3">
-<h3 id="orgb333410"><span class="todo TODO">TODO</span> <a href="20260131135705-kavnai_trek_31_jan_2026.html#ID-8c3e6cad-40c4-49ff-a042-913a715289b0">kavnai trek 31 jan 2026</a></h3>
-</div>
-<div id="outline-container-org46bbb2f" class="outline-3">
-<h3 id="org46bbb2f"><span class="todo TODO">TODO</span> <a href="20260209075612-durg_bhandar_2026_02_07_sat.html#ID-3e0a44ea-c31a-4b3d-afc1-c73f7c18b99f">Durg bhandar &lt;2026-02-07 Sat&gt;</a></h3>
-</div>
-<div id="outline-container-orgf7f52f7" class="outline-3">
-<h3 id="orgf7f52f7"><span class="todo TODO">TODO</span> <a href="20260303221043-kaarvi_cha_dongar_2026_02_28_sat.html#ID-59f6a116-f24f-4419-a5db-e37ee48ab195">kaarvi cha dongar &lt;2026-02-28 Sat&gt;</a></h3>
-</div>
-<div id="outline-container-org0aee57e" class="outline-3">
-<h3 id="org0aee57e"><span class="todo TODO">TODO</span> <a href="20260308202940-pandavleni_practice_2026_03_08_sun.html#ID-b1824f0a-70ff-4f5f-8425-cfd2d1d38719">Pandavleni practice - &lt;2026-03-08 Sun&gt;</a></h3>
-</div>
-<div id="outline-container-orge2775bb" class="outline-3">
-<h3 id="orge2775bb"><span class="todo TODO">TODO</span> <a href="20260313200635-hanuman_tekdi_2026_03_14_sat.html#ID-e0806e96-09e9-4b62-a2f9-22464c372660">hanuman tekdi &lt;2026-03-14 Sat&gt;</a></h3>
-</div>
-<div id="outline-container-orgb3fec4d" class="outline-3">
-<h3 id="orgb3fec4d"><span class="todo TODO">TODO</span> <a href="20260320203400-supacha_and_paachya_tekdi_2026_03_21_sat.html#ID-a64c02a8-8ae4-456b-a6a8-a62a38a7d808">Supacha&lt;2026-03-21 Sat&gt;</a></h3>
-</div>
-<div id="outline-container-org338660f" class="outline-3">
-<h3 id="org338660f"><span class="todo TODO">TODO</span> <a href="20260329165338-supacha_2026_03_29_sun.html#ID-6596772d-a333-494b-866e-55889ddf6fad">Paachya &lt;2026-03-29 Sun&gt;</a></h3>
+<div id="outline-container-org9851328" class="outline-4">
+<h4 id="org9851328"><span class="todo TODO">TODO</span> can make a new post showcasing the story.</h4>
 </div>
 </div>
-<div id="outline-container-orgec4a62d" class="outline-2">
-<h2 id="orgec4a62d"><a href="20260131140313-trek_notes_template.html#ID-d5c52ebd-667f-4226-b116-d3bf22840997">trek notes template</a></h2>
+<div id="outline-container-org5e2c0bf" class="outline-3">
+<h3 id="org5e2c0bf"><span class="done DONE">DONE</span> <a href="20260308202531-raygadnagar_tekdi_6_dec_2025.html#ID-a234de47-3801-4184-883a-38002d7255f1">Raygadnagar Tekdi – 6 Dec 2025</a></h3>
 </div>
-<div id="outline-container-org3e94ae6" class="outline-2">
-<h2 id="org3e94ae6"><a href="20260226222015-trek_routine.html#ID-66a424c0-9741-41a8-97b6-5e9648bcc00e">trek routine,</a></h2>
+<div id="outline-container-org1ce6dd4" class="outline-3">
+<h3 id="org1ce6dd4"><span class="done DONE">DONE</span> <a href="20260308202549-daryai_mata_mandir_trek_4_oct_2025.html#ID-8d6acdd2-5a11-4352-8d39-16bd1d8d9a37">Daryai Mata Mandir Trek – 4 Oct 2025</a></h3>
 </div>
-<div id="outline-container-orge44d1c7" class="outline-2">
-<h2 id="orge44d1c7"><a href="20260313193152-post_making_notes_ideas_quotes.html#ID-176bea91-d8f4-4879-8a73-cba48548e425">post making notes ideas quotes</a></h2>
+<div id="outline-container-orgba0e6ed" class="outline-3">
+<h3 id="orgba0e6ed"><span class="done DONE">DONE</span> <a href="20260308202608-mayna_parvat_gavlawadi_makhmalabad_18_oct_2025.html#ID-ae84635d-7397-4eeb-a92c-cc2056751b63">Mayna Parvat (Gavlawadi, Makhmalabad) – 18 Oct 2025</a></h3>
 </div>
-<div id="outline-container-org681599a" class="outline-2">
-<h2 id="org681599a">online survey maps terms</h2>
-<div class="outline-text-2" id="text-org681599a">
+<div id="outline-container-org45feb33" class="outline-3">
+<h3 id="org45feb33"><span class="done DONE">DONE</span> <a href="20260308202630-pandav_leni_15_nov_2025.html#ID-1c8cc106-017b-4a04-9ab3-796d741c34ab">Pandav Leni – 15 Nov 2025</a></h3>
+</div>
+<div id="outline-container-org0253775" class="outline-3">
+<h3 id="org0253775"><span class="todo TODO">TODO</span> <a href="20260308202702-sula_dongar_25_oct_2025.html#ID-15ff9299-02a5-4aa1-9d0b-ee39f5fabeb8">Sula Dongar – 25 Oct 2025</a></h3>
+</div>
+<div id="outline-container-orgacf04ee" class="outline-3">
+<h3 id="orgacf04ee"><span class="todo TODO">TODO</span> <a href="20260308202718-panjrapole_chunchele_farm_jungle_safari_20_sep_2025.html#ID-d78ac193-f653-4365-bb74-150332d52de1">Panjrapole Chunchele Farm Jungle Safari – 20 Sep 2025</a></h3>
+</div>
+<div id="outline-container-org2d6e55a" class="outline-3">
+<h3 id="org2d6e55a"><span class="todo TODO">TODO</span> <a href="20260308202732-chamar_leni_1_nov_2025.html#ID-532ee59d-8770-4926-9333-624c396464ca">Chamar Leni – 1 Nov 2025</a></h3>
+</div>
+<div id="outline-container-orgb0ba392" class="outline-3">
+<h3 id="orgb0ba392"><span class="todo TODO">TODO</span> <a href="20260308202743-ramshej_fort_8_nov_2025.html#ID-dd1282a9-bb1c-44f2-99a7-7bd83156ff3d">Ramshej Fort – 8 Nov 2025</a></h3>
+</div>
+<div id="outline-container-org51b054a" class="outline-3">
+<h3 id="org51b054a"><span class="todo TODO">TODO</span> <a href="20260308202757-gadgad_sangvi_22_nov_2025.html#ID-05f62c33-ae61-48ea-bb5e-0fd91218421b">Gadgad Sangvi – 22 Nov 2025</a></h3>
+</div>
+<div id="outline-container-org270df1f" class="outline-3">
+<h3 id="org270df1f"><span class="todo TODO">TODO</span> <a href="20260308202816-galna_fort_21_dec_2025.html#ID-20d6afa2-0d86-4935-b0a3-e24cc39b9db7">Galna Fort – 21 Dec 2025</a></h3>
+</div>
+<div id="outline-container-orgef981c4" class="outline-3">
+<h3 id="orgef981c4"><span class="todo TODO">TODO</span> <a href="20260131135705-kavnai_trek_31_jan_2026.html#ID-8c3e6cad-40c4-49ff-a042-913a715289b0">kavnai trek 31 jan 2026</a></h3>
+</div>
+<div id="outline-container-org064b515" class="outline-3">
+<h3 id="org064b515"><span class="todo TODO">TODO</span> <a href="20260209075612-durg_bhandar_2026_02_07_sat.html#ID-3e0a44ea-c31a-4b3d-afc1-c73f7c18b99f">Durg bhandar &lt;2026-02-07 Sat&gt;</a></h3>
+</div>
+<div id="outline-container-org913c6d8" class="outline-3">
+<h3 id="org913c6d8"><span class="todo TODO">TODO</span> <a href="20260303221043-kaarvi_cha_dongar_2026_02_28_sat.html#ID-59f6a116-f24f-4419-a5db-e37ee48ab195">kaarvi cha dongar &lt;2026-02-28 Sat&gt;</a></h3>
+</div>
+<div id="outline-container-org9eee8d7" class="outline-3">
+<h3 id="org9eee8d7"><span class="todo TODO">TODO</span> <a href="20260308202940-pandavleni_practice_2026_03_08_sun.html#ID-b1824f0a-70ff-4f5f-8425-cfd2d1d38719">Pandavleni practice - &lt;2026-03-08 Sun&gt;</a></h3>
+</div>
+<div id="outline-container-org07d808e" class="outline-3">
+<h3 id="org07d808e"><span class="todo TODO">TODO</span> <a href="20260313200635-hanuman_tekdi_2026_03_14_sat.html#ID-e0806e96-09e9-4b62-a2f9-22464c372660">hanuman tekdi &lt;2026-03-14 Sat&gt;</a></h3>
+</div>
+<div id="outline-container-org94905b0" class="outline-3">
+<h3 id="org94905b0"><span class="todo TODO">TODO</span> <a href="20260320203400-supacha_and_paachya_tekdi_2026_03_21_sat.html#ID-a64c02a8-8ae4-456b-a6a8-a62a38a7d808">Supacha&lt;2026-03-21 Sat&gt;</a></h3>
+</div>
+<div id="outline-container-org846844e" class="outline-3">
+<h3 id="org846844e"><span class="todo TODO">TODO</span> <a href="20260329165338-supacha_2026_03_29_sun.html#ID-6596772d-a333-494b-866e-55889ddf6fad">Paachya &lt;2026-03-29 Sun&gt;</a></h3>
+</div>
+</div>
+<div id="outline-container-orgf795506" class="outline-2">
+<h2 id="orgf795506"><a href="20260131140313-trek_notes_template.html#ID-d5c52ebd-667f-4226-b116-d3bf22840997">trek notes template</a></h2>
+</div>
+<div id="outline-container-orgeaa03ad" class="outline-2">
+<h2 id="orgeaa03ad"><a href="20260226222015-trek_routine.html#ID-66a424c0-9741-41a8-97b6-5e9648bcc00e">trek routine,</a></h2>
+</div>
+<div id="outline-container-org28f7763" class="outline-2">
+<h2 id="org28f7763"><a href="20260313193152-post_making_notes_ideas_quotes.html#ID-176bea91-d8f4-4879-8a73-cba48548e425">post making notes ideas quotes</a></h2>
+</div>
+<div id="outline-container-org569ed8a" class="outline-2">
+<h2 id="org569ed8a">online survey maps terms</h2>
+<div class="outline-text-2" id="text-org569ed8a">
 <ol class="org-ol">
 <li>I/we have read provisions of "Guidelines for acquiring and producing Geospatial Data and Geospatial data services", published vide DST notification no SM/25/02/2020 (Part-I) dated 15" February 2021 and I fulfill the criteria of 'Indian Entity defined in the said guidelines.</li>
 <li>I/We, certify that for any part of the activities mentioned in the guidelines, we are not subject to, and not controlled by any entity or individual that is subject to a temporary suspension or ban or blacklisting or debarred by any Government/Semi-Government entity of India.</li>

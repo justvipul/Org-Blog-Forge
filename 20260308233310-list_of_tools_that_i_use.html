@@ -3,408 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-03-29 Sun 12:41 -->
+<!-- 2026-03-29 Sun 12:54 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>list of tools that i use.</title>
 <meta name="generator" content="Org Mode" />
-<style type="text/css">
-/******************************************************
-* I copied these styles from markdotto.com, who is
-* the creator of bootstrap, and I also did some
-* modification. Thanks Mark for the beautiful theme,
-* so I reserved the @mdo sign below.
-*****************************************************/
-
-/*
-__
-__                  /\ \
-/'_`\_    ___ ___    \_\ \    ___
-/'/'_` \ /' __` __`\  /'_` \  / __`\
-/\ \ \L\ \/\ \/\ \/\ \/\ \L\ \/\ \L\ \
-\ \ `\__,_\ \_\ \_\ \_\ \___,_\ \____/
-\ `\_____\\/_/\/_/\/_/\/__,_ /\/___/
-`\/_____/
-
-*/
-
-
-
-/* Body resets
--------------------------------------------------- */
-
-* {
--webkit-box-sizing:  border-box;
--moz-box-sizing:  border-box;
-box-sizing:  border-box;
-}
-html, body {
-margin:  0;
-padding:  0;
-}
-html {
-font-size:  62.5%;
-}
-body {
-padding:  20px;
-font-family:  Menlo, Monaco, monospace;
-font-size:  14px;
-line-height:  1.5;
-color:  #666;
-background-color:  #fff;
-}
-p {
-margin:  0 0 20px;
-}
-h1, h2, h3 {
-position:  relative;
-margin:  30px 0 20px;
-font-size:  18px;
-font-weight:  bold;
-line-height:  1.1;
-color:  #111;
-text-rendering:  optimizeLegibility;
-}
-h1:before, h2:before, h3:before {
-position:  absolute;
-top:  auto;
-color:  #ccc;
-display:  none;
-}
-h1:before {
-content:  "";
-left:  -1.25em;
-}
-h2:before {
-content:  "*";
-left:  -2em;
-}
-h3:before {
-content:  "**";
-left:  -2.5em;
-}
-i, em, b, strong {
-padding-left:  .1em;
-padding-right:  .1em;
-}
-b, strong {
-font-weight:  bold;
-color:  #333;
-}
-b:before, b: after, strong:before, strong: after {
-content:  "*";
-}
-i:before, i: after, em:before, em: after {
-content:  "/";
-}
-hr {
-margin:  0;
-border:  0;
-}
-hr: after {
-display:  block;
-margin:  20px 0;
-content:  "----------------------------------------------------------------";
-color:  #ccc;
-}
-ul, ol {
-padding:  0;
-margin:  0 0 20px;
-}
-code, pre {
-font-family:  Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-code {
-color:  #d14;
-}
-code:before, code: after {
-content:  "=";
-color:  #ccc;
-}
-pre {
-display:  block;
-margin:  0 0 14px;
-padding:  15px;
-border-radius:  3px 3px 3px 3px;
-font-size:  18px;
-line-height:  28px;
-background-color:  #f5f5f5;
-white-space:  pre;
-white-space:  pre-wrap;
-word-break:  break-all;
-word-wrap:  break-word;
-}
-blockquote {
-padding:  0 0 0 20px;
-margin:  0 30px 20px -22.5px;
-color:  #999;
-border-left:  8px solid #e5e5e5;
-}
-blockquote p: last-child {
-margin-bottom:  0;
-}
-img {
-display:  block;
-margin:  0;
-border-radius:  5px;
-}
-a {
-font-weight:  inherit;
-line-height:  inherit;
-color:  #000;
-text-decoration:  none;
-}
-sup a:before {
-content:  "[";
-}
-sup a: after {
-content:  "]";
-}
-a: hover {
-text-decoration:  underline;
-}
-table {
-line-height:  2.5;
-margin-bottom:  15px;
-max-width:  100%;
-width:  100%;
-}
-table td, table th {
-padding:  0 15px;
-}
-table th.left, table td.left {
-text-align:  left;
-}
-table th.right, table td.right {
-text-align:  right;
-}
-/******************************************************/
-/* body */
-body {
-margin:  0 auto;
-max-width:  770px;
-}
-/* head */
-.masthead {
-color:  #888;
-}
-.masthead: after {
-display:  block;
-content:  '----------------------------------------------------------------';
-margin:  10px 0;
-color:  #ccc;
-}
-.masthead a {
-color:  #333;
-}
-.masthead ul {
-list-style:  none;
-}
-.masthead li {
-display:  inline-block;
-}
-.masthead li + li:before {
-display:  inline-block;
-content:  "\00B7 \00a0";
-color:  #ccc;
-}
-/* searchform*/
-#searchform {
-position:  absolute;
-top:  54px;
-right:  30.4%;
-}
-#searchform #s {
-background:  url("/media/img/search.png") no-repeat 5px 6px;
-box-shadow:  inset 0 1px 1px rgba(0,0,0,0.1);
-border:  1px solid #ddd;
-border-radius:  2px;
--moz-border-radius:  2px;
-width:  90px;
-height:  30px;
-line-height:  12px;
-padding:  4px 10px 4px 28px;
-
--webkit-transition-duration:  400ms;
--webkit-transition-property:  width, background;
--webkit-transition-timing-function:  ease;
--moz-transition-duration:  400ms;
--moz-transition-property:  width, background;
--moz-transition-timing-function:  ease;
--o-transition-duration:  400ms;
--o-transition-property:  width, background;
--o-transition-timing-function:  ease;
-}
-#searchform #s: focus {
-background-color:  #f9f9f9;
-width:  160px;
-}
-.masthead img.avatar {
-position:  relative;
-float:  right;
-margin-top:  -100px;
-margin-bottom:  -100%;
-margin-right:  10%;
-width:  200px;
-background-color:  #fff;
-}
-/* post */
-.post {
-position:  relative;
-}
-.post: after {
-display:  block;
-content:  "----------------------------------------------------------------";
-color:  #ccc;
-}
-.post img {
-max-width:  100%;
-}
-.post li {
-list-style:  none outside none;
-}
-.post ul > li:before {
-content:  "- ";
-margin-left:  -1.25em;
-color:  #ccc;
-}
-.post ol {
-counter-reset:  o-list;
-}
-.post ol > li:before {
-content:  counter(o-list) ") ";
-counter-increment:  o-list;
-margin-left:  -1.85em;
-color:  #ccc;
-}
-
-/* special for li in pre */
-.post pre li {
-list-style-type:  decimal;
-}
-
-.post pre li:before {
-display:  none;
-}
-
-/* meta info */
-.post-info {
-display:  inline-block;
-margin:  -10px 0 -10px;
-color:  #999;
-}
-.post-info + .post-info:before {
-content:  "\2223 \00a0";
-}
-.post-meta: after {
-content:  "----------------------------------------------------------------";
-display:  block;
-margin-top:  -1px;
-color:  #ccc;
-}
-
-/* table of content */
-#table-of-contents {
-position:  fixed;
-right:  0em;
-top:  0em;
-border: 1px solid #e1e1e8;
--webkit-box-shadow:  0 0 1em #777777;
--moz-box-shadow:  0 0 1em #777777;
--webkit-border-bottom-left-radius:  5px;
--moz-border-radius-bottomleft:  5px;
-text-align:  center;
-/* ensure doesn't flow off the screen when expanded */
-max-height:  80%;
-overflow:  auto;
-z-index:  200;
-}
-
-#table-of-contents h2 {
-max-width:  20em;
-font-weight:  normal;
-padding-left:  0.5em;
-padding-top:  0.05em;
-padding-bottom:  0.05em;
-}
-
-#table-of-contents ul {
-margin-left:  14pt;
-margin-bottom:  10pt;
-padding:  0
-}
-
-#table-of-contents li {
-padding:  0;
-margin:  1px;
-list-style:  none;
-}
-
-#table-of-contents ul>: first-child {
-color:  blue;
-}
-
-#table-of-contents #text-table-of-contents {
-display:  none;
-text-align:  left;
-}
-
-#table-of-contents: hover #text-table-of-contents {
-display:  block;
-padding:  0.5em;
-margin-top:  -1.5em;
-}
-
-/* footer */
-.footer {
-margin:  80px 0 0;
-text-align:  center;
-font-size:  15px;
-color:  #999;
-}
-.footer > p {
-margin:  0;
-line-height:  1.5;
-}
-.footpara {
-display:  inline;
-}
-
-/* Responsive
--------------------------------------------------- */
-
-@media (min-width:  768px) {
-/* Increase body padding and font-sizes */
-body {
-padding:  30px;
-font-size:  18px;
-line-height:  1.75;
-}
-h1:before, h2:before, h3:before {
-display:  inline;
-}
-}
-
-@media (min-width:  1024px) {
-body {
-padding:  30px;
-}
-}
-</style>
-<script type="text/javascript">
-document.addEventListener('DOMContentLoaded',function() {
-document.getElementById("table-of-contents").onclick = function() {
-var elem = document.getElementById("text-table-of-contents");
-elem.style.display = elem.style.display == "block" ? "none" : "block";
-}
-});
-
-var url = document.location.href;
-var orgsource = url.substring(0, url.lastIndexOf("."))+".org.html";
-function show_org_source(){
-document.location.href = orgsource;
-}
-</script>
+<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
 <div id="content" class="content">
@@ -413,108 +17,108 @@ document.location.href = orgsource;
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org61a32a3">softwares</a>
+<li><a href="#org3930435">softwares</a>
 <ul>
-<li><a href="#org81b9d91">linux</a>
+<li><a href="#org661ddad">linux</a>
 <ul>
-<li><a href="#org270da6d">MX linux</a></li>
-<li><a href="#org9ed2510">urxvt</a></li>
-<li><a href="#org471abe0">emacs</a></li>
-<li><a href="#org0f845fe">zathura</a></li>
-<li><a href="#org7473926">calibre</a></li>
-<li><a href="#org6e2f2c7">lot more cant recall right now</a></li>
+<li><a href="#orgb3c30d2">MX linux</a></li>
+<li><a href="#org0e947df">urxvt</a></li>
+<li><a href="#orgfda326b">emacs</a></li>
+<li><a href="#org7f693cd">zathura</a></li>
+<li><a href="#orgb1b4039">calibre</a></li>
+<li><a href="#orga3ccdf1">lot more cant recall right now</a></li>
 </ul>
 </li>
-<li><a href="#org4e24c9f">android</a>
+<li><a href="#orgde3ff2d">android</a>
 <ul>
-<li><a href="#orgc84876e">fossify stuff.</a></li>
+<li><a href="#org6aa39f4">fossify stuff.</a></li>
 </ul>
 </li>
-<li><a href="#org02a87cc">windows</a>
+<li><a href="#orgb368cd3">windows</a>
 <ul>
-<li><a href="#org9ae9402">sumatra pdf</a></li>
-<li><a href="#org1732202">powertoys</a></li>
-<li><a href="#org27a68b4">chrome canary</a></li>
-<li><a href="#orgd2f1915">nomacs</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#org8add699">links</a>
-<ul>
-<li><a href="#orgbe9b820">postimage.org</a></li>
-<li><a href="#orgc6b6385">vidplay.io</a></li>
-<li><a href="#org6220389"></a></li>
+<li><a href="#org5eb67de">sumatra pdf</a></li>
+<li><a href="#org13f0cb3">powertoys</a></li>
+<li><a href="#orgf3f50be">chrome canary</a></li>
+<li><a href="#orgc6d0e94">nomacs</a></li>
 </ul>
 </li>
 </ul>
+</li>
+<li><a href="#org057b7d5">links</a>
+<ul>
+<li><a href="#org1479491">postimage.org</a></li>
+<li><a href="#org9a47e16">vidplay.io</a></li>
+<li><a href="#org535037a"></a></li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
-<div id="outline-container-org61a32a3" class="outline-2">
-<h2 id="org61a32a3">softwares</h2>
-<div class="outline-text-2" id="text-org61a32a3">
+<div id="outline-container-org3930435" class="outline-2">
+<h2 id="org3930435">softwares</h2>
+<div class="outline-text-2" id="text-org3930435">
 </div>
-<div id="outline-container-org81b9d91" class="outline-3">
-<h3 id="org81b9d91">linux</h3>
-<div class="outline-text-3" id="text-org81b9d91">
+<div id="outline-container-org661ddad" class="outline-3">
+<h3 id="org661ddad">linux</h3>
+<div class="outline-text-3" id="text-org661ddad">
 </div>
-<div id="outline-container-org270da6d" class="outline-4">
-<h4 id="org270da6d">MX linux</h4>
+<div id="outline-container-orgb3c30d2" class="outline-4">
+<h4 id="orgb3c30d2">MX linux</h4>
 </div>
-<div id="outline-container-org9ed2510" class="outline-4">
-<h4 id="org9ed2510">urxvt</h4>
+<div id="outline-container-org0e947df" class="outline-4">
+<h4 id="org0e947df">urxvt</h4>
 </div>
-<div id="outline-container-org471abe0" class="outline-4">
-<h4 id="org471abe0">emacs</h4>
+<div id="outline-container-orgfda326b" class="outline-4">
+<h4 id="orgfda326b">emacs</h4>
 </div>
-<div id="outline-container-org0f845fe" class="outline-4">
-<h4 id="org0f845fe">zathura</h4>
+<div id="outline-container-org7f693cd" class="outline-4">
+<h4 id="org7f693cd">zathura</h4>
 </div>
-<div id="outline-container-org7473926" class="outline-4">
-<h4 id="org7473926">calibre</h4>
+<div id="outline-container-orgb1b4039" class="outline-4">
+<h4 id="orgb1b4039">calibre</h4>
 </div>
-<div id="outline-container-org6e2f2c7" class="outline-4">
-<h4 id="org6e2f2c7">lot more cant recall right now</h4>
-</div>
-</div>
-<div id="outline-container-org4e24c9f" class="outline-3">
-<h3 id="org4e24c9f">android</h3>
-<div class="outline-text-3" id="text-org4e24c9f">
-</div>
-<div id="outline-container-orgc84876e" class="outline-4">
-<h4 id="orgc84876e">fossify stuff.</h4>
+<div id="outline-container-orga3ccdf1" class="outline-4">
+<h4 id="orga3ccdf1">lot more cant recall right now</h4>
 </div>
 </div>
-<div id="outline-container-org02a87cc" class="outline-3">
-<h3 id="org02a87cc">windows</h3>
-<div class="outline-text-3" id="text-org02a87cc">
+<div id="outline-container-orgde3ff2d" class="outline-3">
+<h3 id="orgde3ff2d">android</h3>
+<div class="outline-text-3" id="text-orgde3ff2d">
 </div>
-<div id="outline-container-org9ae9402" class="outline-4">
-<h4 id="org9ae9402">sumatra pdf</h4>
-</div>
-<div id="outline-container-org1732202" class="outline-4">
-<h4 id="org1732202">powertoys</h4>
-</div>
-<div id="outline-container-org27a68b4" class="outline-4">
-<h4 id="org27a68b4">chrome canary</h4>
-</div>
-<div id="outline-container-orgd2f1915" class="outline-4">
-<h4 id="orgd2f1915">nomacs</h4>
+<div id="outline-container-org6aa39f4" class="outline-4">
+<h4 id="org6aa39f4">fossify stuff.</h4>
 </div>
 </div>
+<div id="outline-container-orgb368cd3" class="outline-3">
+<h3 id="orgb368cd3">windows</h3>
+<div class="outline-text-3" id="text-orgb368cd3">
 </div>
-<div id="outline-container-org8add699" class="outline-2">
-<h2 id="org8add699">links</h2>
-<div class="outline-text-2" id="text-org8add699">
+<div id="outline-container-org5eb67de" class="outline-4">
+<h4 id="org5eb67de">sumatra pdf</h4>
 </div>
-<div id="outline-container-orgbe9b820" class="outline-3">
-<h3 id="orgbe9b820">postimage.org</h3>
+<div id="outline-container-org13f0cb3" class="outline-4">
+<h4 id="org13f0cb3">powertoys</h4>
 </div>
-<div id="outline-container-orgc6b6385" class="outline-3">
-<h3 id="orgc6b6385">vidplay.io</h3>
+<div id="outline-container-orgf3f50be" class="outline-4">
+<h4 id="orgf3f50be">chrome canary</h4>
 </div>
-<div id="outline-container-org6220389" class="outline-3">
-<h3 id="org6220389"></h3>
+<div id="outline-container-orgc6d0e94" class="outline-4">
+<h4 id="orgc6d0e94">nomacs</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org057b7d5" class="outline-2">
+<h2 id="org057b7d5">links</h2>
+<div class="outline-text-2" id="text-org057b7d5">
+</div>
+<div id="outline-container-org1479491" class="outline-3">
+<h3 id="org1479491">postimage.org</h3>
+</div>
+<div id="outline-container-org9a47e16" class="outline-3">
+<h3 id="org9a47e16">vidplay.io</h3>
+</div>
+<div id="outline-container-org535037a" class="outline-3">
+<h3 id="org535037a"></h3>
 </div>
 </div>
 </div>
