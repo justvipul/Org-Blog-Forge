@@ -2,6 +2,7 @@
 :ID:       05f62c33-ae61-48ea-bb5e-0fd91218421b
 :END:
 #+title: Gadgad Sangvi – 22 Nov 2025
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 * Trek Overview
 1. Trek Name: 
 2. Region: 

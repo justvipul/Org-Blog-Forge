@@ -7,7 +7,7 @@
 #+TAGS: :trek:outdoors:sahyadri:<region>:
 #+PROPERTY: LOCATION All Treks
 #+PROPERTY: RANGE <range>
-#+setupfile: ../org-html-themes/gray.theme
+#+setupfile:  ../themes/org-themes/src/gray/gray.theme
 
 * Trek Overview
 1. Trek Name: 

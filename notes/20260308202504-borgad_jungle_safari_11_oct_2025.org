@@ -9,5 +9,4 @@ title: trek notes template
 #+TAGS: :trek:outdoors:sahyadri:dindori:
 #+PROPERTY: LOCATION All Treks
 #+PROPERTY: RANGE Nashik range
-#+setupfile: ../org-html-themes/gray.theme
-
+#+setupfile: ../themes/org-themes/src/gray/gray.theme

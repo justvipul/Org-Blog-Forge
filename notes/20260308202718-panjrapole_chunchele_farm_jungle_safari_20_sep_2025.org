@@ -2,6 +2,7 @@
 :ID:       d78ac193-f653-4365-bb74-150332d52de1
 :END:
 #+title: Panjrapole Chunchele Farm Jungle Safari – 20 Sep 2025
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 * Trek Overview
 1. Trek Name: 
 2. Region: 

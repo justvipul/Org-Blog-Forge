@@ -2,7 +2,7 @@
 :ID:       176bea91-d8f4-4879-8a73-cba48548e425
 :END:
 #+title: post making notes ideas quotes
-#+setupfile: ../org-html-themes/simple_gray.theme
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 * if we date you dont have to worry about me cheaing i might get lost hiking or die but thats really it.
 * before you book a trek
 ** trekking is commitment to the mountains and to yoursel.

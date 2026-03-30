@@ -2,4 +2,4 @@
 :ID:       58c7d144-fd36-44a6-98c3-f688e87c7c6e
 :END:
 #+title: mastering emacs
-
+#+setupfile: ../themes/org-themes/src/gray/gray.theme

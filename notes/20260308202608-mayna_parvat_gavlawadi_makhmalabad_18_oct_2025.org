@@ -2,6 +2,7 @@
 :ID:       ae84635d-7397-4eeb-a92c-cc2056751b63
 :END:
 #+title: Mayna Parvat (Gavlawadi, Makhmalabad) – 18 Oct 2025
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 * Trek Overview
 1. Trek Name: 
 2. Region: 

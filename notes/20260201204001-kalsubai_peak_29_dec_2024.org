@@ -7,7 +7,7 @@
 #+TAGS: :trek:outdoors:sahyadri:igatpuri:
 #+PROPERTY: LOCATION All Treks
 #+PROPERTY: RANGE Kalsubai range – Sahyadri sub‑range
-#+setupfile: ../org-html-themes/gray.theme
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 
 * Trek Overview
 1. Trek Name: Kalsubai

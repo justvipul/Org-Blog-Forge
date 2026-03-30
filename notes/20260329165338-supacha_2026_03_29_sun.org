@@ -2,7 +2,8 @@
 :ID:       6596772d-a333-494b-866e-55889ddf6fad
 :END:
 #+title: Paachya <2026-03-29 Sun>
-#+setupfile: ../org-html-themes/gray.theme
+#+setupfile:  ../themes/org-themes/src/gray/gray.theme
+
 
 * Trek Overview
 1. Trek Name: Paachya

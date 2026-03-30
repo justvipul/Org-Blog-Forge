@@ -2,6 +2,7 @@
 :ID:       b1824f0a-70ff-4f5f-8425-cfd2d1d38719
 :END:
 #+title: Pandavleni practice - <2026-03-08 Sun>
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 * Trek Overview
 1. Trek Name:  Pandavleni practice trek.
 2. Region: nashik 

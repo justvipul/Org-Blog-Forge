@@ -2,6 +2,7 @@
 :ID:       8faed37c-19e1-4a37-b278-0e12712fc130
 :END:
 #+title: sales growth meeting 2nd
+#+setupfile: ../themes/org-themes/src/bigblow_inline/bigblow_inline.theme
 * Key Psychological Principles for Effective Selling
 
 ** Reciprocity: People Tend to Return Favors

@@ -4,7 +4,7 @@
 #+title: sales growth meeting 10th
 #+TITLE: Sales Growth Huddle – Small Tools, Smart Thinking
 #+OPTIONS: toc:nil num:t
-#+setupfile: ../org-html-themes/bigblow_inline.theme
+#+setupfile: ../themes/org-themes/src/bigblow_inline/bigblow_inline.theme
 * small but powerfull tools that help me save time.
 ** Power toys.
 *** i use the power rename function.

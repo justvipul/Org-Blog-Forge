@@ -2,8 +2,7 @@
 :ID:       cf90113c-7c6f-4073-9a12-3cb43c469c96
 :END:
 #+title: all treks details
-#+setupfile: ../org-html-themes/gray.theme
-
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 * to be edited 
 ** DONE [[id:b01408ac-c20b-433d-87ee-fc47112a9ae9][Kalsubai Peak – 29 Dec 2024]]
 *** TODO can make a new post of kalsubai. lot of images missed.

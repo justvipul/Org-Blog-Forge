@@ -2,6 +2,7 @@
 :ID:       a234de47-3801-4184-883a-38002d7255f1
 :END:
 #+title: Raygadnagar Tekdi – 6 Dec 2025
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 * Trek Overview
 1. Trek Name: 
 2. Region: 

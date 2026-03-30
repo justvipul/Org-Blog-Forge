@@ -2,7 +2,7 @@
 :ID:       d619f748-faa6-43eb-b693-e8fefdfca724
 :END:
 #+title: list of tools that i use.
-#+setupfile: ../org-html-themes/white_clean.theme
+#+setupfile: ../themes/org-themes/src/white_clean/white_clean.theme
 * softwares
 ** linux
 *** MX linux

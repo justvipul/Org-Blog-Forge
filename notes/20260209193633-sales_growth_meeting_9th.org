@@ -2,7 +2,7 @@
 :ID:       70c860db-0a66-49b0-8cce-d2da98bc09f7
 :END:
 #+title: Sales growth meeting 9th
-#+setupfile: ../org-html-themes/gray.theme
+#+setupfile: ../themes/org-themes/src/bigblow_inline/bigblow_inline.theme
 #+DATE: <2026-02-10 Tue>
 #+AUTHOR: Vipul
 

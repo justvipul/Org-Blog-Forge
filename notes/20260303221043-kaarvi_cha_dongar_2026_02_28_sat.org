@@ -2,10 +2,9 @@
 :ID:       59f6a116-f24f-4419-a5db-e37ee48ab195
 :END:
 #+title: kaarvi cha dongar <2026-02-28 Sat>
-
 #+PROPERTY: LOCATION All Treks
 #+PROPERTY: RANGE Sahyadri
-#+setupfile: ../org-html-themes/gray.theme
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 
 * Trek Overview
 1. Trek Name: Kaarvi cha dongar

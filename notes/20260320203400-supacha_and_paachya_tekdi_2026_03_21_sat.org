@@ -2,7 +2,7 @@
 :ID:       a64c02a8-8ae4-456b-a6a8-a62a38a7d808
 :END:
 #+title: Supacha <2026-03-21 Sat>
-#+setupfile:  ../org-html-themes/gray.theme
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 
 * Trek Overview
 1. Trek Name:   Supacha

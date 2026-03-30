@@ -2,6 +2,7 @@
 :ID:       532ee59d-8770-4926-9333-624c396464ca
 :END:
 #+title: Chamar Leni – 1 Nov 2025
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 - Region: Near Nashik, accessible via Peth road side; cave complex on a hill.[web:12][web:15]
 - Grade: Easy–Moderate; mix of steps, path and some steeper bits.
 - Route: Base near road → steps/path up → caves and temple structures → further path to top plateau area used by trekkers for practice.

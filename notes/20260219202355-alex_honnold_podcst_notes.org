@@ -2,6 +2,7 @@
 :ID:       337dfe0c-b449-45f3-b405-f45f7232260c
 :END:
 #+title: alex honnold podcast notes
+#+setupfile: ../themes/org-themes/src/white_clean/white_clean.theme
 * <2026-02-19 Thu>
 * like to be on top, like air, 
 * like the views

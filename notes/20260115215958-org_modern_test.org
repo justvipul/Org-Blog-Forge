@@ -2,7 +2,7 @@
 :ID:       9e9868f3-d9c9-487c-b2f6-7aea3509c5a4
 :END:
 #+title: org modern test
-#+setupfile: ../org-html-themes/gray.theme
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 #+options: toc
 
 This example Org file demonstrates the Org elements,

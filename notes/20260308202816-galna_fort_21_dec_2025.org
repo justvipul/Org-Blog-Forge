@@ -2,6 +2,7 @@
 :ID:       20d6afa2-0d86-4935-b0a3-e24cc39b9db7
 :END:
 #+title: Galna Fort – 21 Dec 2025
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 * Trek Overview
 1. Trek Name: 
 2. Region: 

@@ -2,6 +2,7 @@
 :ID:       1c8cc106-017b-4a04-9ab3-796d741c34ab
 :END:
 #+title: Pandav Leni – 15 Nov 2025
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 * Trek Overview
 1. Trek Name: 
 2. Region: 

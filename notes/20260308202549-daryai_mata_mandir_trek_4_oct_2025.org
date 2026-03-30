@@ -2,6 +2,7 @@
 :ID:       8d6acdd2-5a11-4352-8d39-16bd1d8d9a37
 :END:
 #+title: Daryai Mata Mandir Trek – 4 Oct 2025
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 * Trek Overview
 1. Trek Name: 
 2. Region: 

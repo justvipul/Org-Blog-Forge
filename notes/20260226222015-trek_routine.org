@@ -2,7 +2,8 @@
 :ID:       66a424c0-9741-41a8-97b6-5e9648bcc00e
 :END:
 #+title: trek routine, 
-#+setupfile: ../org-html-themes/bigblow_inline.theme
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
+
 
 * prep 1 day before for everyone in the group
 ** check who is coming how. what type of vehicle

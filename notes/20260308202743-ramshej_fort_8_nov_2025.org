@@ -2,6 +2,7 @@
 :ID:       dd1282a9-bb1c-44f2-99a7-7bd83156ff3d
 :END:
 #+title: Ramshej Fort – 8 Nov 2025
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 * Trek Overview
 1. Trek Name: 
 2. Region: 
