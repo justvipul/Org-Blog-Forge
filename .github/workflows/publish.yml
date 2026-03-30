@@ -3,9 +3,8 @@ name: Publish Org-roam to GitHub Pages
 on:
   push:
     branches:
-    - master
+      - master
 
-# ADD THIS
 permissions:
   contents: write
 
@@ -13,20 +12,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-steps:
-      - uses: actions/checkout@v4
+    steps:
+      - name: Checkout repository and submodules
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
       - name: Setup Emacs
         uses: purcell/setup-emacs@master
         with:
           version: 29.1
-          
+
       - name: Install org-roam
-        run: |
-          emacs --batch --eval "(progn (require 'package) (add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\")) (package-initialize) (package-refresh-contents) (package-install 'org-roam))"
-          
+        run: emacs --batch --eval "(progn (require 'package) (add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\")) (package-initialize) (package-refresh-contents) (package-install 'org-roam))"
+
       - name: Build site
         run: emacs --batch -l build.el -f org-publish-all
-        
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
