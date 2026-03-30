@@ -3,12 +3,510 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-03-30 Mon 14:04 -->
+<!-- 2026-03-30 Mon 14:43 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>trek routine,</title>
 <meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="style.css"/>
+<style type="text/css">
+body {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.4;
+color: #33333f;
+}
+
+code {
+font-family: "Inconsolata", "monospace";
+font-size: 16px;
+}
+
+p>code, li>code {
+background-color: #eee;
+padding: 0.25em;
+}
+
+h1, h2, h3 {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+border-bottom: 1px solid #f0c;
+padding-bottom: 0.5em;
+font-size: 1.75em;
+}
+
+h3 {
+margin-top: 2em;
+font-size: 1.5em;
+}
+
+h4 {
+font-size: 1.25em;
+}
+
+h5 {
+font-size: 1em;
+}
+
+h2 code, h3 code, h4 code, h5 code, td code {
+font-family: inherit !important;
+font-size: inherit !important;
+}
+
+td code {
+font-weight: bold;
+}
+
+a:link, a:hover, a:visited {
+text-decoration: none;
+color: black;
+}
+
+a:link {
+background: #ff8;
+}
+
+a:visited {
+color: #666;
+background: #ffc;
+}
+
+a:link:hover,
+a:visited:hover {
+background: #ff0;
+}
+
+a[href^="http"] {
+background: #bff;
+}
+
+a[href^="http"]:visited {
+background: #dff;
+}
+
+a[href^="http"]:link:hover,
+a[href^="http"]:visited:hover {
+background: #0ff;
+}
+
+a[href^="http"]:after {
+content: "\21B3";
+background: white;
+padding-left: 0.2em;
+}
+
+#meta {
+margin-top: 2em;
+}
+
+#table-of-contents a:link,
+#table-of-contents a:visited {
+color: black;
+background: transparent;
+}
+
+#table-of-contents {
+line-height: 1.2;
+}
+#table-of-contents h2 {
+border-bottom: 0;
+}
+
+#table-of-contents ul {
+list-style: none;
+padding-left: 0.5em;
+font-weight: normal;
+}
+
+#table-of-contents div>ul>li {
+margin-top: 1em;
+font-weight: bold;
+}
+
+#table-of-contents .tag {
+display: none;
+}
+
+#table-of-contents .todo,
+#table-of-contents .done {
+font-size: 80%;
+}
+
+#table-of-contents ol>li {
+margin-top: 1em;
+}
+
+table {
+width: 100%;
+}
+
+table, th, td {
+border: 1px solid #666;
+}
+
+th, td {
+padding: 0.5em;
+text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+background-color: #eee;
+}
+
+img {
+max-width: 90%;
+}
+
+div.notice {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+}
+
+table + div.notice {
+margin-top: 2em;
+}
+
+div.notice a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.notice a[href^="http"]:after {
+background: transparent !important;
+}
+
+div.notice:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+}
+
+.notice-warning {
+background: #fcc;
+color: #600;
+}
+
+.notice-example {
+background: #def;
+color: #069;
+}
+
+.notice-info {
+background: #efe;
+color: #060;
+}
+
+.notice-warning a {
+color: #600;
+}
+
+.notice-example a {
+color: #069;
+}
+
+.notice-info a {
+color: #060;
+}
+
+div.notice-warning:before {
+content: "WARNING";
+background: #c99;
+color: #fcc;
+}
+
+div.notice-example:before {
+content: "EXAMPLE";
+background: #abc;
+color: #def;
+}
+
+div.notice-info:before {
+content: "INFO";
+background: #9c9;
+color: #efe;
+}
+
+/* things inside the #+BEGIN_NOTE...#+END_NOTE block */
+div.NOTE a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.NOTE {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+margin-top: 2em;
+background: #efe;
+color: #060;
+}
+
+div.NOTE:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+content: "NOTE";
+background: #9c9;
+color: #efe;
+}
+
+blockquote {
+padding: 0px 10px 0px 10px;
+border: 1px solid #ddd;
+background: #eee;
+box-shadow: 5px 5px 5px #eee;
+border-radius: 2px;
+line-height: 1.2em;
+}
+
+pre {
+font-family: "Inconsolata", "monospace";
+font-size: 100%;
+border: 0;
+box-shadow: none;
+overflow: auto;
+}
+
+pre.example:before {
+content: "EXAMPLE";
+display: block;
+border-bottom: 1px dotted;
+margin-bottom: 1em;
+}
+
+pre.example {
+background: #fec;
+color: #666;
+font-size: 0.85em;
+}
+
+pre {
+background-color: #f8f8f8;
+background-size: 8px 8px;
+background-image: linear-gradient(135deg, transparent 25%, rgba(0, 0, 0, 0.02) 25%, rgba(0, 0, 0, 0.02) 50%, transparent 50%, transparent 75%, rgba(0, 0, 0, 0.02) 75%, rgba(0, 0, 0, 0.02));
+}
+
+pre.src {
+padding: 0.5em;
+}
+
+pre.src:before {
+display: block;
+position: absolute;
+background-color: #ccccd0;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em;
+border-bottom-left-radius: 8px;
+border: 0;
+color: white;
+font-size: 80%;
+}
+
+pre.src-plantuml:before {
+content: "UML";
+}
+
+pre.src-javascript:before {
+content: "JS";
+}
+
+pre.src-clojure:before {
+content: "CLJ";
+}
+
+pre.src-c:before {
+content: "C";
+}
+
+pre.src-sh:before {
+content: "Shell";
+}
+
+pre.src-es:before {
+content: "ES";
+}
+
+span.org-string {
+color: #f94;
+}
+
+span.org-keyword {
+color: #c07;
+}
+
+span.org-variable-name {
+color: #f04;
+}
+
+span.org-clojure-keyword {
+color: #09f;
+}
+
+span.org-comment, span.org-comment-delimiter {
+color: #999;
+}
+
+span.org-rainbow-delimiters-depth-1, span.org-rainbow-delimiters-depth-5 {
+color: #666;
+}
+
+span.org-rainbow-delimiters-depth-2, span.org-rainbow-delimiters-depth-6 {
+color: #888;
+}
+
+span.org-rainbow-delimiters-depth-3, span.org-rainbow-delimiters-depth-7 {
+color: #aaa;
+}
+
+span.org-rainbow-delimiters-depth-4, span.org-rainbow-delimiters-depth-8 {
+color: #ccc;
+}
+
+div.figure {
+font-size: 0.85em;
+}
+
+.tag {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: normal;
+float: right;
+margin-top: 1em;
+background: transparent;
+}
+
+.tag span {
+background: #ccc;
+padding: 0 0.5em;
+border-radius: 0.2em;
+color: white;
+}
+
+.todo, .done {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-weight: normal;
+padding: 0 0.25em;
+border-radius: 0.2em;
+}
+
+.todo {
+background: #f04;
+color: white;
+}
+
+.done {
+background: #5f7;
+color: white;
+}
+
+@media screen {
+h1.title {
+text-align: left;
+margin: 0.5em 0 1em 0;
+}
+
+h2 {
+margin-top: 3em;
+}
+
+#table-of-contents {
+position: fixed;
+top: 0;
+left: 0;
+padding: 2em 0 2em 2em;
+width: 290px;
+height: 100vh;
+font-size: 11px;
+background: #eee;
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+#table-of-contents h2 {
+margin-top: 0;
+}
+
+#table-of-contents code {
+font-size: 12px;
+}
+
+div#content {
+margin-left: 320px;
+max-width: 1100px;
+}
+div#postamble {
+margin-left: 320px;
+max-width: 1100px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+html, body {
+font-size: 14px;
+}
+
+#table-of-contents {
+display: none;
+}
+
+h1.title {
+margin-left: 0%;
+}
+
+div#content {
+margin-left: 5%;
+max-width: 90%;
+}
+div#postamble {
+margin-left: 5%;
+max-width: 90%;
+}
+}
+
+@media print {
+
+body {
+color: black;
+}
+
+@page {
+margin: 25mm;
+}
+
+h2, h3 {
+page-break-before: always;
+margin-top: 0;
+}
+
+table {
+page-break-inside: avoid;
+}
+
+a:visited {
+color: black;
+background: #ff8;
+}
+
+a[href^="http"]:visited {
+background: #bff;
+}
+
+div.notice:before {
+display: none;
+}
+}
+</style>
 </head>
 <body>
 <div id="content" class="content">
@@ -17,83 +515,83 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org3a3d356">prep 1 day before for everyone in the group</a>
+<li><a href="#org75f5d01">prep 1 day before for everyone in the group</a>
 <ul>
-<li><a href="#org8c1f2af">check who is coming how. what type of vehicle</a></li>
-<li><a href="#orgdfd014a">have treking shoes with good grip.</a></li>
-<li><a href="#org38be7ad">get a रूंद कडांची टोपी</a></li>
-<li><a href="#orge1cdad3">full sleeve and full length pants. - to avoid thorns, sun,</a></li>
-<li><a href="#orgdab9fd4">water bottle 1L</a></li>
-<li><a href="#orgf38ceb1">fully charged phone.</a></li>
-<li><a href="#org9345fe3">be at the given meeting point at the given time. any late comers will have to reach destination directly on their.</a></li>
+<li><a href="#orgfdf487b">check who is coming how. what type of vehicle</a></li>
+<li><a href="#org6727ff5">have treking shoes with good grip.</a></li>
+<li><a href="#org37a0ae8">get a रूंद कडांची टोपी</a></li>
+<li><a href="#org7d09f39">full sleeve and full length pants. - to avoid thorns, sun,</a></li>
+<li><a href="#orgef41cb0">water bottle 1L</a></li>
+<li><a href="#org775bfc3">fully charged phone.</a></li>
+<li><a href="#org3073215">be at the given meeting point at the given time. any late comers will have to reach destination directly on their.</a></li>
 </ul>
 </li>
-<li><a href="#org2fefe8a">prep 1 day before personally myself</a>
+<li><a href="#org3bde788">prep 1 day before personally myself</a>
 <ul>
-<li><a href="#org2e2f5ce">all meds,</a></li>
-<li><a href="#org50f663f">first aid kit</a></li>
-<li><a href="#org714fab5">ORS packet</a></li>
-<li><a href="#org2b94f82">cap</a></li>
-<li><a href="#orgff8cd65">alarm 5 pm</a></li>
-<li><a href="#orga957c99">ready with all needed clothes to wear the next day</a></li>
-<li><a href="#org927f2e1">kerchief</a></li>
-<li><a href="#org664da07">SPF</a></li>
-<li><a href="#org2910ca5">sanitiser</a></li>
-<li><a href="#orgf86de26">snack packet</a></li>
-<li><a href="#org03a55c6">check the weather forecast if anything abnormal for tomorrow morning</a>
+<li><a href="#org7c85962">all meds,</a></li>
+<li><a href="#org1861112">first aid kit</a></li>
+<li><a href="#org333facb">ORS packet</a></li>
+<li><a href="#org7d4d460">cap</a></li>
+<li><a href="#org10078db">alarm 5 pm</a></li>
+<li><a href="#org97e062d">ready with all needed clothes to wear the next day</a></li>
+<li><a href="#orgf96991e">kerchief</a></li>
+<li><a href="#org5f62136">SPF</a></li>
+<li><a href="#org05f09fd">sanitiser</a></li>
+<li><a href="#org6b74e96">snack packet</a></li>
+<li><a href="#org815d6a5">check the weather forecast if anything abnormal for tomorrow morning</a>
 <ul>
-<li><a href="#orga22985e">if rain get raincoat</a></li>
-<li><a href="#orgea6f619">if sun get long shirt, sunscreen</a></li>
-<li><a href="#org39490a0">if winters and cold weather get a jacket/sweater.</a></li>
+<li><a href="#orgfebb59a">if rain get raincoat</a></li>
+<li><a href="#orge186cb3">if sun get long shirt, sunscreen</a></li>
+<li><a href="#org0069da0">if winters and cold weather get a jacket/sweater.</a></li>
 </ul>
 </li>
-<li><a href="#orged9a9b0">make your bed.</a></li>
-<li><a href="#org4ad49e2">sleep by 10.30 max. ideally 10,</a></li>
+<li><a href="#org7c1a3de">make your bed.</a></li>
+<li><a href="#orgccb9043">sleep by 10.30 max. ideally 10,</a></li>
 </ul>
 </li>
-<li><a href="#org4d2ffe5">prep in the morning before leaving</a>
+<li><a href="#org5b1fdcd">prep in the morning before leaving</a>
 <ul>
-<li><a href="#org02fd3ba">wake at 5.</a></li>
-<li><a href="#org65fd323">all morning routine to be cleared by 5.30</a></li>
-<li><a href="#org226b4e6">shower by 5.35.</a></li>
-<li><a href="#org9191393">ready by 5.40 to 5.45 pm.</a></li>
-<li><a href="#org403ff46">5.50 - check the checklist for any missing point.</a></li>
-<li><a href="#org17d08c3">make black coffee and get it drunk by 6.05</a></li>
-<li><a href="#orgf637f31">short pooja and diya before leaving.</a></li>
-<li><a href="#orga74a209">be at the meeting point by 6.25 and leave home by 6.15</a></li>
+<li><a href="#orgcac6ec9">wake at 5.</a></li>
+<li><a href="#orgae6a17c">all morning routine to be cleared by 5.30</a></li>
+<li><a href="#org8940154">shower by 5.35.</a></li>
+<li><a href="#org5ee67dc">ready by 5.40 to 5.45 pm.</a></li>
+<li><a href="#org993d49f">5.50 - check the checklist for any missing point.</a></li>
+<li><a href="#orgc675d4a">make black coffee and get it drunk by 6.05</a></li>
+<li><a href="#org9927818">short pooja and diya before leaving.</a></li>
+<li><a href="#orged90c24">be at the meeting point by 6.25 and leave home by 6.15</a></li>
 </ul>
 </li>
-<li><a href="#orgdbd7590">checklist at the meeting point of vehicle</a>
+<li><a href="#orgf8fcb5a">checklist at the meeting point of vehicle</a>
 <ul>
-<li><a href="#org21257f8">call everyone who gave name. ensure they are reached.</a></li>
-<li><a href="#org77a5edb">check if any car can be parked and can be accomodated in other cars.</a></li>
-<li><a href="#orga9bd260">make sure everyone knows about the path to take and the final destination.</a></li>
-<li><a href="#orge7f2c7b">if any driver not sure make them aware.</a></li>
+<li><a href="#orgaf8f46a">call everyone who gave name. ensure they are reached.</a></li>
+<li><a href="#orgdf8fb8a">check if any car can be parked and can be accomodated in other cars.</a></li>
+<li><a href="#org5f32837">make sure everyone knows about the path to take and the final destination.</a></li>
+<li><a href="#org6a78594">if any driver not sure make them aware.</a></li>
 </ul>
 </li>
-<li><a href="#org8e69d41">checklist before starting the trek.</a>
+<li><a href="#orgac8332b">checklist before starting the trek.</a>
 <ul>
-<li><a href="#orgaabb33a">number head count</a></li>
-<li><a href="#org4eb4c0b">check if anyone is a beginner?</a></li>
-<li><a href="#orgf267411">take a group photo before start</a></li>
-<li><a href="#orgd8d58ab">anyone with any medical history?</a></li>
-<li><a href="#org7a75b3e">name number and gaadi jaaga.</a></li>
-<li><a href="#orgbe472d4">everyone short intro.</a></li>
-<li><a href="#org1b2276c">no perfume, kunala kahi height chi bhiti? shoes yogya aahe ka?</a></li>
-<li><a href="#org11733d6">bottle ghetle aahe ka?</a></li>
-<li><a href="#orgbe30094">group cha leader asel</a></li>
-<li><a href="#org7cd0790">trek madhle phate aslyas tithe saglyanni bhetave mag pudhe jave.</a></li>
-<li><a href="#org9b24796">top la group photo hoil.</a></li>
+<li><a href="#org1e42d96">number head count</a></li>
+<li><a href="#org189b73d">check if anyone is a beginner?</a></li>
+<li><a href="#org817bd01">take a group photo before start</a></li>
+<li><a href="#orge003ee1">anyone with any medical history?</a></li>
+<li><a href="#orgdccd21e">name number and gaadi jaaga.</a></li>
+<li><a href="#org791bad4">everyone short intro.</a></li>
+<li><a href="#org262684d">no perfume, kunala kahi height chi bhiti? shoes yogya aahe ka?</a></li>
+<li><a href="#org4c36ad6">bottle ghetle aahe ka?</a></li>
+<li><a href="#org9822b3d">group cha leader asel</a></li>
+<li><a href="#org974f212">trek madhle phate aslyas tithe saglyanni bhetave mag pudhe jave.</a></li>
+<li><a href="#org1399c06">top la group photo hoil.</a></li>
 </ul>
 </li>
-<li><a href="#orgff504de">instructions for group.</a>
+<li><a href="#org0ce2f4c">instructions for group.</a>
 <ul>
-<li><a href="#orgf2508ae">we will meet and depart after 5 minutes of given timing.</a></li>
-<li><a href="#org17cac27">changlya grip che shoes asne compulsory</a></li>
-<li><a href="#org0dfe393">unhalyat 1 litre bottle</a></li>
-<li><a href="#org5d419bb">thoda khana aanava.</a></li>
-<li><a href="#org4f8b987">kahi health problem aslyas purvi kalavave.</a></li>
-<li><a href="#org5179733">begineer aslyas sangave.</a></li>
+<li><a href="#org62767dc">we will meet and depart after 5 minutes of given timing.</a></li>
+<li><a href="#org01de2d9">changlya grip che shoes asne compulsory</a></li>
+<li><a href="#orgcf7c044">unhalyat 1 litre bottle</a></li>
+<li><a href="#org652f5a8">thoda khana aanava.</a></li>
+<li><a href="#org4bbd0d4">kahi health problem aslyas purvi kalavave.</a></li>
+<li><a href="#org7d24090">begineer aslyas sangave.</a></li>
 </ul>
 </li>
 </ul>
@@ -101,192 +599,192 @@
 </div>
 
 
-<div id="outline-container-org3a3d356" class="outline-2">
-<h2 id="org3a3d356">prep 1 day before for everyone in the group</h2>
-<div class="outline-text-2" id="text-org3a3d356">
+<div id="outline-container-org75f5d01" class="outline-2">
+<h2 id="org75f5d01">prep 1 day before for everyone in the group</h2>
+<div class="outline-text-2" id="text-org75f5d01">
 </div>
-<div id="outline-container-org8c1f2af" class="outline-3">
-<h3 id="org8c1f2af">check who is coming how. what type of vehicle</h3>
+<div id="outline-container-orgfdf487b" class="outline-3">
+<h3 id="orgfdf487b">check who is coming how. what type of vehicle</h3>
 </div>
-<div id="outline-container-orgdfd014a" class="outline-3">
-<h3 id="orgdfd014a">have treking shoes with good grip.</h3>
+<div id="outline-container-org6727ff5" class="outline-3">
+<h3 id="org6727ff5">have treking shoes with good grip.</h3>
 </div>
-<div id="outline-container-org38be7ad" class="outline-3">
-<h3 id="org38be7ad">get a रूंद कडांची टोपी</h3>
+<div id="outline-container-org37a0ae8" class="outline-3">
+<h3 id="org37a0ae8">get a रूंद कडांची टोपी</h3>
 </div>
-<div id="outline-container-orge1cdad3" class="outline-3">
-<h3 id="orge1cdad3">full sleeve and full length pants. - to avoid thorns, sun,</h3>
+<div id="outline-container-org7d09f39" class="outline-3">
+<h3 id="org7d09f39">full sleeve and full length pants. - to avoid thorns, sun,</h3>
 </div>
-<div id="outline-container-orgdab9fd4" class="outline-3">
-<h3 id="orgdab9fd4">water bottle 1L</h3>
+<div id="outline-container-orgef41cb0" class="outline-3">
+<h3 id="orgef41cb0">water bottle 1L</h3>
 </div>
-<div id="outline-container-orgf38ceb1" class="outline-3">
-<h3 id="orgf38ceb1">fully charged phone.</h3>
+<div id="outline-container-org775bfc3" class="outline-3">
+<h3 id="org775bfc3">fully charged phone.</h3>
 </div>
-<div id="outline-container-org9345fe3" class="outline-3">
-<h3 id="org9345fe3">be at the given meeting point at the given time. any late comers will have to reach destination directly on their.</h3>
-</div>
-</div>
-<div id="outline-container-org2fefe8a" class="outline-2">
-<h2 id="org2fefe8a">prep 1 day before personally myself</h2>
-<div class="outline-text-2" id="text-org2fefe8a">
-</div>
-<div id="outline-container-org2e2f5ce" class="outline-3">
-<h3 id="org2e2f5ce">all meds,</h3>
-</div>
-<div id="outline-container-org50f663f" class="outline-3">
-<h3 id="org50f663f">first aid kit</h3>
-</div>
-<div id="outline-container-org714fab5" class="outline-3">
-<h3 id="org714fab5">ORS packet</h3>
-</div>
-<div id="outline-container-org2b94f82" class="outline-3">
-<h3 id="org2b94f82">cap</h3>
-</div>
-<div id="outline-container-orgff8cd65" class="outline-3">
-<h3 id="orgff8cd65">alarm 5 pm</h3>
-</div>
-<div id="outline-container-orga957c99" class="outline-3">
-<h3 id="orga957c99">ready with all needed clothes to wear the next day</h3>
-</div>
-<div id="outline-container-org927f2e1" class="outline-3">
-<h3 id="org927f2e1">kerchief</h3>
-</div>
-<div id="outline-container-org664da07" class="outline-3">
-<h3 id="org664da07">SPF</h3>
-</div>
-<div id="outline-container-org2910ca5" class="outline-3">
-<h3 id="org2910ca5">sanitiser</h3>
-</div>
-<div id="outline-container-orgf86de26" class="outline-3">
-<h3 id="orgf86de26">snack packet</h3>
-</div>
-<div id="outline-container-org03a55c6" class="outline-3">
-<h3 id="org03a55c6">check the weather forecast if anything abnormal for tomorrow morning</h3>
-<div class="outline-text-3" id="text-org03a55c6">
-</div>
-<div id="outline-container-orga22985e" class="outline-4">
-<h4 id="orga22985e">if rain get raincoat</h4>
-</div>
-<div id="outline-container-orgea6f619" class="outline-4">
-<h4 id="orgea6f619">if sun get long shirt, sunscreen</h4>
-</div>
-<div id="outline-container-org39490a0" class="outline-4">
-<h4 id="org39490a0">if winters and cold weather get a jacket/sweater.</h4>
+<div id="outline-container-org3073215" class="outline-3">
+<h3 id="org3073215">be at the given meeting point at the given time. any late comers will have to reach destination directly on their.</h3>
 </div>
 </div>
-<div id="outline-container-orged9a9b0" class="outline-3">
-<h3 id="orged9a9b0">make your bed.</h3>
+<div id="outline-container-org3bde788" class="outline-2">
+<h2 id="org3bde788">prep 1 day before personally myself</h2>
+<div class="outline-text-2" id="text-org3bde788">
 </div>
-<div id="outline-container-org4ad49e2" class="outline-3">
-<h3 id="org4ad49e2">sleep by 10.30 max. ideally 10,</h3>
+<div id="outline-container-org7c85962" class="outline-3">
+<h3 id="org7c85962">all meds,</h3>
 </div>
+<div id="outline-container-org1861112" class="outline-3">
+<h3 id="org1861112">first aid kit</h3>
 </div>
-<div id="outline-container-org4d2ffe5" class="outline-2">
-<h2 id="org4d2ffe5">prep in the morning before leaving</h2>
-<div class="outline-text-2" id="text-org4d2ffe5">
+<div id="outline-container-org333facb" class="outline-3">
+<h3 id="org333facb">ORS packet</h3>
 </div>
-<div id="outline-container-org02fd3ba" class="outline-3">
-<h3 id="org02fd3ba">wake at 5.</h3>
+<div id="outline-container-org7d4d460" class="outline-3">
+<h3 id="org7d4d460">cap</h3>
 </div>
-<div id="outline-container-org65fd323" class="outline-3">
-<h3 id="org65fd323">all morning routine to be cleared by 5.30</h3>
+<div id="outline-container-org10078db" class="outline-3">
+<h3 id="org10078db">alarm 5 pm</h3>
 </div>
-<div id="outline-container-org226b4e6" class="outline-3">
-<h3 id="org226b4e6">shower by 5.35.</h3>
+<div id="outline-container-org97e062d" class="outline-3">
+<h3 id="org97e062d">ready with all needed clothes to wear the next day</h3>
 </div>
-<div id="outline-container-org9191393" class="outline-3">
-<h3 id="org9191393">ready by 5.40 to 5.45 pm.</h3>
+<div id="outline-container-orgf96991e" class="outline-3">
+<h3 id="orgf96991e">kerchief</h3>
 </div>
-<div id="outline-container-org403ff46" class="outline-3">
-<h3 id="org403ff46">5.50 - check the checklist for any missing point.</h3>
+<div id="outline-container-org5f62136" class="outline-3">
+<h3 id="org5f62136">SPF</h3>
 </div>
-<div id="outline-container-org17d08c3" class="outline-3">
-<h3 id="org17d08c3">make black coffee and get it drunk by 6.05</h3>
+<div id="outline-container-org05f09fd" class="outline-3">
+<h3 id="org05f09fd">sanitiser</h3>
 </div>
-<div id="outline-container-orgf637f31" class="outline-3">
-<h3 id="orgf637f31">short pooja and diya before leaving.</h3>
+<div id="outline-container-org6b74e96" class="outline-3">
+<h3 id="org6b74e96">snack packet</h3>
 </div>
-<div id="outline-container-orga74a209" class="outline-3">
-<h3 id="orga74a209">be at the meeting point by 6.25 and leave home by 6.15</h3>
+<div id="outline-container-org815d6a5" class="outline-3">
+<h3 id="org815d6a5">check the weather forecast if anything abnormal for tomorrow morning</h3>
+<div class="outline-text-3" id="text-org815d6a5">
 </div>
+<div id="outline-container-orgfebb59a" class="outline-4">
+<h4 id="orgfebb59a">if rain get raincoat</h4>
 </div>
-<div id="outline-container-orgdbd7590" class="outline-2">
-<h2 id="orgdbd7590">checklist at the meeting point of vehicle</h2>
-<div class="outline-text-2" id="text-orgdbd7590">
+<div id="outline-container-orge186cb3" class="outline-4">
+<h4 id="orge186cb3">if sun get long shirt, sunscreen</h4>
 </div>
-<div id="outline-container-org21257f8" class="outline-3">
-<h3 id="org21257f8">call everyone who gave name. ensure they are reached.</h3>
-</div>
-<div id="outline-container-org77a5edb" class="outline-3">
-<h3 id="org77a5edb">check if any car can be parked and can be accomodated in other cars.</h3>
-</div>
-<div id="outline-container-orga9bd260" class="outline-3">
-<h3 id="orga9bd260">make sure everyone knows about the path to take and the final destination.</h3>
-</div>
-<div id="outline-container-orge7f2c7b" class="outline-3">
-<h3 id="orge7f2c7b">if any driver not sure make them aware.</h3>
+<div id="outline-container-org0069da0" class="outline-4">
+<h4 id="org0069da0">if winters and cold weather get a jacket/sweater.</h4>
 </div>
 </div>
-<div id="outline-container-org8e69d41" class="outline-2">
-<h2 id="org8e69d41">checklist before starting the trek.</h2>
-<div class="outline-text-2" id="text-org8e69d41">
+<div id="outline-container-org7c1a3de" class="outline-3">
+<h3 id="org7c1a3de">make your bed.</h3>
 </div>
-<div id="outline-container-orgaabb33a" class="outline-3">
-<h3 id="orgaabb33a">number head count</h3>
-</div>
-<div id="outline-container-org4eb4c0b" class="outline-3">
-<h3 id="org4eb4c0b">check if anyone is a beginner?</h3>
-</div>
-<div id="outline-container-orgf267411" class="outline-3">
-<h3 id="orgf267411">take a group photo before start</h3>
-</div>
-<div id="outline-container-orgd8d58ab" class="outline-3">
-<h3 id="orgd8d58ab">anyone with any medical history?</h3>
-</div>
-<div id="outline-container-org7a75b3e" class="outline-3">
-<h3 id="org7a75b3e">name number and gaadi jaaga.</h3>
-</div>
-<div id="outline-container-orgbe472d4" class="outline-3">
-<h3 id="orgbe472d4">everyone short intro.</h3>
-</div>
-<div id="outline-container-org1b2276c" class="outline-3">
-<h3 id="org1b2276c">no perfume, kunala kahi height chi bhiti? shoes yogya aahe ka?</h3>
-</div>
-<div id="outline-container-org11733d6" class="outline-3">
-<h3 id="org11733d6">bottle ghetle aahe ka?</h3>
-</div>
-<div id="outline-container-orgbe30094" class="outline-3">
-<h3 id="orgbe30094">group cha leader asel</h3>
-</div>
-<div id="outline-container-org7cd0790" class="outline-3">
-<h3 id="org7cd0790">trek madhle phate aslyas tithe saglyanni bhetave mag pudhe jave.</h3>
-</div>
-<div id="outline-container-org9b24796" class="outline-3">
-<h3 id="org9b24796">top la group photo hoil.</h3>
+<div id="outline-container-orgccb9043" class="outline-3">
+<h3 id="orgccb9043">sleep by 10.30 max. ideally 10,</h3>
 </div>
 </div>
-<div id="outline-container-orgff504de" class="outline-2">
-<h2 id="orgff504de">instructions for group.</h2>
-<div class="outline-text-2" id="text-orgff504de">
+<div id="outline-container-org5b1fdcd" class="outline-2">
+<h2 id="org5b1fdcd">prep in the morning before leaving</h2>
+<div class="outline-text-2" id="text-org5b1fdcd">
 </div>
-<div id="outline-container-orgf2508ae" class="outline-3">
-<h3 id="orgf2508ae">we will meet and depart after 5 minutes of given timing.</h3>
+<div id="outline-container-orgcac6ec9" class="outline-3">
+<h3 id="orgcac6ec9">wake at 5.</h3>
 </div>
-<div id="outline-container-org17cac27" class="outline-3">
-<h3 id="org17cac27">changlya grip che shoes asne compulsory</h3>
+<div id="outline-container-orgae6a17c" class="outline-3">
+<h3 id="orgae6a17c">all morning routine to be cleared by 5.30</h3>
 </div>
-<div id="outline-container-org0dfe393" class="outline-3">
-<h3 id="org0dfe393">unhalyat 1 litre bottle</h3>
+<div id="outline-container-org8940154" class="outline-3">
+<h3 id="org8940154">shower by 5.35.</h3>
 </div>
-<div id="outline-container-org5d419bb" class="outline-3">
-<h3 id="org5d419bb">thoda khana aanava.</h3>
+<div id="outline-container-org5ee67dc" class="outline-3">
+<h3 id="org5ee67dc">ready by 5.40 to 5.45 pm.</h3>
 </div>
-<div id="outline-container-org4f8b987" class="outline-3">
-<h3 id="org4f8b987">kahi health problem aslyas purvi kalavave.</h3>
+<div id="outline-container-org993d49f" class="outline-3">
+<h3 id="org993d49f">5.50 - check the checklist for any missing point.</h3>
 </div>
-<div id="outline-container-org5179733" class="outline-3">
-<h3 id="org5179733">begineer aslyas sangave.</h3>
+<div id="outline-container-orgc675d4a" class="outline-3">
+<h3 id="orgc675d4a">make black coffee and get it drunk by 6.05</h3>
+</div>
+<div id="outline-container-org9927818" class="outline-3">
+<h3 id="org9927818">short pooja and diya before leaving.</h3>
+</div>
+<div id="outline-container-orged90c24" class="outline-3">
+<h3 id="orged90c24">be at the meeting point by 6.25 and leave home by 6.15</h3>
+</div>
+</div>
+<div id="outline-container-orgf8fcb5a" class="outline-2">
+<h2 id="orgf8fcb5a">checklist at the meeting point of vehicle</h2>
+<div class="outline-text-2" id="text-orgf8fcb5a">
+</div>
+<div id="outline-container-orgaf8f46a" class="outline-3">
+<h3 id="orgaf8f46a">call everyone who gave name. ensure they are reached.</h3>
+</div>
+<div id="outline-container-orgdf8fb8a" class="outline-3">
+<h3 id="orgdf8fb8a">check if any car can be parked and can be accomodated in other cars.</h3>
+</div>
+<div id="outline-container-org5f32837" class="outline-3">
+<h3 id="org5f32837">make sure everyone knows about the path to take and the final destination.</h3>
+</div>
+<div id="outline-container-org6a78594" class="outline-3">
+<h3 id="org6a78594">if any driver not sure make them aware.</h3>
+</div>
+</div>
+<div id="outline-container-orgac8332b" class="outline-2">
+<h2 id="orgac8332b">checklist before starting the trek.</h2>
+<div class="outline-text-2" id="text-orgac8332b">
+</div>
+<div id="outline-container-org1e42d96" class="outline-3">
+<h3 id="org1e42d96">number head count</h3>
+</div>
+<div id="outline-container-org189b73d" class="outline-3">
+<h3 id="org189b73d">check if anyone is a beginner?</h3>
+</div>
+<div id="outline-container-org817bd01" class="outline-3">
+<h3 id="org817bd01">take a group photo before start</h3>
+</div>
+<div id="outline-container-orge003ee1" class="outline-3">
+<h3 id="orge003ee1">anyone with any medical history?</h3>
+</div>
+<div id="outline-container-orgdccd21e" class="outline-3">
+<h3 id="orgdccd21e">name number and gaadi jaaga.</h3>
+</div>
+<div id="outline-container-org791bad4" class="outline-3">
+<h3 id="org791bad4">everyone short intro.</h3>
+</div>
+<div id="outline-container-org262684d" class="outline-3">
+<h3 id="org262684d">no perfume, kunala kahi height chi bhiti? shoes yogya aahe ka?</h3>
+</div>
+<div id="outline-container-org4c36ad6" class="outline-3">
+<h3 id="org4c36ad6">bottle ghetle aahe ka?</h3>
+</div>
+<div id="outline-container-org9822b3d" class="outline-3">
+<h3 id="org9822b3d">group cha leader asel</h3>
+</div>
+<div id="outline-container-org974f212" class="outline-3">
+<h3 id="org974f212">trek madhle phate aslyas tithe saglyanni bhetave mag pudhe jave.</h3>
+</div>
+<div id="outline-container-org1399c06" class="outline-3">
+<h3 id="org1399c06">top la group photo hoil.</h3>
+</div>
+</div>
+<div id="outline-container-org0ce2f4c" class="outline-2">
+<h2 id="org0ce2f4c">instructions for group.</h2>
+<div class="outline-text-2" id="text-org0ce2f4c">
+</div>
+<div id="outline-container-org62767dc" class="outline-3">
+<h3 id="org62767dc">we will meet and depart after 5 minutes of given timing.</h3>
+</div>
+<div id="outline-container-org01de2d9" class="outline-3">
+<h3 id="org01de2d9">changlya grip che shoes asne compulsory</h3>
+</div>
+<div id="outline-container-orgcf7c044" class="outline-3">
+<h3 id="orgcf7c044">unhalyat 1 litre bottle</h3>
+</div>
+<div id="outline-container-org652f5a8" class="outline-3">
+<h3 id="org652f5a8">thoda khana aanava.</h3>
+</div>
+<div id="outline-container-org4bbd0d4" class="outline-3">
+<h3 id="org4bbd0d4">kahi health problem aslyas purvi kalavave.</h3>
+</div>
+<div id="outline-container-org7d24090" class="outline-3">
+<h3 id="org7d24090">begineer aslyas sangave.</h3>
 </div>
 </div>
 </div>

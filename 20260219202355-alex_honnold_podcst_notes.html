@@ -3,12 +3,408 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-03-30 Mon 14:04 -->
+<!-- 2026-03-30 Mon 14:43 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>alex honnold podcast notes</title>
 <meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="style.css"/>
+<style type="text/css">
+/******************************************************
+* I copied these styles from markdotto.com, who is
+* the creator of bootstrap, and I also did some
+* modification. Thanks Mark for the beautiful theme,
+* so I reserved the @mdo sign below.
+*****************************************************/
+
+/*
+__
+__                  /\ \
+/'_`\_    ___ ___    \_\ \    ___
+/'/'_` \ /' __` __`\  /'_` \  / __`\
+/\ \ \L\ \/\ \/\ \/\ \/\ \L\ \/\ \L\ \
+\ \ `\__,_\ \_\ \_\ \_\ \___,_\ \____/
+\ `\_____\\/_/\/_/\/_/\/__,_ /\/___/
+`\/_____/
+
+*/
+
+
+
+/* Body resets
+-------------------------------------------------- */
+
+* {
+-webkit-box-sizing:  border-box;
+-moz-box-sizing:  border-box;
+box-sizing:  border-box;
+}
+html, body {
+margin:  0;
+padding:  0;
+}
+html {
+font-size:  62.5%;
+}
+body {
+padding:  20px;
+font-family:  Menlo, Monaco, monospace;
+font-size:  14px;
+line-height:  1.5;
+color:  #666;
+background-color:  #fff;
+}
+p {
+margin:  0 0 20px;
+}
+h1, h2, h3 {
+position:  relative;
+margin:  30px 0 20px;
+font-size:  18px;
+font-weight:  bold;
+line-height:  1.1;
+color:  #111;
+text-rendering:  optimizeLegibility;
+}
+h1:before, h2:before, h3:before {
+position:  absolute;
+top:  auto;
+color:  #ccc;
+display:  none;
+}
+h1:before {
+content:  "";
+left:  -1.25em;
+}
+h2:before {
+content:  "*";
+left:  -2em;
+}
+h3:before {
+content:  "**";
+left:  -2.5em;
+}
+i, em, b, strong {
+padding-left:  .1em;
+padding-right:  .1em;
+}
+b, strong {
+font-weight:  bold;
+color:  #333;
+}
+b:before, b: after, strong:before, strong: after {
+content:  "*";
+}
+i:before, i: after, em:before, em: after {
+content:  "/";
+}
+hr {
+margin:  0;
+border:  0;
+}
+hr: after {
+display:  block;
+margin:  20px 0;
+content:  "----------------------------------------------------------------";
+color:  #ccc;
+}
+ul, ol {
+padding:  0;
+margin:  0 0 20px;
+}
+code, pre {
+font-family:  Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+code {
+color:  #d14;
+}
+code:before, code: after {
+content:  "=";
+color:  #ccc;
+}
+pre {
+display:  block;
+margin:  0 0 14px;
+padding:  15px;
+border-radius:  3px 3px 3px 3px;
+font-size:  18px;
+line-height:  28px;
+background-color:  #f5f5f5;
+white-space:  pre;
+white-space:  pre-wrap;
+word-break:  break-all;
+word-wrap:  break-word;
+}
+blockquote {
+padding:  0 0 0 20px;
+margin:  0 30px 20px -22.5px;
+color:  #999;
+border-left:  8px solid #e5e5e5;
+}
+blockquote p: last-child {
+margin-bottom:  0;
+}
+img {
+display:  block;
+margin:  0;
+border-radius:  5px;
+}
+a {
+font-weight:  inherit;
+line-height:  inherit;
+color:  #000;
+text-decoration:  none;
+}
+sup a:before {
+content:  "[";
+}
+sup a: after {
+content:  "]";
+}
+a: hover {
+text-decoration:  underline;
+}
+table {
+line-height:  2.5;
+margin-bottom:  15px;
+max-width:  100%;
+width:  100%;
+}
+table td, table th {
+padding:  0 15px;
+}
+table th.left, table td.left {
+text-align:  left;
+}
+table th.right, table td.right {
+text-align:  right;
+}
+/******************************************************/
+/* body */
+body {
+margin:  0 auto;
+max-width:  770px;
+}
+/* head */
+.masthead {
+color:  #888;
+}
+.masthead: after {
+display:  block;
+content:  '----------------------------------------------------------------';
+margin:  10px 0;
+color:  #ccc;
+}
+.masthead a {
+color:  #333;
+}
+.masthead ul {
+list-style:  none;
+}
+.masthead li {
+display:  inline-block;
+}
+.masthead li + li:before {
+display:  inline-block;
+content:  "\00B7 \00a0";
+color:  #ccc;
+}
+/* searchform*/
+#searchform {
+position:  absolute;
+top:  54px;
+right:  30.4%;
+}
+#searchform #s {
+background:  url("/media/img/search.png") no-repeat 5px 6px;
+box-shadow:  inset 0 1px 1px rgba(0,0,0,0.1);
+border:  1px solid #ddd;
+border-radius:  2px;
+-moz-border-radius:  2px;
+width:  90px;
+height:  30px;
+line-height:  12px;
+padding:  4px 10px 4px 28px;
+
+-webkit-transition-duration:  400ms;
+-webkit-transition-property:  width, background;
+-webkit-transition-timing-function:  ease;
+-moz-transition-duration:  400ms;
+-moz-transition-property:  width, background;
+-moz-transition-timing-function:  ease;
+-o-transition-duration:  400ms;
+-o-transition-property:  width, background;
+-o-transition-timing-function:  ease;
+}
+#searchform #s: focus {
+background-color:  #f9f9f9;
+width:  160px;
+}
+.masthead img.avatar {
+position:  relative;
+float:  right;
+margin-top:  -100px;
+margin-bottom:  -100%;
+margin-right:  10%;
+width:  200px;
+background-color:  #fff;
+}
+/* post */
+.post {
+position:  relative;
+}
+.post: after {
+display:  block;
+content:  "----------------------------------------------------------------";
+color:  #ccc;
+}
+.post img {
+max-width:  100%;
+}
+.post li {
+list-style:  none outside none;
+}
+.post ul > li:before {
+content:  "- ";
+margin-left:  -1.25em;
+color:  #ccc;
+}
+.post ol {
+counter-reset:  o-list;
+}
+.post ol > li:before {
+content:  counter(o-list) ") ";
+counter-increment:  o-list;
+margin-left:  -1.85em;
+color:  #ccc;
+}
+
+/* special for li in pre */
+.post pre li {
+list-style-type:  decimal;
+}
+
+.post pre li:before {
+display:  none;
+}
+
+/* meta info */
+.post-info {
+display:  inline-block;
+margin:  -10px 0 -10px;
+color:  #999;
+}
+.post-info + .post-info:before {
+content:  "\2223 \00a0";
+}
+.post-meta: after {
+content:  "----------------------------------------------------------------";
+display:  block;
+margin-top:  -1px;
+color:  #ccc;
+}
+
+/* table of content */
+#table-of-contents {
+position:  fixed;
+right:  0em;
+top:  0em;
+border: 1px solid #e1e1e8;
+-webkit-box-shadow:  0 0 1em #777777;
+-moz-box-shadow:  0 0 1em #777777;
+-webkit-border-bottom-left-radius:  5px;
+-moz-border-radius-bottomleft:  5px;
+text-align:  center;
+/* ensure doesn't flow off the screen when expanded */
+max-height:  80%;
+overflow:  auto;
+z-index:  200;
+}
+
+#table-of-contents h2 {
+max-width:  20em;
+font-weight:  normal;
+padding-left:  0.5em;
+padding-top:  0.05em;
+padding-bottom:  0.05em;
+}
+
+#table-of-contents ul {
+margin-left:  14pt;
+margin-bottom:  10pt;
+padding:  0
+}
+
+#table-of-contents li {
+padding:  0;
+margin:  1px;
+list-style:  none;
+}
+
+#table-of-contents ul>: first-child {
+color:  blue;
+}
+
+#table-of-contents #text-table-of-contents {
+display:  none;
+text-align:  left;
+}
+
+#table-of-contents: hover #text-table-of-contents {
+display:  block;
+padding:  0.5em;
+margin-top:  -1.5em;
+}
+
+/* footer */
+.footer {
+margin:  80px 0 0;
+text-align:  center;
+font-size:  15px;
+color:  #999;
+}
+.footer > p {
+margin:  0;
+line-height:  1.5;
+}
+.footpara {
+display:  inline;
+}
+
+/* Responsive
+-------------------------------------------------- */
+
+@media (min-width:  768px) {
+/* Increase body padding and font-sizes */
+body {
+padding:  30px;
+font-size:  18px;
+line-height:  1.75;
+}
+h1:before, h2:before, h3:before {
+display:  inline;
+}
+}
+
+@media (min-width:  1024px) {
+body {
+padding:  30px;
+}
+}
+</style>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded',function() {
+document.getElementById("table-of-contents").onclick = function() {
+var elem = document.getElementById("text-table-of-contents");
+elem.style.display = elem.style.display == "block" ? "none" : "block";
+}
+});
+
+var url = document.location.href;
+var orgsource = url.substring(0, url.lastIndexOf("."))+".org.html";
+function show_org_source(){
+document.location.href = orgsource;
+}
+</script>
 </head>
 <body>
 <div id="content" class="content">
@@ -17,56 +413,56 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org834337c"><span class="timestamp-wrapper"><span class="timestamp">&lt;2026-02-19 Thu&gt;</span></span></a></li>
-<li><a href="#orgb66bb5e">like to be on top, like air,</a></li>
-<li><a href="#org0d974a0">like the views</a></li>
-<li><a href="#org18e7fb4">his mother could speak 8 langugages and multiple musical instruments.</a></li>
-<li><a href="#org11a1194">amygdala fires up lesser for him than general people.</a></li>
-<li><a href="#org80b8e5f">was very shy pulic speaing, nervous earlier</a></li>
-<li><a href="#orga5d75cd">now very good</a></li>
-<li><a href="#orgfb719cd">whats your hack to overcome fear?</a></li>
-<li><a href="#org39f8a28">if you go through that porocess then you arent really afraid.</a></li>
-<li><a href="#org4d24d28">in climbing the fear builds up in each step.</a></li>
-<li><a href="#org8961a85">while in other sports its short time - you jump then its done. paragliding jumping etc.</a></li>
-<li><a href="#orgdb835ae"><span class="timestamp-wrapper"><span class="timestamp">&lt;2026-03-13 Fri&gt;</span></span></a></li>
-<li><a href="#orge05726f">Free solo podcast</a></li>
-<li><a href="#org899e0de">diary of a ceo</a></li>
-<li><a href="#org74f6c4c">constantly think</a></li>
-<li><a href="#org9a3bcb2">free solo el cap = memorise?</a>
+<li><a href="#orgdb52190"><span class="timestamp-wrapper"><span class="timestamp">&lt;2026-02-19 Thu&gt;</span></span></a></li>
+<li><a href="#org32685c9">like to be on top, like air,</a></li>
+<li><a href="#org5de3997">like the views</a></li>
+<li><a href="#orgb670d1b">his mother could speak 8 langugages and multiple musical instruments.</a></li>
+<li><a href="#org6b12b50">amygdala fires up lesser for him than general people.</a></li>
+<li><a href="#org517c813">was very shy pulic speaing, nervous earlier</a></li>
+<li><a href="#org5180f93">now very good</a></li>
+<li><a href="#orgbc0e071">whats your hack to overcome fear?</a></li>
+<li><a href="#orgcc2a53b">if you go through that porocess then you arent really afraid.</a></li>
+<li><a href="#org6f39509">in climbing the fear builds up in each step.</a></li>
+<li><a href="#orgdf9a89d">while in other sports its short time - you jump then its done. paragliding jumping etc.</a></li>
+<li><a href="#orge54a6b5"><span class="timestamp-wrapper"><span class="timestamp">&lt;2026-03-13 Fri&gt;</span></span></a></li>
+<li><a href="#org1764265">Free solo podcast</a></li>
+<li><a href="#org610c9df">diary of a ceo</a></li>
+<li><a href="#org92a7bb0">constantly think</a></li>
+<li><a href="#org7ec1fdb">free solo el cap = memorise?</a>
 <ul>
-<li><a href="#orgd158ea0">hardest parts memorised, easiest are muscle memory. medium part is ok.</a></li>
-<li><a href="#orga37f6f3">when you climb what is you mental horizon.</a></li>
+<li><a href="#org73ac294">hardest parts memorised, easiest are muscle memory. medium part is ok.</a></li>
+<li><a href="#org3a272ea">when you climb what is you mental horizon.</a></li>
 </ul>
 </li>
-<li><a href="#org17fd3a8">aspiration to be</a></li>
-<li><a href="#org0b48aa5">parkour kids doing insane stuff? what about them</a></li>
+<li><a href="#org9bdb5d2">aspiration to be</a></li>
+<li><a href="#orga4f9de5">parkour kids doing insane stuff? what about them</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org834337c" class="outline-2">
-<h2 id="org834337c"><span class="timestamp-wrapper"><span class="timestamp">&lt;2026-02-19 Thu&gt;</span></span></h2>
+<div id="outline-container-orgdb52190" class="outline-2">
+<h2 id="orgdb52190"><span class="timestamp-wrapper"><span class="timestamp">&lt;2026-02-19 Thu&gt;</span></span></h2>
 </div>
-<div id="outline-container-orgb66bb5e" class="outline-2">
-<h2 id="orgb66bb5e">like to be on top, like air,</h2>
+<div id="outline-container-org32685c9" class="outline-2">
+<h2 id="org32685c9">like to be on top, like air,</h2>
 </div>
-<div id="outline-container-org0d974a0" class="outline-2">
-<h2 id="org0d974a0">like the views</h2>
+<div id="outline-container-org5de3997" class="outline-2">
+<h2 id="org5de3997">like the views</h2>
 </div>
-<div id="outline-container-org18e7fb4" class="outline-2">
-<h2 id="org18e7fb4">his mother could speak 8 langugages and multiple musical instruments.</h2>
+<div id="outline-container-orgb670d1b" class="outline-2">
+<h2 id="orgb670d1b">his mother could speak 8 langugages and multiple musical instruments.</h2>
 </div>
-<div id="outline-container-org11a1194" class="outline-2">
-<h2 id="org11a1194">amygdala fires up lesser for him than general people.</h2>
+<div id="outline-container-org6b12b50" class="outline-2">
+<h2 id="org6b12b50">amygdala fires up lesser for him than general people.</h2>
 </div>
-<div id="outline-container-org80b8e5f" class="outline-2">
-<h2 id="org80b8e5f">was very shy pulic speaing, nervous earlier</h2>
+<div id="outline-container-org517c813" class="outline-2">
+<h2 id="org517c813">was very shy pulic speaing, nervous earlier</h2>
 </div>
-<div id="outline-container-orga5d75cd" class="outline-2">
-<h2 id="orga5d75cd">now very good</h2>
+<div id="outline-container-org5180f93" class="outline-2">
+<h2 id="org5180f93">now very good</h2>
 </div>
-<div id="outline-container-orgfb719cd" class="outline-2">
-<h2 id="orgfb719cd">whats your hack to overcome fear?</h2>
-<div class="outline-text-2" id="text-orgfb719cd">
+<div id="outline-container-orgbc0e071" class="outline-2">
+<h2 id="orgbc0e071">whats your hack to overcome fear?</h2>
+<div class="outline-text-2" id="text-orgbc0e071">
 <blockquote>
 <p>
 you becomee scared so many times over and over and eventually its not that scary anymore
@@ -74,43 +470,43 @@ you becomee scared so many times over and over and eventually its not that scary
 </blockquote>
 </div>
 </div>
-<div id="outline-container-org39f8a28" class="outline-2">
-<h2 id="org39f8a28">if you go through that porocess then you arent really afraid.</h2>
+<div id="outline-container-orgcc2a53b" class="outline-2">
+<h2 id="orgcc2a53b">if you go through that porocess then you arent really afraid.</h2>
 </div>
-<div id="outline-container-org4d24d28" class="outline-2">
-<h2 id="org4d24d28">in climbing the fear builds up in each step.</h2>
+<div id="outline-container-org6f39509" class="outline-2">
+<h2 id="org6f39509">in climbing the fear builds up in each step.</h2>
 </div>
-<div id="outline-container-org8961a85" class="outline-2">
-<h2 id="org8961a85">while in other sports its short time - you jump then its done. paragliding jumping etc.</h2>
+<div id="outline-container-orgdf9a89d" class="outline-2">
+<h2 id="orgdf9a89d">while in other sports its short time - you jump then its done. paragliding jumping etc.</h2>
 </div>
-<div id="outline-container-orgdb835ae" class="outline-2">
-<h2 id="orgdb835ae"><span class="timestamp-wrapper"><span class="timestamp">&lt;2026-03-13 Fri&gt;</span></span></h2>
+<div id="outline-container-orge54a6b5" class="outline-2">
+<h2 id="orge54a6b5"><span class="timestamp-wrapper"><span class="timestamp">&lt;2026-03-13 Fri&gt;</span></span></h2>
 </div>
-<div id="outline-container-orge05726f" class="outline-2">
-<h2 id="orge05726f">Free solo podcast</h2>
+<div id="outline-container-org1764265" class="outline-2">
+<h2 id="org1764265">Free solo podcast</h2>
 </div>
-<div id="outline-container-org899e0de" class="outline-2">
-<h2 id="org899e0de">diary of a ceo</h2>
+<div id="outline-container-org610c9df" class="outline-2">
+<h2 id="org610c9df">diary of a ceo</h2>
 </div>
-<div id="outline-container-org74f6c4c" class="outline-2">
-<h2 id="org74f6c4c">constantly think</h2>
+<div id="outline-container-org92a7bb0" class="outline-2">
+<h2 id="org92a7bb0">constantly think</h2>
 </div>
-<div id="outline-container-org9a3bcb2" class="outline-2">
-<h2 id="org9a3bcb2">free solo el cap = memorise?</h2>
-<div class="outline-text-2" id="text-org9a3bcb2">
+<div id="outline-container-org7ec1fdb" class="outline-2">
+<h2 id="org7ec1fdb">free solo el cap = memorise?</h2>
+<div class="outline-text-2" id="text-org7ec1fdb">
 </div>
-<div id="outline-container-orgd158ea0" class="outline-3">
-<h3 id="orgd158ea0">hardest parts memorised, easiest are muscle memory. medium part is ok.</h3>
+<div id="outline-container-org73ac294" class="outline-3">
+<h3 id="org73ac294">hardest parts memorised, easiest are muscle memory. medium part is ok.</h3>
 </div>
-<div id="outline-container-orga37f6f3" class="outline-3">
-<h3 id="orga37f6f3">when you climb what is you mental horizon.</h3>
+<div id="outline-container-org3a272ea" class="outline-3">
+<h3 id="org3a272ea">when you climb what is you mental horizon.</h3>
 </div>
 </div>
-<div id="outline-container-org17fd3a8" class="outline-2">
-<h2 id="org17fd3a8">aspiration to be</h2>
+<div id="outline-container-org9bdb5d2" class="outline-2">
+<h2 id="org9bdb5d2">aspiration to be</h2>
 </div>
-<div id="outline-container-org0b48aa5" class="outline-2">
-<h2 id="org0b48aa5">parkour kids doing insane stuff? what about them</h2>
+<div id="outline-container-orga4f9de5" class="outline-2">
+<h2 id="orga4f9de5">parkour kids doing insane stuff? what about them</h2>
 </div>
 </div>
 </body>

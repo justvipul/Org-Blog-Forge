@@ -3,12 +3,510 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-03-30 Mon 14:04 -->
+<!-- 2026-03-30 Mon 14:44 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>org modern test</title>
 <meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="style.css"/>
+<style type="text/css">
+body {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.4;
+color: #33333f;
+}
+
+code {
+font-family: "Inconsolata", "monospace";
+font-size: 16px;
+}
+
+p>code, li>code {
+background-color: #eee;
+padding: 0.25em;
+}
+
+h1, h2, h3 {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+border-bottom: 1px solid #f0c;
+padding-bottom: 0.5em;
+font-size: 1.75em;
+}
+
+h3 {
+margin-top: 2em;
+font-size: 1.5em;
+}
+
+h4 {
+font-size: 1.25em;
+}
+
+h5 {
+font-size: 1em;
+}
+
+h2 code, h3 code, h4 code, h5 code, td code {
+font-family: inherit !important;
+font-size: inherit !important;
+}
+
+td code {
+font-weight: bold;
+}
+
+a:link, a:hover, a:visited {
+text-decoration: none;
+color: black;
+}
+
+a:link {
+background: #ff8;
+}
+
+a:visited {
+color: #666;
+background: #ffc;
+}
+
+a:link:hover,
+a:visited:hover {
+background: #ff0;
+}
+
+a[href^="http"] {
+background: #bff;
+}
+
+a[href^="http"]:visited {
+background: #dff;
+}
+
+a[href^="http"]:link:hover,
+a[href^="http"]:visited:hover {
+background: #0ff;
+}
+
+a[href^="http"]:after {
+content: "\21B3";
+background: white;
+padding-left: 0.2em;
+}
+
+#meta {
+margin-top: 2em;
+}
+
+#table-of-contents a:link,
+#table-of-contents a:visited {
+color: black;
+background: transparent;
+}
+
+#table-of-contents {
+line-height: 1.2;
+}
+#table-of-contents h2 {
+border-bottom: 0;
+}
+
+#table-of-contents ul {
+list-style: none;
+padding-left: 0.5em;
+font-weight: normal;
+}
+
+#table-of-contents div>ul>li {
+margin-top: 1em;
+font-weight: bold;
+}
+
+#table-of-contents .tag {
+display: none;
+}
+
+#table-of-contents .todo,
+#table-of-contents .done {
+font-size: 80%;
+}
+
+#table-of-contents ol>li {
+margin-top: 1em;
+}
+
+table {
+width: 100%;
+}
+
+table, th, td {
+border: 1px solid #666;
+}
+
+th, td {
+padding: 0.5em;
+text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+background-color: #eee;
+}
+
+img {
+max-width: 90%;
+}
+
+div.notice {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+}
+
+table + div.notice {
+margin-top: 2em;
+}
+
+div.notice a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.notice a[href^="http"]:after {
+background: transparent !important;
+}
+
+div.notice:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+}
+
+.notice-warning {
+background: #fcc;
+color: #600;
+}
+
+.notice-example {
+background: #def;
+color: #069;
+}
+
+.notice-info {
+background: #efe;
+color: #060;
+}
+
+.notice-warning a {
+color: #600;
+}
+
+.notice-example a {
+color: #069;
+}
+
+.notice-info a {
+color: #060;
+}
+
+div.notice-warning:before {
+content: "WARNING";
+background: #c99;
+color: #fcc;
+}
+
+div.notice-example:before {
+content: "EXAMPLE";
+background: #abc;
+color: #def;
+}
+
+div.notice-info:before {
+content: "INFO";
+background: #9c9;
+color: #efe;
+}
+
+/* things inside the #+BEGIN_NOTE...#+END_NOTE block */
+div.NOTE a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.NOTE {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+margin-top: 2em;
+background: #efe;
+color: #060;
+}
+
+div.NOTE:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+content: "NOTE";
+background: #9c9;
+color: #efe;
+}
+
+blockquote {
+padding: 0px 10px 0px 10px;
+border: 1px solid #ddd;
+background: #eee;
+box-shadow: 5px 5px 5px #eee;
+border-radius: 2px;
+line-height: 1.2em;
+}
+
+pre {
+font-family: "Inconsolata", "monospace";
+font-size: 100%;
+border: 0;
+box-shadow: none;
+overflow: auto;
+}
+
+pre.example:before {
+content: "EXAMPLE";
+display: block;
+border-bottom: 1px dotted;
+margin-bottom: 1em;
+}
+
+pre.example {
+background: #fec;
+color: #666;
+font-size: 0.85em;
+}
+
+pre {
+background-color: #f8f8f8;
+background-size: 8px 8px;
+background-image: linear-gradient(135deg, transparent 25%, rgba(0, 0, 0, 0.02) 25%, rgba(0, 0, 0, 0.02) 50%, transparent 50%, transparent 75%, rgba(0, 0, 0, 0.02) 75%, rgba(0, 0, 0, 0.02));
+}
+
+pre.src {
+padding: 0.5em;
+}
+
+pre.src:before {
+display: block;
+position: absolute;
+background-color: #ccccd0;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em;
+border-bottom-left-radius: 8px;
+border: 0;
+color: white;
+font-size: 80%;
+}
+
+pre.src-plantuml:before {
+content: "UML";
+}
+
+pre.src-javascript:before {
+content: "JS";
+}
+
+pre.src-clojure:before {
+content: "CLJ";
+}
+
+pre.src-c:before {
+content: "C";
+}
+
+pre.src-sh:before {
+content: "Shell";
+}
+
+pre.src-es:before {
+content: "ES";
+}
+
+span.org-string {
+color: #f94;
+}
+
+span.org-keyword {
+color: #c07;
+}
+
+span.org-variable-name {
+color: #f04;
+}
+
+span.org-clojure-keyword {
+color: #09f;
+}
+
+span.org-comment, span.org-comment-delimiter {
+color: #999;
+}
+
+span.org-rainbow-delimiters-depth-1, span.org-rainbow-delimiters-depth-5 {
+color: #666;
+}
+
+span.org-rainbow-delimiters-depth-2, span.org-rainbow-delimiters-depth-6 {
+color: #888;
+}
+
+span.org-rainbow-delimiters-depth-3, span.org-rainbow-delimiters-depth-7 {
+color: #aaa;
+}
+
+span.org-rainbow-delimiters-depth-4, span.org-rainbow-delimiters-depth-8 {
+color: #ccc;
+}
+
+div.figure {
+font-size: 0.85em;
+}
+
+.tag {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: normal;
+float: right;
+margin-top: 1em;
+background: transparent;
+}
+
+.tag span {
+background: #ccc;
+padding: 0 0.5em;
+border-radius: 0.2em;
+color: white;
+}
+
+.todo, .done {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-weight: normal;
+padding: 0 0.25em;
+border-radius: 0.2em;
+}
+
+.todo {
+background: #f04;
+color: white;
+}
+
+.done {
+background: #5f7;
+color: white;
+}
+
+@media screen {
+h1.title {
+text-align: left;
+margin: 0.5em 0 1em 0;
+}
+
+h2 {
+margin-top: 3em;
+}
+
+#table-of-contents {
+position: fixed;
+top: 0;
+left: 0;
+padding: 2em 0 2em 2em;
+width: 290px;
+height: 100vh;
+font-size: 11px;
+background: #eee;
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+#table-of-contents h2 {
+margin-top: 0;
+}
+
+#table-of-contents code {
+font-size: 12px;
+}
+
+div#content {
+margin-left: 320px;
+max-width: 1100px;
+}
+div#postamble {
+margin-left: 320px;
+max-width: 1100px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+html, body {
+font-size: 14px;
+}
+
+#table-of-contents {
+display: none;
+}
+
+h1.title {
+margin-left: 0%;
+}
+
+div#content {
+margin-left: 5%;
+max-width: 90%;
+}
+div#postamble {
+margin-left: 5%;
+max-width: 90%;
+}
+}
+
+@media print {
+
+body {
+color: black;
+}
+
+@page {
+margin: 25mm;
+}
+
+h2, h3 {
+page-break-before: always;
+margin-top: 0;
+}
+
+table {
+page-break-inside: avoid;
+}
+
+a:visited {
+color: black;
+background: #ff8;
+}
+
+a[href^="http"]:visited {
+background: #bff;
+}
+
+div.notice:before {
+display: none;
+}
+}
+</style>
 </head>
 <body>
 <div id="content" class="content">
@@ -17,58 +515,58 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org1d27f18">Headlines</a>
+<li><a href="#org4b7fb18">Headlines</a>
 <ul>
-<li><a href="#org18edcc0">Second level</a>
+<li><a href="#orgbf0f5ac">Second level</a>
 <ul>
-<li><a href="#orgbee8254">Third level</a>
+<li><a href="#orgb9643fa">Third level</a>
 <ul>
-<li><a href="#orgf236fc4">Fourth level</a></li>
+<li><a href="#org7e8653e">Fourth level</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orge0d94d8">Task Lists <code>[1/3]</code></a>
+<li><a href="#org16b18cd">Task Lists <code>[1/3]</code></a>
 <ul>
-<li><a href="#orgb7c5c86"><span class="done DONE">DONE</span> Write <code>org-modern</code></a></li>
-<li><a href="#org2578cff"><span class="todo TODO">TODO</span> Publish <code>org-modern</code></a></li>
-<li><a href="#org924d5b0"><span class="todo TODO">TODO</span> Fix all the bugs</a></li>
+<li><a href="#org5738aa5"><span class="done DONE">DONE</span> Write <code>org-modern</code></a></li>
+<li><a href="#org0b3b7d9"><span class="todo TODO">TODO</span> Publish <code>org-modern</code></a></li>
+<li><a href="#orgb92241b"><span class="todo TODO">TODO</span> Fix all the bugs</a></li>
 </ul>
 </li>
-<li><a href="#orgbbc182b">List Bullets</a>
+<li><a href="#org7f5e0b4">List Bullets</a>
 <ul>
-<li><a href="#orge10bde0">Dash</a></li>
-<li><a href="#org432278c">Plus</a></li>
-<li><a href="#orgcfc982e">Asterisk</a></li>
+<li><a href="#org3a453c9">Dash</a></li>
+<li><a href="#orgf405a00">Plus</a></li>
+<li><a href="#org74981ad">Asterisk</a></li>
 </ul>
 </li>
-<li><a href="#org8a7ca4f">Timestamps</a></li>
-<li><a href="#orga64da60">Blocks</a></li>
-<li><a href="#org3cf437a">Todo Labels and Tags</a>
+<li><a href="#org95fde5b">Timestamps</a></li>
+<li><a href="#org22bad6f">Blocks</a></li>
+<li><a href="#org74a8e75">Todo Labels and Tags</a>
 <ul>
-<li><a href="#org42c35c1"><span class="done DONE">DONE</span> Write <code>org-modern</code></a></li>
-<li><a href="#org2a2b803"><span class="todo TODO">TODO</span> Publish <code>org-modern</code></a></li>
-<li><a href="#org7920464">WAIT Fix all the bugs</a></li>
+<li><a href="#org9421efa"><span class="done DONE">DONE</span> Write <code>org-modern</code></a></li>
+<li><a href="#org3dc07c5"><span class="todo TODO">TODO</span> Publish <code>org-modern</code></a></li>
+<li><a href="#org3f2ff06">WAIT Fix all the bugs</a></li>
 </ul>
 </li>
-<li><a href="#org358d189">Priorities</a>
+<li><a href="#org497e863">Priorities</a>
 <ul>
-<li><a href="#orgcffb191"><span class="done DONE">DONE</span> Most important</a></li>
-<li><a href="#org698712b"><span class="todo TODO">TODO</span> Less important</a></li>
-<li><a href="#org736ea5d">CANCEL [#C] Not that important</a></li>
-<li><a href="#orgf9385d5"><span class="done DONE">DONE</span> <code>[100%]</code> [#A] Everything combined</a>
+<li><a href="#orgd6c291a"><span class="done DONE">DONE</span> Most important</a></li>
+<li><a href="#orge447ab8"><span class="todo TODO">TODO</span> Less important</a></li>
+<li><a href="#org0af25ff">CANCEL [#C] Not that important</a></li>
+<li><a href="#org0a5aff4"><span class="done DONE">DONE</span> <code>[100%]</code> [#A] Everything combined</a>
 <ul>
-<li><a href="#org46f4e32"><span class="done DONE">DONE</span> First</a></li>
-<li><a href="#org45697c4"><span class="done DONE">DONE</span> Second</a></li>
-<li><a href="#orgb244c81"><span class="done DONE">DONE</span> Third</a></li>
+<li><a href="#org63f4742"><span class="done DONE">DONE</span> First</a></li>
+<li><a href="#org42eb1a1"><span class="done DONE">DONE</span> Second</a></li>
+<li><a href="#orgd59d086"><span class="done DONE">DONE</span> Third</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org5165ee5">Tables</a></li>
-<li><a href="#org932382f">Special Links</a></li>
+<li><a href="#orgdff6c2e">Tables</a></li>
+<li><a href="#orgbb46283">Special Links</a></li>
 </ul>
 </div>
 </div>
@@ -78,60 +576,60 @@ which are styled by <code>org-modern</code>.
 </p>
 
 
-<div id="outline-container-org1d27f18" class="outline-2">
-<h2 id="org1d27f18">Headlines<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup></h2>
-<div class="outline-text-2" id="text-org1d27f18">
+<div id="outline-container-org4b7fb18" class="outline-2">
+<h2 id="org4b7fb18">Headlines<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup></h2>
+<div class="outline-text-2" id="text-org4b7fb18">
 </div>
-<div id="outline-container-org18edcc0" class="outline-3">
-<h3 id="org18edcc0">Second level</h3>
-<div class="outline-text-3" id="text-org18edcc0">
+<div id="outline-container-orgbf0f5ac" class="outline-3">
+<h3 id="orgbf0f5ac">Second level</h3>
+<div class="outline-text-3" id="text-orgbf0f5ac">
 </div>
-<div id="outline-container-orgbee8254" class="outline-4">
-<h4 id="orgbee8254">Third level</h4>
-<div class="outline-text-4" id="text-orgbee8254">
+<div id="outline-container-orgb9643fa" class="outline-4">
+<h4 id="orgb9643fa">Third level</h4>
+<div class="outline-text-4" id="text-orgb9643fa">
 </div>
-<div id="outline-container-orgf236fc4" class="outline-5">
-<h5 id="orgf236fc4">Fourth level</h5>
-<div class="outline-text-5" id="text-orgf236fc4">
+<div id="outline-container-org7e8653e" class="outline-5">
+<h5 id="org7e8653e">Fourth level</h5>
+<div class="outline-text-5" id="text-org7e8653e">
 </div>
 <ul class="org-ul">
-<li><a id="orgd549146"></a>Fifth level<br /></li>
+<li><a id="org2a9b142"></a>Fifth level<br /></li>
 </ul>
 </div>
 </div>
 </div>
 </div>
-<div id="outline-container-orge0d94d8" class="outline-2">
-<h2 id="orge0d94d8">Task Lists <code>[1/3]</code></h2>
-<div class="outline-text-2" id="text-orge0d94d8">
+<div id="outline-container-org16b18cd" class="outline-2">
+<h2 id="org16b18cd">Task Lists <code>[1/3]</code></h2>
+<div class="outline-text-2" id="text-org16b18cd">
 </div>
-<div id="outline-container-orgb7c5c86" class="outline-3">
-<h3 id="orgb7c5c86"><span class="done DONE">DONE</span> Write <code>org-modern</code></h3>
+<div id="outline-container-org5738aa5" class="outline-3">
+<h3 id="org5738aa5"><span class="done DONE">DONE</span> Write <code>org-modern</code></h3>
 </div>
-<div id="outline-container-org2578cff" class="outline-3">
-<h3 id="org2578cff"><span class="todo TODO">TODO</span> Publish <code>org-modern</code></h3>
+<div id="outline-container-org0b3b7d9" class="outline-3">
+<h3 id="org0b3b7d9"><span class="todo TODO">TODO</span> Publish <code>org-modern</code></h3>
 </div>
-<div id="outline-container-org924d5b0" class="outline-3">
-<h3 id="org924d5b0"><span class="todo TODO">TODO</span> Fix all the bugs</h3>
-</div>
-</div>
-<div id="outline-container-orgbbc182b" class="outline-2">
-<h2 id="orgbbc182b">List Bullets</h2>
-<div class="outline-text-2" id="text-orgbbc182b">
-</div>
-<div id="outline-container-orge10bde0" class="outline-3">
-<h3 id="orge10bde0">Dash</h3>
-</div>
-<div id="outline-container-org432278c" class="outline-3">
-<h3 id="org432278c">Plus</h3>
-</div>
-<div id="outline-container-orgcfc982e" class="outline-3">
-<h3 id="orgcfc982e">Asterisk</h3>
+<div id="outline-container-orgb92241b" class="outline-3">
+<h3 id="orgb92241b"><span class="todo TODO">TODO</span> Fix all the bugs</h3>
 </div>
 </div>
-<div id="outline-container-org8a7ca4f" class="outline-2">
-<h2 id="org8a7ca4f">Timestamps</h2>
-<div class="outline-text-2" id="text-org8a7ca4f">
+<div id="outline-container-org7f5e0b4" class="outline-2">
+<h2 id="org7f5e0b4">List Bullets</h2>
+<div class="outline-text-2" id="text-org7f5e0b4">
+</div>
+<div id="outline-container-org3a453c9" class="outline-3">
+<h3 id="org3a453c9">Dash</h3>
+</div>
+<div id="outline-container-orgf405a00" class="outline-3">
+<h3 id="orgf405a00">Plus</h3>
+</div>
+<div id="outline-container-org74981ad" class="outline-3">
+<h3 id="org74981ad">Asterisk</h3>
+</div>
+</div>
+<div id="outline-container-org95fde5b" class="outline-2">
+<h2 id="org95fde5b">Timestamps</h2>
+<div class="outline-text-2" id="text-org95fde5b">
 <p>
 DRANGE:    <span class="timestamp-wrapper"><span class="timestamp">[2022-03-01 Tue]&#x2013;[2022-04-01 Fri]</span></span>
 DRANGE:    <span class="timestamp-wrapper"><span class="timestamp">&lt;2022-03-01 Tue&gt;&#x2013;&lt;2022-04-01 Fri&gt;</span></span>
@@ -142,9 +640,9 @@ TREPEATED: <span class="timestamp-wrapper"><span class="timestamp">&lt;2022-02-2
 </p>
 </div>
 </div>
-<div id="outline-container-orga64da60" class="outline-2">
-<h2 id="orga64da60">Blocks</h2>
-<div class="outline-text-2" id="text-orga64da60">
+<div id="outline-container-org22bad6f" class="outline-2">
+<h2 id="org22bad6f">Blocks</h2>
+<div class="outline-text-2" id="text-org22bad6f">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">;; Taken from the well-structured Emacs config by @oantolin.
 ;; Take a look at https://github.com/oantolin/emacs-config!
@@ -170,53 +668,53 @@ TREPEATED: <span class="timestamp-wrapper"><span class="timestamp">&lt;2022-02-2
 </div>
 </div>
 
-<div id="outline-container-org3cf437a" class="outline-2">
-<h2 id="org3cf437a">Todo Labels and Tags</h2>
-<div class="outline-text-2" id="text-org3cf437a">
+<div id="outline-container-org74a8e75" class="outline-2">
+<h2 id="org74a8e75">Todo Labels and Tags</h2>
+<div class="outline-text-2" id="text-org74a8e75">
 </div>
-<div id="outline-container-org42c35c1" class="outline-3">
-<h3 id="org42c35c1"><span class="done DONE">DONE</span> Write <code>org-modern</code></h3>
+<div id="outline-container-org9421efa" class="outline-3">
+<h3 id="org9421efa"><span class="done DONE">DONE</span> Write <code>org-modern</code></h3>
 </div>
-<div id="outline-container-org2a2b803" class="outline-3">
-<h3 id="org2a2b803"><span class="todo TODO">TODO</span> Publish <code>org-modern</code></h3>
+<div id="outline-container-org3dc07c5" class="outline-3">
+<h3 id="org3dc07c5"><span class="todo TODO">TODO</span> Publish <code>org-modern</code></h3>
 </div>
-<div id="outline-container-org7920464" class="outline-3">
-<h3 id="org7920464">WAIT Fix all the bugs</h3>
-</div>
-</div>
-
-<div id="outline-container-org358d189" class="outline-2">
-<h2 id="org358d189">Priorities</h2>
-<div class="outline-text-2" id="text-org358d189">
-</div>
-<div id="outline-container-orgcffb191" class="outline-3">
-<h3 id="orgcffb191"><span class="done DONE">DONE</span> Most important</h3>
-</div>
-<div id="outline-container-org698712b" class="outline-3">
-<h3 id="org698712b"><span class="todo TODO">TODO</span> Less important</h3>
-</div>
-<div id="outline-container-org736ea5d" class="outline-3">
-<h3 id="org736ea5d">CANCEL [#C] Not that important</h3>
-</div>
-<div id="outline-container-orgf9385d5" class="outline-3">
-<h3 id="orgf9385d5"><span class="done DONE">DONE</span> <code>[100%]</code> [#A] Everything combined</h3>
-<div class="outline-text-3" id="text-orgf9385d5">
-</div>
-<div id="outline-container-org46f4e32" class="outline-4">
-<h4 id="org46f4e32"><span class="done DONE">DONE</span> First</h4>
-</div>
-<div id="outline-container-org45697c4" class="outline-4">
-<h4 id="org45697c4"><span class="done DONE">DONE</span> Second</h4>
-</div>
-<div id="outline-container-orgb244c81" class="outline-4">
-<h4 id="orgb244c81"><span class="done DONE">DONE</span> <sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>Third</h4>
-</div>
+<div id="outline-container-org3f2ff06" class="outline-3">
+<h3 id="org3f2ff06">WAIT Fix all the bugs</h3>
 </div>
 </div>
 
-<div id="outline-container-org5165ee5" class="outline-2">
-<h2 id="org5165ee5">Tables</h2>
-<div class="outline-text-2" id="text-org5165ee5">
+<div id="outline-container-org497e863" class="outline-2">
+<h2 id="org497e863">Priorities</h2>
+<div class="outline-text-2" id="text-org497e863">
+</div>
+<div id="outline-container-orgd6c291a" class="outline-3">
+<h3 id="orgd6c291a"><span class="done DONE">DONE</span> Most important</h3>
+</div>
+<div id="outline-container-orge447ab8" class="outline-3">
+<h3 id="orge447ab8"><span class="todo TODO">TODO</span> Less important</h3>
+</div>
+<div id="outline-container-org0af25ff" class="outline-3">
+<h3 id="org0af25ff">CANCEL [#C] Not that important</h3>
+</div>
+<div id="outline-container-org0a5aff4" class="outline-3">
+<h3 id="org0a5aff4"><span class="done DONE">DONE</span> <code>[100%]</code> [#A] Everything combined</h3>
+<div class="outline-text-3" id="text-org0a5aff4">
+</div>
+<div id="outline-container-org63f4742" class="outline-4">
+<h4 id="org63f4742"><span class="done DONE">DONE</span> First</h4>
+</div>
+<div id="outline-container-org42eb1a1" class="outline-4">
+<h4 id="org42eb1a1"><span class="done DONE">DONE</span> Second</h4>
+</div>
+<div id="outline-container-orgd59d086" class="outline-4">
+<h4 id="orgd59d086"><span class="done DONE">DONE</span> <sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>Third</h4>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgdff6c2e" class="outline-2">
+<h2 id="orgdff6c2e">Tables</h2>
+<div class="outline-text-2" id="text-orgdff6c2e">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -312,31 +810,31 @@ TREPEATED: <span class="timestamp-wrapper"><span class="timestamp">&lt;2022-02-2
 </table>
 </div>
 </div>
-<div id="outline-container-org932382f" class="outline-2">
-<h2 id="org932382f">Special Links</h2>
-<div class="outline-text-2" id="text-org932382f">
+<div id="outline-container-orgbb46283" class="outline-2">
+<h2 id="orgbb46283">Special Links</h2>
+<div class="outline-text-2" id="text-orgbb46283">
 <p>
 Test numeric footnotes<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup> and named footnotes<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>.
 </p>
 
 <p>
-<a id="orga07db1e"></a>
+<a id="org460569b"></a>
 </p>
 
 
 
 <p>
-<a id="org50dc2a5">radio link</a>
+<a id="org61ae08c">radio link</a>
 </p>
 
 
 
 <p>
-<a href="#orga07db1e">No description for this link</a>
+<a href="#org460569b">No description for this link</a>
 </p>
 
 <p>
-<a href="#org50dc2a5">radio link</a>
+<a href="#org61ae08c">radio link</a>
 </p>
 </div>
 </div>
@@ -361,7 +859,7 @@ This is the footnote
 </p>
 
 <p class="footpara">
-<a href="#orga64da60">Blocks</a>
+<a href="#org22bad6f">Blocks</a>
 </p></div></div>
 
 

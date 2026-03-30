@@ -3,12 +3,510 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-03-30 Mon 14:04 -->
+<!-- 2026-03-30 Mon 14:44 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>hanuman tekdi &lt;2026-03-14 Sat&gt;</title>
 <meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="style.css"/>
+<style type="text/css">
+body {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.4;
+color: #33333f;
+}
+
+code {
+font-family: "Inconsolata", "monospace";
+font-size: 16px;
+}
+
+p>code, li>code {
+background-color: #eee;
+padding: 0.25em;
+}
+
+h1, h2, h3 {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+border-bottom: 1px solid #f0c;
+padding-bottom: 0.5em;
+font-size: 1.75em;
+}
+
+h3 {
+margin-top: 2em;
+font-size: 1.5em;
+}
+
+h4 {
+font-size: 1.25em;
+}
+
+h5 {
+font-size: 1em;
+}
+
+h2 code, h3 code, h4 code, h5 code, td code {
+font-family: inherit !important;
+font-size: inherit !important;
+}
+
+td code {
+font-weight: bold;
+}
+
+a:link, a:hover, a:visited {
+text-decoration: none;
+color: black;
+}
+
+a:link {
+background: #ff8;
+}
+
+a:visited {
+color: #666;
+background: #ffc;
+}
+
+a:link:hover,
+a:visited:hover {
+background: #ff0;
+}
+
+a[href^="http"] {
+background: #bff;
+}
+
+a[href^="http"]:visited {
+background: #dff;
+}
+
+a[href^="http"]:link:hover,
+a[href^="http"]:visited:hover {
+background: #0ff;
+}
+
+a[href^="http"]:after {
+content: "\21B3";
+background: white;
+padding-left: 0.2em;
+}
+
+#meta {
+margin-top: 2em;
+}
+
+#table-of-contents a:link,
+#table-of-contents a:visited {
+color: black;
+background: transparent;
+}
+
+#table-of-contents {
+line-height: 1.2;
+}
+#table-of-contents h2 {
+border-bottom: 0;
+}
+
+#table-of-contents ul {
+list-style: none;
+padding-left: 0.5em;
+font-weight: normal;
+}
+
+#table-of-contents div>ul>li {
+margin-top: 1em;
+font-weight: bold;
+}
+
+#table-of-contents .tag {
+display: none;
+}
+
+#table-of-contents .todo,
+#table-of-contents .done {
+font-size: 80%;
+}
+
+#table-of-contents ol>li {
+margin-top: 1em;
+}
+
+table {
+width: 100%;
+}
+
+table, th, td {
+border: 1px solid #666;
+}
+
+th, td {
+padding: 0.5em;
+text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+background-color: #eee;
+}
+
+img {
+max-width: 90%;
+}
+
+div.notice {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+}
+
+table + div.notice {
+margin-top: 2em;
+}
+
+div.notice a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.notice a[href^="http"]:after {
+background: transparent !important;
+}
+
+div.notice:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+}
+
+.notice-warning {
+background: #fcc;
+color: #600;
+}
+
+.notice-example {
+background: #def;
+color: #069;
+}
+
+.notice-info {
+background: #efe;
+color: #060;
+}
+
+.notice-warning a {
+color: #600;
+}
+
+.notice-example a {
+color: #069;
+}
+
+.notice-info a {
+color: #060;
+}
+
+div.notice-warning:before {
+content: "WARNING";
+background: #c99;
+color: #fcc;
+}
+
+div.notice-example:before {
+content: "EXAMPLE";
+background: #abc;
+color: #def;
+}
+
+div.notice-info:before {
+content: "INFO";
+background: #9c9;
+color: #efe;
+}
+
+/* things inside the #+BEGIN_NOTE...#+END_NOTE block */
+div.NOTE a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.NOTE {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+margin-top: 2em;
+background: #efe;
+color: #060;
+}
+
+div.NOTE:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+content: "NOTE";
+background: #9c9;
+color: #efe;
+}
+
+blockquote {
+padding: 0px 10px 0px 10px;
+border: 1px solid #ddd;
+background: #eee;
+box-shadow: 5px 5px 5px #eee;
+border-radius: 2px;
+line-height: 1.2em;
+}
+
+pre {
+font-family: "Inconsolata", "monospace";
+font-size: 100%;
+border: 0;
+box-shadow: none;
+overflow: auto;
+}
+
+pre.example:before {
+content: "EXAMPLE";
+display: block;
+border-bottom: 1px dotted;
+margin-bottom: 1em;
+}
+
+pre.example {
+background: #fec;
+color: #666;
+font-size: 0.85em;
+}
+
+pre {
+background-color: #f8f8f8;
+background-size: 8px 8px;
+background-image: linear-gradient(135deg, transparent 25%, rgba(0, 0, 0, 0.02) 25%, rgba(0, 0, 0, 0.02) 50%, transparent 50%, transparent 75%, rgba(0, 0, 0, 0.02) 75%, rgba(0, 0, 0, 0.02));
+}
+
+pre.src {
+padding: 0.5em;
+}
+
+pre.src:before {
+display: block;
+position: absolute;
+background-color: #ccccd0;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em;
+border-bottom-left-radius: 8px;
+border: 0;
+color: white;
+font-size: 80%;
+}
+
+pre.src-plantuml:before {
+content: "UML";
+}
+
+pre.src-javascript:before {
+content: "JS";
+}
+
+pre.src-clojure:before {
+content: "CLJ";
+}
+
+pre.src-c:before {
+content: "C";
+}
+
+pre.src-sh:before {
+content: "Shell";
+}
+
+pre.src-es:before {
+content: "ES";
+}
+
+span.org-string {
+color: #f94;
+}
+
+span.org-keyword {
+color: #c07;
+}
+
+span.org-variable-name {
+color: #f04;
+}
+
+span.org-clojure-keyword {
+color: #09f;
+}
+
+span.org-comment, span.org-comment-delimiter {
+color: #999;
+}
+
+span.org-rainbow-delimiters-depth-1, span.org-rainbow-delimiters-depth-5 {
+color: #666;
+}
+
+span.org-rainbow-delimiters-depth-2, span.org-rainbow-delimiters-depth-6 {
+color: #888;
+}
+
+span.org-rainbow-delimiters-depth-3, span.org-rainbow-delimiters-depth-7 {
+color: #aaa;
+}
+
+span.org-rainbow-delimiters-depth-4, span.org-rainbow-delimiters-depth-8 {
+color: #ccc;
+}
+
+div.figure {
+font-size: 0.85em;
+}
+
+.tag {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: normal;
+float: right;
+margin-top: 1em;
+background: transparent;
+}
+
+.tag span {
+background: #ccc;
+padding: 0 0.5em;
+border-radius: 0.2em;
+color: white;
+}
+
+.todo, .done {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-weight: normal;
+padding: 0 0.25em;
+border-radius: 0.2em;
+}
+
+.todo {
+background: #f04;
+color: white;
+}
+
+.done {
+background: #5f7;
+color: white;
+}
+
+@media screen {
+h1.title {
+text-align: left;
+margin: 0.5em 0 1em 0;
+}
+
+h2 {
+margin-top: 3em;
+}
+
+#table-of-contents {
+position: fixed;
+top: 0;
+left: 0;
+padding: 2em 0 2em 2em;
+width: 290px;
+height: 100vh;
+font-size: 11px;
+background: #eee;
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+#table-of-contents h2 {
+margin-top: 0;
+}
+
+#table-of-contents code {
+font-size: 12px;
+}
+
+div#content {
+margin-left: 320px;
+max-width: 1100px;
+}
+div#postamble {
+margin-left: 320px;
+max-width: 1100px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+html, body {
+font-size: 14px;
+}
+
+#table-of-contents {
+display: none;
+}
+
+h1.title {
+margin-left: 0%;
+}
+
+div#content {
+margin-left: 5%;
+max-width: 90%;
+}
+div#postamble {
+margin-left: 5%;
+max-width: 90%;
+}
+}
+
+@media print {
+
+body {
+color: black;
+}
+
+@page {
+margin: 25mm;
+}
+
+h2, h3 {
+page-break-before: always;
+margin-top: 0;
+}
+
+table {
+page-break-inside: avoid;
+}
+
+a:visited {
+color: black;
+background: #ff8;
+}
+
+a[href^="http"]:visited {
+background: #bff;
+}
+
+div.notice:before {
+display: none;
+}
+}
+</style>
 </head>
 <body>
 <div id="content" class="content">
@@ -17,36 +515,36 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org5f0d007">Trek Overview</a></li>
-<li><a href="#org6aa8047">Schedule &amp; Companions</a></li>
-<li><a href="#orgee03b8d">Route Information</a></li>
-<li><a href="#orga50eea2">Historical / Mythological Background</a></li>
-<li><a href="#org15f2705">Key Landmarks &amp; Attractions</a></li>
-<li><a href="#orgd5e3aeb">Experience &amp; Observations</a></li>
-<li><a href="#org3960108">Facilities &amp; Amenities</a></li>
-<li><a href="#orgc8e7316">Local Notes</a></li>
-<li><a href="#orgc9d38c3">Photos &amp; Media</a></li>
-<li><a href="#orga61eca2">Reflection</a></li>
-<li><a href="#org93a9bdc">gram stuff</a>
+<li><a href="#org69ebb7b">Trek Overview</a></li>
+<li><a href="#orgb4f4999">Schedule &amp; Companions</a></li>
+<li><a href="#orgfc5e4df">Route Information</a></li>
+<li><a href="#org3bc7e77">Historical / Mythological Background</a></li>
+<li><a href="#org783cf04">Key Landmarks &amp; Attractions</a></li>
+<li><a href="#org4d2c51e">Experience &amp; Observations</a></li>
+<li><a href="#org53acbdf">Facilities &amp; Amenities</a></li>
+<li><a href="#org5ff2b30">Local Notes</a></li>
+<li><a href="#org96f127a">Photos &amp; Media</a></li>
+<li><a href="#org9e9943a">Reflection</a></li>
+<li><a href="#org5739b51">gram stuff</a>
 <ul>
-<li><a href="#orgbabcd2d">english</a></li>
-<li><a href="#orgdb5ed17">hooks</a></li>
-<li><a href="#org0b6511a">structure</a>
+<li><a href="#org6424559">english</a></li>
+<li><a href="#orgdae5bfd">hooks</a></li>
+<li><a href="#orga4b559c">structure</a>
 <ul>
-<li><a href="#org8ef60fe">first</a></li>
-<li><a href="#org0880a82">second</a></li>
+<li><a href="#orgee49561">first</a></li>
+<li><a href="#org7cc20f0">second</a></li>
 </ul>
 </li>
-<li><a href="#orgdb60ee5"></a></li>
+<li><a href="#orgd3bd6ed"></a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org5f0d007" class="outline-2">
-<h2 id="org5f0d007">Trek Overview</h2>
-<div class="outline-text-2" id="text-org5f0d007">
+<div id="outline-container-org69ebb7b" class="outline-2">
+<h2 id="org69ebb7b">Trek Overview</h2>
+<div class="outline-text-2" id="text-org69ebb7b">
 <ol class="org-ol">
 <li>Trek Name:  Hanuman tekdi</li>
 <li>Region: pegalwadi</li>
@@ -80,9 +578,9 @@
 </div>
 </div>
 
-<div id="outline-container-org6aa8047" class="outline-2">
-<h2 id="org6aa8047">Schedule &amp; Companions</h2>
-<div class="outline-text-2" id="text-org6aa8047">
+<div id="outline-container-orgb4f4999" class="outline-2">
+<h2 id="orgb4f4999">Schedule &amp; Companions</h2>
+<div class="outline-text-2" id="text-orgb4f4999">
 <ol class="org-ol">
 <li>Date: <span class="timestamp-wrapper"><span class="timestamp">&lt;2026-03-14 Sat&gt;</span></span></li>
 <li>Team Members: total 15 people.
@@ -124,9 +622,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgee03b8d" class="outline-2">
-<h2 id="orgee03b8d">Route Information</h2>
-<div class="outline-text-2" id="text-orgee03b8d">
+<div id="outline-container-orgfc5e4df" class="outline-2">
+<h2 id="orgfc5e4df">Route Information</h2>
+<div class="outline-text-2" id="text-orgfc5e4df">
 <ol class="org-ol">
 <li>Route from Base City:  ABB circle -&gt; beje phata -&gt; reach shiv mandir -&gt; start the trek from the very end of hanuman tekdi.</li>
 <li>Final Village Distance km: beje</li>
@@ -140,9 +638,9 @@
 </div>
 </div>
 
-<div id="outline-container-orga50eea2" class="outline-2">
-<h2 id="orga50eea2">Historical / Mythological Background</h2>
-<div class="outline-text-2" id="text-orga50eea2">
+<div id="outline-container-org3bc7e77" class="outline-2">
+<h2 id="org3bc7e77">Historical / Mythological Background</h2>
+<div class="outline-text-2" id="text-org3bc7e77">
 <ol class="org-ol">
 <li>Historical Importance:
 <ul class="org-ul">
@@ -161,9 +659,9 @@
 </div>
 </div>
 
-<div id="outline-container-org15f2705" class="outline-2">
-<h2 id="org15f2705">Key Landmarks &amp; Attractions</h2>
-<div class="outline-text-2" id="text-org15f2705">
+<div id="outline-container-org783cf04" class="outline-2">
+<h2 id="org783cf04">Key Landmarks &amp; Attractions</h2>
+<div class="outline-text-2" id="text-org783cf04">
 <ol class="org-ol">
 <li>Temples:
 <ul class="org-ul">
@@ -186,9 +684,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgd5e3aeb" class="outline-2">
-<h2 id="orgd5e3aeb">Experience &amp; Observations</h2>
-<div class="outline-text-2" id="text-orgd5e3aeb">
+<div id="outline-container-org4d2c51e" class="outline-2">
+<h2 id="org4d2c51e">Experience &amp; Observations</h2>
+<div class="outline-text-2" id="text-org4d2c51e">
 <ol class="org-ol">
 <li>Weather / Terrain: the terrain is slowly elevating. and the last mahadev fort after the hanuman tekdi is slightly steeper.</li>
 <li>Notable Sights: dam view, anjaneri, brahmagiri view, ranjangiri fort view.</li>
@@ -199,9 +697,9 @@
 </div>
 </div>
 
-<div id="outline-container-org3960108" class="outline-2">
-<h2 id="org3960108">Facilities &amp; Amenities</h2>
-<div class="outline-text-2" id="text-org3960108">
+<div id="outline-container-org53acbdf" class="outline-2">
+<h2 id="org53acbdf">Facilities &amp; Amenities</h2>
+<div class="outline-text-2" id="text-org53acbdf">
 <ol class="org-ol">
 <li>Food / Water Availability: none</li>
 <li>Accommodation / Prasadam Timings: none</li>
@@ -213,9 +711,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgc8e7316" class="outline-2">
-<h2 id="orgc8e7316">Local Notes</h2>
-<div class="outline-text-2" id="text-orgc8e7316">
+<div id="outline-container-org5ff2b30" class="outline-2">
+<h2 id="org5ff2b30">Local Notes</h2>
+<div class="outline-text-2" id="text-org5ff2b30">
 <ol class="org-ol">
 <li>Village Population / Details: 50</li>
 <li>Major FoodCrops: various = wheat, grapes.</li>
@@ -224,9 +722,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgc9d38c3" class="outline-2">
-<h2 id="orgc9d38c3">Photos &amp; Media</h2>
-<div class="outline-text-2" id="text-orgc9d38c3">
+<div id="outline-container-org96f127a" class="outline-2">
+<h2 id="org96f127a">Photos &amp; Media</h2>
+<div class="outline-text-2" id="text-org96f127a">
 <ol class="org-ol">
 <li class="off"><code>[&#xa0;]</code> Add photos
 <ol class="org-ol">
@@ -272,9 +770,9 @@
 </div>
 </div>
 
-<div id="outline-container-orga61eca2" class="outline-2">
-<h2 id="orga61eca2">Reflection</h2>
-<div class="outline-text-2" id="text-orga61eca2">
+<div id="outline-container-org9e9943a" class="outline-2">
+<h2 id="org9e9943a">Reflection</h2>
+<div class="outline-text-2" id="text-org9e9943a">
 <ol class="org-ol">
 <li>What I Loved Most: short fun trek ideal for family</li>
 <li>What I’d Improve Next Time: make sure group stays together. folks went ahead off trail had to get them back on track by calling back</li>
@@ -287,13 +785,13 @@
 </div>
 
 
-<div id="outline-container-org93a9bdc" class="outline-2">
-<h2 id="org93a9bdc">gram stuff</h2>
-<div class="outline-text-2" id="text-org93a9bdc">
+<div id="outline-container-org5739b51" class="outline-2">
+<h2 id="org5739b51">gram stuff</h2>
+<div class="outline-text-2" id="text-org5739b51">
 </div>
-<div id="outline-container-orgbabcd2d" class="outline-3">
-<h3 id="orgbabcd2d">english</h3>
-<div class="outline-text-3" id="text-orgbabcd2d">
+<div id="outline-container-org6424559" class="outline-3">
+<h3 id="org6424559">english</h3>
+<div class="outline-text-3" id="text-org6424559">
 <p>
 Hidden in the Trimbak range, This is the trek most people walk past without ever knowing it exists. 🙏🏔️
 </p>
@@ -345,9 +843,9 @@ Climb: ~1 hr [it took us more 3 hours due to varied group] | Difficulty: Easy | 
 </p>
 </div>
 </div>
-<div id="outline-container-orgdb5ed17" class="outline-3">
-<h3 id="orgdb5ed17">hooks</h3>
-<div class="outline-text-3" id="text-orgdb5ed17">
+<div id="outline-container-orgdae5bfd" class="outline-3">
+<h3 id="orgdae5bfd">hooks</h3>
+<div class="outline-text-3" id="text-orgdae5bfd">
 <p>
 "We called it a trek. He called it his morning pooja route."
 </p>
@@ -375,13 +873,13 @@ For the first slide or opening frame:
 </div>
 </div>
 
-<div id="outline-container-org0b6511a" class="outline-3">
-<h3 id="org0b6511a">structure</h3>
-<div class="outline-text-3" id="text-org0b6511a">
+<div id="outline-container-orga4b559c" class="outline-3">
+<h3 id="orga4b559c">structure</h3>
+<div class="outline-text-3" id="text-orga4b559c">
 </div>
-<div id="outline-container-org8ef60fe" class="outline-4">
-<h4 id="org8ef60fe">first</h4>
-<div class="outline-text-4" id="text-org8ef60fe">
+<div id="outline-container-orgee49561" class="outline-4">
+<h4 id="orgee49561">first</h4>
+<div class="outline-text-4" id="text-orgee49561">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -439,9 +937,9 @@ For the first slide or opening frame:
 </table>
 </div>
 </div>
-<div id="outline-container-org0880a82" class="outline-4">
-<h4 id="org0880a82">second</h4>
-<div class="outline-text-4" id="text-org0880a82">
+<div id="outline-container-org7cc20f0" class="outline-4">
+<h4 id="org7cc20f0">second</h4>
+<div class="outline-text-4" id="text-org7cc20f0">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -495,8 +993,8 @@ For the first slide or opening frame:
 </div>
 </div>
 </div>
-<div id="outline-container-orgdb60ee5" class="outline-3">
-<h3 id="orgdb60ee5"></h3>
+<div id="outline-container-orgd3bd6ed" class="outline-3">
+<h3 id="orgd3bd6ed"></h3>
 </div>
 </div>
 </div>

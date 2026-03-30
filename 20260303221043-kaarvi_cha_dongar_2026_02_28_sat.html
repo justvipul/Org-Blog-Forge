@@ -3,12 +3,510 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-03-30 Mon 14:04 -->
+<!-- 2026-03-30 Mon 14:44 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>kaarvi cha dongar &lt;2026-02-28 Sat&gt;</title>
 <meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="style.css"/>
+<style type="text/css">
+body {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.4;
+color: #33333f;
+}
+
+code {
+font-family: "Inconsolata", "monospace";
+font-size: 16px;
+}
+
+p>code, li>code {
+background-color: #eee;
+padding: 0.25em;
+}
+
+h1, h2, h3 {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+border-bottom: 1px solid #f0c;
+padding-bottom: 0.5em;
+font-size: 1.75em;
+}
+
+h3 {
+margin-top: 2em;
+font-size: 1.5em;
+}
+
+h4 {
+font-size: 1.25em;
+}
+
+h5 {
+font-size: 1em;
+}
+
+h2 code, h3 code, h4 code, h5 code, td code {
+font-family: inherit !important;
+font-size: inherit !important;
+}
+
+td code {
+font-weight: bold;
+}
+
+a:link, a:hover, a:visited {
+text-decoration: none;
+color: black;
+}
+
+a:link {
+background: #ff8;
+}
+
+a:visited {
+color: #666;
+background: #ffc;
+}
+
+a:link:hover,
+a:visited:hover {
+background: #ff0;
+}
+
+a[href^="http"] {
+background: #bff;
+}
+
+a[href^="http"]:visited {
+background: #dff;
+}
+
+a[href^="http"]:link:hover,
+a[href^="http"]:visited:hover {
+background: #0ff;
+}
+
+a[href^="http"]:after {
+content: "\21B3";
+background: white;
+padding-left: 0.2em;
+}
+
+#meta {
+margin-top: 2em;
+}
+
+#table-of-contents a:link,
+#table-of-contents a:visited {
+color: black;
+background: transparent;
+}
+
+#table-of-contents {
+line-height: 1.2;
+}
+#table-of-contents h2 {
+border-bottom: 0;
+}
+
+#table-of-contents ul {
+list-style: none;
+padding-left: 0.5em;
+font-weight: normal;
+}
+
+#table-of-contents div>ul>li {
+margin-top: 1em;
+font-weight: bold;
+}
+
+#table-of-contents .tag {
+display: none;
+}
+
+#table-of-contents .todo,
+#table-of-contents .done {
+font-size: 80%;
+}
+
+#table-of-contents ol>li {
+margin-top: 1em;
+}
+
+table {
+width: 100%;
+}
+
+table, th, td {
+border: 1px solid #666;
+}
+
+th, td {
+padding: 0.5em;
+text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+background-color: #eee;
+}
+
+img {
+max-width: 90%;
+}
+
+div.notice {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+}
+
+table + div.notice {
+margin-top: 2em;
+}
+
+div.notice a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.notice a[href^="http"]:after {
+background: transparent !important;
+}
+
+div.notice:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+}
+
+.notice-warning {
+background: #fcc;
+color: #600;
+}
+
+.notice-example {
+background: #def;
+color: #069;
+}
+
+.notice-info {
+background: #efe;
+color: #060;
+}
+
+.notice-warning a {
+color: #600;
+}
+
+.notice-example a {
+color: #069;
+}
+
+.notice-info a {
+color: #060;
+}
+
+div.notice-warning:before {
+content: "WARNING";
+background: #c99;
+color: #fcc;
+}
+
+div.notice-example:before {
+content: "EXAMPLE";
+background: #abc;
+color: #def;
+}
+
+div.notice-info:before {
+content: "INFO";
+background: #9c9;
+color: #efe;
+}
+
+/* things inside the #+BEGIN_NOTE...#+END_NOTE block */
+div.NOTE a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.NOTE {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+margin-top: 2em;
+background: #efe;
+color: #060;
+}
+
+div.NOTE:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+content: "NOTE";
+background: #9c9;
+color: #efe;
+}
+
+blockquote {
+padding: 0px 10px 0px 10px;
+border: 1px solid #ddd;
+background: #eee;
+box-shadow: 5px 5px 5px #eee;
+border-radius: 2px;
+line-height: 1.2em;
+}
+
+pre {
+font-family: "Inconsolata", "monospace";
+font-size: 100%;
+border: 0;
+box-shadow: none;
+overflow: auto;
+}
+
+pre.example:before {
+content: "EXAMPLE";
+display: block;
+border-bottom: 1px dotted;
+margin-bottom: 1em;
+}
+
+pre.example {
+background: #fec;
+color: #666;
+font-size: 0.85em;
+}
+
+pre {
+background-color: #f8f8f8;
+background-size: 8px 8px;
+background-image: linear-gradient(135deg, transparent 25%, rgba(0, 0, 0, 0.02) 25%, rgba(0, 0, 0, 0.02) 50%, transparent 50%, transparent 75%, rgba(0, 0, 0, 0.02) 75%, rgba(0, 0, 0, 0.02));
+}
+
+pre.src {
+padding: 0.5em;
+}
+
+pre.src:before {
+display: block;
+position: absolute;
+background-color: #ccccd0;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em;
+border-bottom-left-radius: 8px;
+border: 0;
+color: white;
+font-size: 80%;
+}
+
+pre.src-plantuml:before {
+content: "UML";
+}
+
+pre.src-javascript:before {
+content: "JS";
+}
+
+pre.src-clojure:before {
+content: "CLJ";
+}
+
+pre.src-c:before {
+content: "C";
+}
+
+pre.src-sh:before {
+content: "Shell";
+}
+
+pre.src-es:before {
+content: "ES";
+}
+
+span.org-string {
+color: #f94;
+}
+
+span.org-keyword {
+color: #c07;
+}
+
+span.org-variable-name {
+color: #f04;
+}
+
+span.org-clojure-keyword {
+color: #09f;
+}
+
+span.org-comment, span.org-comment-delimiter {
+color: #999;
+}
+
+span.org-rainbow-delimiters-depth-1, span.org-rainbow-delimiters-depth-5 {
+color: #666;
+}
+
+span.org-rainbow-delimiters-depth-2, span.org-rainbow-delimiters-depth-6 {
+color: #888;
+}
+
+span.org-rainbow-delimiters-depth-3, span.org-rainbow-delimiters-depth-7 {
+color: #aaa;
+}
+
+span.org-rainbow-delimiters-depth-4, span.org-rainbow-delimiters-depth-8 {
+color: #ccc;
+}
+
+div.figure {
+font-size: 0.85em;
+}
+
+.tag {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: normal;
+float: right;
+margin-top: 1em;
+background: transparent;
+}
+
+.tag span {
+background: #ccc;
+padding: 0 0.5em;
+border-radius: 0.2em;
+color: white;
+}
+
+.todo, .done {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-weight: normal;
+padding: 0 0.25em;
+border-radius: 0.2em;
+}
+
+.todo {
+background: #f04;
+color: white;
+}
+
+.done {
+background: #5f7;
+color: white;
+}
+
+@media screen {
+h1.title {
+text-align: left;
+margin: 0.5em 0 1em 0;
+}
+
+h2 {
+margin-top: 3em;
+}
+
+#table-of-contents {
+position: fixed;
+top: 0;
+left: 0;
+padding: 2em 0 2em 2em;
+width: 290px;
+height: 100vh;
+font-size: 11px;
+background: #eee;
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+#table-of-contents h2 {
+margin-top: 0;
+}
+
+#table-of-contents code {
+font-size: 12px;
+}
+
+div#content {
+margin-left: 320px;
+max-width: 1100px;
+}
+div#postamble {
+margin-left: 320px;
+max-width: 1100px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+html, body {
+font-size: 14px;
+}
+
+#table-of-contents {
+display: none;
+}
+
+h1.title {
+margin-left: 0%;
+}
+
+div#content {
+margin-left: 5%;
+max-width: 90%;
+}
+div#postamble {
+margin-left: 5%;
+max-width: 90%;
+}
+}
+
+@media print {
+
+body {
+color: black;
+}
+
+@page {
+margin: 25mm;
+}
+
+h2, h3 {
+page-break-before: always;
+margin-top: 0;
+}
+
+table {
+page-break-inside: avoid;
+}
+
+a:visited {
+color: black;
+background: #ff8;
+}
+
+a[href^="http"]:visited {
+background: #bff;
+}
+
+div.notice:before {
+display: none;
+}
+}
+</style>
 </head>
 <body>
 <div id="content" class="content">
@@ -17,30 +515,30 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orga7d4352">Trek Overview</a></li>
-<li><a href="#org454b82c">Schedule &amp; Companions</a></li>
-<li><a href="#orgaee26e9">Route Information</a></li>
-<li><a href="#org0893afd">Historical / Mythological Background</a></li>
-<li><a href="#org61b407e">Key Landmarks &amp; Attractions</a></li>
-<li><a href="#org6f0a563">Experience &amp; Observations</a></li>
-<li><a href="#org0123993">Facilities &amp; Amenities</a></li>
-<li><a href="#orgfe67ad5">Local Notes</a></li>
-<li><a href="#org193a243">Photos &amp; Media</a></li>
-<li><a href="#org2875696">How Trekking, Fear, and Alex Honnold Changed My View of Life</a>
+<li><a href="#org789f878">Trek Overview</a></li>
+<li><a href="#org0ee1c9a">Schedule &amp; Companions</a></li>
+<li><a href="#orgd45ee0b">Route Information</a></li>
+<li><a href="#orge43cd06">Historical / Mythological Background</a></li>
+<li><a href="#orgac521b0">Key Landmarks &amp; Attractions</a></li>
+<li><a href="#org0ce220e">Experience &amp; Observations</a></li>
+<li><a href="#org1aa9874">Facilities &amp; Amenities</a></li>
+<li><a href="#org8fd182e">Local Notes</a></li>
+<li><a href="#org4019e69">Photos &amp; Media</a></li>
+<li><a href="#orgf84fbdb">How Trekking, Fear, and Alex Honnold Changed My View of Life</a>
 <ul>
-<li><a href="#org8bd5ee0">When Grip Fails, Fear Takes Over</a></li>
-<li><a href="#org414351a">What Trekking Really Teaches About Fear</a></li>
-<li><a href="#orgd354b6d">Alex Honnold, Fear and the Mountain Mindset</a></li>
-<li><a href="#orgf64950b">Reflection</a></li>
+<li><a href="#org5ef142c">When Grip Fails, Fear Takes Over</a></li>
+<li><a href="#org47ae16b">What Trekking Really Teaches About Fear</a></li>
+<li><a href="#orgd4bc280">Alex Honnold, Fear and the Mountain Mindset</a></li>
+<li><a href="#org9dac789">Reflection</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orga7d4352" class="outline-2">
-<h2 id="orga7d4352">Trek Overview</h2>
-<div class="outline-text-2" id="text-orga7d4352">
+<div id="outline-container-org789f878" class="outline-2">
+<h2 id="org789f878">Trek Overview</h2>
+<div class="outline-text-2" id="text-org789f878">
 <ol class="org-ol">
 <li>Trek Name: Kaarvi cha dongar</li>
 <li>Region: Anjaneri</li>
@@ -73,9 +571,9 @@
 </div>
 </div>
 
-<div id="outline-container-org454b82c" class="outline-2">
-<h2 id="org454b82c">Schedule &amp; Companions</h2>
-<div class="outline-text-2" id="text-org454b82c">
+<div id="outline-container-org0ee1c9a" class="outline-2">
+<h2 id="org0ee1c9a">Schedule &amp; Companions</h2>
+<div class="outline-text-2" id="text-org0ee1c9a">
 <ol class="org-ol">
 <li>Date: <span class="timestamp-wrapper"><span class="timestamp">&lt;2026-02-28 Sat&gt;</span></span></li>
 <li>Team Members: total 13.</li>
@@ -92,9 +590,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgaee26e9" class="outline-2">
-<h2 id="orgaee26e9">Route Information</h2>
-<div class="outline-text-2" id="text-orgaee26e9">
+<div id="outline-container-orgd45ee0b" class="outline-2">
+<h2 id="orgd45ee0b">Route Information</h2>
+<div class="outline-text-2" id="text-orgd45ee0b">
 <ol class="org-ol">
 <li>Route from Base City: ABB circle -&gt;trimabk road -&gt; pegalwadi -&gt; anjaneri phata -&gt; anjaneri gaon -&gt; mini kedarnathi -&gt; reach hill bottom</li>
 <li>Final Village Distance km: 26</li>
@@ -104,9 +602,9 @@
 </div>
 </div>
 
-<div id="outline-container-org0893afd" class="outline-2">
-<h2 id="org0893afd">Historical / Mythological Background</h2>
-<div class="outline-text-2" id="text-org0893afd">
+<div id="outline-container-orge43cd06" class="outline-2">
+<h2 id="orge43cd06">Historical / Mythological Background</h2>
+<div class="outline-text-2" id="text-orge43cd06">
 <ol class="org-ol">
 <li>Historical Importance:
 <ul class="org-ul">
@@ -124,9 +622,9 @@
 </div>
 </div>
 
-<div id="outline-container-org61b407e" class="outline-2">
-<h2 id="org61b407e">Key Landmarks &amp; Attractions</h2>
-<div class="outline-text-2" id="text-org61b407e">
+<div id="outline-container-orgac521b0" class="outline-2">
+<h2 id="orgac521b0">Key Landmarks &amp; Attractions</h2>
+<div class="outline-text-2" id="text-orgac521b0">
 <ol class="org-ol">
 <li>Temples: 1
 <ul class="org-ul">
@@ -151,9 +649,9 @@
 </div>
 </div>
 
-<div id="outline-container-org6f0a563" class="outline-2">
-<h2 id="org6f0a563">Experience &amp; Observations</h2>
-<div class="outline-text-2" id="text-org6f0a563">
+<div id="outline-container-org0ce220e" class="outline-2">
+<h2 id="org0ce220e">Experience &amp; Observations</h2>
+<div class="outline-text-2" id="text-org0ce220e">
 <ol class="org-ol">
 <li>Weather / Terrain: weather was clear sky no clouds clear mountain view.</li>
 <li>Notable Sights: very far away all range view.</li>
@@ -164,9 +662,9 @@
 </div>
 </div>
 
-<div id="outline-container-org0123993" class="outline-2">
-<h2 id="org0123993">Facilities &amp; Amenities</h2>
-<div class="outline-text-2" id="text-org0123993">
+<div id="outline-container-org1aa9874" class="outline-2">
+<h2 id="org1aa9874">Facilities &amp; Amenities</h2>
+<div class="outline-text-2" id="text-org1aa9874">
 <ol class="org-ol">
 <li>Food / Water Availability: none</li>
 <li>Accommodation / Prasadam Timings: not available.</li>
@@ -178,9 +676,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgfe67ad5" class="outline-2">
-<h2 id="orgfe67ad5">Local Notes</h2>
-<div class="outline-text-2" id="text-orgfe67ad5">
+<div id="outline-container-org8fd182e" class="outline-2">
+<h2 id="org8fd182e">Local Notes</h2>
+<div class="outline-text-2" id="text-org8fd182e">
 <ol class="org-ol">
 <li>Village Population / Details: pegalwadi 30-40 houses.</li>
 <li>Major FoodCrops: none</li>
@@ -189,9 +687,9 @@
 </div>
 </div>
 
-<div id="outline-container-org193a243" class="outline-2">
-<h2 id="org193a243">Photos &amp; Media</h2>
-<div class="outline-text-2" id="text-org193a243">
+<div id="outline-container-org4019e69" class="outline-2">
+<h2 id="org4019e69">Photos &amp; Media</h2>
+<div class="outline-text-2" id="text-org4019e69">
 <ol class="org-ol">
 <li class="off"><code>[&#xa0;]</code> Add photos</li>
 <li class="off"><code>[&#xa0;]</code> Add route map (GPS screenshot)</li>
@@ -200,9 +698,9 @@
 </div>
 </div>
 
-<div id="outline-container-org2875696" class="outline-2">
-<h2 id="org2875696">How Trekking, Fear, and Alex Honnold Changed My View of Life</h2>
-<div class="outline-text-2" id="text-org2875696">
+<div id="outline-container-orgf84fbdb" class="outline-2">
+<h2 id="orgf84fbdb">How Trekking, Fear, and Alex Honnold Changed My View of Life</h2>
+<div class="outline-text-2" id="text-orgf84fbdb">
 <p>
 Today’s trek was special. Our group of 13 included Kailas Sir, a 64-year-old veteran who has done many treks before—Durg Bhandar, Kalsubai, and several more. It had been a year since his last major climb, but he was confident and excited, sure he would clear this trek easily.
 </p>
@@ -245,9 +743,9 @@ Among us, Kailas Sir was the most experienced in terms of number of treks. His m
 </p>
 </div>
 
-<div id="outline-container-org8bd5ee0" class="outline-3">
-<h3 id="org8bd5ee0">When Grip Fails, Fear Takes Over</h3>
-<div class="outline-text-3" id="text-org8bd5ee0">
+<div id="outline-container-org5ef142c" class="outline-3">
+<h3 id="org5ef142c">When Grip Fails, Fear Takes Over</h3>
+<div class="outline-text-3" id="text-org5ef142c">
 <p>
 The initial jungle path and grassy stretch went fine. The real trouble started when we entered the loose soil and rocky valley. On this trek, shoe grip is everything. Unfortunately, Kailas Sir’s shoes had almost no grip.
 </p>
@@ -270,9 +768,9 @@ Physically, once he stopped, he was mostly safe. But in his mind, he had already
 </div>
 </div>
 
-<div id="outline-container-org414351a" class="outline-3">
-<h3 id="org414351a">What Trekking Really Teaches About Fear</h3>
-<div class="outline-text-3" id="text-org414351a">
+<div id="outline-container-org47ae16b" class="outline-3">
+<h3 id="org47ae16b">What Trekking Really Teaches About Fear</h3>
+<div class="outline-text-3" id="text-org47ae16b">
 <p>
 This is where the real lesson of the trek lies. On mountains like Kaarvi cha Dongar, fear is not theoretical.
 </p>
@@ -319,9 +817,9 @@ All these start to look smaller when you’ve already dealt with the possibility
 </div>
 </div>
 
-<div id="outline-container-orgd354b6d" class="outline-3">
-<h3 id="orgd354b6d">Alex Honnold, Fear and the Mountain Mindset</h3>
-<div class="outline-text-3" id="text-orgd354b6d">
+<div id="outline-container-orgd4bc280" class="outline-3">
+<h3 id="orgd4bc280">Alex Honnold, Fear and the Mountain Mindset</h3>
+<div class="outline-text-3" id="text-orgd4bc280">
 <p>
 Free-solo climber Alex Honnold—the guy who climbed El Capitan without ropes—has a powerful way of looking at fear. He doesn’t pretend it doesn’t exist. Instead, he treats fear like data.
 </p>
@@ -398,9 +896,9 @@ The point isn’t to be fearless, it’s to learn to act in spite of fear.
 </div>
 </div>
 
-<div id="outline-container-orgf64950b" class="outline-3">
-<h3 id="orgf64950b">Reflection</h3>
-<div class="outline-text-3" id="text-orgf64950b">
+<div id="outline-container-org9dac789" class="outline-3">
+<h3 id="org9dac789">Reflection</h3>
+<div class="outline-text-3" id="text-org9dac789">
 <p>
 What I loved most :: Even after being a hard trek, we managed everyone in the group to reach the top and return in a secure manner.
 </p>
