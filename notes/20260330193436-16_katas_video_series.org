@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       cd3f20ee-3600-474c-b1df-2b3962e1a0bb
+:END:
+#+title: 16 katas video series
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
