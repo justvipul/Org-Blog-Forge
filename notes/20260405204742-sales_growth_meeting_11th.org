@@ -1,0 +1,71 @@
+:PROPERTIES:
+:ID:       9744e53a-74c0-449d-ac0d-0378965fa1c2
+:END:
+#+title: sales growth meeting 11th
+#+setupfile: ../themes/org-themes/src/bigblow_inline/bigblow_inline.theme
+
+#+TITLE: 11th Sales Growth Meeting
+#+OPTIONS: toc:nil num:t
+
+* 1: Opening (2 min)
+** Daily sales growth comes from temperament, not just talent
+- Today’s 3 ideas:
+  - Hanuman complex
+  - Munger’s discipline
+  - Sales patience and self-control
+
+* 2: Hanuman complex (6 min)
+** Capability exists, but action gets blocked
+- Hanuman is strong and capable.
+- Jambavan does not teach new skills.
+- He reminds Hanuman of what he already is.
+- That reminder changes action.
+- Sales lesson:
+  - We often know the answer but hesitate.
+  - We forget our past competence.
+  - We need evidence, not mood.
+
+* 3: Sales parallel (4 min)
+** What this looks like in sales
+- Knowing what to say but not saying it.
+- Delaying a follow-up even after a good lead.
+- Deferring decisions even when capable.
+- Feeling less competent than actual ability.
+- Fix:
+  - Recall prior success.
+  - Act before full emotional certainty.
+  - Track hesitation as a pattern.
+
+* 4: Munger mindset (6 min)
+** Simple, patient, rational
+- Keep it simple.
+- Sit and wait for good opportunities.
+- Be a little wiser every day.
+- Use checklists.
+- Learn from mistakes.
+- Invert: ask what can go wrong first.
+
+* 5: Temperament in sales (4 min)
+** What matters more than raw intelligence
+- Patience.
+- Discipline.
+- Emotional control.
+- Ability to wait.
+- Ability to recover from rejection.
+- Sales is a long game.
+- Don’t confuse motion with progress.
+
+* 6: Closing takeaways (3 min)
+** What I want the team to remember
+- Capability is already inside us.
+- Confidence can be restored by action.
+- Great salespeople are consistent, simple, patient, and alert.
+- Use checklists and reflection.
+- Improve slowly, every day.
+
+* 7: One-line challenge (5 min)
+** This week’s action
+- Each person should identify:
+  - 1 deal where they hesitated.
+  - 1 thing they already knew but did not trust.
+  - 1 action they will take earlier next time.
