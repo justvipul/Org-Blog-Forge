@@ -3,69 +3,80 @@
 :END:
 #+title: sales growth meeting 11th
 #+setupfile: ../themes/org-themes/src/bigblow_inline/bigblow_inline.theme
+#+AUTHOR: Vipul 
 
-#+TITLE: 11th Sales Growth Meeting
-#+OPTIONS: toc:nil num:t
+*  1: Opening (2 min)
+** What this meeting is about
+- Today’s theme is simple: how to act with more confidence, more patience, and more discipline in sales.
+- We will connect three ideas:
+  - Hanuman complex.
+  - Charlie Munger’s wisdom.
+  - Practical habits for sales performance.
+- The goal is not theory; the goal is better action today.
 
-* 1: Opening (2 min)
-** Daily sales growth comes from temperament, not just talent
-- Today’s 3 ideas:
-  - Hanuman complex
-  - Munger’s discipline
-  - Sales patience and self-control
+*  2: Hanuman Complex (5 min)
+** Strength exists before confidence returns
+- Hanuman had the power already.
+- Jambavan did not give him new skills.
+- He simply reminded Hanuman of what he was capable of.
+- This is a useful sales idea:
+  - Sometimes we are not weak, we are temporarily disconnected from our own ability.
+  - We hesitate even when we already know what to do.
+  - The solution is often not more information, but a reminder of prior competence.
+- In sales, this looks like:
+  - knowing the next step but delaying it.
+  - doubting our own judgment despite past wins.
+  - waiting for full certainty before acting.
+- Reference note:
+  - This idea is described in the Hanuman complex psychotherapy article, where Hanuman regains self-awareness when reminded by Jambavan.[web:67][web:71]
 
-* 2: Hanuman complex (6 min)
-** Capability exists, but action gets blocked
-- Hanuman is strong and capable.
-- Jambavan does not teach new skills.
-- He reminds Hanuman of what he already is.
-- That reminder changes action.
-- Sales lesson:
-  - We often know the answer but hesitate.
-  - We forget our past competence.
-  - We need evidence, not mood.
+*  3: Sales Meaning (4 min)
+** What this means for us
+- We often forget what we are capable of, even when evidence says otherwise.
+- That hesitation is not always a skill problem; sometimes it is a belief problem.
+- Use evidence, not mood.
+- Recall prior wins, past recoveries, and earlier difficult deals you handled well.
+- Action can restore confidence faster than overthinking.
 
-* 3: Sales parallel (4 min)
-** What this looks like in sales
-- Knowing what to say but not saying it.
-- Delaying a follow-up even after a good lead.
-- Deferring decisions even when capable.
-- Feeling less competent than actual ability.
-- Fix:
-  - Recall prior success.
-  - Act before full emotional certainty.
-  - Track hesitation as a pattern.
+*  4: Munger Wisdom (5 min)
+** Quotes to guide sales thinking
+- “We have a passion for keeping things simple.”
+- “The big money is not in buying or selling, but in the waiting.”
+- “You don’t have to be brilliant, only a little bit wiser than the other guys, on average, for a long, long time.”
+- “No wise pilot, no matter how great his talent and experience, fails to use a checklist.”
+- “There is no way you can live an adequate life without making mistakes.”
+- “Invert, always invert.”
+- “A majority of life’s errors are caused by forgetting what one is really trying to do.”
+- These lines support three habits:
+  - Simplicity.
+  - Patience.
+  - Self-correction.
 
-* 4: Munger mindset (6 min)
-** Simple, patient, rational
-- Keep it simple.
-- Sit and wait for good opportunities.
-- Be a little wiser every day.
+*  5: Sales Discipline (3 min)
+** What we should do daily
+- Do not chase every opportunity.
+- Wait for real prospects and real signals.
 - Use checklists.
-- Learn from mistakes.
-- Invert: ask what can go wrong first.
+- Learn from mistakes quickly.
+- Think backward:
+  - What can ruin the deal?
+  - What can ruin trust?
+  - What can ruin speed?
+- A strong sales person is not only active, but also careful.
 
-* 5: Temperament in sales (4 min)
-** What matters more than raw intelligence
-- Patience.
-- Discipline.
-- Emotional control.
-- Ability to wait.
-- Ability to recover from rejection.
-- Sales is a long game.
-- Don’t confuse motion with progress.
+*  6: Team Message (1 min)
+** One-line reminder
+- We do not need to be the smartest in every room.
+- We need to be more disciplined, more honest, and more consistent than yesterday.
 
-* 6: Closing takeaways (3 min)
-** What I want the team to remember
-- Capability is already inside us.
-- Confidence can be restored by action.
-- Great salespeople are consistent, simple, patient, and alert.
-- Use checklists and reflection.
-- Improve slowly, every day.
-
-* 7: One-line challenge (5 min)
-** This week’s action
+*  7: Closing action (0.5 min)
+** One action for today
 - Each person should identify:
-  - 1 deal where they hesitated.
-  - 1 thing they already knew but did not trust.
-  - 1 action they will take earlier next time.
+  - one deal where they hesitated.
+  - one thing they already knew but did not trust.
+  - one action they will take earlier next time.
+
+*  8: Closing note (0.5 min)
+** Final thought
+- Capability is often already inside us.
+- The job is to remember it, trust it, and act on it.
