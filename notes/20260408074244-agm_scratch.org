@@ -1,0 +1,117 @@
+:PROPERTIES:
+:ID:       144da711-6899-45fb-a5d5-137e082e0574
+:END:
+#+title: agm scratch
+* Slide 01 — Role & Responsibilities
+:PROPERTIES:
+:DESCRIPTION: Chief Sales Co-ordinator — The Purchase House
+:END:
+
+** Core Role
+- End-to-end deal closure — self & team
+- Process compliance & quality control
+- Pipeline monitoring & handover management
+
+** Day-to-Day Activities
+- Cold calls → Visits → Negotiations → Closures
+- Multi-channel coordination (call / text / mail)
+- Individual & team target achievement
+
+** Scope of Ownership
+Every deal, negotiation, site visit, and handover is executed on time,
+efficiently, and per the defined process. Sales targets defined by the
+organisation are met consistently by each individual and the team collectively.
+
+* Slide 03 — Future Plan: 2× Revenue Strategy
+:PROPERTIES:
+:DESCRIPTION: HOW we get to Rs.572L+ with better margins and faster closures
+:END:
+
+** Headline Targets
+
+| Goal              | Current   | Target         |
+|-------------------+-----------+----------------|
+| Revenue           | Rs.286L     | Rs.572L+ (2×)    |
+| Gross Margin      | 5–6%      | 10%            |
+| Average TAT       | 21 Days   | =<11 Days (-50%)|
+| Small Ticket TAT  | —         | =<7 Days        |
+
+** 6-Step Action Plan
+
+*** Step 1 — Pipeline & Closure Ratio Audit
+Analyse current deal flow; identify conversion bottlenecks by stage.
+- Map every deal stage from cold call to closure
+- Calculate drop-off % at each stage
+- KPI: Stage-wise conversion report produced within 30 days
+
+*** Step 2 — Drop Low-Probability Deals Fast
+Score deals with <30% turnaround probability → exit decision within =<3 days
+to free up team bandwidth for higher-value opportunities.
+- KPI: Zero deals sitting >7 days with <30% probability score
+
+*** Step 3 — TAT Reduction: 21 → =<11 Days
+- Define stage-level SLAs (e.g., first visit within 3 days, negotiation close within 5 days)
+- Escalate stuck deals at the 7-day mark
+- KPI: Avg. TAT measured fortnightly; target =<11 days by Q2
+
+*** Step 4 — High-Revenue Deal Focus
+Prioritise deals >=Rs.20L; same team effort, 2× revenue per closure.
+- KPI: % of pipeline >=Rs.20L to increase from current mix to 50%+
+
+*** Step 5 — Margin Push via Book & Sell Model
+Shift deal mix to 60% Book & Sell to achieve 10% average margin.
+- Current margin: 5–6% (brokerage-heavy mix)
+- Book & Sell adds 4–5% incremental margin per deal
+- KPI: Book & Sell as % of closed deals tracked monthly
+
+*** Step 6 — Fast-Track Small Tickets (<Rs.5L)
+Delegate & close within =<7 days; reduce senior bandwidth drain.
+- Create a delegation SOP for junior team members
+- KPI: All <Rs.5L deals closed within 7 days; breach flagged next day
+
+* Slide 04 — HOW: Numbers That Define Success
+:PROPERTIES:
+:DESCRIPTION: Every goal tracked against a measurable KPI — no vague targets
+:END:
+
+
+* Slide 05 — Mentorship & Team Building
+:PROPERTIES:
+:DESCRIPTION: Building a high-agency team that operates with autonomy, speed, and precision
+:END:
+
+** 1. Nurture Leaders
+Build a team of high-agency individuals who own outcomes, not just tasks.
+- Monthly 1:1 reviews tied to individual deal KPIs
+- Encourage team members to bring deal strategies, not just problems
+
+** 2. Equip with the Right Tools
+Provide CRM access, pipeline dashboards, and deal-tracking templates
+so the team focuses on selling, not admin.
+- Tools: CRM (pipeline view), Excel dashboard, WhatsApp Business, mail templates
+- Target: Zero manual follow-up tracking by end of Q2
+
+** 3. Impart a Tech-Savvy Culture
+Train team on productivity tools to eliminate mundane tasks:
+- Excel dashboards for pipeline visibility
+- Mail automation for follow-up sequences
+- WhatsApp Business for customer communication tracking
+
+** 4. How We Measure Team Performance
+Each team member reviewed fortnightly on:
+- Deals owned (pipeline size)
+- Conversion % (leads → closures)
+- Average TAT per deal
+- Margin per deal
+- Target achievement % vs monthly goal
+
+* DONE Summary: The Path to 2× Is Clear
+
+| Pillar        | Action                            | KPI                 |
+|---------------+-----------------------------------+---------------------|
+| Revenue       | Focus on >= rs20L deals            | rs572L+ this cycle |
+| Margin        | 60% Book & Sell mix               | 10% avg. margin     |
+| Speed         | Stage SLAs + 7-day escalation     | =<11 days avg. TAT   |
+| Team          | Fortnightly KPI reviews + tooling | +20% conversion YoY |
+| Small Tickets | Delegation SOP                    | =<7 days closure     |
+

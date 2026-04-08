@@ -1,0 +1,81 @@
+:PROPERTIES:
+:ID:       5ad0a2a2-1d9e-483c-9faa-40681f41751e
+:END:
+#+title: AGM vipul 2026
+#+latex_header: \mode<beamer>{\usetheme{Madrid}}
+#+LATEX_CLASS_OPTIONS: [ignorenonframetext]
+#+OPTIONS: toc:nil
+* Slide 1 - Current Roles and responsibilities
+
+- Chief Sales Co-ordinator.
++ Role
+  1. Be responsible for end to end deal closures of Team and myself
+  2. Ensure the sales and deal closure process as carried by team is followed by the defined process. 
+  3. To monitor and ensure deal are taken toward closure, ensure needed handover and get involved as needed to get them closed. .
+
+* Slide 2 Responsibilty
+
+1) Every deal, negotiation, visit, handover is carried on time, efficiently and is followed as per the defined process. 
+2) Monitor the sales activity and make sure the defined process and systems are followed.
+3) Deal Closure - Cold Calls -> Visits -> Negotiations -> Closures.
+4) Make sure We meet the Sales target defined by organisation for the defined time.
+5) End to End cordination of all deals which involve -
+6) Cold calls, visits, discussions, negotiations, via call, text, mail etc.
+7) The defined Target is achieved by each individual and everyone in the team is working towards fulfiling it.
+
+* Slide 3 Future plans and strategy with S.M.A.R.T. numbers.
+1. Future plan to increase this number by 2X
+   Ways to achive it
+   - make twice the revenue.
+   - increase the gross margin from the current standard to a double digit.
+   - Reduce the average TAT of higher value [10 lakhs+] and higher margin deals from 24 days to 10 days.
+   - Reduce the small ticket deal value TAT to within 7 days.
+* The Plan - 
+** 1 Analyse the current deal flow, conversion bottlneck for each stage.
+- calculate drop off % for each stage
+
+** Drop low prob deals fast.
+Score deals with 30% and lower turnaround probability, exit decision for it done within 3 days or less.
+
+** TAT reduction: 21 to 11 or lesser days.
+Define stage level benchmark, for e.g. visit planned within 3 days, negotiation closed within 5 days.
+stuck deals to be escalated to a higher up at the 7 day mark.
+
+** High Revenue deal focus.
+Prioritise deals of 18 lakhs and higher.
+same team effort 2x revenue
+
+** Increase margin by book and sell model
+The deal mix to be brought to 60% book and sell to achieve 10% avg margin.
+current margin is TPH fees heavy
+book and sell adds 5 to 8% margin.
+Small ticket deals have scope for margin,
+once identified immediate escalation to higher authority.
+
+** Small ticket size deal should be fast tracked.
+delegate close within 7 days.
+Reduce senior bandwidth involvement in these deals.
+- Create a delegation SOP for small deal closers in the team.
+
+* Slide 4 Mentorship 
+1. Nurture and form high agency team of leaders.
+   Build a team of high-agency individuals who own outcomes, not just tasks.
+   - Monthly 1:1 reviews tied to individual deal KPIs
+   - Encourage team members to bring deal strategies, not just problems
+
+2. Equip the team with right tools to achieve it.
+3. Impart a Technology savvy culture
+   Train team on various tools.
+   - mindset to find the optimum way of doing work instead of repetitive work
+   - focus on the key deal closure characteristics instead of focusing on the mundane task.
+   - use AI to find automation in these segments.
+   - make team ready for the technical know how for the products available and efficient communication of the same.
+4. make my team equipped and familiar with all the tools and technology that would help them focus on the right and skip the mundane, thus optimising.
+
+* How We Measure Team Performance
+Each team member reviewed fortnightly on:
+- Deals owned (pipeline size)
+- Conversion % (leads → closures)
+- Average TAT per deal
+- Margin per deal
+- Target achievement % vs monthly goal
