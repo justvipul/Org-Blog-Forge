@@ -2,7 +2,7 @@
 :ID:       2a30ee8a-355c-408c-bce6-8c575e23d72a
 :END:
 #+title: FIRST KNOWLEDGE BASE - qpl
-#+setupfile: ../themes/org-themes/src/bigblow_inline/bigblow_inline.theme
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 
 * All notes here
 ** [[id:bfc29a22-c97c-4b56-8bbd-d1af23c89659][linux tips]] :linux:
@@ -23,7 +23,6 @@
 *** [[id:96c05ba6-fe72-4d47-b15c-d0db4518238f][sales growth meeting 10th]] :sales:rgm:
 *** [[id:9744e53a-74c0-449d-ac0d-0378965fa1c2][sales growth meeting 11th]] :sales:rgm:
 *** [[id:5ad0a2a2-1d9e-483c-9faa-40681f41751e][AGM vipul 2026]] :agm:
-*** [[id:144da711-6899-45fb-a5d5-137e082e0574][agm scratch]]
 * [[id:cf90113c-7c6f-4073-9a12-3cb43c469c96][all treks details]] :trek:
 * [[id:118829c9-2dbc-441b-a0de-4293251f23a8][shiv tandav stotram]] :sanskrit:
 * [[id:337dfe0c-b449-45f3-b405-f45f7232260c][alex honnold podcast notes]] :podcast:notes:
@@ -31,14 +30,3 @@
 * [[id:da6a504b-8072-4422-9a47-31c0e2877ddb][blogs read and felt too good]] :blogs:read:
 * [[id:d619f748-faa6-43eb-b693-e8fefdfca724][list of tools that i use.]] :tools:
 * [[id:229cd79c-1096-4c4d-943e-9e68bcebe642][book notes]] :book:notes:
-* scratch
-** DONE Team then myself 
-** DONE Deal closure 
-** DONE Remove 1.2cr 
-** Future plan
-** How focus and talk in numbers
-** Avg Tat 
-** Mentorship technology plus tech savvy public ai integration 
-** Avg revenue 10% or what kotneke deal target 
-** Why when where who what
-** How elaborated and number driven

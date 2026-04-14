@@ -4,79 +4,136 @@
 #+title: sales growth meeting 11th
 #+setupfile: ../themes/org-themes/src/bigblow_inline/bigblow_inline.theme
 #+AUTHOR: Vipul 
+#+LANGUAGE: en
+#+date: <2026-04-14 Tue>
 
-*  1: Opening (2 min)
-** What this meeting is about
-- Today’s theme is simple: how to act with more confidence, more patience, and more discipline in sales.
-- We will connect three ideas:
-  - Hanuman complex.
-  - Charlie Munger’s wisdom.
-  - Practical habits for sales performance.
-- The goal is not theory; the goal is better action today.
+* Slide 1: Opening (2 min)
+** Charlie Munger's Lollapalooza Effect, and Sales Discipline
+  - think better, act better, and avoid stupid mistakes.
+  - https://i.postimg.cc/W1QyB60S/maxresdefault.jpg
+  - https://i.postimg.cc/wBqfJqY9/1608664361022.png
+#+begin_quote
+"When several models combine, you get lollapalooza effects; this is when two, three, or four forces all operating in the same direction. And frequently, you don’t get simple addition. It’s often like a critical mass in physics where you get a nuclear explosion if you get to a certain point of mass …"
+- Charlie Munger
+#+end_quote
+    
+* Slide 2: Why This Matters (3 min)
+** Sales is not only effort, it is judgment
+- In sales, many mistakes happen not because people are lazy, but because they think badly.
+- A small bias can become a big failure when many forces act together.
+- Munger’s idea is useful here:
+  - use multiple models,
+  - keep it simple,
+  - and watch how forces combine.
 
-*  2: Hanuman Complex (5 min)
-** Strength exists before confidence returns
-- Hanuman had the power already.
-- Jambavan did not give him new skills.
-- He simply reminded Hanuman of what he was capable of.
-- This is a useful sales idea:
-  - Sometimes we are not weak, we are temporarily disconnected from our own ability.
-  - We hesitate even when we already know what to do.
-  - The solution is often not more information, but a reminder of prior competence.
-- In sales, this looks like:
-  - knowing the next step but delaying it.
-  - doubting our own judgment despite past wins.
-  - waiting for full certainty before acting.
-- Reference note:
-  - This idea is described in the Hanuman complex psychotherapy article, where Hanuman regains self-awareness when reminded by Jambavan.[web:67][web:71]
-
-*  3: Sales Meaning (4 min)
-** What this means for us
-- We often forget what we are capable of, even when evidence says otherwise.
-- That hesitation is not always a skill problem; sometimes it is a belief problem.
-- Use evidence, not mood.
-- Recall prior wins, past recoveries, and earlier difficult deals you handled well.
-- Action can restore confidence faster than overthinking.
-
-*  4: Munger Wisdom (5 min)
-** Quotes to guide sales thinking
-- “We have a passion for keeping things simple.”
-- “The big money is not in buying or selling, but in the waiting.”
-- “You don’t have to be brilliant, only a little bit wiser than the other guys, on average, for a long, long time.”
-- “No wise pilot, no matter how great his talent and experience, fails to use a checklist.”
-- “There is no way you can live an adequate life without making mistakes.”
-- “Invert, always invert.”
-- “A majority of life’s errors are caused by forgetting what one is really trying to do.”
-- These lines support three habits:
-  - Simplicity.
-  - Patience.
-  - Self-correction.
-
-*  5: Sales Discipline (3 min)
-** What we should do daily
-- Do not chase every opportunity.
-- Wait for real prospects and real signals.
+* Slide 3: Charlie Munger’s Core Way (4 min)
+** Think in a disciplined way
+- Keep things simple.
+- Be patient.
+- Learn continuously.
 - Use checklists.
-- Learn from mistakes quickly.
-- Think backward:
-  - What can ruin the deal?
-  - What can ruin trust?
-  - What can ruin speed?
-- A strong sales person is not only active, but also careful.
+- Know what you do not know.
+- Invert problems:
+  - ask what can go wrong,
+  - then avoid it.
+- Do not confuse activity with progress.
+- Do not confuse smartness with results.
 
-*  6: Team Message (1 min)
-** One-line reminder
-- We do not need to be the smartest in every room.
-- We need to be more disciplined, more honest, and more consistent than yesterday.
+* Slide 4: The Lollapalooza Effect (5 min)
+** When many forces act together, the result becomes huge
+- Lollapalooza means multiple psychological forces pushing in the same direction.
+- One force alone may not be enough.
+- But several together can create a powerful effect.
+- In sales, this can happen when:
+  - social proof,
+  - scarcity,
+  - urgency,
+  - commitment,
+  - and authority
+  all work together.
+- The same idea also works in a bad way:
+  - fear + ego + hurry + poor incentives can create a bad decision.
+- Lesson:
+  - do not judge one factor alone,
+  - look at the combined effect.
 
-*  7: Closing action (0.5 min)
-** One action for today
-- Each person should identify:
-  - one deal where they hesitated.
-  - one thing they already knew but did not trust.
-  - one action they will take earlier next time.
+* Slide 5: Sales Examples of Lollapalooza (4 min) [fn:3]
+** How it appears in our daily work
+- Customer sees a machine on WhatsApp.
+- Another buyer has already shown interest.
+- Seller says “last piece available.”
+- The deal feels urgent.
+- The customer wants to avoid missing out.
+- Now several forces are acting together:
+  - availability,
+  - fear of missing out,
+  - social proof,
+  - and commitment.
+- That is how a deal can move fast.
+- We should also use this ethically:
+  - clear facts,
+  - clear value,
+  - clear next step.
 
-*  8: Closing note (0.5 min)
-** Final thought
-- Capability is often already inside us.
-- The job is to remember it, trust it, and act on it.
+* Slide 6: Charlie Munger on Learning (3 min)
+** A few memorable points
+- “You don’t have to be brilliant, only a little bit wiser than the other guys, on average, for a long, long time.”
+- “There is no way you can live an adequate life without making mistakes.”
+- “A majority of life’s errors are caused by forgetting what one is really trying to do.”
+- Sales lesson:
+  - stay simple,
+  - wait for the right chance,
+  - and keep learning.
+
+* Slide 7: Anurag Ravat Story (4 min)[fn:2]
+** Resilience and self-belief
+- Use the Anurag Ravat story as an example of resilience.
+- The point is not that life is easy.
+- The point is that people can rise when they:
+  - keep moving,
+  - keep learning,
+  - and refuse to stay defined by difficulty.
+- This fits sales perfectly:
+  - rejection is not identity,
+  - setback is not finality,
+  - today’s loss is not tomorrow’s limit.
+- Message:
+  - strength is built through response, not comfort.
+
+* Slide 8: Practical Sales Takeaways (2 min)
+** What we should do from tomorrow
+- Think before you speak.
+- Use checklists before action. [fn:4]
+- Watch for combined psychological effects. [fn:1]
+- Do not overreact to one bad deal.
+- Do not chase every opportunity.
+- Focus on a few high-quality prospects.
+- Keep the process simple.
+
+* Slide 9: Team Commitment (2 min)
+** One action for each person
+- Identify one deal where:
+  - you acted too fast,
+  - or hesitated too long,
+  - or got carried away by pressure.
+- Write:
+  - what you saw,
+  - what you missed,
+  - and what you will do differently next time.
+
+* Slide 10: Close (1 min)
+** Final line
+- In sales, our goal is not only to work hard.
+- Our goal is to think clearly, act simply, and avoid errors that multiply.
+- That is how we build long-term success.
+
+
+* Footnotes
+[fn:1] https://i.postimg.cc/NMr12SFy/1a154432-1ddb-4504-89af-e9e61222c09e-1680x1120.webp
+
+[fn:2] https://www.youtube.com/watch?v=1yD6BKGQvVM&t=11
+
+[fn:3]https://www.linkedin.com/pulse/leverage-lollapalooza-effects-black-sheep-old-boysclub-vicky-zhao 
+
+[fn:4] https://vrushabhg.medium.com/the-checklist-manifesto-atul-gawande-book-review-5f317ef05829 
+
