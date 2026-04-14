@@ -11,9 +11,9 @@
 * Slide 1: Opening (2 min)
 ** Charlie Munger's Lollapalooza Effect, and Sales Discipline
   - think better, act better, and avoid stupid mistakes.
-    #+ATTR_HTML: :width 75%
- https://i.postimg.cc/W1QyB60S/maxresdefault.jpg
-     #+ATTR_HTML: :width 75%
+ #+ATTR_HTML: :width 100%
+https://i.postimg.cc/W1QyB60S/maxresdefault.jpg
+ #+ATTR_HTML: :width 100%
 https://i.postimg.cc/wBqfJqY9/1608664361022.png
 #+begin_quote
 "When several models combine, you get lollapalooza effects; this is when two, three, or four forces all operating in the same direction. And frequently, you don’t get simple addition. It’s often like a critical mass in physics where you get a nuclear explosion if you get to a certain point of mass …"
