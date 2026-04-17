@@ -1,0 +1,108 @@
+:PROPERTIES:
+:ID:       d92c68ee-5610-419d-8042-e900a5c82c71
+:END:
+#+title: ranjangiri fort trek <2026-04-18 Sat>
+* Trek Overview
+1. Trek Name: ranjangiri fort
+2. Region: trimbakeshwar
+3. Range:  trimbakeshwar
+4. Base Village: Mulegaon
+5. Height from MSL (ft): 2762
+6. Type:
+   - [X] hill fort
+   - [ ] forest trail
+   - [ ] plateau
+7. Difficulty Level:
+8. [ ] easy
+9. [X] moderate
+10. [ ] difficult
+11. Best Season:
+12. [X] winter
+13. [X] summer
+14. [ ] monsoon
+15. Time taken to Climb [hrs]: 1 
+16. Water Availability:
+17. [ ] yes
+18. [X] no
+19. Suitable For:
+20. [X] beginners
+21. [X] regular trekkers
+22. [ ] families
+
+* Schedule & Companions
+1. Date:  <2026-04-18 Sat>
+2. Team Members:
+   - vipul chawhan,
+   - Bapu sonje,
+   - datta gawali
+   - nidhi chaogaonkar
+   - diksha salve
+   - anil pethkar
+   - sunil jagtap
+3. Wake-up Time: <2026-04-18 Sat 05:00>
+4. Left Home: <2026-04-18 Sat 05:45>
+5. Start Point / Meeting Place: ABB circle
+6. Route Start Time: <2026-04-18 Sat 06:45>
+7. Return Time: <2026-04-18 Sat 10:30>
+8. Key Stops / Temples / Checkpoints:
+   - 
+   - 
+
+* Route Information
+1. Route from Base City: abb circle -> talegaon -> jategaon -> ranjangiri bottom.
+2. Final Village Distance km: 21
+3. Public Transport Availability: till anjaneri from there 8km ahead.
+4. Parking / Auto / Petrol: at anjaneri phata.
+
+* Historical / Mythological Background
+1. Historical Importance: earlier was part of swarajya. was used to monitor the other forts.
+   - 
+2. Legends / Myths: none.
+   - 
+3. Nearby Heritage / Religious Sites: anjaneri.
+   - 
+
+* Key Landmarks & Attractions
+1. Temples: none.
+   - 
+2. Structures (Bastions, Caves, Gates, etc.):
+   - water tanks, looks of neighboring ranges.
+3. Viewpoints (Ranges / Dams visible): anjaneri, gadgadya, 
+   - 
+4. Not to Miss: 
+   - 
+
+* Experience & Observations
+1. Weather / Terrain: warm and cloudy.
+2. Notable Sights: water tanks, 
+3. Personal Experience: 
+4. Vibe / Mood of Place:
+5. Tips for Future Trekkers:
+
+* Facilities & Amenities
+1. Food / Water Availability: 
+2. Accommodation / Prasadam Timings: 
+3. Shops / Auto Repair / Petrol Info: 
+4. Guide Needed:
+5. [ ] yes
+6. [X] no
+
+* Local Notes
+1. Village Population / Details: 30
+2. Major FoodCrops:
+3. Local Culture / People:
+
+* Photos & Media
+1. [ ] Add photos
+2. [ ] Add route map (GPS screenshot)
+3. [ ] Add group photo
+
+* Reflection
+1. What I Loved Most:
+2. What I’d Improve Next Time:
+3. Recommend To:
+4. Return Visit:
+5. [ ] yes/no
+6. [ ] (why?)
+
+
