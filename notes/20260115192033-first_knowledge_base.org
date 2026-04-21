@@ -30,3 +30,4 @@
 * [[id:da6a504b-8072-4422-9a47-31c0e2877ddb][blogs read and felt too good]] :blogs:read:
 * [[id:d619f748-faa6-43eb-b693-e8fefdfca724][list of tools that i use.]] :tools:
 * [[id:229cd79c-1096-4c4d-943e-9e68bcebe642][book notes]] :book:notes:
+* [[id:63cc13d7-2bd2-498d-8753-1763b1623fd5][stocks to be shortlisted out of]]

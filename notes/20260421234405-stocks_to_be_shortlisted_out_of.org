@@ -1,0 +1,60 @@
+:PROPERTIES:
+:ID:       63cc13d7-2bd2-498d-8753-1763b1623fd5
+:END:
+#+title: stocks to be shortlisted out of
+* yes
+** vimta labs :yes:
+** pvp ventures :yes:
+** jtl industries :yes:
+** emil :yes:
+** vmart :yes:
+** niacl :yes:
+** astec :yes:
+** gujalkalies :yes:
+** morepenlabs :yes:
+** apollopipes :yes:
+** eimco elecon :yes:
+** itdc :yes:
+** geojit fsl :yes:
+* no
+** sterling tools :no:
+** bajaj hind sugar :no:
+** sadhnaniq
+** suven life
+** oswal agro
+** aptech
+** zuari industries
+** agi greenpac
+** niitltd
+** dhanbank
+** kopran
+** allcargo
+** mol
+** paragmilk
+** zuari
+** nazara tech
+** sh kelkar
+** snowman
+** bshsl
+** rpower
+** shalby
+** orissamine
+** adsl
+** eimco elecon
+
+* book
+** the mosquito
+** the myth of sisyphus
+** the art of war.
+** lolita
+** siddhartha hermen hesse
+** deep survial lorence gonzales
+** endurance alfred 
+** the master and margarita
+** brave new world aldeus huxley
+** open andre agassi
+** war and peace leo tolstoy
+** homage to catalonia george orwell
+** george washington chernov
+** the metaphysical club louis menand
+** trading in the zone
