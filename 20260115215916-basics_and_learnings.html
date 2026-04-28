@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-04-21 Tue 19:39 -->
+<!-- 2026-04-28 Tue 15:01 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>basics and learnings</title>
@@ -49,134 +49,134 @@ if (typeof HS_STARTUP_FOLDED === 'undefined') {    var HS_STARTUP_FOLDED = false
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orge9eb541">C-RET to enter sections or headings.</a>
+<li><a href="#org4a5ce01">C-RET to enter sections or headings.</a>
 <ul>
-<li><a href="#orgb242d02">M-&lt;arrow keys&gt; to change the section/headings level.</a></li>
+<li><a href="#orgce06a92">M-&lt;arrow keys&gt; to change the section/headings level.</a></li>
 </ul>
 </li>
-<li><a href="#org2f6136d">Markup</a>
+<li><a href="#orgd9f7823">Markup</a>
 <ul>
-<li><a href="#org83e4970"><code>==</code> for a <code>verbatim</code> text</a></li>
-<li><a href="#org2755281"><code>++</code> for <del>strikethrough</del></a></li>
-<li><a href="#org4eaeda8"><code>**</code> to <b>bold</b> stuff</a></li>
-<li><a href="#org1a2d82d"><code>//</code> to make <i>italic</i></a></li>
-<li><a href="#orgb2c37a7">use C-c C-x C-f to call <i>org-emphasize</i> and change markup of selected text.</a>
+<li><a href="#org46c59d9"><code>==</code> for a <code>verbatim</code> text</a></li>
+<li><a href="#org563560b"><code>++</code> for <del>strikethrough</del></a></li>
+<li><a href="#org7d53d00"><code>**</code> to <b>bold</b> stuff</a></li>
+<li><a href="#org4701cb6"><code>//</code> to make <i>italic</i></a></li>
+<li><a href="#org46745f6">use C-c C-x C-f to call <i>org-emphasize</i> and change markup of selected text.</a>
 <ul>
-<li><a href="#orgf18aa3c">here</a>
+<li><a href="#orgee8bb35">here</a>
 <ul>
-<li><a href="#org8250d32">isnt</a></li>
-<li><a href="#org75929b3"><b><b>*</b></b> an</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#org8d5ee79">Insert links</a></li>
-<li><a href="#org3aac71a">Table</a></li>
-<li><a href="#orga61a2fa">To export</a></li>
-<li><a href="#orgce3a2e1">LIST</a>
-<ul>
-<li><a href="#orgd553861">unordered lists</a>
-<ul>
-<li><a href="#orgbd0175d">dash list</a>
-<ul>
-<li><a href="#org7aee7a8">uno</a></li>
-<li><a href="#org60ab115">dos</a></li>
-<li><a href="#orgff64a6c">tres</a></li>
-</ul>
-</li>
-<li><a href="#orgd23d54d">plus list</a>
-<ul>
-<li><a href="#org704985b">uno</a></li>
-<li><a href="#orga15e46f">dos</a></li>
-<li><a href="#orgcfab863">tres</a></li>
-<li><a href="#org5abf8fb"><span class="todo TODO">TODO</span> </a></li>
-<li><a href="#orgd69da61"><span class="todo TODO">TODO</span> </a></li>
+<li><a href="#org5d04689">isnt</a></li>
+<li><a href="#orgb032daa"><b><b>*</b></b> an</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgcf711b3">ordered lists</a>
+</ul>
+</li>
+<li><a href="#org2f187f8">Insert links</a></li>
+<li><a href="#orgb173ad5">Table</a></li>
+<li><a href="#org4bfc504">To export</a></li>
+<li><a href="#org42e3d2b">LIST</a>
 <ul>
-<li><a href="#orgc0be2e3">test                                    <code>press  meta + enter</code></a></li>
-<li><a href="#org275321c"><span class="todo TODO">TODO</span> </a></li>
-<li><a href="#org5206fb7"><span class="todo TODO">TODO</span> </a></li>
-</ul>
-</li>
-<li><a href="#orga2f4c55">desctiption these are special unordered lists</a>
+<li><a href="#org7d0d962">unordered lists</a>
 <ul>
-<li><a href="#org77bae43">this is a description example the example is pretty straightforward init?</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#orgdebcdaf">CHECKLISTS</a>
+<li><a href="#orga48d9e9">dash list</a>
 <ul>
-<li><a href="#org6e7d72e">M-S RET to make a new checkbox.</a></li>
-<li><a href="#org13b66c5">C-c C-x C-b toggle the checkbox state</a>
+<li><a href="#org842e9e1">uno</a></li>
+<li><a href="#org54538f0">dos</a></li>
+<li><a href="#org1a81cb0">tres</a></li>
+</ul>
+</li>
+<li><a href="#org2a0e773">plus list</a>
 <ul>
-<li><a href="#orgb51e943">this is a plainlist headline which can be toggled by <span class="underline">C-c *</span></a></li>
+<li><a href="#orgdbbb5ec">uno</a></li>
+<li><a href="#org10dfd44">dos</a></li>
+<li><a href="#orgb0c4115">tres</a></li>
+<li><a href="#orga0465e9"><span class="todo TODO">TODO</span> </a></li>
+<li><a href="#org0ac5066"><span class="todo TODO">TODO</span> </a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgd17afc5">Drawers text hidden until pressed and seen after that, <b>C-c C-x d</b></a>
+<li><a href="#orgc8dcf74">ordered lists</a>
 <ul>
-<li><a href="#orge0e6602">This is a headline</a></li>
+<li><a href="#org8624db5">test                                    <code>press  meta + enter</code></a></li>
+<li><a href="#org8466ca1"><span class="todo TODO">TODO</span> </a></li>
+<li><a href="#orgfef1cec"><span class="todo TODO">TODO</span> </a></li>
 </ul>
 </li>
-<li><a href="#org184beb7">EXPORT STRUCTURE TEMPLATE,</a></li>
+<li><a href="#orga604cda">desctiption these are special unordered lists</a>
+<ul>
+<li><a href="#orgc1bb1f7">this is a description example the example is pretty straightforward init?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org4134236">CHECKLISTS</a>
+<ul>
+<li><a href="#orgf81e91e">M-S RET to make a new checkbox.</a></li>
+<li><a href="#org5ce12fc">C-c C-x C-b toggle the checkbox state</a>
+<ul>
+<li><a href="#org96ceefb">this is a plainlist headline which can be toggled by <span class="underline">C-c *</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgeb8c274">Drawers text hidden until pressed and seen after that, <b>C-c C-x d</b></a>
+<ul>
+<li><a href="#org10ee845">This is a headline</a></li>
+</ul>
+</li>
+<li><a href="#org58d3df6">EXPORT STRUCTURE TEMPLATE,</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orge9eb541" class="outline-2">
-<h2 id="orge9eb541">C-RET to enter sections or headings.</h2>
-<div class="outline-text-2" id="text-orge9eb541">
+<div id="outline-container-org4a5ce01" class="outline-2">
+<h2 id="org4a5ce01">C-RET to enter sections or headings.</h2>
+<div class="outline-text-2" id="text-org4a5ce01">
 </div>
-<div id="outline-container-orgb242d02" class="outline-3">
-<h3 id="orgb242d02">M-&lt;arrow keys&gt; to change the section/headings level.</h3>
+<div id="outline-container-orgce06a92" class="outline-3">
+<h3 id="orgce06a92">M-&lt;arrow keys&gt; to change the section/headings level.</h3>
 </div>
 </div>
-<div id="outline-container-org2f6136d" class="outline-2">
-<h2 id="org2f6136d">Markup</h2>
-<div class="outline-text-2" id="text-org2f6136d">
+<div id="outline-container-orgd9f7823" class="outline-2">
+<h2 id="orgd9f7823">Markup</h2>
+<div class="outline-text-2" id="text-orgd9f7823">
 </div>
-<div id="outline-container-org83e4970" class="outline-3">
-<h3 id="org83e4970"><code>==</code> for a <code>verbatim</code> text</h3>
+<div id="outline-container-org46c59d9" class="outline-3">
+<h3 id="org46c59d9"><code>==</code> for a <code>verbatim</code> text</h3>
 </div>
-<div id="outline-container-org2755281" class="outline-3">
-<h3 id="org2755281"><code>++</code> for <del>strikethrough</del></h3>
+<div id="outline-container-org563560b" class="outline-3">
+<h3 id="org563560b"><code>++</code> for <del>strikethrough</del></h3>
 </div>
-<div id="outline-container-org4eaeda8" class="outline-3">
-<h3 id="org4eaeda8"><code>**</code> to <b>bold</b> stuff</h3>
+<div id="outline-container-org7d53d00" class="outline-3">
+<h3 id="org7d53d00"><code>**</code> to <b>bold</b> stuff</h3>
 </div>
-<div id="outline-container-org1a2d82d" class="outline-3">
-<h3 id="org1a2d82d"><code>//</code> to make <i>italic</i></h3>
+<div id="outline-container-org4701cb6" class="outline-3">
+<h3 id="org4701cb6"><code>//</code> to make <i>italic</i></h3>
 </div>
-<div id="outline-container-orgb2c37a7" class="outline-3">
-<h3 id="orgb2c37a7">use C-c C-x C-f to call <i>org-emphasize</i> and change markup of selected text.</h3>
-<div class="outline-text-3" id="text-orgb2c37a7">
+<div id="outline-container-org46745f6" class="outline-3">
+<h3 id="org46745f6">use C-c C-x C-f to call <i>org-emphasize</i> and change markup of selected text.</h3>
+<div class="outline-text-3" id="text-org46745f6">
 <p>
 use hashes to get list items and bullets.
 </p>
 </div>
-<div id="outline-container-orgf18aa3c" class="outline-4">
-<h4 id="orgf18aa3c">here</h4>
-<div class="outline-text-4" id="text-orgf18aa3c">
+<div id="outline-container-orgee8bb35" class="outline-4">
+<h4 id="orgee8bb35">here</h4>
+<div class="outline-text-4" id="text-orgee8bb35">
 </div>
-<div id="outline-container-org8250d32" class="outline-5">
-<h5 id="org8250d32">isnt</h5>
+<div id="outline-container-org5d04689" class="outline-5">
+<h5 id="org5d04689">isnt</h5>
 </div>
-<div id="outline-container-org75929b3" class="outline-5">
-<h5 id="org75929b3"><b><b>*</b></b> an</h5>
-<div class="outline-text-5" id="text-org75929b3">
+<div id="outline-container-orgb032daa" class="outline-5">
+<h5 id="orgb032daa"><b><b>*</b></b> an</h5>
+<div class="outline-text-5" id="text-orgb032daa">
 </div>
 <ul class="org-ul">
-<li><a id="org5c4f37f"></a><b><b>**</b></b><br />
+<li><a id="orgc86fd91"></a><b><b>**</b></b><br />
 <ul class="org-ul">
-<li><a id="orgb1f94a8"></a><b><b><b>*</b></b></b> <b><b><b>**</b></b></b><br /></li>
+<li><a id="org45b053b"></a><b><b><b>*</b></b></b> <b><b><b>**</b></b></b><br /></li>
 </ul>
 </li>
 </ul>
@@ -184,17 +184,17 @@ use hashes to get list items and bullets.
 </div>
 </div>
 </div>
-<div id="outline-container-org8d5ee79" class="outline-2">
-<h2 id="org8d5ee79">Insert links</h2>
-<div class="outline-text-2" id="text-org8d5ee79">
+<div id="outline-container-org2f187f8" class="outline-2">
+<h2 id="org2f187f8">Insert links</h2>
+<div class="outline-text-2" id="text-org2f187f8">
 <p>
 <b>C-c C-l</b> <a href="https:orgmode.org">org-mode-link</a>
 </p>
 </div>
 </div>
-<div id="outline-container-org3aac71a" class="outline-2">
-<h2 id="org3aac71a">Table</h2>
-<div class="outline-text-2" id="text-org3aac71a">
+<div id="outline-container-orgb173ad5" class="outline-2">
+<h2 id="orgb173ad5">Table</h2>
+<div class="outline-text-2" id="text-orgb173ad5">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -223,105 +223,105 @@ use hashes to get list items and bullets.
 </table>
 </div>
 </div>
-<div id="outline-container-orga61a2fa" class="outline-2">
-<h2 id="orga61a2fa">To export</h2>
-<div class="outline-text-2" id="text-orga61a2fa">
+<div id="outline-container-org4bfc504" class="outline-2">
+<h2 id="org4bfc504">To export</h2>
+<div class="outline-text-2" id="text-org4bfc504">
 <p>
 <span class="underline">C-c C-e</span>
 </p>
 </div>
 </div>
-<div id="outline-container-orgce3a2e1" class="outline-2">
-<h2 id="orgce3a2e1">LIST</h2>
-<div class="outline-text-2" id="text-orgce3a2e1">
+<div id="outline-container-org42e3d2b" class="outline-2">
+<h2 id="org42e3d2b">LIST</h2>
+<div class="outline-text-2" id="text-org42e3d2b">
 </div>
-<div id="outline-container-orgd553861" class="outline-3">
-<h3 id="orgd553861">unordered lists</h3>
-<div class="outline-text-3" id="text-orgd553861">
+<div id="outline-container-org7d0d962" class="outline-3">
+<h3 id="org7d0d962">unordered lists</h3>
+<div class="outline-text-3" id="text-org7d0d962">
 <p>
 lists starting with -, + and *
 </p>
 </div>
-<div id="outline-container-orgbd0175d" class="outline-4">
-<h4 id="orgbd0175d">dash list</h4>
-<div class="outline-text-4" id="text-orgbd0175d">
+<div id="outline-container-orga48d9e9" class="outline-4">
+<h4 id="orga48d9e9">dash list</h4>
+<div class="outline-text-4" id="text-orga48d9e9">
 </div>
-<div id="outline-container-org7aee7a8" class="outline-5">
-<h5 id="org7aee7a8">uno</h5>
+<div id="outline-container-org842e9e1" class="outline-5">
+<h5 id="org842e9e1">uno</h5>
 </div>
-<div id="outline-container-org60ab115" class="outline-5">
-<h5 id="org60ab115">dos</h5>
+<div id="outline-container-org54538f0" class="outline-5">
+<h5 id="org54538f0">dos</h5>
 </div>
-<div id="outline-container-orgff64a6c" class="outline-5">
-<h5 id="orgff64a6c">tres</h5>
-</div>
-</div>
-<div id="outline-container-orgd23d54d" class="outline-4">
-<h4 id="orgd23d54d">plus list</h4>
-<div class="outline-text-4" id="text-orgd23d54d">
-</div>
-<div id="outline-container-org704985b" class="outline-5">
-<h5 id="org704985b">uno</h5>
-</div>
-<div id="outline-container-orga15e46f" class="outline-5">
-<h5 id="orga15e46f">dos</h5>
-</div>
-<div id="outline-container-orgcfab863" class="outline-5">
-<h5 id="orgcfab863">tres</h5>
-</div>
-<div id="outline-container-org5abf8fb" class="outline-5">
-<h5 id="org5abf8fb"><span class="todo TODO">TODO</span> </h5>
-</div>
-<div id="outline-container-orgd69da61" class="outline-5">
-<h5 id="orgd69da61"><span class="todo TODO">TODO</span> </h5>
+<div id="outline-container-org1a81cb0" class="outline-5">
+<h5 id="org1a81cb0">tres</h5>
 </div>
 </div>
+<div id="outline-container-org2a0e773" class="outline-4">
+<h4 id="org2a0e773">plus list</h4>
+<div class="outline-text-4" id="text-org2a0e773">
 </div>
-<div id="outline-container-orgcf711b3" class="outline-3">
-<h3 id="orgcf711b3">ordered lists</h3>
-<div class="outline-text-3" id="text-orgcf711b3">
+<div id="outline-container-orgdbbb5ec" class="outline-5">
+<h5 id="orgdbbb5ec">uno</h5>
+</div>
+<div id="outline-container-org10dfd44" class="outline-5">
+<h5 id="org10dfd44">dos</h5>
+</div>
+<div id="outline-container-orgb0c4115" class="outline-5">
+<h5 id="orgb0c4115">tres</h5>
+</div>
+<div id="outline-container-orga0465e9" class="outline-5">
+<h5 id="orga0465e9"><span class="todo TODO">TODO</span> </h5>
+</div>
+<div id="outline-container-org0ac5066" class="outline-5">
+<h5 id="org0ac5066"><span class="todo TODO">TODO</span> </h5>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc8dcf74" class="outline-3">
+<h3 id="orgc8dcf74">ordered lists</h3>
+<div class="outline-text-3" id="text-orgc8dcf74">
 <p>
 start with number and a period or ),
 like 1. or 1),
 Press,
 </p>
 </div>
-<div id="outline-container-orgc0be2e3" class="outline-4">
-<h4 id="orgc0be2e3">test                                    <code>press  meta + enter</code></h4>
+<div id="outline-container-org8624db5" class="outline-4">
+<h4 id="org8624db5">test                                    <code>press  meta + enter</code></h4>
 </div>
-<div id="outline-container-org275321c" class="outline-4">
-<h4 id="org275321c"><span class="todo TODO">TODO</span> </h4>
+<div id="outline-container-org8466ca1" class="outline-4">
+<h4 id="org8466ca1"><span class="todo TODO">TODO</span> </h4>
 </div>
-<div id="outline-container-org5206fb7" class="outline-4">
-<h4 id="org5206fb7"><span class="todo TODO">TODO</span> </h4>
+<div id="outline-container-orgfef1cec" class="outline-4">
+<h4 id="orgfef1cec"><span class="todo TODO">TODO</span> </h4>
 </div>
 </div>
-<div id="outline-container-orga2f4c55" class="outline-3">
-<h3 id="orga2f4c55">desctiption these are special unordered lists</h3>
-<div class="outline-text-3" id="text-orga2f4c55">
+<div id="outline-container-orga604cda" class="outline-3">
+<h3 id="orga604cda">desctiption these are special unordered lists</h3>
+<div class="outline-text-3" id="text-orga604cda">
 <p>
 use :: to seperate the title description and the content
 </p>
 </div>
-<div id="outline-container-org77bae43" class="outline-4">
-<h4 id="org77bae43">this is a description example the example is pretty straightforward init?</h4>
+<div id="outline-container-orgc1bb1f7" class="outline-4">
+<h4 id="orgc1bb1f7">this is a description example the example is pretty straightforward init?</h4>
 </div>
 </div>
 </div>
-<div id="outline-container-orgdebcdaf" class="outline-2">
-<h2 id="orgdebcdaf">CHECKLISTS</h2>
-<div class="outline-text-2" id="text-orgdebcdaf">
+<div id="outline-container-org4134236" class="outline-2">
+<h2 id="org4134236">CHECKLISTS</h2>
+<div class="outline-text-2" id="text-org4134236">
 </div>
-<div id="outline-container-org6e7d72e" class="outline-3">
-<h3 id="org6e7d72e">M-S RET to make a new checkbox.</h3>
+<div id="outline-container-orgf81e91e" class="outline-3">
+<h3 id="orgf81e91e">M-S RET to make a new checkbox.</h3>
 </div>
-<div id="outline-container-org13b66c5" class="outline-3">
-<h3 id="org13b66c5">C-c C-x C-b toggle the checkbox state</h3>
-<div class="outline-text-3" id="text-org13b66c5">
+<div id="outline-container-org5ce12fc" class="outline-3">
+<h3 id="org5ce12fc">C-c C-x C-b toggle the checkbox state</h3>
+<div class="outline-text-3" id="text-org5ce12fc">
 </div>
-<div id="outline-container-orgb51e943" class="outline-4">
-<h4 id="orgb51e943">this is a plainlist headline which can be toggled by <span class="underline">C-c *</span></h4>
-<div class="outline-text-4" id="text-orgb51e943">
+<div id="outline-container-org96ceefb" class="outline-4">
+<h4 id="org96ceefb">this is a plainlist headline which can be toggled by <span class="underline">C-c *</span></h4>
+<div class="outline-text-4" id="text-org96ceefb">
 <p>
 turn a whole list into a subtree by <code>C-c C-*</code>
 </p>
@@ -329,9 +329,9 @@ turn a whole list into a subtree by <code>C-c C-*</code>
 </div>
 </div>
 </div>
-<div id="outline-container-orgd17afc5" class="outline-2">
-<h2 id="orgd17afc5">Drawers text hidden until pressed and seen after that, <b>C-c C-x d</b></h2>
-<div class="outline-text-2" id="text-orgd17afc5">
+<div id="outline-container-orgeb8c274" class="outline-2">
+<h2 id="orgeb8c274">Drawers text hidden until pressed and seen after that, <b>C-c C-x d</b></h2>
+<div class="outline-text-2" id="text-orgeb8c274">
 <p>
 This is inside the drawer.
 </p>
@@ -340,9 +340,9 @@ This is inside the drawer.
 another drawer. Drawers look like this:
 </p>
 </div>
-<div id="outline-container-orge0e6602" class="outline-3">
-<h3 id="orge0e6602">This is a headline</h3>
-<div class="outline-text-3" id="text-orge0e6602">
+<div id="outline-container-org10ee845" class="outline-3">
+<h3 id="org10ee845">This is a headline</h3>
+<div class="outline-text-3" id="text-org10ee845">
 <p>
 Still outside the drawer
 </p>
@@ -366,9 +366,9 @@ Enter a drawer with -
 </div>
 </div>
 </div>
-<div id="outline-container-org184beb7" class="outline-2">
-<h2 id="org184beb7">EXPORT STRUCTURE TEMPLATE,</h2>
-<div class="outline-text-2" id="text-org184beb7">
+<div id="outline-container-org58d3df6" class="outline-2">
+<h2 id="org58d3df6">EXPORT STRUCTURE TEMPLATE,</h2>
+<div class="outline-text-2" id="text-org58d3df6">
 <p>
 command <b>C-c C-,</b>
 </p>
