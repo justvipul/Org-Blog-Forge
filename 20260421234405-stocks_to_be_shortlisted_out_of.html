@@ -3,12 +3,510 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-04-28 Tue 15:01 -->
+<!-- 2026-04-30 Thu 16:29 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>stocks to be shortlisted out of</title>
 <meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="style.css"/>
+<style type="text/css">
+body {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.4;
+color: #33333f;
+}
+
+code {
+font-family: "Inconsolata", "monospace";
+font-size: 16px;
+}
+
+p>code, li>code {
+background-color: #eee;
+padding: 0.25em;
+}
+
+h1, h2, h3 {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+border-bottom: 1px solid #f0c;
+padding-bottom: 0.5em;
+font-size: 1.75em;
+}
+
+h3 {
+margin-top: 2em;
+font-size: 1.5em;
+}
+
+h4 {
+font-size: 1.25em;
+}
+
+h5 {
+font-size: 1em;
+}
+
+h2 code, h3 code, h4 code, h5 code, td code {
+font-family: inherit !important;
+font-size: inherit !important;
+}
+
+td code {
+font-weight: bold;
+}
+
+a:link, a:hover, a:visited {
+text-decoration: none;
+color: black;
+}
+
+a:link {
+background: #ff8;
+}
+
+a:visited {
+color: #666;
+background: #ffc;
+}
+
+a:link:hover,
+a:visited:hover {
+background: #ff0;
+}
+
+a[href^="http"] {
+background: #bff;
+}
+
+a[href^="http"]:visited {
+background: #dff;
+}
+
+a[href^="http"]:link:hover,
+a[href^="http"]:visited:hover {
+background: #0ff;
+}
+
+a[href^="http"]:after {
+content: "\21B3";
+background: white;
+padding-left: 0.2em;
+}
+
+#meta {
+margin-top: 2em;
+}
+
+#table-of-contents a:link,
+#table-of-contents a:visited {
+color: black;
+background: transparent;
+}
+
+#table-of-contents {
+line-height: 1.2;
+}
+#table-of-contents h2 {
+border-bottom: 0;
+}
+
+#table-of-contents ul {
+list-style: none;
+padding-left: 0.5em;
+font-weight: normal;
+}
+
+#table-of-contents div>ul>li {
+margin-top: 1em;
+font-weight: bold;
+}
+
+#table-of-contents .tag {
+display: none;
+}
+
+#table-of-contents .todo,
+#table-of-contents .done {
+font-size: 80%;
+}
+
+#table-of-contents ol>li {
+margin-top: 1em;
+}
+
+table {
+width: 100%;
+}
+
+table, th, td {
+border: 1px solid #666;
+}
+
+th, td {
+padding: 0.5em;
+text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+background-color: #eee;
+}
+
+img {
+max-width: 90%;
+}
+
+div.notice {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+}
+
+table + div.notice {
+margin-top: 2em;
+}
+
+div.notice a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.notice a[href^="http"]:after {
+background: transparent !important;
+}
+
+div.notice:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+}
+
+.notice-warning {
+background: #fcc;
+color: #600;
+}
+
+.notice-example {
+background: #def;
+color: #069;
+}
+
+.notice-info {
+background: #efe;
+color: #060;
+}
+
+.notice-warning a {
+color: #600;
+}
+
+.notice-example a {
+color: #069;
+}
+
+.notice-info a {
+color: #060;
+}
+
+div.notice-warning:before {
+content: "WARNING";
+background: #c99;
+color: #fcc;
+}
+
+div.notice-example:before {
+content: "EXAMPLE";
+background: #abc;
+color: #def;
+}
+
+div.notice-info:before {
+content: "INFO";
+background: #9c9;
+color: #efe;
+}
+
+/* things inside the #+BEGIN_NOTE...#+END_NOTE block */
+div.NOTE a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.NOTE {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+margin-top: 2em;
+background: #efe;
+color: #060;
+}
+
+div.NOTE:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+content: "NOTE";
+background: #9c9;
+color: #efe;
+}
+
+blockquote {
+padding: 0px 10px 0px 10px;
+border: 1px solid #ddd;
+background: #eee;
+box-shadow: 5px 5px 5px #eee;
+border-radius: 2px;
+line-height: 1.2em;
+}
+
+pre {
+font-family: "Inconsolata", "monospace";
+font-size: 100%;
+border: 0;
+box-shadow: none;
+overflow: auto;
+}
+
+pre.example:before {
+content: "EXAMPLE";
+display: block;
+border-bottom: 1px dotted;
+margin-bottom: 1em;
+}
+
+pre.example {
+background: #fec;
+color: #666;
+font-size: 0.85em;
+}
+
+pre {
+background-color: #f8f8f8;
+background-size: 8px 8px;
+background-image: linear-gradient(135deg, transparent 25%, rgba(0, 0, 0, 0.02) 25%, rgba(0, 0, 0, 0.02) 50%, transparent 50%, transparent 75%, rgba(0, 0, 0, 0.02) 75%, rgba(0, 0, 0, 0.02));
+}
+
+pre.src {
+padding: 0.5em;
+}
+
+pre.src:before {
+display: block;
+position: absolute;
+background-color: #ccccd0;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em;
+border-bottom-left-radius: 8px;
+border: 0;
+color: white;
+font-size: 80%;
+}
+
+pre.src-plantuml:before {
+content: "UML";
+}
+
+pre.src-javascript:before {
+content: "JS";
+}
+
+pre.src-clojure:before {
+content: "CLJ";
+}
+
+pre.src-c:before {
+content: "C";
+}
+
+pre.src-sh:before {
+content: "Shell";
+}
+
+pre.src-es:before {
+content: "ES";
+}
+
+span.org-string {
+color: #f94;
+}
+
+span.org-keyword {
+color: #c07;
+}
+
+span.org-variable-name {
+color: #f04;
+}
+
+span.org-clojure-keyword {
+color: #09f;
+}
+
+span.org-comment, span.org-comment-delimiter {
+color: #999;
+}
+
+span.org-rainbow-delimiters-depth-1, span.org-rainbow-delimiters-depth-5 {
+color: #666;
+}
+
+span.org-rainbow-delimiters-depth-2, span.org-rainbow-delimiters-depth-6 {
+color: #888;
+}
+
+span.org-rainbow-delimiters-depth-3, span.org-rainbow-delimiters-depth-7 {
+color: #aaa;
+}
+
+span.org-rainbow-delimiters-depth-4, span.org-rainbow-delimiters-depth-8 {
+color: #ccc;
+}
+
+div.figure {
+font-size: 0.85em;
+}
+
+.tag {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: normal;
+float: right;
+margin-top: 1em;
+background: transparent;
+}
+
+.tag span {
+background: #ccc;
+padding: 0 0.5em;
+border-radius: 0.2em;
+color: white;
+}
+
+.todo, .done {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-weight: normal;
+padding: 0 0.25em;
+border-radius: 0.2em;
+}
+
+.todo {
+background: #f04;
+color: white;
+}
+
+.done {
+background: #5f7;
+color: white;
+}
+
+@media screen {
+h1.title {
+text-align: left;
+margin: 0.5em 0 1em 0;
+}
+
+h2 {
+margin-top: 3em;
+}
+
+#table-of-contents {
+position: fixed;
+top: 0;
+left: 0;
+padding: 2em 0 2em 2em;
+width: 290px;
+height: 100vh;
+font-size: 11px;
+background: #eee;
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+#table-of-contents h2 {
+margin-top: 0;
+}
+
+#table-of-contents code {
+font-size: 12px;
+}
+
+div#content {
+margin-left: 320px;
+max-width: 1100px;
+}
+div#postamble {
+margin-left: 320px;
+max-width: 1100px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+html, body {
+font-size: 14px;
+}
+
+#table-of-contents {
+display: none;
+}
+
+h1.title {
+margin-left: 0%;
+}
+
+div#content {
+margin-left: 5%;
+max-width: 90%;
+}
+div#postamble {
+margin-left: 5%;
+max-width: 90%;
+}
+}
+
+@media print {
+
+body {
+color: black;
+}
+
+@page {
+margin: 25mm;
+}
+
+h2, h3 {
+page-break-before: always;
+margin-top: 0;
+}
+
+table {
+page-break-inside: avoid;
+}
+
+a:visited {
+color: black;
+background: #ff8;
+}
+
+a[href^="http"]:visited {
+background: #bff;
+}
+
+div.notice:before {
+display: none;
+}
+}
+</style>
 </head>
 <body>
 <div id="content" class="content">
@@ -17,243 +515,112 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgd65c597">yes</a>
+<li><a href="#org4806155">shortlisted <span class="timestamp-wrapper"><span class="timestamp">&lt;2026-04-30 Thu&gt;</span></span></a></li>
+<li><a href="#org26d3e69">book</a>
 <ul>
-<li><a href="#org46b5cff">vimta labs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></a></li>
-<li><a href="#org2d8534a">pvp ventures&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></a></li>
-<li><a href="#org33e0e96">jtl industries&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></a></li>
-<li><a href="#org668e182">emil&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></a></li>
-<li><a href="#org91c9c0e">vmart&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></a></li>
-<li><a href="#org2907a1e">niacl&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></a></li>
-<li><a href="#orge8903e3">astec&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></a></li>
-<li><a href="#org6877d20">gujalkalies&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></a></li>
-<li><a href="#org8153c01">morepenlabs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></a></li>
-<li><a href="#orga4b16cd">apollopipes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></a></li>
-<li><a href="#orgaf5d9d3">eimco elecon&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></a></li>
-<li><a href="#orgc617914">itdc&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></a></li>
-<li><a href="#org79a7734">geojit fsl&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></a></li>
-</ul>
-</li>
-<li><a href="#org2dec10e">no</a>
-<ul>
-<li><a href="#org55812c3">sterling tools&#xa0;&#xa0;&#xa0;<span class="tag"><span class="no">no</span></span></a></li>
-<li><a href="#orgbfdf8f4">bajaj hind sugar&#xa0;&#xa0;&#xa0;<span class="tag"><span class="no">no</span></span></a></li>
-<li><a href="#org474882c">sadhnaniq</a></li>
-<li><a href="#org59cda66">suven life</a></li>
-<li><a href="#org64bce17">oswal agro</a></li>
-<li><a href="#orgf5da7e4">aptech</a></li>
-<li><a href="#org2774073">zuari industries</a></li>
-<li><a href="#org0aa3da7">agi greenpac</a></li>
-<li><a href="#org00538c9">niitltd</a></li>
-<li><a href="#orgf41c747">dhanbank</a></li>
-<li><a href="#org872254c">kopran</a></li>
-<li><a href="#org2e22a15">allcargo</a></li>
-<li><a href="#orge01d517">mol</a></li>
-<li><a href="#orgd887e4f">paragmilk</a></li>
-<li><a href="#org1d40cf4">zuari</a></li>
-<li><a href="#org2572334">nazara tech</a></li>
-<li><a href="#org2918b4d">sh kelkar</a></li>
-<li><a href="#org40dd77c">snowman</a></li>
-<li><a href="#orgd25a5ce">bshsl</a></li>
-<li><a href="#orgd16f5b6">rpower</a></li>
-<li><a href="#org0ea83e3">shalby</a></li>
-<li><a href="#org8aebb68">orissamine</a></li>
-<li><a href="#org16ce05b">adsl</a></li>
-<li><a href="#org14800e7">eimco elecon</a></li>
-</ul>
-</li>
-<li><a href="#org8607f65">book</a>
-<ul>
-<li><a href="#org92fce66">the mosquito</a></li>
-<li><a href="#org40788ab">the myth of sisyphus</a></li>
-<li><a href="#org8ecc06c">the art of war.</a></li>
-<li><a href="#orgb803ba8">lolita</a></li>
-<li><a href="#org4f7faa8">siddhartha hermen hesse</a></li>
-<li><a href="#org773f358">deep survial lorence gonzales</a></li>
-<li><a href="#org3406702">endurance alfred</a></li>
-<li><a href="#orgbb047a4">the master and margarita</a></li>
-<li><a href="#org18bddbb">brave new world aldeus huxley</a></li>
-<li><a href="#org8d3e179">open andre agassi</a></li>
-<li><a href="#org585c87f">war and peace leo tolstoy</a></li>
-<li><a href="#org9939e97">homage to catalonia george orwell</a></li>
-<li><a href="#orgc3764ea">george washington chernov</a></li>
-<li><a href="#org477760c">the metaphysical club louis menand</a></li>
-<li><a href="#org8dee4d1">trading in the zone</a></li>
+<li><a href="#orga4f8a36">the mosquito</a></li>
+<li><a href="#org7147651">the myth of sisyphus</a></li>
+<li><a href="#org3999c59">the art of war.</a></li>
+<li><a href="#orgcbe32b1">lolita</a></li>
+<li><a href="#org4b6f238">siddhartha hermen hesse</a></li>
+<li><a href="#org88f6c32">deep survial lorence gonzales</a></li>
+<li><a href="#org7191457">endurance alfred</a></li>
+<li><a href="#org5ccf88b">the master and margarita</a></li>
+<li><a href="#orgc93b6f2">brave new world aldeus huxley</a></li>
+<li><a href="#orgd7205fb">open andre agassi</a></li>
+<li><a href="#orge34bdba">war and peace leo tolstoy</a></li>
+<li><a href="#orgc54b5b8">homage to catalonia george orwell</a></li>
+<li><a href="#org2c77bde">george washington chernov</a></li>
+<li><a href="#org5513082">the metaphysical club louis menand</a></li>
+<li><a href="#orgd66b844">trading in the zone</a></li>
 </ul>
 </li>
 </ul>
-</div>
-</div>
-<div id="outline-container-orgd65c597" class="outline-2">
-<h2 id="orgd65c597">yes</h2>
-<div class="outline-text-2" id="text-orgd65c597">
-</div>
-<div id="outline-container-org46b5cff" class="outline-3">
-<h3 id="org46b5cff">vimta labs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></h3>
-</div>
-<div id="outline-container-org2d8534a" class="outline-3">
-<h3 id="org2d8534a">pvp ventures&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></h3>
-</div>
-<div id="outline-container-org33e0e96" class="outline-3">
-<h3 id="org33e0e96">jtl industries&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></h3>
-</div>
-<div id="outline-container-org668e182" class="outline-3">
-<h3 id="org668e182">emil&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></h3>
-</div>
-<div id="outline-container-org91c9c0e" class="outline-3">
-<h3 id="org91c9c0e">vmart&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></h3>
-</div>
-<div id="outline-container-org2907a1e" class="outline-3">
-<h3 id="org2907a1e">niacl&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></h3>
-</div>
-<div id="outline-container-orge8903e3" class="outline-3">
-<h3 id="orge8903e3">astec&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></h3>
-</div>
-<div id="outline-container-org6877d20" class="outline-3">
-<h3 id="org6877d20">gujalkalies&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></h3>
-</div>
-<div id="outline-container-org8153c01" class="outline-3">
-<h3 id="org8153c01">morepenlabs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></h3>
-</div>
-<div id="outline-container-orga4b16cd" class="outline-3">
-<h3 id="orga4b16cd">apollopipes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></h3>
-</div>
-<div id="outline-container-orgaf5d9d3" class="outline-3">
-<h3 id="orgaf5d9d3">eimco elecon&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></h3>
-</div>
-<div id="outline-container-orgc617914" class="outline-3">
-<h3 id="orgc617914">itdc&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></h3>
-</div>
-<div id="outline-container-org79a7734" class="outline-3">
-<h3 id="org79a7734">geojit fsl&#xa0;&#xa0;&#xa0;<span class="tag"><span class="yes">yes</span></span></h3>
-</div>
-</div>
-<div id="outline-container-org2dec10e" class="outline-2">
-<h2 id="org2dec10e">no</h2>
-<div class="outline-text-2" id="text-org2dec10e">
-</div>
-<div id="outline-container-org55812c3" class="outline-3">
-<h3 id="org55812c3">sterling tools&#xa0;&#xa0;&#xa0;<span class="tag"><span class="no">no</span></span></h3>
-</div>
-<div id="outline-container-orgbfdf8f4" class="outline-3">
-<h3 id="orgbfdf8f4">bajaj hind sugar&#xa0;&#xa0;&#xa0;<span class="tag"><span class="no">no</span></span></h3>
-</div>
-<div id="outline-container-org474882c" class="outline-3">
-<h3 id="org474882c">sadhnaniq</h3>
-</div>
-<div id="outline-container-org59cda66" class="outline-3">
-<h3 id="org59cda66">suven life</h3>
-</div>
-<div id="outline-container-org64bce17" class="outline-3">
-<h3 id="org64bce17">oswal agro</h3>
-</div>
-<div id="outline-container-orgf5da7e4" class="outline-3">
-<h3 id="orgf5da7e4">aptech</h3>
-</div>
-<div id="outline-container-org2774073" class="outline-3">
-<h3 id="org2774073">zuari industries</h3>
-</div>
-<div id="outline-container-org0aa3da7" class="outline-3">
-<h3 id="org0aa3da7">agi greenpac</h3>
-</div>
-<div id="outline-container-org00538c9" class="outline-3">
-<h3 id="org00538c9">niitltd</h3>
-</div>
-<div id="outline-container-orgf41c747" class="outline-3">
-<h3 id="orgf41c747">dhanbank</h3>
-</div>
-<div id="outline-container-org872254c" class="outline-3">
-<h3 id="org872254c">kopran</h3>
-</div>
-<div id="outline-container-org2e22a15" class="outline-3">
-<h3 id="org2e22a15">allcargo</h3>
-</div>
-<div id="outline-container-orge01d517" class="outline-3">
-<h3 id="orge01d517">mol</h3>
-</div>
-<div id="outline-container-orgd887e4f" class="outline-3">
-<h3 id="orgd887e4f">paragmilk</h3>
-</div>
-<div id="outline-container-org1d40cf4" class="outline-3">
-<h3 id="org1d40cf4">zuari</h3>
-</div>
-<div id="outline-container-org2572334" class="outline-3">
-<h3 id="org2572334">nazara tech</h3>
-</div>
-<div id="outline-container-org2918b4d" class="outline-3">
-<h3 id="org2918b4d">sh kelkar</h3>
-</div>
-<div id="outline-container-org40dd77c" class="outline-3">
-<h3 id="org40dd77c">snowman</h3>
-</div>
-<div id="outline-container-orgd25a5ce" class="outline-3">
-<h3 id="orgd25a5ce">bshsl</h3>
-</div>
-<div id="outline-container-orgd16f5b6" class="outline-3">
-<h3 id="orgd16f5b6">rpower</h3>
-</div>
-<div id="outline-container-org0ea83e3" class="outline-3">
-<h3 id="org0ea83e3">shalby</h3>
-</div>
-<div id="outline-container-org8aebb68" class="outline-3">
-<h3 id="org8aebb68">orissamine</h3>
-</div>
-<div id="outline-container-org16ce05b" class="outline-3">
-<h3 id="org16ce05b">adsl</h3>
-</div>
-<div id="outline-container-org14800e7" class="outline-3">
-<h3 id="org14800e7">eimco elecon</h3>
 </div>
 </div>
 
-<div id="outline-container-org8607f65" class="outline-2">
-<h2 id="org8607f65">book</h2>
-<div class="outline-text-2" id="text-org8607f65">
+<div id="outline-container-org4806155" class="outline-2">
+<h2 id="org4806155">shortlisted <span class="timestamp-wrapper"><span class="timestamp">&lt;2026-04-30 Thu&gt;</span></span></h2>
+<div class="outline-text-2" id="text-org4806155">
+<ul class="org-ul">
+<li>kopran</li>
+<li>punjab chem</li>
+<li>unichem</li>
+<li>bajajhind sug</li>
+<li>balmer lawrie</li>
+<li>sadhana nitrochem</li>
+<li>prism johnson</li>
+<li>allcargo</li>
+<li>aptecht</li>
+<li>indo rama synthetics</li>
+<li>geojitfsl</li>
+<li>sarlapoly</li>
+<li>xchanging</li>
+<li>jyothi labs</li>
+<li>indoco remedies</li>
+<li>pvp ventures</li>
+<li>continue from part 1 banco</li>
+<li>bhagera inds</li>
+<li>kokuyo camlin</li>
+<li>oswal agro</li>
+<li>greenply</li>
+<li>cohance</li>
+<li>shreepushk</li>
+<li>bshsl</li>
+<li>emudhra</li>
+<li>irm energy</li>
+<li></li>
+</ul>
 </div>
-<div id="outline-container-org92fce66" class="outline-3">
-<h3 id="org92fce66">the mosquito</h3>
 </div>
-<div id="outline-container-org40788ab" class="outline-3">
-<h3 id="org40788ab">the myth of sisyphus</h3>
+<div id="outline-container-org26d3e69" class="outline-2">
+<h2 id="org26d3e69">book</h2>
+<div class="outline-text-2" id="text-org26d3e69">
 </div>
-<div id="outline-container-org8ecc06c" class="outline-3">
-<h3 id="org8ecc06c">the art of war.</h3>
+<div id="outline-container-orga4f8a36" class="outline-3">
+<h3 id="orga4f8a36">the mosquito</h3>
 </div>
-<div id="outline-container-orgb803ba8" class="outline-3">
-<h3 id="orgb803ba8">lolita</h3>
+<div id="outline-container-org7147651" class="outline-3">
+<h3 id="org7147651">the myth of sisyphus</h3>
 </div>
-<div id="outline-container-org4f7faa8" class="outline-3">
-<h3 id="org4f7faa8">siddhartha hermen hesse</h3>
+<div id="outline-container-org3999c59" class="outline-3">
+<h3 id="org3999c59">the art of war.</h3>
 </div>
-<div id="outline-container-org773f358" class="outline-3">
-<h3 id="org773f358">deep survial lorence gonzales</h3>
+<div id="outline-container-orgcbe32b1" class="outline-3">
+<h3 id="orgcbe32b1">lolita</h3>
 </div>
-<div id="outline-container-org3406702" class="outline-3">
-<h3 id="org3406702">endurance alfred</h3>
+<div id="outline-container-org4b6f238" class="outline-3">
+<h3 id="org4b6f238">siddhartha hermen hesse</h3>
 </div>
-<div id="outline-container-orgbb047a4" class="outline-3">
-<h3 id="orgbb047a4">the master and margarita</h3>
+<div id="outline-container-org88f6c32" class="outline-3">
+<h3 id="org88f6c32">deep survial lorence gonzales</h3>
 </div>
-<div id="outline-container-org18bddbb" class="outline-3">
-<h3 id="org18bddbb">brave new world aldeus huxley</h3>
+<div id="outline-container-org7191457" class="outline-3">
+<h3 id="org7191457">endurance alfred</h3>
 </div>
-<div id="outline-container-org8d3e179" class="outline-3">
-<h3 id="org8d3e179">open andre agassi</h3>
+<div id="outline-container-org5ccf88b" class="outline-3">
+<h3 id="org5ccf88b">the master and margarita</h3>
 </div>
-<div id="outline-container-org585c87f" class="outline-3">
-<h3 id="org585c87f">war and peace leo tolstoy</h3>
+<div id="outline-container-orgc93b6f2" class="outline-3">
+<h3 id="orgc93b6f2">brave new world aldeus huxley</h3>
 </div>
-<div id="outline-container-org9939e97" class="outline-3">
-<h3 id="org9939e97">homage to catalonia george orwell</h3>
+<div id="outline-container-orgd7205fb" class="outline-3">
+<h3 id="orgd7205fb">open andre agassi</h3>
 </div>
-<div id="outline-container-orgc3764ea" class="outline-3">
-<h3 id="orgc3764ea">george washington chernov</h3>
+<div id="outline-container-orge34bdba" class="outline-3">
+<h3 id="orge34bdba">war and peace leo tolstoy</h3>
 </div>
-<div id="outline-container-org477760c" class="outline-3">
-<h3 id="org477760c">the metaphysical club louis menand</h3>
+<div id="outline-container-orgc54b5b8" class="outline-3">
+<h3 id="orgc54b5b8">homage to catalonia george orwell</h3>
 </div>
-<div id="outline-container-org8dee4d1" class="outline-3">
-<h3 id="org8dee4d1">trading in the zone</h3>
+<div id="outline-container-org2c77bde" class="outline-3">
+<h3 id="org2c77bde">george washington chernov</h3>
+</div>
+<div id="outline-container-org5513082" class="outline-3">
+<h3 id="org5513082">the metaphysical club louis menand</h3>
+</div>
+<div id="outline-container-orgd66b844" class="outline-3">
+<h3 id="orgd66b844">trading in the zone</h3>
 </div>
 </div>
 </div>
