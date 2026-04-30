@@ -2,46 +2,36 @@
 :ID:       63cc13d7-2bd2-498d-8753-1763b1623fd5
 :END:
 #+title: stocks to be shortlisted out of
-* yes
-** vimta labs :yes:
-** pvp ventures :yes:
-** jtl industries :yes:
-** emil :yes:
-** vmart :yes:
-** niacl :yes:
-** astec :yes:
-** gujalkalies :yes:
-** morepenlabs :yes:
-** apollopipes :yes:
-** eimco elecon :yes:
-** itdc :yes:
-** geojit fsl :yes:
-* no
-** sterling tools :no:
-** bajaj hind sugar :no:
-** sadhnaniq
-** suven life
-** oswal agro
-** aptech
-** zuari industries
-** agi greenpac
-** niitltd
-** dhanbank
-** kopran
-** allcargo
-** mol
-** paragmilk
-** zuari
-** nazara tech
-** sh kelkar
-** snowman
-** bshsl
-** rpower
-** shalby
-** orissamine
-** adsl
-** eimco elecon
+#+setupfile: ../themes/org-themes/src/gray/gray.theme
 
+* shortlisted <2026-04-30 Thu>
+- kopran
+- punjab chem
+- unichem
+- bajajhind sug
+- balmer lawrie
+- sadhana nitrochem
+- prism johnson
+- allcargo
+- aptecht
+- indo rama synthetics
+- geojitfsl
+- sarlapoly
+- xchanging
+- jyothi labs
+- indoco remedies
+- pvp ventures
+- continue from part 1 banco
+- bhagera inds
+- kokuyo camlin
+- oswal agro
+- greenply
+- cohance
+- shreepushk
+- bshsl
+- emudhra
+- irm energy
+- 
 * book
 ** the mosquito
 ** the myth of sisyphus
