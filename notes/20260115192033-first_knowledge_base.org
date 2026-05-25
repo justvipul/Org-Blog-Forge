@@ -22,8 +22,10 @@
 *** [[id:70c860db-0a66-49b0-8cce-d2da98bc09f7][Sales growth meeting 9th]] :sales:rgm:
 *** [[id:96c05ba6-fe72-4d47-b15c-d0db4518238f][sales growth meeting 10th]] :sales:rgm:
 *** [[id:9744e53a-74c0-449d-ac0d-0378965fa1c2][sales growth meeting 11th]] :sales:rgm:
+*** [[id:5ef1da7d-f372-427e-b9db-a05ae118f94a][sales growth meeting 12th]] :sales:rgm:
 *** [[id:5ad0a2a2-1d9e-483c-9faa-40681f41751e][AGM vipul 2026]] :agm:
 ** [[id:93b91628-7240-43c7-a444-1ce6b6a784d2][all deals closed by me]]
+** [[id:8f6d43bc-c1fa-414e-a27e-3b45d1b13cff][expenses - tph]]
 * [[id:cf90113c-7c6f-4073-9a12-3cb43c469c96][all treks details]] :trek:
 * [[id:118829c9-2dbc-441b-a0de-4293251f23a8][shiv tandav stotram]] :sanskrit:
 * [[id:337dfe0c-b449-45f3-b405-f45f7232260c][alex honnold podcast notes]] :podcast:notes:

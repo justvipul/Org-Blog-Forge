@@ -1,0 +1,176 @@
+:PROPERTIES:
+:ID:       5ef1da7d-f372-427e-b9db-a05ae118f94a
+:END:
+#+title: sales growth meeting 12th
+#+setupfile: ../themes/org-themes/src/bigblow_inline/bigblow_inline.theme
+
+* Slide 1: Opening (2 min)
+** Tomorrow's focus
+- Topic: how wrong beliefs hold back sales growth.
+- Core idea from the book:
+  - The biggest lie is helplessness.
+  - The truth is that we are powerful when we think clearly and act deliberately.
+- Goal of this meeting:
+  - Build more ownership,
+  - better judgment,
+  - and stronger action under pressure.
+
+* Slide 2: The Core Lie (3 min)
+** Helplessness is expensive
+- Many sales problems begin with one silent lie:
+  - “I can’t do much.”
+  - “This situation is blocked.”
+  - “There’s nothing I can do.”
+https://i.imgflip.com/68wj6g.png
+    
+- But the useful truth is:
+  - We may not control everything,
+  - but we always control response, preparation, creativity, and follow-up.
+- The team that believes it can act, usually finds more options.
+
+* Slide 3: Story 1 – The Newspaper Employee (4 min)
+** “There’s nothing I can do” is usually a lie
+https://i.postimg.cc/MHjcXbPc/newsst-noun-004-1911.jpg
+- In the book, a man asks a store employee to keep aside a copy of the *Wall Street Journal* for him.
+- She says flatly: “I can’t do it.”
+- But Chandler immediately sees several things she *could* do:
+  - write his name down,
+  - pre-collect money,
+  - call another store,
+  - create some kind of simple arrangement.
+- The point:
+  - “There’s nothing I can do” is almost always false.
+  - Usually, it means: “I do not want to do the extra thinking.”
+- Sales lesson:
+  - serve or do not serve,
+  - solve or do not solve,
+  - but do not hide in helpless language.
+
+* Slide 4: What this looks like in sales (3 min)
+** Helpless thinking in our work
+- Waiting too long to call because “customer may not respond.”
+- Not exploring another machine because “matching didn’t show it.”
+- Avoiding difficult conversations because “buyer is complicated.”
+- Stopping too early because “now it’s in legal / transport / dispatch, so nothing can be done.”
+- Result:
+  - low initiative,
+  - weak momentum,
+  - missed trust-building opportunities.
+
+* Slide 5: Lucknow Deal Story – Why it matters (4 min)
+https://i.imgflip.com/asoj9n.jpg
+
+** Reality became harder than expected
+- I landed on 11th May.
+- The agreement had still not been shared.
+- Their legal team kept drafting and checking it, and this took 4 days.
+- The machines were kept in a narrow room with tight removal tolerances.
+- I coordinated with:
+  - maintenance team,
+  - purchase team,
+  - and workers.
+- Work included:
+  - cleaning the VMCs,
+  - locking axes,
+  - getting custom fixtures made,
+  - packing controller and MPG,
+  - checking dismantling sequence,
+  - documenting the packing list,
+  - removing plates and parts where needed for safe movement.
+- Final packing list included:
+  - 2 VMCs,
+  - 1 hydraulic power pack,
+  - transformers,
+  - oil tanks,
+  - DNC,
+  - and dismantled supporting parts.
+
+* Slide 6: Lucknow Deal Story – Final-mile pressure (4 min)
+** The real work is often at the end
+https://i.imgflip.com/asojiu.jpg
+- On loading day, everything took extra time.
+- Even after loading, the machine was still not ready for safe departure.
+- I had to:
+  - take the vehicle to a fabricator,
+  - arrange scrap angles,
+  - get them welded,
+  - and then get the machine covered with tarpaulin.
+- The driver had given up and wanted to leave without proper covering.
+- I still pushed one last time, climbed up, and got both machines fully covered before dispatch.
+- Outcome:
+  - machine dispatched with utmost care.
+- Lesson:
+  - do not stop at partial success,
+  - protect trust till the final step.
+
+* Slide 7: What the Lucknow story teaches us (2 min)
+** Execution mindset
+- Be alert.
+- Be attentive.
+- Be mindful.
+- Be curious.
+- Keep asking:
+  - What can go wrong next?
+  - What are we missing?
+  - What must be secured before movement?
+- Sales is not only closing the order.
+- Sales is also protecting the trust inside the order.
+
+* Slide 8: Story 2 – Lottery Winners vs Paralysis Study (4 min)
+** External change does not automatically change inner state
+- In the chapter on the lie that external fortune will fix everything, Chandler cites a study comparing:
+  - lottery winners,
+  - and people who became paraplegic or quadriplegic after accidents.
+- The surprising result:
+  - neither group permanently changed their baseline happiness.
+- Lottery winners did not become permanently happier.
+- Accident victims did not become permanently destroyed internally.
+- The core lesson:
+  - external conditions do not fully control inner condition.
+- In one line:
+  - our greatest problems come when we confuse the outside with the inside.
+
+* Slide 9: Sales lesson from the lottery study (3 min)
+** Circumstances do not think for us
+- We often believe:
+  - “If market improves, I will improve.”
+  - “If I get one big deal, I will become strong.”
+  - “If circumstances become easy, I will perform well.”
+- But performance does not come mainly from luck.
+- It comes from:
+  - mindset,
+  - process,
+  - consistency,
+  - and ability to act well under extreme conditions.
+- Outer fortune helps,
+  - but inner discipline decides whether we use it well.
+
+* Slide 10: The real action plan (3 min)
+** Convert beliefs into behavior
+- When stuck, ask:
+  - What can I do now?
+  - What backup do I have?
+  - Who do I need to coordinate with?
+  - What is the next concrete action?
+- Do not say:
+  - “nothing can be done.”
+- Say instead:
+  - “what are my options?”
+- This shift in language changes results.
+
+* Slide 11: Team challenge (2 min)
+** This week's assignment
+- Each person should identify one live deal and write:
+  - What is the current obstacle?
+  - What are 3 things that can go wrong?
+  - What is my next action?
+  - What is my backup plan?
+- This will train us to think in action plans, not excuses.
+
+* Slide 12: Closing (1 min)
+** Final thought
+- The lie is helplessness.
+- The truth is responsibility.
+- There is almost always something we can do.
+- Sales growth comes when we stop waiting for perfect conditions and start serving, solving, and acting.
+

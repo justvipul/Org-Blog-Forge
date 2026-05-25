@@ -5,33 +5,45 @@
 #+setupfile: ../themes/org-themes/src/gray/gray.theme
 
 * shortlisted <2026-04-30 Thu>
-- kopran
-- punjab chem
-- unichem
-- bajajhind sug
-- balmer lawrie
-- sadhana nitrochem
-- prism johnson
-- allcargo
-- aptecht
-- indo rama synthetics
-- geojitfsl
-- sarlapoly
-- xchanging
-- jyothi labs
-- indoco remedies
-- pvp ventures
-- continue from part 1 banco
-- bhagera inds
-- kokuyo camlin
-- oswal agro
-- greenply
-- cohance
-- shreepushk
-- bshsl
-- emudhra
-- irm energy
-- 
+** kopran
+** punjab chem
+** unichem
+** bajajhind sug
+** balmer lawrie
+** sadhana nitrochem
+** prism johnson
+** allcargo
+** aptecht
+** indo rama synthetics
+** geojitfsl
+** sarlapoly
+** xchanging
+** jyothi labs
+** indoco remedies
+** pvp ventures
+** bhagera inds
+** kokuyo camlin
+** oswal agro
+** greenply
+** cohance
+** shreepushk
+** bshsl
+** emudhra
+** irm energy
+** astec
+** vascon engg
+** orissa mine
+** emil
+** zuari agro
+** vmart
+** ikio tech
+** jai balaji inds
+** lux ind
+** northern arc
+** stl network
+** stallion
+** eiel
+
 * book
 ** the mosquito
 ** the myth of sisyphus
