@@ -23,6 +23,7 @@
 *** [[id:96c05ba6-fe72-4d47-b15c-d0db4518238f][sales growth meeting 10th]] :sales:rgm:
 *** [[id:9744e53a-74c0-449d-ac0d-0378965fa1c2][sales growth meeting 11th]] :sales:rgm:
 *** [[id:5ef1da7d-f372-427e-b9db-a05ae118f94a][sales growth meeting 12th]] :sales:rgm:
+*** [[id:730fee03-230c-4413-8d08-479ed4976fcb][sales growth meeting 13th]] :sales:rgm:
 *** [[id:5ad0a2a2-1d9e-483c-9faa-40681f41751e][AGM vipul 2026]] :agm:
 ** [[id:93b91628-7240-43c7-a444-1ce6b6a784d2][all deals closed by me]]
 * [[id:cf90113c-7c6f-4073-9a12-3cb43c469c96][all treks details]] :trek:

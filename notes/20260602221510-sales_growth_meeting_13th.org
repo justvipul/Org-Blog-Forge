@@ -1,0 +1,184 @@
+:PROPERTIES:
+:ID:       730fee03-230c-4413-8d08-479ed4976fcb
+:END:
+#+title: sales growth meeting 13th
+* Slide 1: Opening (2 min)
+** Why this book matters for sales
+- Today’s topic is based on Dale Carnegie’s *How to Win Friends and Influence People*.
+- This is not only a book about friendship.
+- It is a practical book on:
+  - customer handling,
+  - persuasion,
+  - teamwork,
+  - and leadership without resistance.
+- Sales growth depends not only on machine knowledge.
+- It also depends on how people *feel* after speaking to us.
+
+  https://i.imgflip.com/atcni3.jpg
+- Lesson:
+  - product knowledge matters,
+  - but people skills convert knowledge into results.
+
+* Slide 2: The first big lesson (4 min)
+** Do not criticize, condemn, or complain
+- Criticism usually fails because it makes people defensive.
+- When we attack someone’s ego, they stop listening and start protecting themselves.
+- In sales, this means:
+  - do not insult a buyer’s current machine,
+  - do not mock a customer’s concern,
+  - do not complain about internal problems in front of clients.
+- Better questions:
+  - “Why are they behaving this way?”
+  - “What pressure are they under?”
+
+** example
+- If a buyer says:
+  - “Your machine is costly.”
+- Bad response:
+  - “No sir, you are not understanding quality.”
+- Better response:
+  - “Understood sir. Is your bigger concern price, maintenance, or uncertain machine condition?”
+- Same discussion, very different emotional result.
+
+* Slide 3: Appreciation vs flattery (4 min)
+** Give honest and sincere appreciation
+- People deeply want to feel important.
+- Genuine appreciation is:
+  - specific,
+  - sincere,
+  - deserved.
+- Flattery is:
+  - vague,
+  - manipulative,
+  - usually detected.
+- Sales application:
+  - appreciate a buyer’s technical clarity,
+  - a seller’s maintenance discipline,
+  - or a teammate’s careful follow-up.
+- Honest appreciation builds trust faster than pressure does.
+https://i.imgflip.com/atcnwp.jpg
+
+* Slide 4: Arouse an eager want (4 min)
+** Talk in terms of what the other person wants
+- The key is not to talk first about what *we* want.
+- The key is to show how the other person gets what *they* want.
+- In machine sales, customers usually want:
+  - lower downtime,
+  - lower risk,
+  - faster dispatch,
+  - lower price,
+  - better trust,
+  - smoother installation.
+- So instead of saying:
+  - “We want to close this deal.”
+- Say:
+  - “Here is how this option reduces your risk and gets you running faster.”
+
+** Story insert
+- Customer does not buy a VMC because it has “X travel 1000”.
+- Customer buys because he imagines:
+  - less hassle,
+  - less breakdown,
+  - faster output,
+  - and fewer headaches after dispatch.
+
+* Slide 5: Six ways to make people like you (4 min)
+** Build connection before pushing action
+1. Become genuinely interested in others.
+2. Smile.
+3. Remember names.
+4. Be a good listener.
+5. Talk in terms of the other person’s interests.
+6. Make the other person feel important.
+- This is not “soft” behavior.
+- This is practical sales psychology.
+
+* Slide 6: Listening as a sales weapon (3 min)
+** A good listener is more persuasive than a fast talker
+- If a buyer repeats a concern, do not rush to answer.
+- Let them empty their mind first.
+- People soften when they feel heard.
+- Even angry people calm down when they feel understood.
+- Practical use:
+  - repeat back their concern in your own words.
+  - ask one more question before proposing a solution.
+
+#+begin_quote
+“Most customers are not angry at us. They are frustrated at the uncertain situation.”
+#+end_quote
+
+* Slide 7: How to win people to your way of thinking (4 min)
+** Persuasion is not argument
+- Carnegie’s message is simple:
+  - if you win the argument but lose goodwill, you still lost.
+- Better practices:
+  - avoid direct argument,
+  - never say “you are wrong,”
+  - admit your own mistakes quickly,
+  - begin with agreement,
+  - let the other person feel the conclusion is theirs.
+
+#+begin_quote
+“you proved the customer wrong, but he still bought from someone else.”
+#+end_quote
+
+- This is common in sales.
+- Ego victory is not business victory.
+
+* Slide 8: Better language for difficult conversations (3 min)
+** Use words that protect dignity
+- Instead of:
+  - “No, that is wrong.”
+- Say:
+  - “I may be mistaken, but let us review the facts together.”
+- Instead of:
+  - “Your expectation is unrealistic.”
+- Say:
+  - “Let us compare what is possible in this budget and condition.”
+- Instead of:
+  - “You don’t understand the machine.”
+- Say:
+  - “Let me explain that point in a simpler way.”
+- Good language preserves the relationship while moving the discussion forward.
+
+* Slide 9: Leadership inside our team (4 min)
+** Correct without creating resentment
+- The same principles apply internally.
+- If someone in the team misses a step, do not attack them publicly.
+- Better method:
+  - begin with appreciation,
+  - point out mistakes indirectly,
+  - talk about your own mistakes first,
+  - ask questions instead of giving orders,
+  - let the other person save face,
+  - praise even slight improvement.
+
+** Story insert
+- Bad leadership line:
+  - “Why did you mess this up?”
+- Better leadership line:
+  - “You handled the buyer well, and next time let us also confirm dispatch terms before commitment.”
+- One creates shame.
+- The other creates improvement.
+
+* Slide 10: Team assignment (2 min)
+** Practice this in one live interaction
+- In your next buyer, seller, or internal team conversation, consciously do 3 things:
+  1. Ask one more question before giving your view.
+  2. Give one sincere appreciation.
+  3. Replace one harsh sentence with a respectful one.
+- Then observe:
+  - Did the other person become more open?
+  - Did the discussion become easier?
+
+* Slide 11: Closing (2 min)
+** Final thought
+- People do not remember only what we said.
+- They remember how we made them feel.
+- Sales growth comes not only from knowing machines.
+- It also comes from handling people with respect, clarity, and influence.
+
+- “Best sales person is not the one who talks the most.
+- Best sales person is the one after whom the customer says: ‘This person understands me.’”
+
+
