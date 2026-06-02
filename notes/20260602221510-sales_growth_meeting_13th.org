@@ -2,6 +2,8 @@
 :ID:       730fee03-230c-4413-8d08-479ed4976fcb
 :END:
 #+title: sales growth meeting 13th
+#+setupfile: ../themes/org-themes/src/readtheorg_inline/readtheorg_inline.theme
+#+options: toc:nil
 * Slide 1: Opening (2 min)
 ** Why this book matters for sales
 - Today’s topic is based on Dale Carnegie’s *How to Win Friends and Influence People*.
@@ -74,13 +76,14 @@ https://i.imgflip.com/atcnwp.jpg
 - Say:
   - “Here is how this option reduces your risk and gets you running faster.”
 
-** Story insert
+#+begin_quote
 - Customer does not buy a VMC because it has “X travel 1000”.
 - Customer buys because he imagines:
   - less hassle,
   - less breakdown,
   - faster output,
   - and fewer headaches after dispatch.
+#+end_quote
 
 * Slide 5: Six ways to make people like you (4 min)
 ** Build connection before pushing action
@@ -153,13 +156,14 @@ https://i.imgflip.com/atcnwp.jpg
   - let the other person save face,
   - praise even slight improvement.
 
-** Story insert
+#+begin_quote
 - Bad leadership line:
   - “Why did you mess this up?”
 - Better leadership line:
   - “You handled the buyer well, and next time let us also confirm dispatch terms before commitment.”
 - One creates shame.
 - The other creates improvement.
+#+end_quote
 
 * Slide 10: Team assignment (2 min)
 ** Practice this in one live interaction
