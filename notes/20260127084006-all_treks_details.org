@@ -4,30 +4,38 @@
 #+title: all treks details
 #+setupfile: ../themes/org-themes/src/gray/gray.theme
 * to be edited 
-** DONE [[id:b01408ac-c20b-433d-87ee-fc47112a9ae9][Kalsubai Peak – 29 Dec 2024]]
+** DONE [[id:b01408ac-c20b-433d-87ee-fc47112a9ae9][Kalsubai Peak – 29 Dec 2024]] :kalsubai:
 *** TODO can make a new post of kalsubai. lot of images missed.
-** DONE [[id:e14b07cc-1981-4d1a-8196-20c2767d38db][Dehergad (Bhorgad) Fort – 2025]]
-** DONE [[id:bdbdde94-b9bd-47a3-8b23-d68d9525f881][Borgad Jungle Safari – 11 Oct 2025]]
+** DONE [[id:e14b07cc-1981-4d1a-8196-20c2767d38db][Dehergad (Bhorgad) Fort – 2025]] :dehergad:
+** DONE [[id:bdbdde94-b9bd-47a3-8b23-d68d9525f881][Borgad Jungle Safari – 11 Oct 2025]] :borgad:jungle:safari:
 *** TODO can make a new post showcasing the story.
-** DONE [[id:a234de47-3801-4184-883a-38002d7255f1][Raygadnagar Tekdi – 6 Dec 2025]]
-** DONE [[id:8d6acdd2-5a11-4352-8d39-16bd1d8d9a37][Daryai Mata Mandir Trek – 4 Oct 2025]]
-** DONE [[id:ae84635d-7397-4eeb-a92c-cc2056751b63][Mayna Parvat (Gavlawadi, Makhmalabad) – 18 Oct 2025]]
-** DONE [[id:1c8cc106-017b-4a04-9ab3-796d741c34ab][Pandav Leni – 15 Nov 2025]]
-** TODO [[id:15ff9299-02a5-4aa1-9d0b-ee39f5fabeb8][Sula Dongar – 25 Oct 2025]]
-** TODO [[id:d78ac193-f653-4365-bb74-150332d52de1][Panjrapole Chunchele Farm Jungle Safari – 20 Sep 2025]]
-** TODO [[id:532ee59d-8770-4926-9333-624c396464ca][Chamar Leni – 1 Nov 2025]]
-** TODO [[id:dd1282a9-bb1c-44f2-99a7-7bd83156ff3d][Ramshej Fort – 8 Nov 2025]]
-** TODO [[id:05f62c33-ae61-48ea-bb5e-0fd91218421b][Gadgad Sangvi – 22 Nov 2025]]
-** TODO [[id:20d6afa2-0d86-4935-b0a3-e24cc39b9db7][Galna Fort – 21 Dec 2025]]
-** TODO [[id:8c3e6cad-40c4-49ff-a042-913a715289b0][kavnai trek 31 jan 2026]]
-** TODO [[id:3e0a44ea-c31a-4b3d-afc1-c73f7c18b99f][Durg bhandar <2026-02-07 Sat>]]
-** TODO [[id:59f6a116-f24f-4419-a5db-e37ee48ab195][kaarvi cha dongar <2026-02-28 Sat>]]
-** TODO [[id:b1824f0a-70ff-4f5f-8425-cfd2d1d38719][Pandavleni practice - <2026-03-08 Sun>]]
-** TODO [[id:e0806e96-09e9-4b62-a2f9-22464c372660][hanuman tekdi <2026-03-14 Sat>]]
-** TODO [[id:a64c02a8-8ae4-456b-a6a8-a62a38a7d808][Supacha<2026-03-21 Sat>]]
-** TODO [[id:6596772d-a333-494b-866e-55889ddf6fad][Paachya <2026-03-29 Sun>]]
-** TODO [[id:6f15bffa-5630-4ed9-9e13-c5c0247975e3][anjaneri night trek hanuman jayanti purvasandhya <2026-04-01 Wed>]]
-** TODO [[id:d92c68ee-5610-419d-8042-e900a5c82c71][ranjangiri fort trek <2026-04-18 Sat>]]
+** DONE [[id:a234de47-3801-4184-883a-38002d7255f1][Raygadnagar Tekdi – 6 Dec 2025]] :raygadnagar:tekdi:
+** DONE [[id:8d6acdd2-5a11-4352-8d39-16bd1d8d9a37][Daryai Mata Mandir Trek – 4 Oct 2025]] :daryai:
+** DONE [[id:ae84635d-7397-4eeb-a92c-cc2056751b63][Mayna Parvat (Gavlawadi, Makhmalabad) – 18 Oct 2025]] :mayana:mayna:
+** Pandavleni
+*** DONE [[id:1c8cc106-017b-4a04-9ab3-796d741c34ab][Pandav Leni – 15 Nov 2025]] :pandavleni:
+*** TODO [[id:b1824f0a-70ff-4f5f-8425-cfd2d1d38719][Pandavleni practice - <2026-03-08 Sun>]] :pandavleni:
+*** TODO Pandavleni 25 paril 2026 <2026-04-25 Sat> :pandavleni:
+*** TODO pandavleni <2026-05-16 Sat> :pandavleni:
+*** pandavleni <2026-05-31 Sun> solo :pandavleni:
+** TODO [[id:15ff9299-02a5-4aa1-9d0b-ee39f5fabeb8][Sula Dongar – 25 Oct 2025]] :sulya:sula:
+** TODO [[id:d78ac193-f653-4365-bb74-150332d52de1][Panjrapole Chunchele Farm Jungle Safari – 20 Sep 2025]] :snpp:
+** TODO [[id:532ee59d-8770-4926-9333-624c396464ca][Chamar Leni – 1 Nov 2025]] :chamar:
+** TODO [[id:dd1282a9-bb1c-44f2-99a7-7bd83156ff3d][Ramshej Fort – 8 Nov 2025]] :ramshej:
+** TODO [[id:05f62c33-ae61-48ea-bb5e-0fd91218421b][Gadgad Sangvi – 22 Nov 2025]] :gadgad:
+** TODO [[id:20d6afa2-0d86-4935-b0a3-e24cc39b9db7][Galna Fort – 21 Dec 2025]] :galna:
+** TODO [[id:8c3e6cad-40c4-49ff-a042-913a715289b0][kavnai trek 31 jan 2026]] :kavnai:
+** TODO [[id:3e0a44ea-c31a-4b3d-afc1-c73f7c18b99f][Durg bhandar <2026-02-07 Sat>]] :durgbhandar:
+** TODO [[id:59f6a116-f24f-4419-a5db-e37ee48ab195][kaarvi cha dongar <2026-02-28 Sat>]] :kaarvi:
+** TODO [[id:e0806e96-09e9-4b62-a2f9-22464c372660][hanuman tekdi <2026-03-14 Sat>]] :hanuman:tekdi:
+** TODO [[id:a64c02a8-8ae4-456b-a6a8-a62a38a7d808][Supacha<2026-03-21 Sat>]] :supacha:
+** TODO [[id:6596772d-a333-494b-866e-55889ddf6fad][Paachya <2026-03-29 Sun>]] :paachya:
+** TODO [[id:6f15bffa-5630-4ed9-9e13-c5c0247975e3][anjaneri night trek hanuman jayanti purvasandhya <2026-04-01 Wed>]] :anjaneri:
+** TODO [[id:d92c68ee-5610-419d-8042-e900a5c82c71][ranjangiri fort trek <2026-04-18 Sat>]] :ranjangiri:
+** TODO [[id:e7fc335b-048d-4363-afc2-16967beef2fe][raygadnagar tekdi - 2 may 26 <2026-05-02 Sat>]] :raygadnagar:
+** TODO [[id:50dc2bac-b7e5-4e8a-9646-c7f0f4f69e21][ambali dongar 9th may 2026 <2026-05-09 Sat>]] :aambali:
+** TODO [[id:f17cc0fd-0cb6-4943-8920-0aad427c493e][aagera dongar <2026-05-23 Sat>]] :aagera:
+** TODO [[id:4f7e3609-7c3d-438a-b39c-4aec3ffc95a3][mayna dongar to see pink striped tube lily yet to bloom 6th june 2026]] :mayna:
 * [[id:d5c52ebd-667f-4226-b116-d3bf22840997][trek notes template]]
 * [[id:66a424c0-9741-41a8-97b6-5e9648bcc00e][trek routine,]]
 * [[id:176bea91-d8f4-4879-8a73-cba48548e425][post making notes ideas quotes]]

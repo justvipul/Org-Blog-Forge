@@ -1,39 +1,37 @@
 :PROPERTIES:
-:ID:       bdbdde94-b9bd-47a3-8b23-d68d9525f881
+:ID:       f17cc0fd-0cb6-4943-8920-0aad427c493e
 :END:
-#+title: Borgad Jungle Safari – 11 Oct 2025
-#+setupfile: ../themes/org-themes/src/gray/gray.theme
-
+#+title: aagera dongar <2026-05-23 Sat>
 * Trek Overview
-1. Trek Name: borgad jungle safari
-2. Region: borgad
+1. Trek Name: 
+2. Region: 
 3. Range: 
 4. Base Village: 
-5. Height from MSL (ft): 2300 - 2950ft
+5. Height from MSL (ft): 
 6. Type:
    - [ ] hill fort
-   - [X] forest trail
+   - [ ] forest trail
    - [ ] plateau
 7. Difficulty Level:
 8. [ ] easy
-9. [X] moderate
+9. [ ] moderate
 10. [ ] difficult
 11. Best Season:
 12. [ ] winter
 13. [ ] summer
-14. [X] monsoon
+14. [ ] monsoon
 15. Time taken to Climb [hrs]: 
 16. Water Availability:
 17. [ ] yes
-18. [X] no
+18. [ ] no
 19. Suitable For:
 20. [ ] beginners
-21. [X] regular trekkers
+21. [ ] regular trekkers
 22. [ ] families
 
 * Schedule & Companions
-1. Date: <2025-10-11 Sat>
-2. Team Members: 150+ folks
+1. Date: 
+2. Team Members: 
 3. Wake-up Time: 
 4. Left Home: 
 5. Start Point / Meeting Place: 
@@ -99,4 +97,5 @@
 4. Return Visit:
 5. [ ] yes/no
 6. [ ] (why?)
+
 
